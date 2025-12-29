@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-12-29T22:59:24.354851",
+  "scraped_at": "2025-12-29T23:17:09.575678",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -13,7 +13,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 7,
-        "sub_stat": null,
+        "sub_stat": 1,
         "type": "goals"
       },
       {
@@ -26,7 +26,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 4,
-        "sub_stat": null,
+        "sub_stat": 2,
         "type": "goals"
       },
       {
@@ -435,7 +435,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 5,
-        "sub_stat": null,
+        "sub_stat": 1,
         "type": "yellow_cards"
       },
       {
@@ -487,7 +487,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 1,
-        "sub_stat": null,
+        "sub_stat": 1,
         "type": "yellow_cards"
       },
       {
@@ -632,7 +632,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 1,
-        "sub_stat": null,
+        "sub_stat": 5,
         "type": "red_cards"
       },
       {
@@ -645,7 +645,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 1,
-        "sub_stat": null,
+        "sub_stat": 1,
         "type": "red_cards"
       },
       {

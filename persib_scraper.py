@@ -313,6 +313,18 @@ def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = 
             if isinstance(val, (int, float, str)) and str(val).replace('.', '', 1).isdigit():
                 val = int(float(val))
             
+            sub_val = item.get("SubStatValue", item.get("subStatValue"))
+            if sub_val is not None and isinstance(sub_val, (int, float, str)):
+                try:
+                    if float(sub_val) > 0:
+                        sub_val = int(float(sub_val))
+                    else:
+                        sub_val = None
+                except:
+                    sub_val = None
+            else:
+                sub_val = None
+
             stats_list.append({
                 "rank": rank,
                 "player": {
@@ -323,7 +335,7 @@ def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = 
                 },
                 "team_logo": f"https://images.fotmob.com/image_resources/logo/teamlogo/{TEAM_ID}.png",
                 "value": val,
-                "sub_stat": item.get("StatValueSuffix", item.get("statValueSuffix", None)),
+                "sub_stat": sub_val,
                 "type": stat_type
             })
         except: continue
