@@ -1,6 +1,6 @@
 """
 Persib Bandung FotMob Scraper
-Fetches data using requests, saves snippets to plan/*.txt, and parses them to JSON.
+Fetches data using requests and Playwright, and parses them directly to JSON.
 """
 
 import json
@@ -18,8 +18,6 @@ LEAGUE_ID = "8983"
 SEASON_ID = "27434"
 
 SCRIPT_DIR = Path(__file__).parent
-PLAN_DIR = SCRIPT_DIR / "plan"
-PLAN_DIR.mkdir(exist_ok=True)
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -32,24 +30,6 @@ def save_to_json(data: dict, filename: str):
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"Saved JSON: {path}")
 
-def save_to_txt(filepath: Path, url: str, content: str):
-    """Save HTML snippet to txt file with URL header."""
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(f"{url}\n\n{content}")
-    print(f"Saved TXT: {filepath.name}")
-
-def load_html_from_file(filepath: Path) -> str:
-    """Load HTML from file, skipping the first lines (URL/Header)."""
-    if not filepath.exists():
-        return ""
-    with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Find the start of HTML
-    first_tag_pos = content.find('<')
-    if first_tag_pos == -1:
-        return ""
-    return content[first_tag_pos:]
 
 def fetch_content(url: str) -> str:
     """Fetch content with requests."""
@@ -352,16 +332,11 @@ def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = 
 # --- Main Logic ---
 
 def main():
-    # 1. Fetch HTML Snipets (only for Fixtures now)
-    html_tasks = [
-        {"id": "fixtures", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/fixtures/persib-bandung", "sel": 'section[class*="FixturesContainer"], div[class*="FixDiffContainer"], section[class*="NextMatchBox"], section[class*="NextMatchSection"]'},
-    ]
-    
-    for t in html_tasks:
-        # Use Playwright for fixtures to get dynamic content
-        html = fetch_with_playwright(t["url"], wait_selector='section[class*="NextMatchBoxCSS"]')
-        if not html: continue
-        save_to_txt(PLAN_DIR / f"{t['id']}.txt", t["url"], html)
+    # 1. Fetch Fixtures HTML directly
+    print("Fetching Fixtures HTML...")
+    fixtures_url = f"https://www.fotmob.com/teams/{TEAM_ID}/fixtures/persib-bandung"
+    # Use Playwright for fixtures to get dynamic content
+    fixtures_html = fetch_with_playwright(fixtures_url, wait_selector='section[class*="NextMatchBoxCSS"]')
 
     # 2. Fetch Team API directly (for standings)
     print("Fetching Team API data...")
@@ -397,8 +372,8 @@ def main():
                 save_to_json(extract_persib_standings(s_data), "persib_standings.json")
     
     # Fixtures (from HTML)
-    h_fix = load_html_from_file(PLAN_DIR / "fixtures.txt")
-    if h_fix: save_to_json(parse_fixtures_from_html(h_fix), "fixtures.json")
+    if fixtures_html:
+        save_to_json(parse_fixtures_from_html(fixtures_html), "fixtures.json")
     
     # Players Stats (API)
     top = {"scraped_at": datetime.now().isoformat(), "team": "Persib Bandung", "stats": {}}
