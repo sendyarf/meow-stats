@@ -5,9 +5,38 @@ Scrapes league standings data from FotMob HTML and saves to JSON files.
 
 import json
 import re
+import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime
+from typing import Optional
+
+def fetch_html(url: str) -> str:
+    """
+    Fetch HTML content from a URL.
+    
+    Args:
+        url: URL to fetch from
+        
+    Returns:
+        The HTML content
+    """
+    try:
+        print(f"Fetching {url}...")
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        
+        return response.text
+        
+    except Exception as e:
+        print(f"Error fetching data from {url}: {e}")
+        return ""
+
 
 
 def parse_standings_from_html(html_content: str) -> dict:
@@ -280,27 +309,7 @@ def save_to_json(data: dict, filename: str):
     print(f"Saved: {output_path}")
 
 
-def load_html_from_file(filepath: str) -> str:
-    """
-    Load HTML content from a file.
-    
-    Args:
-        filepath: Path to the HTML file
-        
-    Returns:
-        HTML content as string
-    """
-    with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # Find the HTML content (skip the first lines with description/URL)
-    lines = content.split('\n')
-    html_lines = []
-    for line in lines:
-        if line.strip().startswith('<'):
-            html_lines.append(line)
-    
-    return '\n'.join(html_lines)
+
 
 
 def parse_fixtures_from_html(html_content: str) -> dict:
@@ -463,77 +472,111 @@ def main():
     """Main function to run the scraper."""
     import os
     script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
-    input_dir = script_dir / "plan"  # Input HTML files are in the plan subdirectory
-    output_dir = script_dir  # Output JSON files to main directory
+    # input_dir = script_dir / "plan"  <-- REMOVED
+    # output_dir = script_dir  <-- REMOVED, using relative paths or script_dir for save_to_json handles it
     
-    # Process table-all.txt (All matches standings)
-    table_all_file = input_dir / "table-all.txt"
-    if table_all_file.exists():
-        print("Processing table-all.txt...")
-        html_content = load_html_from_file(table_all_file)
-        
-        # Parse all standings
-        all_standings = parse_standings_from_html(html_content)
-        save_to_json(all_standings, "standings_all.json")
-        
-        # Extract Persib-specific data
-        persib_standings = extract_persib_standings(all_standings)
-        save_to_json(persib_standings, "persib_standings.json")
-    else:
-        print(f"File not found: {table_all_file}")
-    
-    # Process table-home.txt if exists
-    table_home_file = input_dir / "table-home.txt"
-    if table_home_file.exists():
-        print("Processing table-home.txt...")
-        html_content = load_html_from_file(table_home_file)
-        home_standings = parse_standings_from_html(html_content)
-        save_to_json(home_standings, "standings_home.json")
-    
-    # Process table-away.txt if exists
-    table_away_file = input_dir / "table-away.txt"
-    if table_away_file.exists():
-        print("Processing table-away.txt...")
-        html_content = load_html_from_file(table_away_file)
-        away_standings = parse_standings_from_html(html_content)
-        save_to_json(away_standings, "standings_away.json")
-
-    # Process fixtures.txt if exists
-    fixtures_file = input_dir / "fixtures.txt"
-    if fixtures_file.exists():
-        print("Processing fixtures.txt...")
-        html_content = load_html_from_file(fixtures_file)
-        fixtures_data = parse_fixtures_from_html(html_content)
-        save_to_json(fixtures_data, "fixtures.json")
-    
-    # Process top stats
-    stats_files = {
-        "goals": "goal.txt",
-        "assists": "assist.txt",
-        "goals_assists": "goal-assist.txt",
-        "yellow_cards": "yellow-cards.txt",
-        "red_cards": "red-cards.txt"
-    }
+    # Define tasks
+    tasks = [
+        {
+            "name": "table-all",
+            "url": "https://www.fotmob.com/teams/165196/table/persib-bandung?filter=all",
+            "type": "standings",
+            "output": "standings_all.json",
+            "persib_output": "persib_standings.json"
+        },
+        {
+            "name": "table-home",
+            "url": "https://www.fotmob.com/teams/165196/table/persib-bandung?filter=home",
+            "type": "standings",
+            "output": "standings_home.json"
+        },
+        {
+            "name": "table-away",
+            "url": "https://www.fotmob.com/teams/165196/table/persib-bandung?filter=away",
+            "type": "standings",
+            "output": "standings_away.json"
+        },
+        {
+            "name": "fixtures",
+            "url": "https://www.fotmob.com/teams/165196/fixtures/persib-bandung",
+            "type": "fixtures",
+            "output": "fixtures.json"
+        },
+        # Stats below
+        {
+            "name": "goal",
+            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/goals/team/165196/persib-bandung",
+            "type": "stats",
+            "stat_type": "goals"
+        },
+        {
+            "name": "assist",
+            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/goal_assist/team/165196",
+            "type": "stats",
+            "stat_type": "assists"
+        },
+        {
+            "name": "goal-assist",
+            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/_goals_and_goal_assist/team/165196",
+            "type": "stats",
+            "stat_type": "goals_assists"
+        },
+        {
+            "name": "yellow-cards",
+            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/yellow_card/team/165196",
+            "type": "stats",
+            "stat_type": "yellow_cards"
+        },
+        {
+            "name": "red-cards",
+            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/red_card/team/165196",
+            "type": "stats",
+            "stat_type": "red_cards"
+        }
+    ]
     
     top_stats = {
         "scraped_at": datetime.now().isoformat(),
+        "team": "Persib Bandung",
         "stats": {}
     }
-    
     has_stats = False
-    for stat_type, filename in stats_files.items():
-        file_path = input_dir / filename
-        if file_path.exists():
-            print(f"Processing {filename}...")
-            html_content = load_html_from_file(file_path)
-            stats_list = parse_top_stats_from_html(html_content, stat_type)
-            top_stats["stats"][stat_type] = stats_list
-            has_stats = True
-        else:
-            print(f"File not found: {filename} (skipping {stat_type})")
+
+    for task in tasks:
+        print(f"Processing {task['name']}...")
+        
+        # Fetch directly
+        html_content = fetch_html(task["url"])
+        
+        if not html_content:
+            print(f"Failed to get content for {task['name']}")
+            continue
+
+        if task["type"] == "standings":
+            standings = parse_standings_from_html(html_content)
+            save_to_json(standings, task["output"])
             
+            if "persib_output" in task:
+                persib_standings = extract_persib_standings(standings)
+                save_to_json(persib_standings, task["persib_output"])
+                
+        elif task["type"] == "fixtures":
+            fixtures_data = parse_fixtures_from_html(html_content)
+            save_to_json(fixtures_data, task["output"])
+            
+        elif task["type"] == "stats":
+            stat_type = task["stat_type"]
+            try:
+                stats_list = parse_top_stats_from_html(html_content, stat_type)
+                top_stats["stats"][stat_type] = stats_list
+                has_stats = True
+            except Exception as e:
+                print(f"Error parsing stats {stat_type}: {e}")
+
     if has_stats:
         save_to_json(top_stats, "top_stats.json")
+    else:
+        print("No stats data found.")
 
     print("\nDone! JSON files created.")
 

@@ -1,11 +1,11 @@
 {
-  "scraped_at": "2025-12-29T07:02:55.094616",
+  "scraped_at": "2025-12-29T19:30:30.040829",
   "team": "Persib Bandung",
   "standings": [
     {
-      "league": "Super League",
+      "league": "Super League 2025/2026",
       "group": null,
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/8983.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
       "position": 1,
       "team": {
         "id": "165196",
@@ -48,9 +48,9 @@
       }
     },
     {
-      "league": "AFC Champions League Two",
+      "league": "AFC Champions League Two 2025/2026",
       "group": "Grp. G",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/9469.png",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "position": 1,
       "team": {
         "id": "165196",
