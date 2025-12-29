@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-12-29T22:59:23.684675",
+  "scraped_at": "2025-12-30T04:54:09.169640",
   "leagues": [
     {
       "name": "Super League",
@@ -314,6 +314,598 @@
           "pts": 7
         }
       ]
+    },
+    {
+      "name": "AFC Champions League Two",
+      "logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
+      "url": "https://www.fotmob.com/leagues/9469/overview/afc-champions-league-two",
+      "groups": [
+        {
+          "name": "Grp. A",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "102111",
+                "name": "Al-Wasl",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/102111.png",
+                "url": "https://www.fotmob.com/teams/102111/overview/al-wasl"
+              },
+              "played": 6,
+              "won": 4,
+              "drawn": 2,
+              "lost": 0,
+              "gs": 15,
+              "gc": 6,
+              "gd": 9,
+              "pts": 14
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "101614",
+                "name": "Esteghlal",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101614.png",
+                "url": "https://www.fotmob.com/teams/101614/overview/esteghlal"
+              },
+              "played": 6,
+              "won": 2,
+              "drawn": 2,
+              "lost": 2,
+              "gs": 8,
+              "gc": 10,
+              "gd": -2,
+              "pts": 8
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "101598",
+                "name": "Muharraq",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101598.png",
+                "url": "https://www.fotmob.com/teams/101598/overview/muharraq"
+              },
+              "played": 6,
+              "won": 2,
+              "drawn": 1,
+              "lost": 3,
+              "gs": 8,
+              "gc": 8,
+              "gd": 0,
+              "pts": 7
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "101690",
+                "name": "Al-Wehdat",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101690.png",
+                "url": "https://www.fotmob.com/teams/101690/overview/al-wehdat"
+              },
+              "played": 6,
+              "won": 1,
+              "drawn": 1,
+              "lost": 4,
+              "gs": 5,
+              "gc": 12,
+              "gd": -7,
+              "pts": 4
+            }
+          ]
+        },
+        {
+          "name": "Grp. B",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "179097",
+                "name": "Al-Ahli",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/179097.png",
+                "url": "https://www.fotmob.com/teams/179097/overview/al-ahli"
+              },
+              "played": 6,
+              "won": 2,
+              "drawn": 4,
+              "lost": 0,
+              "gs": 7,
+              "gc": 4,
+              "gd": 3,
+              "pts": 10
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "1689659",
+                "name": "Arkadag",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1689659.png",
+                "url": "https://www.fotmob.com/teams/1689659/overview/arkadag"
+              },
+              "played": 6,
+              "won": 1,
+              "drawn": 4,
+              "lost": 1,
+              "gs": 5,
+              "gc": 6,
+              "gd": -1,
+              "pts": 7
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "1288463",
+                "name": "Al Khalidiyah",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1288463.png",
+                "url": "https://www.fotmob.com/teams/1288463/overview/al-khalidiyah"
+              },
+              "played": 6,
+              "won": 1,
+              "drawn": 3,
+              "lost": 2,
+              "gs": 3,
+              "gc": 3,
+              "gd": 0,
+              "pts": 6
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "102151",
+                "name": "Andijon",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/102151.png",
+                "url": "https://www.fotmob.com/teams/102151/overview/andijon"
+              },
+              "played": 6,
+              "won": 0,
+              "drawn": 5,
+              "lost": 1,
+              "gs": 1,
+              "gc": 3,
+              "gd": -2,
+              "pts": 5
+            }
+          ]
+        },
+        {
+          "name": "Grp. C",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "101688",
+                "name": "Al-Hussein SC",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101688.png",
+                "url": "https://www.fotmob.com/teams/101688/overview/al-hussein-sc"
+              },
+              "played": 4,
+              "won": 3,
+              "drawn": 0,
+              "lost": 1,
+              "gs": 8,
+              "gc": 4,
+              "gd": 4,
+              "pts": 9
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "101611",
+                "name": "Sepahan",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101611.png",
+                "url": "https://www.fotmob.com/teams/101611/overview/sepahan"
+              },
+              "played": 4,
+              "won": 2,
+              "drawn": 1,
+              "lost": 1,
+              "gs": 5,
+              "gc": 3,
+              "gd": 2,
+              "pts": 7
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "617067",
+                "name": "Ahal",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/617067.png",
+                "url": "https://www.fotmob.com/teams/617067/overview/ahal"
+              },
+              "played": 4,
+              "won": 0,
+              "drawn": 1,
+              "lost": 3,
+              "gs": 4,
+              "gc": 10,
+              "gd": -6,
+              "pts": 1
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "578651",
+                "name": "Mohun Bagan SG",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/578651.png",
+                "url": "https://www.fotmob.com/teams/578651/overview/mohun-bagan-sg"
+              },
+              "played": 0,
+              "won": 0,
+              "drawn": 0,
+              "lost": 0,
+              "gs": 0,
+              "gc": 0,
+              "gd": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "name": "Grp. D",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "101918",
+                "name": "Al Nassr FC",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101918.png",
+                "url": "https://www.fotmob.com/teams/101918/overview/al-nassr-fc"
+              },
+              "played": 6,
+              "won": 6,
+              "drawn": 0,
+              "lost": 0,
+              "gs": 22,
+              "gc": 2,
+              "gd": 20,
+              "pts": 18
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "101659",
+                "name": "Al Zawraa",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101659.png",
+                "url": "https://www.fotmob.com/teams/101659/overview/al-zawraa"
+              },
+              "played": 6,
+              "won": 3,
+              "drawn": 0,
+              "lost": 3,
+              "gs": 8,
+              "gc": 11,
+              "gd": -3,
+              "pts": 9
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "606032",
+                "name": "FC Istiklol",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/606032.png",
+                "url": "https://www.fotmob.com/teams/606032/overview/fc-istiklol"
+              },
+              "played": 6,
+              "won": 3,
+              "drawn": 0,
+              "lost": 3,
+              "gs": 7,
+              "gc": 13,
+              "gd": -6,
+              "pts": 9
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "578650",
+                "name": "FC Goa",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/578650.png",
+                "url": "https://www.fotmob.com/teams/578650/overview/fc-goa"
+              },
+              "played": 6,
+              "won": 0,
+              "drawn": 0,
+              "lost": 6,
+              "gs": 3,
+              "gc": 14,
+              "gd": -11,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "name": "Grp. E",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "1209973",
+                "name": "Macarthur FC",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1209973.png",
+                "url": "https://www.fotmob.com/teams/1209973/overview/macarthur-fc"
+              },
+              "played": 6,
+              "won": 4,
+              "drawn": 1,
+              "lost": 1,
+              "gs": 11,
+              "gc": 6,
+              "gd": 5,
+              "pts": 13
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "614354",
+                "name": "Cong An Ha Noi",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/614354.png",
+                "url": "https://www.fotmob.com/teams/614354/overview/cong-ha-noi"
+              },
+              "played": 6,
+              "won": 2,
+              "drawn": 2,
+              "lost": 2,
+              "gs": 9,
+              "gc": 7,
+              "gd": 2,
+              "pts": 8
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "165169",
+                "name": "Tai Po",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165169.png",
+                "url": "https://www.fotmob.com/teams/165169/overview/tai-po"
+              },
+              "played": 6,
+              "won": 2,
+              "drawn": 1,
+              "lost": 3,
+              "gs": 7,
+              "gc": 12,
+              "gd": -5,
+              "pts": 7
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "4177",
+                "name": "Beijing Guoan",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/4177.png",
+                "url": "https://www.fotmob.com/teams/4177/overview/beijing-guoan"
+              },
+              "played": 6,
+              "won": 1,
+              "drawn": 2,
+              "lost": 3,
+              "gs": 10,
+              "gc": 12,
+              "gd": -2,
+              "pts": 5
+            }
+          ]
+        },
+        {
+          "name": "Grp. F",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "6582",
+                "name": "Gamba Osaka",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6582.png",
+                "url": "https://www.fotmob.com/teams/6582/overview/gamba-osaka"
+              },
+              "played": 6,
+              "won": 6,
+              "drawn": 0,
+              "lost": 0,
+              "gs": 16,
+              "gc": 2,
+              "gd": 14,
+              "pts": 18
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "421346",
+                "name": "Ratchaburi FC",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/421346.png",
+                "url": "https://www.fotmob.com/teams/421346/overview/ratchaburi-fc"
+              },
+              "played": 6,
+              "won": 3,
+              "drawn": 0,
+              "lost": 3,
+              "gs": 15,
+              "gc": 8,
+              "gd": 7,
+              "pts": 9
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "109375",
+                "name": "Nam Dinh",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/109375.png",
+                "url": "https://www.fotmob.com/teams/109375/overview/nam-dinh"
+              },
+              "played": 6,
+              "won": 3,
+              "drawn": 0,
+              "lost": 3,
+              "gs": 14,
+              "gc": 7,
+              "gd": 7,
+              "pts": 9
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "165172",
+                "name": "Eastern Sports Club",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165172.png",
+                "url": "https://www.fotmob.com/teams/165172/overview/eastern-sports-club"
+              },
+              "played": 6,
+              "won": 0,
+              "drawn": 0,
+              "lost": 6,
+              "gs": 2,
+              "gc": 30,
+              "gd": -28,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "name": "Grp. G",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "165196",
+                "name": "Persib Bandung",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+                "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+              },
+              "played": 6,
+              "won": 4,
+              "drawn": 1,
+              "lost": 1,
+              "gs": 11,
+              "gc": 6,
+              "gd": 5,
+              "pts": 13
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "102231",
+                "name": "Bangkok United",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/102231.png",
+                "url": "https://www.fotmob.com/teams/102231/overview/bangkok-united"
+              },
+              "played": 6,
+              "won": 3,
+              "drawn": 1,
+              "lost": 2,
+              "gs": 8,
+              "gc": 7,
+              "gd": 1,
+              "pts": 10
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "67366",
+                "name": "Lion City Sailors FC",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/67366.png",
+                "url": "https://www.fotmob.com/teams/67366/overview/lion-city-sailors-fc"
+              },
+              "played": 6,
+              "won": 3,
+              "drawn": 1,
+              "lost": 2,
+              "gs": 10,
+              "gc": 8,
+              "gd": 2,
+              "pts": 10
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "165223",
+                "name": "Selangor",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165223.png",
+                "url": "https://www.fotmob.com/teams/165223/overview/selangor"
+              },
+              "played": 6,
+              "won": 0,
+              "drawn": 1,
+              "lost": 5,
+              "gs": 7,
+              "gc": 15,
+              "gd": -8,
+              "pts": 1
+            }
+          ]
+        },
+        {
+          "name": "Grp. H",
+          "teams": [
+            {
+              "position": 1,
+              "team": {
+                "id": "67386",
+                "name": "Tampines Rovers FC",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/67386.png",
+                "url": "https://www.fotmob.com/teams/67386/overview/tampines-rovers-fc"
+              },
+              "played": 6,
+              "won": 5,
+              "drawn": 1,
+              "lost": 0,
+              "gs": 14,
+              "gc": 5,
+              "gd": 9,
+              "pts": 16
+            },
+            {
+              "position": 2,
+              "team": {
+                "id": "109373",
+                "name": "Pohang Steelers",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/109373.png",
+                "url": "https://www.fotmob.com/teams/109373/overview/pohang-steelers"
+              },
+              "played": 6,
+              "won": 4,
+              "drawn": 1,
+              "lost": 1,
+              "gs": 7,
+              "gc": 2,
+              "gd": 5,
+              "pts": 13
+            },
+            {
+              "position": 3,
+              "team": {
+                "id": "165250",
+                "name": "BG Pathum United",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165250.png",
+                "url": "https://www.fotmob.com/teams/165250/overview/bg-pathum-united"
+              },
+              "played": 6,
+              "won": 2,
+              "drawn": 0,
+              "lost": 4,
+              "gs": 5,
+              "gc": 8,
+              "gd": -3,
+              "pts": 6
+            },
+            {
+              "position": 4,
+              "team": {
+                "id": "612493",
+                "name": "Kaya FC",
+                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/612493.png",
+                "url": "https://www.fotmob.com/teams/612493/overview/kaya-fc"
+              },
+              "played": 6,
+              "won": 0,
+              "drawn": 0,
+              "lost": 6,
+              "gs": 4,
+              "gc": 15,
+              "gd": -11,
+              "pts": 0
+            }
+          ]
+        }
+      ],
+      "teams": []
     }
   ]
 }

@@ -67,7 +67,7 @@ def fetch_with_playwright(url: str, wait_selector: Optional[str] = None) -> str:
 # --- Parsing Functions (Robust logic) ---
 
 def parse_standings_from_api(api_data: dict, table_type: str = "all") -> dict:
-    """Parse standings from FotMob Team API response."""
+    """Parse standings from FotMob Team API response, supporting both single-table and composite groups."""
     standings = {"scraped_at": datetime.now().isoformat(), "leagues": []}
     
     if "table" not in api_data or not api_data["table"]:
@@ -87,35 +87,51 @@ def parse_standings_from_api(api_data: dict, table_type: str = "all") -> dict:
             "groups": [],
             "teams": []
         }
+
+        def process_rows(rows_data):
+            teams_list = []
+            for row in rows_data:
+                scores = row.get("scoresStr", "0-0").split("-")
+                gs = int(scores[0]) if len(scores) > 0 else 0
+                gc = int(scores[1]) if len(scores) > 1 else 0
+                
+                teams_list.append({
+                    "position": row.get("idx"),
+                    "team": {
+                        "id": str(row.get("id")),
+                        "name": row.get("name"),
+                        "logo": f"https://images.fotmob.com/image_resources/logo/teamlogo/{row.get('id')}.png",
+                        "url": f"https://www.fotmob.com{row.get('pageUrl')}" if row.get('pageUrl') else None
+                    },
+                    "played": row.get("played", 0),
+                    "won": row.get("wins", 0),
+                    "drawn": row.get("draws", 0),
+                    "lost": row.get("losses", 0),
+                    "gs": gs,
+                    "gc": gc,
+                    "gd": row.get("goalConDiff", 0),
+                    "pts": row.get("pts", 0)
+                })
+            return teams_list
         
-        # Get the specific table (all, home, away)
+        # 1. Check for standard single table
         table_obj = data.get("table", {})
-        rows = table_obj.get(table_type, [])
+        if table_obj:
+            rows = table_obj.get(table_type, [])
+            league_data["teams"] = process_rows(rows)
         
-        for row in rows:
-            scores = row.get("scoresStr", "0-0").split("-")
-            gs = int(scores[0]) if len(scores) > 0 else 0
-            gc = int(scores[1]) if len(scores) > 1 else 0
+        # 2. Check for composite tables (groups)
+        elif "tables" in data and isinstance(data["tables"], list):
+            for group_table in data["tables"]:
+                g_name = group_table.get("leagueName", "Unknown Group")
+                g_rows = group_table.get("table", {}).get(table_type, [])
+                if g_rows:
+                    league_data["groups"].append({
+                        "name": g_name,
+                        "teams": process_rows(g_rows)
+                    })
             
-            league_data["teams"].append({
-                "position": row.get("idx"),
-                "team": {
-                    "id": str(row.get("id")),
-                    "name": row.get("name"),
-                    "logo": f"https://images.fotmob.com/image_resources/logo/teamlogo/{row.get('id')}.png",
-                    "url": f"https://www.fotmob.com{row.get('pageUrl')}" if row.get('pageUrl') else None
-                },
-                "played": row.get("played", 0),
-                "won": row.get("wins", 0),
-                "drawn": row.get("draws", 0),
-                "lost": row.get("losses", 0),
-                "gs": gs,
-                "gc": gc,
-                "gd": row.get("goalConDiff", 0),
-                "pts": row.get("pts", 0)
-            })
-            
-        if league_data["teams"]:
+        if league_data["teams"] or league_data["groups"]:
             standings["leagues"].append(league_data)
             
     return standings
