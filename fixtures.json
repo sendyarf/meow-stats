@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "scraped_at": "2025-12-29T15:21:25.345446",
-=======
-  "scraped_at": "2025-12-29T22:23:18.798460",
->>>>>>> a074697 (Fix swapped home/away teams in next match parsing)
+  "scraped_at": "2025-12-29T15:42:05.542443",
   "fixtures": [
     {
       "date": "Sat, Aug 9",
