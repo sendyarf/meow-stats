@@ -258,11 +258,11 @@ def parse_fixtures_from_html(html_content: str) -> dict:
             # Usually Away vs Home or Home vs Away.
             # Let's assume the first is Guest and second is Home if Persib is in the list
             if len(team_names) >= 2:
-                away = team_names[0]
-                home = team_names[1]
+                home = team_names[0]
+                away = team_names[1]
             else:
-                away = "Unknown"
                 home = "Unknown"
+                away = "Unknown"
             
             m_time = next_match_box.select_one('div[class*="NextMatchTime"]').get_text(strip=True) if next_match_box.select_one('div[class*="NextMatchTime"]') else ""
             m_date = next_match_box.select_one('div[class*="NextMatchDate"]').get_text(strip=True) if next_match_box.select_one('div[class*="NextMatchDate"]') else ""
@@ -278,8 +278,8 @@ def parse_fixtures_from_html(html_content: str) -> dict:
                 if len(values) >= 2:
                     stats.append({
                         "title": title,
-                        "home": values[1],
-                        "away": values[0]
+                        "home": values[0],
+                        "away": values[1]
                     })
             
             fixtures_data["next_match"] = {

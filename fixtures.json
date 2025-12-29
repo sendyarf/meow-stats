@@ -1,5 +1,9 @@
 {
-  "scraped_at": "2025-12-29T22:12:00.127551",
+<<<<<<< HEAD
+  "scraped_at": "2025-12-29T15:21:25.345446",
+=======
+  "scraped_at": "2025-12-29T22:23:18.798460",
+>>>>>>> a074697 (Fix swapped home/away teams in next match parsing)
   "fixtures": [
     {
       "date": "Sat, Aug 9",
@@ -240,7 +244,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879888"
     },
     {
@@ -251,7 +255,7 @@
       "away_team": "Persija Jakarta",
       "status": "Scheduled",
       "score": null,
-      "time": "3:30PM",
+      "time": "8:30AM",
       "url": "https://www.fotmob.com/matches/persija-jakarta-vs-persib-bandung/p2mef9m#4879893"
     },
     {
@@ -262,7 +266,7 @@
       "away_team": "PSBS Biak Numfor",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-psbs-biak-numfor/3lkp13za#4879905"
     },
     {
@@ -273,7 +277,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "3:30PM",
+      "time": "8:30AM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persis-solo/3klg4qjz#4879909"
     },
     {
@@ -284,7 +288,7 @@
       "away_team": "Malut United",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879917"
     },
     {
@@ -295,7 +299,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879933"
     },
     {
@@ -306,7 +310,7 @@
       "away_team": "Persita",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persita/p2pcnah#4879941"
     },
     {
@@ -317,7 +321,7 @@
       "away_team": "Madura United",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-madura-united/p2nz2q1#4879947"
     },
     {
@@ -328,7 +332,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persebaya-surabaya/7nrxcd2y#4879953"
     },
     {
@@ -339,7 +343,7 @@
       "away_team": "Persik",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879965"
     },
     {
@@ -350,7 +354,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-semen-padang/xaudg48#4879976"
     },
     {
@@ -361,7 +365,7 @@
       "away_team": "Bali United FC",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-bali-united-fc/saghjn1#4879987"
     },
     {
@@ -372,7 +376,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-dewa-united-fc/3lkhfg18#4879996"
     },
     {
@@ -383,7 +387,7 @@
       "away_team": "Arema",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-arema/p2o65nq#4880003"
     },
     {
@@ -394,7 +398,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4880014"
     },
     {
@@ -405,7 +409,7 @@
       "away_team": "PSIM Yogyakarta",
       "status": "Scheduled",
       "score": null,
-      "time": "3:30PM",
+      "time": "8:30AM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-psim-yogyakarta/3lkcygvj#4880019"
     },
     {
@@ -416,7 +420,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "3:30PM",
+      "time": "8:30AM",
       "url": "https://www.fotmob.com/matches/persija-jakarta-vs-persib-bandung/p2mef9m#4880028"
     },
     {
@@ -427,7 +431,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-psm-makassar/p2nrzsd#4880041"
     },
     {
@@ -438,7 +442,7 @@
       "away_team": "Persijap Jepara",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persijap-jepara-vs-persib-bandung/p2mzo21#4880048"
     }
   ],
@@ -450,25 +454,25 @@
     "MAU (H)"
   ],
   "next_match": {
-    "home_team": "Persib Bandung",
-    "away_team": "Persik",
+    "home_team": "Persik",
+    "away_team": "Persib Bandung",
     "date": "Jan 5, 2026",
-    "time": "7:00 PM",
+    "time": "12:00 PM",
     "stats": [
       {
         "title": "Table position",
-        "home": "1",
-        "away": "12"
+        "home": "12",
+        "away": "1"
       },
       {
         "title": "Goals per match",
-        "home": "1.67",
-        "away": "1.13"
+        "home": "1.13",
+        "away": "1.67"
       },
       {
         "title": "Goals conceded per match",
-        "home": "0.67",
-        "away": "1.53"
+        "home": "1.53",
+        "away": "0.67"
       }
     ]
   }
