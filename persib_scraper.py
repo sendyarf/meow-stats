@@ -329,6 +329,69 @@ def parse_fixtures_from_html(html_content: str) -> dict:
         if match_data:
             fixtures_data["fixtures"].append(match_data)
             
+    # Parse Fixture Difficulty
+    fixtures_data["fixture_difficulty"] = []
+    diff_container = soup.find('div', class_=lambda x: x and 'FixtureDifficulties' in str(x))
+    if diff_container:
+        diff_items = diff_container.find_all('div', class_=lambda x: x and 'FixtureDifficultyMatch' in str(x))
+        for item in diff_items:
+            text = item.get_text(strip=True).replace('\u00a0', ' ')
+            fixtures_data["fixture_difficulty"].append(text)
+            
+    # Parse Next Match
+    fixtures_data["next_match"] = None
+    next_match_section = soup.find('section', class_=lambda x: x and 'NextMatchBoxCSS' in str(x))
+    if next_match_section:
+        try:
+            home_team = "Unknown"
+            away_team = "Unknown"
+            
+            # Teams
+            team_containers = next_match_section.find_all('div', class_=lambda x: x and 'TeamContainer' in str(x))
+            if len(team_containers) >= 2:
+                # The structure usually has opponent first or depends on home/away
+                # In the txt, it's Persik (first) vs Persib (second)
+                # Let's just grab names
+                t1 = team_containers[0].find('div', class_=lambda x: x and 'TeamNameCSS' in str(x))
+                t2 = team_containers[1].find('div', class_=lambda x: x and 'TeamNameCSS' in str(x))
+                home_team = t1.get_text(strip=True) if t1 else ""
+                away_team = t2.get_text(strip=True) if t2 else ""
+                
+            # Date/Time
+            time_elem = next_match_section.find('div', class_=lambda x: x and 'NextMatchTime' in str(x))
+            match_time = time_elem.get_text(strip=True) if time_elem else ""
+            
+            date_elem = next_match_section.find('div', class_=lambda x: x and 'NextMatchDate' in str(x))
+            match_date = date_elem.get_text(strip=True) if date_elem else ""
+            
+            # Stats (Position, Goals per match, etc)
+            stats = []
+            stat_items = next_match_section.find_all('li', class_=lambda x: x and 'Stat' in str(x) and 'StatGroupContainer' not in str(x))
+            for stat in stat_items:
+                title_elem = stat.find('span', class_=lambda x: x and 'StatTitle' in str(x))
+                title = title_elem.get_text(strip=True) if title_elem else ""
+                
+                # Values (Left vs Right)
+                values = stat.find_all('span', class_=lambda x: x and 'StatValue' in str(x))
+                val_home = values[0].get_text(strip=True) if len(values) > 0 else ""
+                val_away = values[1].get_text(strip=True) if len(values) > 1 else ""
+                
+                stats.append({
+                    "title": title,
+                    "home": val_home,
+                    "away": val_away
+                })
+                
+            fixtures_data["next_match"] = {
+                "home_team": home_team,
+                "away_team": away_team,
+                "date": match_date,
+                "time": match_time,
+                "stats": stats
+            }
+        except Exception as e:
+            print(f"Error parsing next match: {e}")
+
     return fixtures_data
 
 
