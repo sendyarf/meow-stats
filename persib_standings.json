@@ -1,0 +1,93 @@
+{
+  "scraped_at": "2025-12-29T07:02:55.094616",
+  "team": "Persib Bandung",
+  "standings": [
+    {
+      "league": "Super League",
+      "group": null,
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/8983.png",
+      "position": 1,
+      "team": {
+        "id": "165196",
+        "name": "Persib Bandung",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+      },
+      "played": 15,
+      "won": 11,
+      "drawn": 1,
+      "lost": 3,
+      "goals": "25-10",
+      "goal_difference": "+15",
+      "points": 34,
+      "form": [
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-madura-united/p2nz2q1#4879870"
+        },
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879779"
+        },
+        {
+          "result": "L",
+          "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879852"
+        },
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4879875"
+        },
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-psm-makassar/p2nrzsd#4879816"
+        }
+      ],
+      "next_match": {
+        "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879888",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png"
+      }
+    },
+    {
+      "league": "AFC Champions League Two",
+      "group": "Grp. G",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/dark/9469.png",
+      "position": 1,
+      "team": {
+        "id": "165196",
+        "name": "Persib Bandung",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+      },
+      "played": 6,
+      "won": 4,
+      "drawn": 1,
+      "lost": 1,
+      "goals": "11-6",
+      "goal_difference": "+5",
+      "points": 13,
+      "form": [
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-persib-bandung/gfdxb42#4933474"
+        },
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-selangor/p2sp1ed#4933476"
+        },
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-selangor/p2sp1ed#4933478"
+        },
+        {
+          "result": "L",
+          "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-persib-bandung/cf8jgld#4933480"
+        },
+        {
+          "result": "W",
+          "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-persib-bandung/gfdxb42#4933482"
+        }
+      ],
+      "next_match": null
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "scraped_at": "2025-12-29T07:02:55.952228",
+  "stats": {
+    "goals": [
+      {
+        "rank": 1,
+        "player": {
+          "id": "",
+          "name": "Uilliam",
+          "image": "https://images.fotmob.com/image_resources/playerimages/789859.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 7,
+        "sub_stat": "Penalty goals:1",
+        "type": "goals"
+      },
+      {
+        "rank": 2,
+        "player": {
+          "id": "",
+          "name": "Andrew Jung",
+          "image": "https://images.fotmob.com/image_resources/playerimages/813421.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 4,
+        "sub_stat": "Penalty goals:2",
+        "type": "goals"
+      },
+      {
+        "rank": 3,
+        "player": {
+          "id": "",
+          "name": "Federico Barba",
+          "image": "https://images.fotmob.com/image_resources/playerimages/365624.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      },
+      {
+        "rank": 4,
+        "player": {
+          "id": "",
+          "name": "Luciano Guaycochea",
+          "image": "https://images.fotmob.com/image_resources/playerimages/464897.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      },
+      {
+        "rank": 5,
+        "player": {
+          "id": "",
+          "name": "Ramon",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      },
+      {
+        "rank": 6,
+        "player": {
+          "id": "",
+          "name": "Beckham Putra",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1298538.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      },
+      {
+        "rank": 7,
+        "player": {
+          "id": "",
+          "name": "Febri Haryadi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/805657.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      },
+      {
+        "rank": 8,
+        "player": {
+          "id": "",
+          "name": "Patricio Matricardi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      },
+      {
+        "rank": 9,
+        "player": {
+          "id": "",
+          "name": "Saddil Ramdani",
+          "image": "https://images.fotmob.com/image_resources/playerimages/809521.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      },
+      {
+        "rank": 10,
+        "player": {
+          "id": "",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Penalty goals:0",
+        "type": "goals"
+      }
+    ],
+    "assists": [
+      {
+        "rank": 1,
+        "player": {
+          "id": "",
+          "name": "Beckham Putra",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1298538.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 2,
+        "player": {
+          "id": "",
+          "name": "Berguinho",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1032159.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 3,
+        "player": {
+          "id": "",
+          "name": "Andrew Jung",
+          "image": "https://images.fotmob.com/image_resources/playerimages/813421.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 2,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 4,
+        "player": {
+          "id": "",
+          "name": "Patricio Matricardi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 2,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 5,
+        "player": {
+          "id": "",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 2,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 6,
+        "player": {
+          "id": "",
+          "name": "Luciano Guaycochea",
+          "image": "https://images.fotmob.com/image_resources/playerimages/464897.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 7,
+        "player": {
+          "id": "",
+          "name": "Ramon",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 8,
+        "player": {
+          "id": "",
+          "name": "Saddil Ramdani",
+          "image": "https://images.fotmob.com/image_resources/playerimages/809521.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 9,
+        "player": {
+          "id": "",
+          "name": "Uilliam",
+          "image": "https://images.fotmob.com/image_resources/playerimages/789859.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 10,
+        "player": {
+          "id": "",
+          "name": "Wilian Marcilio",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1666508.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "assists"
+      }
+    ],
+    "goals_assists": [
+      {
+        "rank": 1,
+        "player": {
+          "id": "",
+          "name": "Uilliam",
+          "image": "https://images.fotmob.com/image_resources/playerimages/789859.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 8,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 2,
+        "player": {
+          "id": "",
+          "name": "Andrew Jung",
+          "image": "https://images.fotmob.com/image_resources/playerimages/813421.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 6,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 3,
+        "player": {
+          "id": "",
+          "name": "Beckham Putra",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1298538.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 4,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 4,
+        "player": {
+          "id": "",
+          "name": "Luciano Guaycochea",
+          "image": "https://images.fotmob.com/image_resources/playerimages/464897.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 4,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 5,
+        "player": {
+          "id": "",
+          "name": "Ramon",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 4,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 6,
+        "player": {
+          "id": "",
+          "name": "Berguinho",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1032159.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 7,
+        "player": {
+          "id": "",
+          "name": "Federico Barba",
+          "image": "https://images.fotmob.com/image_resources/playerimages/365624.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 8,
+        "player": {
+          "id": "",
+          "name": "Patricio Matricardi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 9,
+        "player": {
+          "id": "",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 10,
+        "player": {
+          "id": "",
+          "name": "Saddil Ramdani",
+          "image": "https://images.fotmob.com/image_resources/playerimages/809521.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 2,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 11,
+        "player": {
+          "id": "",
+          "name": "Febri Haryadi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/805657.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 12,
+        "player": {
+          "id": "",
+          "name": "Wilian Marcilio",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1666508.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "goals_assists"
+      }
+    ],
+    "yellow_cards": [
+      {
+        "rank": 1,
+        "player": {
+          "id": "",
+          "name": "Frans Putros",
+          "image": "https://images.fotmob.com/image_resources/playerimages/320139.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 5,
+        "sub_stat": "Red cards:1",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 2,
+        "player": {
+          "id": "",
+          "name": "Marc Klok",
+          "image": "https://images.fotmob.com/image_resources/playerimages/469277.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 4,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 3,
+        "player": {
+          "id": "",
+          "name": "Eliano Reijnders",
+          "image": "https://images.fotmob.com/image_resources/playerimages/972306.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 4,
+        "player": {
+          "id": "",
+          "name": "Julio Cesar",
+          "image": "https://images.fotmob.com/image_resources/playerimages/866393.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 3,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 5,
+        "player": {
+          "id": "",
+          "name": "Beckham Putra",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1298538.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:1",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 6,
+        "player": {
+          "id": "",
+          "name": "Adam Przybek",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1113454.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 7,
+        "player": {
+          "id": "",
+          "name": "Berguinho",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1032159.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 8,
+        "player": {
+          "id": "",
+          "name": "Federico Barba",
+          "image": "https://images.fotmob.com/image_resources/playerimages/365624.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 9,
+        "player": {
+          "id": "",
+          "name": "Kakang Rudianto",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1332771.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 10,
+        "player": {
+          "id": "",
+          "name": "Nazriel Alfaro",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1758712.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 11,
+        "player": {
+          "id": "",
+          "name": "Patricio Matricardi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 12,
+        "player": {
+          "id": "",
+          "name": "Ramon",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 13,
+        "player": {
+          "id": "",
+          "name": "Saddil Ramdani",
+          "image": "https://images.fotmob.com/image_resources/playerimages/809521.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 14,
+        "player": {
+          "id": "",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 15,
+        "player": {
+          "id": "",
+          "name": "Wilian Marcilio",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1666508.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Red cards:0",
+        "type": "yellow_cards"
+      }
+    ],
+    "red_cards": [
+      {
+        "rank": 1,
+        "player": {
+          "id": "",
+          "name": "Frans Putros",
+          "image": "https://images.fotmob.com/image_resources/playerimages/320139.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Yellow cards:5",
+        "type": "red_cards"
+      },
+      {
+        "rank": 2,
+        "player": {
+          "id": "",
+          "name": "Beckham Putra",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1298538.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Yellow cards:1",
+        "type": "red_cards"
+      },
+      {
+        "rank": 3,
+        "player": {
+          "id": "",
+          "name": "Luciano Guaycochea",
+          "image": "https://images.fotmob.com/image_resources/playerimages/464897.png",
+          "url": null
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "value": 1,
+        "sub_stat": "Yellow cards:0",
+        "type": "red_cards"
+      }
+    ]
+  }
+}

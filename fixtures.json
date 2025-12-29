@@ -1,0 +1,105 @@
+{
+  "scraped_at": "2025-12-29T07:02:55.939409",
+  "fixtures": [
+    {
+      "date": "Sun, Dec 14",
+      "league": "Liga 1",
+      "home_team": "Malut United",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879852"
+    },
+    {
+      "date": "Sun, Dec 21",
+      "league": "Liga 1",
+      "home_team": "Persib Bandung",
+      "away_team": "Bhayangkara Presisi Indonesia FC",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4879875"
+    },
+    {
+      "date": "Sat, Dec 27",
+      "league": "Liga 1",
+      "home_team": "Persib Bandung",
+      "away_team": "PSM Makassar",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-psm-makassar/p2nrzsd#4879816"
+    },
+    {
+      "date": "Jan 5, 2026",
+      "league": "Liga 1",
+      "home_team": "Persik",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00PM",
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879888"
+    },
+    {
+      "date": "Jan 11, 2026",
+      "league": "Liga 1",
+      "home_team": "Persib Bandung",
+      "away_team": "Persija Jakarta",
+      "status": "Scheduled",
+      "score": null,
+      "time": "3:30PM",
+      "url": "https://www.fotmob.com/matches/persija-jakarta-vs-persib-bandung/p2mef9m#4879893"
+    },
+    {
+      "date": "Jan 25, 2026",
+      "league": "Liga 1",
+      "home_team": "Persib Bandung",
+      "away_team": "PSBS Biak Numfor",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00PM",
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-psbs-biak-numfor/3lkp13za#4879905"
+    },
+    {
+      "date": "Jan 31, 2026",
+      "league": "Liga 1",
+      "home_team": "Persis Solo",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "3:30PM",
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-persis-solo/3klg4qjz#4879909"
+    },
+    {
+      "date": "Feb 6, 2026",
+      "league": "Liga 1",
+      "home_team": "Persib Bandung",
+      "away_team": "Malut United",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00PM",
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879917"
+    },
+    {
+      "date": "Feb 16, 2026",
+      "league": "Liga 1",
+      "home_team": "Borneo Samarinda",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00PM",
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879933"
+    },
+    {
+      "date": "Feb 22, 2026",
+      "league": "Liga 1",
+      "home_team": "Persib Bandung",
+      "away_team": "Persita",
+      "status": "Scheduled",
+      "score": null,
+      "time": "8:30PM",
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-persita/p2pcnah#4879941"
+    }
+  ]
+}
