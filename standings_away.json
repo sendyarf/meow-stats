@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-12-29T15:21:25.188132",
+  "scraped_at": "2025-12-29T22:39:28.036261",
   "leagues": [
     {
       "name": "Super League",
@@ -10,1193 +10,310 @@
         {
           "position": 1,
           "team": {
-            "id": "165196",
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 15,
-          "won": 11,
-          "drawn": 1,
-          "lost": 3,
-          "goals": "25-10",
-          "goal_difference": "+15",
-          "points": 34,
-          "form": [
-            "W",
-            "W",
-            "L",
-            "W",
-            "W"
-          ]
+          "played": 8,
+          "won": 5,
+          "drawn": 2,
+          "lost": 1,
+          "gs": 12,
+          "gc": 6,
+          "gd": 6,
+          "pts": 17
         },
         {
           "position": 2,
           "team": {
-            "id": "585858",
-            "name": "Borneo Samarinda",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858_xsmall.png",
-            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
+            "id": "165191",
+            "name": "Persija Jakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
+            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 15,
-          "won": 11,
-          "drawn": 1,
+          "played": 8,
+          "won": 5,
+          "drawn": 0,
           "lost": 3,
-          "goals": "29-13",
-          "goal_difference": "+16",
-          "points": 34,
-          "form": [
-            "W",
-            "L",
-            "L",
-            "D",
-            "L"
-          ]
+          "gs": 13,
+          "gc": 9,
+          "gd": 4,
+          "pts": 15
         },
         {
           "position": 3,
           "team": {
-            "id": "165191",
-            "name": "Persija Jakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
           },
-          "played": 15,
-          "won": 10,
+          "played": 8,
+          "won": 4,
           "drawn": 2,
-          "lost": 3,
-          "goals": "30-13",
-          "goal_difference": "+17",
-          "points": 32,
-          "form": [
-            "W",
-            "W",
-            "W",
-            "L",
-            "W"
-          ]
+          "lost": 2,
+          "gs": 16,
+          "gc": 13,
+          "gd": 3,
+          "pts": 14
         },
         {
           "position": 4,
           "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351_xsmall.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
+            "id": "585858",
+            "name": "Borneo Samarinda",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
+            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
-          "played": 15,
-          "won": 9,
-          "drawn": 4,
+          "played": 7,
+          "won": 4,
+          "drawn": 1,
           "lost": 2,
-          "goals": "26-15",
-          "goal_difference": "+11",
-          "points": 31,
-          "form": [
-            "D",
-            "D",
-            "W",
-            "W",
-            "W"
-          ]
+          "gs": 14,
+          "gc": 10,
+          "gd": 4,
+          "pts": 13
         },
         {
           "position": 5,
           "team": {
-            "id": "585850",
-            "name": "PSIM Yogyakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850_xsmall.png",
-            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
+            "id": "165196",
+            "name": "Persib Bandung",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
-          "played": 15,
-          "won": 6,
-          "drawn": 6,
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
           "lost": 3,
-          "goals": "19-18",
-          "goal_difference": "+1",
-          "points": 24,
-          "form": [
-            "D",
-            "W",
-            "L",
-            "D",
-            "D"
-          ]
+          "gs": 13,
+          "gc": 9,
+          "gd": 4,
+          "pts": 13
         },
         {
           "position": 6,
           "team": {
-            "id": "930525",
-            "name": "Persebaya Surabaya",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525_xsmall.png",
-            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
+            "id": "585850",
+            "name": "PSIM Yogyakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
+            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
           },
-          "played": 15,
-          "won": 5,
-          "drawn": 7,
-          "lost": 3,
-          "goals": "21-15",
-          "goal_difference": "+6",
-          "points": 22,
-          "form": [
-            "D",
-            "D",
-            "D",
-            "D",
-            "W"
-          ]
+          "played": 8,
+          "won": 3,
+          "drawn": 3,
+          "lost": 2,
+          "gs": 9,
+          "gc": 10,
+          "gd": -1,
+          "pts": 12
         },
         {
           "position": 7,
           "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
           },
-          "played": 14,
-          "won": 6,
-          "drawn": 4,
-          "lost": 4,
-          "goals": "18-13",
-          "goal_difference": "+5",
-          "points": 22,
-          "form": [
-            "D",
-            "L",
-            "D",
-            "L",
-            "W"
-          ]
+          "played": 7,
+          "won": 2,
+          "drawn": 5,
+          "lost": 0,
+          "gs": 9,
+          "gc": 7,
+          "gd": 2,
+          "pts": 11
         },
         {
           "position": 8,
           "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751_xsmall.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+            "id": "165198",
+            "name": "PSM Makassar",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
+            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 15,
-          "won": 5,
-          "drawn": 6,
-          "lost": 4,
-          "goals": "19-18",
-          "goal_difference": "+1",
-          "points": 21,
-          "form": [
-            "L",
-            "D",
-            "W",
-            "W",
-            "D"
-          ]
+          "played": 7,
+          "won": 2,
+          "drawn": 3,
+          "lost": 2,
+          "gs": 9,
+          "gc": 9,
+          "gd": 0,
+          "pts": 9
         },
         {
           "position": 9,
           "team": {
-            "id": "165198",
-            "name": "PSM Makassar",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
+            "id": "165199",
+            "name": "Madura United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
+            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 15,
-          "won": 4,
-          "drawn": 7,
-          "lost": 4,
-          "goals": "20-15",
-          "goal_difference": "+5",
-          "points": 19,
-          "form": [
-            "W",
-            "W",
-            "D",
-            "L",
-            "L"
-          ]
+          "played": 8,
+          "won": 2,
+          "drawn": 3,
+          "lost": 3,
+          "gs": 8,
+          "gc": 10,
+          "gd": -2,
+          "pts": 9
         },
         {
           "position": 10,
           "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749_xsmall.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+            "id": "930525",
+            "name": "Persebaya Surabaya",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
+            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
           },
-          "played": 15,
-          "won": 5,
-          "drawn": 4,
-          "lost": 6,
-          "goals": "12-14",
-          "goal_difference": "-2",
-          "points": 19,
-          "form": [
-            "W",
-            "L",
-            "D",
-            "L",
-            "L"
-          ]
+          "played": 7,
+          "won": 1,
+          "drawn": 5,
+          "lost": 1,
+          "gs": 5,
+          "gc": 5,
+          "gd": 0,
+          "pts": 8
         },
         {
           "position": 11,
           "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 14,
-          "won": 4,
-          "drawn": 6,
-          "lost": 4,
-          "goals": "21-20",
-          "goal_difference": "+1",
-          "points": 18,
-          "form": [
-            "W",
-            "L",
-            "D",
-            "D",
-            "D"
-          ]
+          "played": 9,
+          "won": 2,
+          "drawn": 1,
+          "lost": 6,
+          "gs": 8,
+          "gc": 16,
+          "gd": -8,
+          "pts": 7
         },
         {
           "position": 12,
           "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 15,
-          "won": 5,
+          "played": 7,
+          "won": 1,
           "drawn": 3,
-          "lost": 7,
-          "goals": "17-23",
-          "goal_difference": "-6",
-          "points": 18,
-          "form": [
-            "D",
-            "L",
-            "W",
-            "L",
-            "W"
-          ]
+          "lost": 3,
+          "gs": 5,
+          "gc": 10,
+          "gd": -5,
+          "pts": 6
         },
         {
           "position": 13,
           "team": {
-            "id": "165199",
-            "name": "Madura United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
+            "id": "583034",
+            "name": "Persis Solo",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
+            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 15,
-          "won": 4,
-          "drawn": 5,
+          "played": 9,
+          "won": 1,
+          "drawn": 2,
           "lost": 6,
-          "goals": "18-20",
-          "goal_difference": "-2",
-          "points": 17,
-          "form": [
-            "W",
-            "L",
-            "L",
-            "D",
-            "W"
-          ]
+          "gs": 7,
+          "gc": 17,
+          "gd": -10,
+          "pts": 5
         },
         {
           "position": 14,
           "team": {
-            "id": "585860",
-            "name": "Dewa United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860_xsmall.png",
-            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
           },
-          "played": 15,
-          "won": 5,
-          "drawn": 2,
-          "lost": 8,
-          "goals": "17-23",
-          "goal_difference": "-6",
-          "points": 17,
-          "form": [
-            "L",
-            "L",
-            "W",
-            "W",
-            "D"
-          ]
+          "played": 7,
+          "won": 1,
+          "drawn": 1,
+          "lost": 5,
+          "gs": 2,
+          "gc": 9,
+          "gd": -7,
+          "pts": 4
         },
         {
           "position": 15,
           "team": {
-            "id": "585877",
-            "name": "PSBS Biak Numfor",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877_xsmall.png",
-            "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
+            "id": "585860",
+            "name": "Dewa United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
+            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 15,
-          "won": 3,
-          "drawn": 4,
-          "lost": 8,
-          "goals": "15-32",
-          "goal_difference": "-17",
-          "points": 13,
-          "form": [
-            "W",
-            "L",
-            "W",
-            "L",
-            "D"
-          ]
+          "played": 6,
+          "won": 1,
+          "drawn": 1,
+          "lost": 4,
+          "gs": 2,
+          "gc": 10,
+          "gd": -8,
+          "pts": 4
         },
         {
           "position": 16,
           "team": {
-            "id": "215564",
-            "name": "Semen Padang",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564_xsmall.png",
-            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
           },
-          "played": 15,
-          "won": 3,
+          "played": 7,
+          "won": 1,
           "drawn": 1,
-          "lost": 11,
-          "goals": "11-25",
-          "goal_difference": "-14",
-          "points": 10,
-          "form": [
-            "L",
-            "W",
-            "L",
-            "W",
-            "L"
-          ]
+          "lost": 5,
+          "gs": 7,
+          "gc": 16,
+          "gd": -9,
+          "pts": 4
         },
         {
           "position": 17,
           "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+            "id": "585877",
+            "name": "PSBS Biak Numfor",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
+            "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 15,
-          "won": 2,
-          "drawn": 3,
-          "lost": 10,
-          "goals": "14-28",
-          "goal_difference": "-14",
-          "points": 9,
-          "form": [
-            "L",
-            "L",
-            "L",
-            "D",
-            "L"
-          ]
+          "played": 6,
+          "won": 1,
+          "drawn": 1,
+          "lost": 4,
+          "gs": 7,
+          "gc": 18,
+          "gd": -11,
+          "pts": 4
         },
         {
           "position": 18,
           "team": {
-            "id": "583034",
-            "name": "Persis Solo",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034_xsmall.png",
-            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
+            "id": "215564",
+            "name": "Semen Padang",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
+            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 15,
+          "played": 7,
           "won": 1,
-          "drawn": 4,
-          "lost": 10,
-          "goals": "16-33",
-          "goal_difference": "-17",
-          "points": 7,
-          "form": [
-            "D",
-            "D",
-            "L",
-            "L",
-            "L"
-          ]
+          "drawn": 0,
+          "lost": 6,
+          "gs": 4,
+          "gc": 14,
+          "gd": -10,
+          "pts": 3
         }
       ]
-    },
-    {
-      "name": "AFC Champions League Two",
-      "logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
-      "url": "https://www.fotmob.com/leagues/9469/overview/afc-champions-league-two",
-      "groups": [
-        {
-          "name": "Grp. A",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "102111",
-                "name": "Al-Wasl",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/102111_xsmall.png",
-                "url": "https://www.fotmob.com/teams/102111/overview/al-wasl"
-              },
-              "played": 6,
-              "won": 4,
-              "drawn": 2,
-              "lost": 0,
-              "goals": "15-6",
-              "goal_difference": "+9",
-              "points": 14,
-              "form": [
-                "W",
-                "W",
-                "D",
-                "D",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "101614",
-                "name": "Esteghlal",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101614_xsmall.png",
-                "url": "https://www.fotmob.com/teams/101614/overview/esteghlal"
-              },
-              "played": 6,
-              "won": 2,
-              "drawn": 2,
-              "lost": 2,
-              "goals": "8-10",
-              "goal_difference": "-2",
-              "points": 8,
-              "form": [
-                "L",
-                "W",
-                "D",
-                "D",
-                "W"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "101598",
-                "name": "Muharraq",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101598_xsmall.png",
-                "url": "https://www.fotmob.com/teams/101598/overview/muharraq"
-              },
-              "played": 6,
-              "won": 2,
-              "drawn": 1,
-              "lost": 3,
-              "goals": "8-8",
-              "goal_difference": "0",
-              "points": 7,
-              "form": [
-                "W",
-                "L",
-                "L",
-                "D",
-                "L"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "101690",
-                "name": "Al-Wehdat",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101690_xsmall.png",
-                "url": "https://www.fotmob.com/teams/101690/overview/al-wehdat"
-              },
-              "played": 6,
-              "won": 1,
-              "drawn": 1,
-              "lost": 4,
-              "goals": "5-12",
-              "goal_difference": "-7",
-              "points": 4,
-              "form": [
-                "L",
-                "L",
-                "W",
-                "D",
-                "L"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Grp. B",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "179097",
-                "name": "Al-Ahli",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/179097_xsmall.png",
-                "url": "https://www.fotmob.com/teams/179097/overview/al-ahli"
-              },
-              "played": 6,
-              "won": 2,
-              "drawn": 4,
-              "lost": 0,
-              "goals": "7-4",
-              "goal_difference": "+3",
-              "points": 10,
-              "form": [
-                "D",
-                "D",
-                "W",
-                "D",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "1689659",
-                "name": "Arkadag",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1689659_xsmall.png",
-                "url": "https://www.fotmob.com/teams/1689659/overview/arkadag"
-              },
-              "played": 6,
-              "won": 1,
-              "drawn": 4,
-              "lost": 1,
-              "goals": "5-6",
-              "goal_difference": "-1",
-              "points": 7,
-              "form": [
-                "L",
-                "D",
-                "D",
-                "D",
-                "W"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "1288463",
-                "name": "Al Khalidiyah",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1288463_xsmall.png",
-                "url": "https://www.fotmob.com/teams/1288463/overview/al-khalidiyah"
-              },
-              "played": 6,
-              "won": 1,
-              "drawn": 3,
-              "lost": 2,
-              "goals": "3-3",
-              "goal_difference": "0",
-              "points": 6,
-              "form": [
-                "W",
-                "D",
-                "L",
-                "D",
-                "L"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "102151",
-                "name": "Andijon",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/102151_xsmall.png",
-                "url": "https://www.fotmob.com/teams/102151/overview/andijon"
-              },
-              "played": 6,
-              "won": 0,
-              "drawn": 5,
-              "lost": 1,
-              "goals": "1-3",
-              "goal_difference": "-2",
-              "points": 5,
-              "form": [
-                "D",
-                "D",
-                "D",
-                "D",
-                "L"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Grp. C",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "101688",
-                "name": "Al-Hussein SC",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101688_xsmall.png",
-                "url": "https://www.fotmob.com/teams/101688/overview/al-hussein-sc"
-              },
-              "played": 4,
-              "won": 3,
-              "drawn": 0,
-              "lost": 1,
-              "goals": "8-4",
-              "goal_difference": "+4",
-              "points": 9,
-              "form": [
-                "W",
-                "W",
-                "L",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "101611",
-                "name": "Sepahan",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101611_xsmall.png",
-                "url": "https://www.fotmob.com/teams/101611/overview/sepahan"
-              },
-              "played": 4,
-              "won": 2,
-              "drawn": 1,
-              "lost": 1,
-              "goals": "5-3",
-              "goal_difference": "+2",
-              "points": 7,
-              "form": [
-                "L",
-                "W",
-                "D",
-                "W"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "617067",
-                "name": "Ahal",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/617067_xsmall.png",
-                "url": "https://www.fotmob.com/teams/617067/overview/ahal"
-              },
-              "played": 4,
-              "won": 0,
-              "drawn": 1,
-              "lost": 3,
-              "goals": "4-10",
-              "goal_difference": "-6",
-              "points": 1,
-              "form": [
-                "L",
-                "L",
-                "D",
-                "L"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "578651",
-                "name": "Mohun Bagan SG",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/578651_xsmall.png",
-                "url": "https://www.fotmob.com/teams/578651/overview/mohun-bagan-sg"
-              },
-              "played": 0,
-              "won": 0,
-              "drawn": 0,
-              "lost": 0,
-              "goals": "0-0",
-              "goal_difference": "0",
-              "points": 0,
-              "form": []
-            }
-          ]
-        },
-        {
-          "name": "Grp. D",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "101918",
-                "name": "Al Nassr FC",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101918_xsmall.png",
-                "url": "https://www.fotmob.com/teams/101918/overview/al-nassr-fc"
-              },
-              "played": 6,
-              "won": 6,
-              "drawn": 0,
-              "lost": 0,
-              "goals": "22-2",
-              "goal_difference": "+20",
-              "points": 18,
-              "form": [
-                "W",
-                "W",
-                "W",
-                "W",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "101659",
-                "name": "Al Zawraa",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/101659_xsmall.png",
-                "url": "https://www.fotmob.com/teams/101659/overview/al-zawraa"
-              },
-              "played": 6,
-              "won": 3,
-              "drawn": 0,
-              "lost": 3,
-              "goals": "8-11",
-              "goal_difference": "-3",
-              "points": 9,
-              "form": [
-                "L",
-                "L",
-                "W",
-                "W",
-                "L"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "606032",
-                "name": "FC Istiklol",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/606032_xsmall.png",
-                "url": "https://www.fotmob.com/teams/606032/overview/fc-istiklol"
-              },
-              "played": 6,
-              "won": 3,
-              "drawn": 0,
-              "lost": 3,
-              "goals": "7-13",
-              "goal_difference": "-6",
-              "points": 9,
-              "form": [
-                "W",
-                "W",
-                "L",
-                "L",
-                "W"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "578650",
-                "name": "FC Goa",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/578650_xsmall.png",
-                "url": "https://www.fotmob.com/teams/578650/overview/fc-goa"
-              },
-              "played": 6,
-              "won": 0,
-              "drawn": 0,
-              "lost": 6,
-              "goals": "3-14",
-              "goal_difference": "-11",
-              "points": 0,
-              "form": [
-                "L",
-                "L",
-                "L",
-                "L",
-                "L"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Grp. E",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "1209973",
-                "name": "Macarthur FC",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1209973_xsmall.png",
-                "url": "https://www.fotmob.com/teams/1209973/overview/macarthur-fc"
-              },
-              "played": 6,
-              "won": 4,
-              "drawn": 1,
-              "lost": 1,
-              "goals": "11-6",
-              "goal_difference": "+5",
-              "points": 13,
-              "form": [
-                "W",
-                "D",
-                "W",
-                "W",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "614354",
-                "name": "Cong An Ha Noi",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/614354_xsmall.png",
-                "url": "https://www.fotmob.com/teams/614354/overview/cong-ha-noi"
-              },
-              "played": 6,
-              "won": 2,
-              "drawn": 2,
-              "lost": 2,
-              "goals": "9-7",
-              "goal_difference": "+2",
-              "points": 8,
-              "form": [
-                "W",
-                "D",
-                "L",
-                "W",
-                "L"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "165169",
-                "name": "Tai Po",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165169_xsmall.png",
-                "url": "https://www.fotmob.com/teams/165169/overview/tai-po"
-              },
-              "played": 6,
-              "won": 2,
-              "drawn": 1,
-              "lost": 3,
-              "goals": "7-12",
-              "goal_difference": "-5",
-              "points": 7,
-              "form": [
-                "L",
-                "D",
-                "L",
-                "L",
-                "W"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "4177",
-                "name": "Beijing Guoan",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/4177_xsmall.png",
-                "url": "https://www.fotmob.com/teams/4177/overview/beijing-guoan"
-              },
-              "played": 6,
-              "won": 1,
-              "drawn": 2,
-              "lost": 3,
-              "goals": "10-12",
-              "goal_difference": "-2",
-              "points": 5,
-              "form": [
-                "L",
-                "D",
-                "W",
-                "L",
-                "L"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Grp. F",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "6582",
-                "name": "Gamba Osaka",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6582_xsmall.png",
-                "url": "https://www.fotmob.com/teams/6582/overview/gamba-osaka"
-              },
-              "played": 6,
-              "won": 6,
-              "drawn": 0,
-              "lost": 0,
-              "goals": "16-2",
-              "goal_difference": "+14",
-              "points": 18,
-              "form": [
-                "W",
-                "W",
-                "W",
-                "W",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "421346",
-                "name": "Ratchaburi FC",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/421346_xsmall.png",
-                "url": "https://www.fotmob.com/teams/421346/overview/ratchaburi-fc"
-              },
-              "played": 6,
-              "won": 3,
-              "drawn": 0,
-              "lost": 3,
-              "goals": "15-8",
-              "goal_difference": "+7",
-              "points": 9,
-              "form": [
-                "L",
-                "W",
-                "W",
-                "W",
-                "L"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "109375",
-                "name": "Nam Dinh",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/109375_xsmall.png",
-                "url": "https://www.fotmob.com/teams/109375/overview/nam-dinh"
-              },
-              "played": 6,
-              "won": 3,
-              "drawn": 0,
-              "lost": 3,
-              "goals": "14-7",
-              "goal_difference": "+7",
-              "points": 9,
-              "form": [
-                "W",
-                "L",
-                "L",
-                "L",
-                "W"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "165172",
-                "name": "Eastern Sports Club",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165172_xsmall.png",
-                "url": "https://www.fotmob.com/teams/165172/overview/eastern-sports-club"
-              },
-              "played": 6,
-              "won": 0,
-              "drawn": 0,
-              "lost": 6,
-              "goals": "2-30",
-              "goal_difference": "-28",
-              "points": 0,
-              "form": [
-                "L",
-                "L",
-                "L",
-                "L",
-                "L"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Grp. G",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "165196",
-                "name": "Persib Bandung",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
-                "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
-              },
-              "played": 6,
-              "won": 4,
-              "drawn": 1,
-              "lost": 1,
-              "goals": "11-6",
-              "goal_difference": "+5",
-              "points": 13,
-              "form": [
-                "W",
-                "W",
-                "W",
-                "L",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "102231",
-                "name": "Bangkok United",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/102231_xsmall.png",
-                "url": "https://www.fotmob.com/teams/102231/overview/bangkok-united"
-              },
-              "played": 6,
-              "won": 3,
-              "drawn": 1,
-              "lost": 2,
-              "goals": "8-7",
-              "goal_difference": "+1",
-              "points": 10,
-              "form": [
-                "L",
-                "W",
-                "W",
-                "D",
-                "L"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "67366",
-                "name": "Lion City Sailors FC",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/67366_xsmall.png",
-                "url": "https://www.fotmob.com/teams/67366/overview/lion-city-sailors-fc"
-              },
-              "played": 6,
-              "won": 3,
-              "drawn": 1,
-              "lost": 2,
-              "goals": "10-8",
-              "goal_difference": "+2",
-              "points": 10,
-              "form": [
-                "W",
-                "L",
-                "L",
-                "W",
-                "W"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "165223",
-                "name": "Selangor",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165223_xsmall.png",
-                "url": "https://www.fotmob.com/teams/165223/overview/selangor"
-              },
-              "played": 6,
-              "won": 0,
-              "drawn": 1,
-              "lost": 5,
-              "goals": "7-15",
-              "goal_difference": "-8",
-              "points": 1,
-              "form": [
-                "L",
-                "L",
-                "L",
-                "D",
-                "L"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Grp. H",
-          "teams": [
-            {
-              "position": 1,
-              "team": {
-                "id": "67386",
-                "name": "Tampines Rovers FC",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/67386_xsmall.png",
-                "url": "https://www.fotmob.com/teams/67386/overview/tampines-rovers-fc"
-              },
-              "played": 6,
-              "won": 5,
-              "drawn": 1,
-              "lost": 0,
-              "goals": "14-5",
-              "goal_difference": "+9",
-              "points": 16,
-              "form": [
-                "W",
-                "W",
-                "D",
-                "W",
-                "W"
-              ]
-            },
-            {
-              "position": 2,
-              "team": {
-                "id": "109373",
-                "name": "Pohang Steelers",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/109373_xsmall.png",
-                "url": "https://www.fotmob.com/teams/109373/overview/pohang-steelers"
-              },
-              "played": 6,
-              "won": 4,
-              "drawn": 1,
-              "lost": 1,
-              "goals": "7-2",
-              "goal_difference": "+5",
-              "points": 13,
-              "form": [
-                "W",
-                "L",
-                "D",
-                "W",
-                "W"
-              ]
-            },
-            {
-              "position": 3,
-              "team": {
-                "id": "165250",
-                "name": "BG Pathum United",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165250_xsmall.png",
-                "url": "https://www.fotmob.com/teams/165250/overview/bg-pathum-united"
-              },
-              "played": 6,
-              "won": 2,
-              "drawn": 0,
-              "lost": 4,
-              "goals": "5-8",
-              "goal_difference": "-3",
-              "points": 6,
-              "form": [
-                "L",
-                "W",
-                "W",
-                "L",
-                "L"
-              ]
-            },
-            {
-              "position": 4,
-              "team": {
-                "id": "612493",
-                "name": "Kaya FC",
-                "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/612493_xsmall.png",
-                "url": "https://www.fotmob.com/teams/612493/overview/kaya-fc"
-              },
-              "played": 6,
-              "won": 0,
-              "drawn": 0,
-              "lost": 6,
-              "goals": "4-15",
-              "goal_difference": "-11",
-              "points": 0,
-              "form": [
-                "L",
-                "L",
-                "L",
-                "L",
-                "L"
-              ]
-            }
-          ]
-        }
-      ],
-      "teams": []
     }
   ]
 }

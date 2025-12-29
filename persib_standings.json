@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-12-29T15:21:24.868211",
+  "scraped_at": "2025-12-29T22:39:28.032149",
   "team": "Persib Bandung",
   "standings": [
     {
@@ -10,49 +10,17 @@
       "team": {
         "id": "165196",
         "name": "Persib Bandung",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
       },
       "played": 15,
       "won": 11,
       "drawn": 1,
       "lost": 3,
-      "goals": "25-10",
-      "goal_difference": "+15",
-      "points": 34,
-      "form": [
-        "W",
-        "W",
-        "L",
-        "W",
-        "W"
-      ]
-    },
-    {
-      "league": "AFC Champions League Two",
-      "group": "Grp. G",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
-      "position": 1,
-      "team": {
-        "id": "165196",
-        "name": "Persib Bandung",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png",
-        "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
-      },
-      "played": 6,
-      "won": 4,
-      "drawn": 1,
-      "lost": 1,
-      "goals": "11-6",
-      "goal_difference": "+5",
-      "points": 13,
-      "form": [
-        "W",
-        "W",
-        "W",
-        "L",
-        "W"
-      ]
+      "gs": 25,
+      "gc": 10,
+      "gd": 15,
+      "pts": 34
     }
   ]
 }

@@ -86,76 +86,59 @@ def fetch_with_playwright(url: str, wait_selector: Optional[str] = None) -> str:
 
 # --- Parsing Functions (Robust logic) ---
 
-def parse_standings_from_html(html_content: str) -> dict:
-    soup = BeautifulSoup(html_content, 'html.parser')
+def parse_standings_from_api(api_data: dict, table_type: str = "all") -> dict:
+    """Parse standings from FotMob Team API response."""
     standings = {"scraped_at": datetime.now().isoformat(), "leagues": []}
-    containers = soup.select('article[class*="TableContainer"]')
-    if not containers:
-        containers = soup.find_all('article', class_=lambda x: x and 'TableContainer' in x)
+    
+    if "table" not in api_data or not api_data["table"]:
+        return standings
         
-    for container in containers:
-        header = container.find('header')
-        if not header: continue
-        league_name_elem = header.find('h3')
-        league_name = re.sub(r'\s+\d{4}/\d{4}$', '', league_name_elem.get_text(strip=True)) if league_name_elem else "Unknown League"
-        league_link = header.find('a')
-        league_logo = league_link.find('img')['src'] if league_link and league_link.find('img') else None
-        league_url = f"https://www.fotmob.com{league_link['href']}" if league_link else None
+    for table_entry in api_data["table"]:
+        data = table_entry.get("data", {})
+        league_name = data.get("leagueName", "Unknown League")
+        league_id = data.get("leagueId")
+        league_url = f"https://www.fotmob.com{data.get('pageUrl')}" if data.get('pageUrl') else None
+        league_logo = f"https://images.fotmob.com/image_resources/logo/leaguelogo/{league_id}.png" if league_id else None
         
-        league_data = {"name": league_name, "logo": league_logo, "url": league_url, "groups": [], "teams": []}
+        league_data = {
+            "name": league_name,
+            "logo": league_logo,
+            "url": league_url,
+            "groups": [],
+            "teams": []
+        }
         
-        sub_tables = container.select('section[class*="SubTable"]')
-        if sub_tables:
-            for sub_table in sub_tables:
-                group_name_elem = sub_table.find('a', class_=re.compile(r'SubTableHeader', re.I))
-                group_name = group_name_elem.get_text(strip=True) if group_name_elem else "Unknown Group"
-                league_data["groups"].append({"name": group_name, "teams": parse_table_rows(sub_table)})
-        else:
-            league_data["teams"] = parse_table_rows(container)
+        # Get the specific table (all, home, away)
+        table_obj = data.get("table", {})
+        rows = table_obj.get(table_type, [])
         
-        if league_data["teams"] or league_data["groups"]:
+        for row in rows:
+            scores = row.get("scoresStr", "0-0").split("-")
+            gs = int(scores[0]) if len(scores) > 0 else 0
+            gc = int(scores[1]) if len(scores) > 1 else 0
+            
+            league_data["teams"].append({
+                "position": row.get("idx"),
+                "team": {
+                    "id": str(row.get("id")),
+                    "name": row.get("name"),
+                    "logo": f"https://images.fotmob.com/image_resources/logo/teamlogo/{row.get('id')}.png",
+                    "url": f"https://www.fotmob.com{row.get('pageUrl')}" if row.get('pageUrl') else None
+                },
+                "played": row.get("played", 0),
+                "won": row.get("wins", 0),
+                "drawn": row.get("draws", 0),
+                "lost": row.get("losses", 0),
+                "gs": gs,
+                "gc": gc,
+                "gd": row.get("goalConDiff", 0),
+                "pts": row.get("pts", 0)
+            })
+            
+        if league_data["teams"]:
             standings["leagues"].append(league_data)
             
     return standings
-
-def parse_table_rows(container) -> List[Dict]:
-    teams = []
-    rows = container.select('div[class*="TableRow"]')
-    for row in rows:
-        try:
-            pos_elem = row.select_one('div[class*="PositionCell"]')
-            position = int(pos_elem.get_text(strip=True)) if pos_elem else 0
-            team_cell = row.select_one('div[class*="TeamCell"]')
-            team_name = team_logo = team_url = team_id = ""
-            if team_cell:
-                team_link = team_cell.find('a')
-                if team_link:
-                    team_url = team_link['href']
-                    match = re.search(r'/teams/(\d+)/', team_url)
-                    team_id = match.group(1) if match else ""
-                team_name_elem = team_cell.select_one('span[class*="TeamName"]')
-                team_name = team_name_elem.get_text(strip=True) if team_name_elem else ""
-                team_logo_elem = team_cell.find('img')
-                team_logo = team_logo_elem['src'] if team_logo_elem else ""
-            
-            cells = row.select('div[class*="TableCell"]:not([class*="TeamCell"]):not([class*="PositionCell"])')
-            stats = [cell.get_text(strip=True) for cell in cells]
-            form = [item.get_text(strip=True) for item in row.select('section[class*="SingleTeamForm"] a')]
-            
-            teams.append({
-                "position": position,
-                "team": {"id": team_id, "name": team_name, "logo": team_logo, "url": f"https://www.fotmob.com{team_url}" if team_url else None},
-                "played": int(stats[0]) if stats and stats[0].isdigit() else 0,
-                "won": int(stats[1]) if len(stats)>1 and stats[1].isdigit() else 0,
-                "drawn": int(stats[2]) if len(stats)>2 and stats[2].isdigit() else 0,
-                "lost": int(stats[3]) if len(stats)>3 and stats[3].isdigit() else 0,
-                "goals": stats[4] if len(stats)>4 else "0-0",
-                "goal_difference": stats[5] if len(stats)>5 else "0",
-                "points": int(stats[6]) if len(stats)>6 and stats[6].isdigit() else 0,
-                "form": form
-            })
-        except: continue
-    return teams
 
 def extract_persib_standings(standings: dict) -> dict:
     persib_data = {"scraped_at": standings.get("scraped_at"), "team": "Persib Bandung", "standings": []}
@@ -369,42 +352,31 @@ def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = 
 # --- Main Logic ---
 
 def main():
-    # 1. Fetch HTML and Save Snipets (for Table and Fixtures)
+    # 1. Fetch HTML Snipets (only for Fixtures now)
     html_tasks = [
-        {"id": "table-all", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/table/persib-bandung?filter=all", "sel": 'article[class*="TableContainer"]'},
-        {"id": "table-home", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/table/persib-bandung?filter=home", "sel": 'article[class*="TableContainer"]'},
-        {"id": "table-away", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/table/persib-bandung?filter=away", "sel": 'article[class*="TableContainer"]'},
         {"id": "fixtures", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/fixtures/persib-bandung", "sel": 'section[class*="FixturesContainer"], div[class*="FixDiffContainer"], section[class*="NextMatchBox"], section[class*="NextMatchSection"]'},
     ]
     
     for t in html_tasks:
-        if t["id"] == "fixtures":
-            # Use Playwright for fixtures to get dynamic content
-            html = fetch_with_playwright(t["url"], wait_selector='section[class*="NextMatchBoxCSS"]')
-        else:
-            # Use standard requests for tables (static)
-            html = fetch_content(t["url"])
-            
+        # Use Playwright for fixtures to get dynamic content
+        html = fetch_with_playwright(t["url"], wait_selector='section[class*="NextMatchBoxCSS"]')
         if not html: continue
-        
-        # Save full HTML for fixtures to avoid missing dynamic content
-        if t["id"] == "fixtures":
-            save_to_txt(PLAN_DIR / f"{t['id']}.txt", t["url"], html)
-            continue
-            
-        soup = BeautifulSoup(html, 'html.parser')
-        snippet = ""
-        selectors = t["sel"].split(', ')
-        for sel in selectors:
-            elems = soup.select(sel)
-            for el in elems:
-                snippet += el.prettify() + "\n"
-        
-        if not snippet:
-             snippet = html # Fallback to full HTML if selector fails
-        save_to_txt(PLAN_DIR / f"{t['id']}.txt", t["url"], snippet)
+        save_to_txt(PLAN_DIR / f"{t['id']}.txt", t["url"], html)
 
-    # 2. Fetch JSON Stats directly from FotMob Data API
+    # 2. Fetch Team API directly (for standings)
+    print("Fetching Team API data...")
+    team_api_url = f"https://www.fotmob.com/api/teams?id={TEAM_ID}"
+    team_api_data = {}
+    try:
+        resp = requests.get(team_api_url, headers=HEADERS, timeout=30)
+        if resp.status_code == 200:
+            team_api_data = resp.json()
+        else:
+            print(f"  Failed to fetch Team API: {resp.status_code}")
+    except Exception as e:
+        print(f"  Error fetching Team API: {e}")
+
+    # 3. Fetch Player JSON Stats
     api_stats_tasks = {
         "goals": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/goals.json",
         "assists": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/goal_assist.json",
@@ -413,23 +385,18 @@ def main():
         "red_cards": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/red_card.json",
     }
     
-    # 3. Parsing
+    # 4. Parsing
     print("\nParsing data to JSON...")
     
-    # Standings
-    h_all = load_html_from_file(PLAN_DIR / "table-all.txt")
-    if h_all:
-        all_s = parse_standings_from_html(h_all)
-        save_to_json(all_s, "standings_all.json")
-        save_to_json(extract_persib_standings(all_s), "persib_standings.json")
+    # Standings (from API)
+    if team_api_data:
+        for t_type in ["all", "home", "away"]:
+            s_data = parse_standings_from_api(team_api_data, t_type)
+            save_to_json(s_data, f"standings_{t_type}.json")
+            if t_type == "all":
+                save_to_json(extract_persib_standings(s_data), "persib_standings.json")
     
-    h_home = load_html_from_file(PLAN_DIR / "table-home.txt")
-    if h_home: save_to_json(parse_standings_from_html(h_home), "standings_home.json")
-    
-    h_away = load_html_from_file(PLAN_DIR / "table-away.txt")
-    if h_away: save_to_json(parse_standings_from_html(h_away), "standings_away.json")
-    
-    # Fixtures
+    # Fixtures (from HTML)
     h_fix = load_html_from_file(PLAN_DIR / "fixtures.txt")
     if h_fix: save_to_json(parse_fixtures_from_html(h_fix), "fixtures.json")
     
