@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-12-29T12:41:45.654619",
+  "scraped_at": "2025-12-29T13:36:17.265362",
   "leagues": [
     {
       "name": "Super League 2025/2026",
@@ -94,6 +94,48 @@
         {
           "position": 3,
           "team": {
+            "id": "165191",
+            "name": "Persija Jakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191_xsmall.png",
+            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
+          },
+          "played": 0,
+          "won": 15,
+          "drawn": 10,
+          "lost": 2,
+          "goals": "3",
+          "goal_difference": "29-13",
+          "points": 0,
+          "form": [
+            {
+              "result": "W",
+              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-psbs-biak-numfor/3lkmsmbv#4879836"
+            },
+            {
+              "result": "W",
+              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-arema/p2n6qzo#4879847"
+            },
+            {
+              "result": "W",
+              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persik/p2mli73#4879854"
+            },
+            {
+              "result": "W",
+              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-psim-yogyakarta/3lkapzbv#4879865"
+            },
+            {
+              "result": "L",
+              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-semen-padang/xat8n56#4879877"
+            }
+          ],
+          "next_match": {
+            "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persijap-jepara/p2m09er#4879881",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png"
+          }
+        },
+        {
+          "position": 4,
+          "team": {
             "id": "1665351",
             "name": "Malut United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351_xsmall.png",
@@ -131,48 +173,6 @@
           "next_match": {
             "match_url": "https://www.fotmob.com/matches/psbs-biak-numfor-vs-malut-united/wc3zdqtn#4879886",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png"
-          }
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": "165191",
-            "name": "Persija Jakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191_xsmall.png",
-            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
-          },
-          "played": 0,
-          "won": 15,
-          "drawn": 9,
-          "lost": 3,
-          "goals": "3",
-          "goal_difference": "27-13",
-          "points": 0,
-          "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-psbs-biak-numfor/3lkmsmbv#4879836"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-arema/p2n6qzo#4879847"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persik/p2mli73#4879854"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-psim-yogyakarta/3lkapzbv#4879865"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-semen-padang/xat8n56#4879877"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persijap-jepara/p2m09er#4879881",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png"
           }
         },
         {
@@ -346,48 +346,6 @@
         {
           "position": 9,
           "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749_xsmall.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 0,
-          "won": 15,
-          "drawn": 5,
-          "lost": 5,
-          "goals": "5",
-          "goal_difference": "12-11",
-          "points": 0,
-          "form": [
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-bhayangkara-presisi-indonesia-fc/sai5q07#4879901"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-bali-united-fc/vp8oph1#4879845"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-psim-yogyakarta/3sr5238y#4879859"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-persebaya-surabaya/7y7v4y2g#4879864"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4879875"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-dewa-united-fc/3sr9ngzt#4879887",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png"
-          }
-        },
-        {
-          "position": 10,
-          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198_xsmall.png",
@@ -425,6 +383,48 @@
           "next_match": {
             "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-borneo-samarinda/3lkhfg16#4879880",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png"
+          }
+        },
+        {
+          "position": 10,
+          "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749_xsmall.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 0,
+          "won": 15,
+          "drawn": 5,
+          "lost": 4,
+          "goals": "6",
+          "goal_difference": "12-13",
+          "points": 0,
+          "form": [
+            {
+              "result": "D",
+              "match_url": "https://www.fotmob.com/matches/persita-vs-bhayangkara-presisi-indonesia-fc/sai5q07#4879901"
+            },
+            {
+              "result": "W",
+              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-bali-united-fc/vp8oph1#4879845"
+            },
+            {
+              "result": "L",
+              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-psim-yogyakarta/3sr5238y#4879859"
+            },
+            {
+              "result": "D",
+              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-persebaya-surabaya/7y7v4y2g#4879864"
+            },
+            {
+              "result": "L",
+              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4879875"
+            }
+          ],
+          "next_match": {
+            "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-dewa-united-fc/3sr9ngzt#4879887",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png"
           }
         },
         {
