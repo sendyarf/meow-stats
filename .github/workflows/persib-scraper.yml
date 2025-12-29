@@ -38,6 +38,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update Persib data [skip ci]"
+            git commit -m "Update Persib data"
             git push
           fi
