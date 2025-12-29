@@ -1,8 +1,8 @@
 {
-  "scraped_at": "2025-12-29T14:20:15.001833",
+  "scraped_at": "2025-12-29T22:11:59.635138",
   "leagues": [
     {
-      "name": "Super League 2025/2026",
+      "name": "Super League",
       "logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
       "url": "https://www.fotmob.com/leagues/8983/overview/super-league",
       "groups": [],
@@ -23,31 +23,12 @@
           "goal_difference": "+15",
           "points": 34,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-madura-united/p2nz2q1#4879870"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879779"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879852"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4879875"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-psm-makassar/p2nrzsd#4879816"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879888",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png"
-          }
+            "W",
+            "W",
+            "L",
+            "W",
+            "W"
+          ]
         },
         {
           "position": 2,
@@ -65,31 +46,12 @@
           "goal_difference": "+16",
           "points": 34,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/madura-united-vs-borneo-samarinda/3lkhvjjv#4879858"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-borneo-samarinda/3sr9ngzr#4879869"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879779"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/borneo-samarinda-vs-persebaya-surabaya/eo63vqjx#4879872"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/borneo-samarinda-vs-malut-united/wc39wytr#4879813"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-borneo-samarinda/3lkhfg16#4879880",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png"
-          }
+            "W",
+            "L",
+            "L",
+            "D",
+            "L"
+          ]
         },
         {
           "position": 3,
@@ -107,31 +69,12 @@
           "goal_difference": "+17",
           "points": 32,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-arema/p2n6qzo#4879847"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persik/p2mli73#4879854"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-psim-yogyakarta/3lkapzbv#4879865"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-semen-padang/xat8n56#4879877"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-bhayangkara-presisi-indonesia-fc/saf0w3v#4879812"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persijap-jepara/p2m09er#4879881",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png"
-          }
+            "W",
+            "W",
+            "W",
+            "L",
+            "W"
+          ]
         },
         {
           "position": 4,
@@ -149,31 +92,12 @@
           "goal_difference": "+11",
           "points": 31,
           "form": [
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-malut-united/ldp8sofu#4879860"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/arema-vs-malut-united/ldp299nf#4879868"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879852"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-malut-united/ldp02sq6#4879874"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/borneo-samarinda-vs-malut-united/wc39wytr#4879813"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/psbs-biak-numfor-vs-malut-united/wc3zdqtn#4879886",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png"
-          }
+            "D",
+            "D",
+            "W",
+            "W",
+            "W"
+          ]
         },
         {
           "position": 5,
@@ -191,31 +115,12 @@
           "goal_difference": "+1",
           "points": 24,
           "form": [
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persis-solo-vs-psim-yogyakarta/8ptzj7i4#4879848"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-psim-yogyakarta/3sr5238y#4879859"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-psim-yogyakarta/3lkapzbv#4879865"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-psim-yogyakarta/3lkc29us#4879879"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/psim-yogyakarta-vs-psbs-biak-numfor/8rd0g80d#4879808"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/semen-padang-vs-psim-yogyakarta/43iyeocv#4879884",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png"
-          }
+            "D",
+            "W",
+            "L",
+            "D",
+            "D"
+          ]
         },
         {
           "position": 6,
@@ -233,31 +138,12 @@
           "goal_difference": "+6",
           "points": 22,
           "form": [
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/arema-vs-persebaya-surabaya/7nrzyay0#4879855"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-persebaya-surabaya/7y7v4y2g#4879864"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-persebaya-surabaya/7nrync0f#4879778"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/borneo-samarinda-vs-persebaya-surabaya/eo63vqjx#4879872"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-persebaya-surabaya/7nrw1e5l#4879814"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/madura-united-vs-persebaya-surabaya/7nrzath7#4879882",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png"
-          }
+            "D",
+            "D",
+            "D",
+            "D",
+            "W"
+          ]
         },
         {
           "position": 7,
@@ -275,31 +161,12 @@
           "goal_difference": "+5",
           "points": 22,
           "form": [
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-bhayangkara-presisi-indonesia-fc/sai5q07#4879901"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-psbs-biak-numfor/3lkti3c7#4879844"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-malut-united/ldp8sofu#4879860"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-dewa-united-fc/3lklwf9f#4879867"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persik-vs-persita/p2pjq8c#4879873"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/arema-vs-persita/p2q4z23#4879815",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png"
-          }
+            "D",
+            "L",
+            "D",
+            "L",
+            "W"
+          ]
         },
         {
           "position": 8,
@@ -317,31 +184,12 @@
           "goal_difference": "+1",
           "points": 21,
           "form": [
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-bali-united-fc/vp8oph1#4879845"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-persis-solo/3rraosyb#4879861"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-borneo-samarinda/3sr9ngzr#4879869"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-psbs-biak-numfor/3sridpbn#4879876"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-dewa-united-fc/3srakjr2#4879809"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/arema-vs-bali-united-fc/sahbmtf#4879885",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png"
-          }
+            "L",
+            "D",
+            "W",
+            "W",
+            "D"
+          ]
         },
         {
           "position": 9,
@@ -359,31 +207,12 @@
           "goal_difference": "+5",
           "points": 19,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-psbs-biak-numfor/3lkpxb1n#4879856"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-persis-solo/3klh0t8e#4879866"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-persebaya-surabaya/7nrync0f#4879778"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-malut-united/ldp02sq6#4879874"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-psm-makassar/p2nrzsd#4879816"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-borneo-samarinda/3lkhfg16#4879880",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png"
-          }
+            "W",
+            "W",
+            "D",
+            "L",
+            "L"
+          ]
         },
         {
           "position": 10,
@@ -401,31 +230,12 @@
           "goal_difference": "-2",
           "points": 19,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-bali-united-fc/vp8oph1#4879845"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-psim-yogyakarta/3sr5238y#4879859"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-persebaya-surabaya/7y7v4y2g#4879864"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4879875"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-bhayangkara-presisi-indonesia-fc/saf0w3v#4879812"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-dewa-united-fc/3sr9ngzt#4879887",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png"
-          }
+            "W",
+            "L",
+            "D",
+            "L",
+            "L"
+          ]
         },
         {
           "position": 11,
@@ -443,31 +253,12 @@
           "goal_difference": "+1",
           "points": 18,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/arema-vs-semen-padang/xava3b6#4879842"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-arema/p2n6qzo#4879847"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/arema-vs-persebaya-surabaya/7nrzyay0#4879855"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/arema-vs-malut-united/ldp299nf#4879868"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/madura-united-vs-arema/p2oregw#4879878"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/arema-vs-persita/p2q4z23#4879815",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png"
-          }
+            "W",
+            "L",
+            "D",
+            "D",
+            "D"
+          ]
         },
         {
           "position": 12,
@@ -485,31 +276,12 @@
           "goal_difference": "-6",
           "points": 18,
           "form": [
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persik-vs-persebaya-surabaya/7nrxzujo#4879846"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persik/p2mli73#4879854"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persik-vs-semen-padang/xaullwx#4879863"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persik-vs-persita/p2pjq8c#4879873"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persik-vs-persis-solo/3klgkrw6#4879810"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879888",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png"
-          }
+            "D",
+            "L",
+            "W",
+            "L",
+            "W"
+          ]
         },
         {
           "position": 13,
@@ -527,31 +299,12 @@
           "goal_difference": "-2",
           "points": 17,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-madura-united/p2nkwus#4879851"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/madura-united-vs-borneo-samarinda/3lkhvjjv#4879858"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-madura-united/p2nz2q1#4879870"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/madura-united-vs-arema/p2oregw#4879878"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/madura-united-vs-semen-padang/xav1xie#4879811"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/madura-united-vs-persebaya-surabaya/7nrzath7#4879882",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png"
-          }
+            "W",
+            "L",
+            "L",
+            "D",
+            "W"
+          ]
         },
         {
           "position": 14,
@@ -569,31 +322,12 @@
           "goal_difference": "-6",
           "points": 17,
           "form": [
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-dewa-united-fc/3lkibn2n#4879849"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-dewa-united-fc/3lkhfg18#4879857"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-dewa-united-fc/3lklwf9f#4879867"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persis-solo-vs-dewa-united-fc/8pu6hqpx#4879871"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-dewa-united-fc/3srakjr2#4879809"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/bhayangkara-presisi-indonesia-fc-vs-dewa-united-fc/3sr9ngzt#4879887",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png"
-          }
+            "L",
+            "L",
+            "W",
+            "W",
+            "D"
+          ]
         },
         {
           "position": 15,
@@ -611,31 +345,12 @@
           "goal_difference": "-17",
           "points": 13,
           "form": [
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persita-vs-psbs-biak-numfor/3lkti3c7#4879844"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-psbs-biak-numfor/3lkpxb1n#4879856"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-psbs-biak-numfor/3lko4wx1#4879862"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-psbs-biak-numfor/3sridpbn#4879876"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/psim-yogyakarta-vs-psbs-biak-numfor/8rd0g80d#4879808"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/psbs-biak-numfor-vs-malut-united/wc3zdqtn#4879886",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png"
-          }
+            "W",
+            "L",
+            "W",
+            "L",
+            "D"
+          ]
         },
         {
           "position": 16,
@@ -653,31 +368,12 @@
           "goal_difference": "-14",
           "points": 10,
           "form": [
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/semen-padang-vs-borneo-samarinda/43j283e3#4879850"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-semen-padang/xatx4ix#4879853"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persik-vs-semen-padang/xaullwx#4879863"
-            },
-            {
-              "result": "W",
-              "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-semen-padang/xat8n56#4879877"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/madura-united-vs-semen-padang/xav1xie#4879811"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/semen-padang-vs-psim-yogyakarta/43iyeocv#4879884",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png"
-          }
+            "L",
+            "W",
+            "L",
+            "W",
+            "L"
+          ]
         },
         {
           "position": 17,
@@ -695,31 +391,12 @@
           "goal_difference": "-14",
           "points": 9,
           "form": [
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-madura-united/p2nkwus#4879851"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-semen-padang/xatx4ix#4879853"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-psbs-biak-numfor/3lko4wx1#4879862"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-psim-yogyakarta/3lkc29us#4879879"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persijap-jepara-vs-persebaya-surabaya/7nrw1e5l#4879814"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/persija-jakarta-vs-persijap-jepara/p2m09er#4879881",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png"
-          }
+            "L",
+            "L",
+            "L",
+            "D",
+            "L"
+          ]
         },
         {
           "position": 18,
@@ -737,36 +414,17 @@
           "goal_difference": "-17",
           "points": 7,
           "form": [
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/persis-solo-vs-psim-yogyakarta/8ptzj7i4#4879848"
-            },
-            {
-              "result": "D",
-              "match_url": "https://www.fotmob.com/matches/bali-united-fc-vs-persis-solo/3rraosyb#4879861"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/psm-makassar-vs-persis-solo/3klh0t8e#4879866"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persis-solo-vs-dewa-united-fc/8pu6hqpx#4879871"
-            },
-            {
-              "result": "L",
-              "match_url": "https://www.fotmob.com/matches/persik-vs-persis-solo/3klgkrw6#4879810"
-            }
-          ],
-          "next_match": {
-            "match_url": "https://www.fotmob.com/matches/persita-vs-persis-solo/3klkl3z6#4879883",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png"
-          }
+            "D",
+            "D",
+            "L",
+            "L",
+            "L"
+          ]
         }
       ]
     },
     {
-      "name": "AFC Champions League Two 2025/2026",
+      "name": "AFC Champions League Two",
       "logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "url": "https://www.fotmob.com/leagues/9469/overview/afc-champions-league-two",
       "groups": [
@@ -789,28 +447,12 @@
               "goal_difference": "+9",
               "points": 14,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-wehdat-vs-al-wasl/9jgic6c#4933485"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-al-wasl/9j5ck1u#4933488"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-al-wasl/9j5ck1u#4933491"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/esteghlal-vs-al-wasl/9j7af2y#4933490"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-wehdat-vs-al-wasl/9jgic6c#4933493"
-                }
-              ],
-              "next_match": null
+                "W",
+                "W",
+                "D",
+                "D",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -828,28 +470,12 @@
               "goal_difference": "-2",
               "points": 8,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-esteghlal/9hh56vw#4933486"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/esteghlal-vs-al-wehdat/9hs9zse#4933487"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/esteghlal-vs-al-wehdat/9hs9zse#4933492"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/esteghlal-vs-al-wasl/9j7af2y#4933490"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-esteghlal/9hh56vw#4933494"
-                }
-              ],
-              "next_match": null
+                "L",
+                "W",
+                "D",
+                "D",
+                "W"
+              ]
             },
             {
               "position": 3,
@@ -867,28 +493,12 @@
               "goal_difference": "0",
               "points": 7,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-esteghlal/9hh56vw#4933486"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-al-wasl/9j5ck1u#4933488"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-al-wehdat/9hqc9ye#4933489"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-al-wasl/9j5ck1u#4933491"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-esteghlal/9hh56vw#4933494"
-                }
-              ],
-              "next_match": null
+                "W",
+                "L",
+                "L",
+                "D",
+                "L"
+              ]
             },
             {
               "position": 4,
@@ -906,28 +516,12 @@
               "goal_difference": "-7",
               "points": 4,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-wehdat-vs-al-wasl/9jgic6c#4933485"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/esteghlal-vs-al-wehdat/9hs9zse#4933487"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/muharraq-vs-al-wehdat/9hqc9ye#4933489"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/esteghlal-vs-al-wehdat/9hs9zse#4933492"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-wehdat-vs-al-wasl/9jgic6c#4933493"
-                }
-              ],
-              "next_match": null
+                "L",
+                "L",
+                "W",
+                "D",
+                "L"
+              ]
             }
           ]
         },
@@ -950,28 +544,12 @@
               "goal_difference": "+3",
               "points": 10,
               "form": [
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-ahli/i63dasp#4933509"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/al-ahli-vs-arkadag/ma5q3pe3#4933512"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-ahli-vs-al-khalidiyah/dqpev099#4933513"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/al-ahli-vs-arkadag/ma5q3pe3#4933515"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-ahli/i63dasp#4933517"
-                }
-              ],
-              "next_match": null
+                "D",
+                "D",
+                "W",
+                "D",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -989,28 +567,12 @@
               "goal_difference": "-1",
               "points": 7,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-khalidiyah-vs-arkadag/1kl8bejki#4933510"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/al-ahli-vs-arkadag/ma5q3pe3#4933512"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/al-ahli-vs-arkadag/ma5q3pe3#4933515"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-arkadag/khgmo95q#4933514"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-khalidiyah-vs-arkadag/1kl8bejki#4933518"
-                }
-              ],
-              "next_match": null
+                "L",
+                "D",
+                "D",
+                "D",
+                "W"
+              ]
             },
             {
               "position": 3,
@@ -1028,28 +590,12 @@
               "goal_difference": "0",
               "points": 6,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-khalidiyah-vs-arkadag/1kl8bejki#4933510"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-khalidiyah/cc6uncp8#4933511"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-ahli-vs-al-khalidiyah/dqpev099#4933513"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-khalidiyah/cc6uncp8#4933516"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-khalidiyah-vs-arkadag/1kl8bejki#4933518"
-                }
-              ],
-              "next_match": null
+                "W",
+                "D",
+                "L",
+                "D",
+                "L"
+              ]
             },
             {
               "position": 4,
@@ -1067,28 +613,12 @@
               "goal_difference": "-2",
               "points": 5,
               "form": [
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-ahli/i63dasp#4933509"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-khalidiyah/cc6uncp8#4933511"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-khalidiyah/cc6uncp8#4933516"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-arkadag/khgmo95q#4933514"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/andijon-vs-al-ahli/i63dasp#4933517"
-                }
-              ],
-              "next_match": null
+                "D",
+                "D",
+                "D",
+                "D",
+                "L"
+              ]
             }
           ]
         },
@@ -1111,24 +641,11 @@
               "goal_difference": "+4",
               "points": 9,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-al-hussein-sc/9hro7fy#4933538"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-hussein-sc-vs-ahal/3anwc4rl#4933539"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-al-hussein-sc/9hro7fy#4933546"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-hussein-sc-vs-ahal/3anwc4rl#4933548"
-                }
-              ],
-              "next_match": null
+                "W",
+                "W",
+                "L",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -1146,24 +663,11 @@
               "goal_difference": "+2",
               "points": 7,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-al-hussein-sc/9hro7fy#4933538"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-ahal/3amzdz7s#4933541"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-ahal/3amzdz7s#4933544"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-al-hussein-sc/9hro7fy#4933546"
-                }
-              ],
-              "next_match": null
+                "L",
+                "W",
+                "D",
+                "W"
+              ]
             },
             {
               "position": 3,
@@ -1181,24 +685,11 @@
               "goal_difference": "-6",
               "points": 1,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-hussein-sc-vs-ahal/3anwc4rl#4933539"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-ahal/3amzdz7s#4933541"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/sepahan-vs-ahal/3amzdz7s#4933544"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-hussein-sc-vs-ahal/3anwc4rl#4933548"
-                }
-              ],
-              "next_match": null
+                "L",
+                "L",
+                "D",
+                "L"
+              ]
             },
             {
               "position": 4,
@@ -1215,8 +706,7 @@
               "goals": "0-0",
               "goal_difference": "0",
               "points": 0,
-              "form": [],
-              "next_match": null
+              "form": []
             }
           ]
         },
@@ -1239,28 +729,12 @@
               "goal_difference": "+20",
               "points": 18,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-al-nassr-fc/9ipcefn#4933588"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-nassr-fc-vs-fc-goa/2ye13zxy#4933590"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-nassr-fc-vs-fc-goa/2ye13zxy#4933592"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-nassr-fc-vs-fc-istiklol/374fbfs9#4933593"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-al-nassr-fc/9ipcefn#4933596"
-                }
-              ],
-              "next_match": null
+                "W",
+                "W",
+                "W",
+                "W",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -1278,28 +752,12 @@
               "goal_difference": "-3",
               "points": 9,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-al-nassr-fc/9ipcefn#4933588"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-fc-istiklol/371e64te#4933589"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-fc-istiklol/371e64te#4933591"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-fc-goa/2yb46p5d#4933594"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-al-nassr-fc/9ipcefn#4933596"
-                }
-              ],
-              "next_match": null
+                "L",
+                "L",
+                "W",
+                "W",
+                "L"
+              ]
             },
             {
               "position": 3,
@@ -1317,28 +775,12 @@
               "goal_difference": "-6",
               "points": 9,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/fc-goa-vs-fc-istiklol/8ydg1k0n#4933587"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-fc-istiklol/371e64te#4933589"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-fc-istiklol/371e64te#4933591"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-nassr-fc-vs-fc-istiklol/374fbfs9#4933593"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/fc-goa-vs-fc-istiklol/8ydg1k0n#4933595"
-                }
-              ],
-              "next_match": null
+                "W",
+                "W",
+                "L",
+                "L",
+                "W"
+              ]
             },
             {
               "position": 4,
@@ -1356,28 +798,12 @@
               "goal_difference": "-11",
               "points": 0,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/fc-goa-vs-fc-istiklol/8ydg1k0n#4933587"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-nassr-fc-vs-fc-goa/2ye13zxy#4933590"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-nassr-fc-vs-fc-goa/2ye13zxy#4933592"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/al-zawraa-vs-fc-goa/2yb46p5d#4933594"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/fc-goa-vs-fc-istiklol/8ydg1k0n#4933595"
-                }
-              ],
-              "next_match": null
+                "L",
+                "L",
+                "L",
+                "L",
+                "L"
+              ]
             }
           ]
         },
@@ -1400,28 +826,12 @@
               "goal_difference": "+5",
               "points": 13,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-macarthur-fc/9elytxdy#4933569"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/cong-ha-noi-vs-macarthur-fc/l8gxuswe#4933572"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/cong-ha-noi-vs-macarthur-fc/l8gxuswe#4933573"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/tai-po-vs-macarthur-fc/c2czeyty#4933575"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-macarthur-fc/9elytxdy#4933578"
-                }
-              ],
-              "next_match": null
+                "W",
+                "D",
+                "W",
+                "W",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -1439,28 +849,12 @@
               "goal_difference": "+2",
               "points": 8,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/tai-po-vs-cong-ha-noi/3vkrz5g8#4933570"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/cong-ha-noi-vs-macarthur-fc/l8gxuswe#4933572"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/cong-ha-noi-vs-macarthur-fc/l8gxuswe#4933573"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-cong-ha-noi/2fvlus08#4933576"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/tai-po-vs-cong-ha-noi/3vkrz5g8#4933577"
-                }
-              ],
-              "next_match": null
+                "W",
+                "D",
+                "L",
+                "W",
+                "L"
+              ]
             },
             {
               "position": 3,
@@ -1478,28 +872,12 @@
               "goal_difference": "-5",
               "points": 7,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/tai-po-vs-cong-ha-noi/3vkrz5g8#4933570"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-tai-po/6l555w4#4933571"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-tai-po/6l555w4#4933574"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/tai-po-vs-macarthur-fc/c2czeyty#4933575"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/tai-po-vs-cong-ha-noi/3vkrz5g8#4933577"
-                }
-              ],
-              "next_match": null
+                "L",
+                "D",
+                "L",
+                "L",
+                "W"
+              ]
             },
             {
               "position": 4,
@@ -1517,28 +895,12 @@
               "goal_difference": "-2",
               "points": 5,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-macarthur-fc/9elytxdy#4933569"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-tai-po/6l555w4#4933571"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-tai-po/6l555w4#4933574"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-cong-ha-noi/2fvlus08#4933576"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/beijing-guoan-vs-macarthur-fc/9elytxdy#4933578"
-                }
-              ],
-              "next_match": null
+                "L",
+                "D",
+                "W",
+                "L",
+                "L"
+              ]
             }
           ]
         },
@@ -1561,28 +923,12 @@
               "goal_difference": "+14",
               "points": 18,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-ratchaburi-fc/1629apwi#4933528"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-nam-dinh/336qvsd#4933529"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-nam-dinh/336qvsd#4933532"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-eastern-sports-club/6rxnmsd#4933534"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-ratchaburi-fc/1629apwi#4933535"
-                }
-              ],
-              "next_match": null
+                "W",
+                "W",
+                "W",
+                "W",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -1600,28 +946,12 @@
               "goal_difference": "+7",
               "points": 9,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-ratchaburi-fc/1629apwi#4933528"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/eastern-sports-club-vs-ratchaburi-fc/270lsaqn#4933530"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/eastern-sports-club-vs-ratchaburi-fc/270lsaqn#4933531"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/nam-dinh-vs-ratchaburi-fc/1sp4dleb#4933533"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-ratchaburi-fc/1629apwi#4933535"
-                }
-              ],
-              "next_match": null
+                "L",
+                "W",
+                "W",
+                "W",
+                "L"
+              ]
             },
             {
               "position": 3,
@@ -1639,28 +969,12 @@
               "goal_difference": "+7",
               "points": 9,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/nam-dinh-vs-eastern-sports-club/hbanpky#4933527"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-nam-dinh/336qvsd#4933529"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-nam-dinh/336qvsd#4933532"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/nam-dinh-vs-ratchaburi-fc/1sp4dleb#4933533"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/nam-dinh-vs-eastern-sports-club/hbanpky#4933536"
-                }
-              ],
-              "next_match": null
+                "W",
+                "L",
+                "L",
+                "L",
+                "W"
+              ]
             },
             {
               "position": 4,
@@ -1678,28 +992,12 @@
               "goal_difference": "-28",
               "points": 0,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/nam-dinh-vs-eastern-sports-club/hbanpky#4933527"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/eastern-sports-club-vs-ratchaburi-fc/270lsaqn#4933530"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/eastern-sports-club-vs-ratchaburi-fc/270lsaqn#4933531"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/gamba-osaka-vs-eastern-sports-club/6rxnmsd#4933534"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/nam-dinh-vs-eastern-sports-club/hbanpky#4933536"
-                }
-              ],
-              "next_match": null
+                "L",
+                "L",
+                "L",
+                "L",
+                "L"
+              ]
             }
           ]
         },
@@ -1722,28 +1020,12 @@
               "goal_difference": "+5",
               "points": 13,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-persib-bandung/gfdxb42#4933474"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-selangor/p2sp1ed#4933476"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-selangor/p2sp1ed#4933478"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-persib-bandung/cf8jgld#4933480"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-persib-bandung/gfdxb42#4933482"
-                }
-              ],
-              "next_match": null
+                "W",
+                "W",
+                "W",
+                "L",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -1761,28 +1043,12 @@
               "goal_difference": "+1",
               "points": 10,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-persib-bandung/gfdxb42#4933474"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-bangkok-united/6lui8rt#4933475"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-bangkok-united/6lui8rt#4933477"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-selangor/gfi82tk#4933479"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-persib-bandung/gfdxb42#4933482"
-                }
-              ],
-              "next_match": null
+                "L",
+                "W",
+                "W",
+                "D",
+                "L"
+              ]
             },
             {
               "position": 3,
@@ -1800,28 +1066,12 @@
               "goal_difference": "+2",
               "points": 10,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-selangor/cfca1xd#4933473"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-bangkok-united/6lui8rt#4933475"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-bangkok-united/6lui8rt#4933477"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-persib-bandung/cf8jgld#4933480"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-selangor/cfca1xd#4933481"
-                }
-              ],
-              "next_match": null
+                "W",
+                "L",
+                "L",
+                "W",
+                "W"
+              ]
             },
             {
               "position": 4,
@@ -1839,28 +1089,12 @@
               "goal_difference": "-8",
               "points": 1,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-selangor/cfca1xd#4933473"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-selangor/p2sp1ed#4933476"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/persib-bandung-vs-selangor/p2sp1ed#4933478"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/bangkok-united-vs-selangor/gfi82tk#4933479"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/lion-city-sailors-fc-vs-selangor/cfca1xd#4933481"
-                }
-              ],
-              "next_match": null
+                "L",
+                "L",
+                "L",
+                "D",
+                "L"
+              ]
             }
           ]
         },
@@ -1883,28 +1117,12 @@
               "goal_difference": "+9",
               "points": 16,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-bg-pathum-united/cfisdr4#4933444"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-pohang-steelers/76cy9su#4933445"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-pohang-steelers/76cy9su#4933447"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-kaya-fc/2y69rq0m#4933450"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-bg-pathum-united/cfisdr4#4933451"
-                }
-              ],
-              "next_match": null
+                "W",
+                "W",
+                "D",
+                "W",
+                "W"
+              ]
             },
             {
               "position": 2,
@@ -1922,28 +1140,12 @@
               "goal_difference": "+5",
               "points": 13,
               "form": [
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/pohang-steelers-vs-kaya-fc/3boyi144#4933443"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-pohang-steelers/76cy9su#4933445"
-                },
-                {
-                  "result": "D",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-pohang-steelers/76cy9su#4933447"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/pohang-steelers-vs-bg-pathum-united/hbn2zvm#4933449"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/pohang-steelers-vs-kaya-fc/3boyi144#4933452"
-                }
-              ],
-              "next_match": null
+                "W",
+                "L",
+                "D",
+                "W",
+                "W"
+              ]
             },
             {
               "position": 3,
@@ -1961,28 +1163,12 @@
               "goal_difference": "-3",
               "points": 6,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-bg-pathum-united/cfisdr4#4933444"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/bg-pathum-united-vs-kaya-fc/3uxut0jp#4933446"
-                },
-                {
-                  "result": "W",
-                  "match_url": "https://www.fotmob.com/matches/bg-pathum-united-vs-kaya-fc/3uxut0jp#4933448"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/pohang-steelers-vs-bg-pathum-united/hbn2zvm#4933449"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-bg-pathum-united/cfisdr4#4933451"
-                }
-              ],
-              "next_match": null
+                "L",
+                "W",
+                "W",
+                "L",
+                "L"
+              ]
             },
             {
               "position": 4,
@@ -2000,28 +1186,12 @@
               "goal_difference": "-11",
               "points": 0,
               "form": [
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/pohang-steelers-vs-kaya-fc/3boyi144#4933443"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/bg-pathum-united-vs-kaya-fc/3uxut0jp#4933446"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/bg-pathum-united-vs-kaya-fc/3uxut0jp#4933448"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/tampines-rovers-fc-vs-kaya-fc/2y69rq0m#4933450"
-                },
-                {
-                  "result": "L",
-                  "match_url": "https://www.fotmob.com/matches/pohang-steelers-vs-kaya-fc/3boyi144#4933452"
-                }
-              ],
-              "next_match": null
+                "L",
+                "L",
+                "L",
+                "L",
+                "L"
+              ]
             }
           ]
         }

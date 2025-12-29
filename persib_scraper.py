@@ -1,679 +1,454 @@
 """
 Persib Bandung FotMob Scraper
-Scrapes league standings data from FotMob HTML and saves to JSON files.
+Fetches data using requests, saves snippets to plan/*.txt, and parses them to JSON.
 """
 
 import json
 import re
 import requests
-from bs4 import BeautifulSoup
-from pathlib import Path
 from datetime import datetime
-from typing import Optional
+from pathlib import Path
+from typing import Optional, List, Dict
+from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
-def fetch_html(url: str) -> str:
-    """
-    Fetch HTML content from a URL.
-    
-    Args:
-        url: URL to fetch from
-        
-    Returns:
-        The HTML content
-    """
-    try:
-        print(f"Fetching {url}...")
-        
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        
-        return response.text
-        
-    except Exception as e:
-        print(f"Error fetching data from {url}: {e}")
-        return ""
+# Configuration
+TEAM_ID = "165196"
+LEAGUE_ID = "8983"
+SEASON_ID = "27434"
 
+SCRIPT_DIR = Path(__file__).parent
+PLAN_DIR = SCRIPT_DIR / "plan"
+PLAN_DIR.mkdir(exist_ok=True)
 
-
-def parse_standings_from_html(html_content: str) -> dict:
-    """
-    Parse league standings from FotMob HTML content.
-    
-    Args:
-        html_content: Raw HTML string from FotMob standings page
-        
-    Returns:
-        Dictionary containing league standings data
-    """
-    soup = BeautifulSoup(html_content, 'html.parser')
-    
-    standings = {
-        "scraped_at": datetime.now().isoformat(),
-        "leagues": []
-    }
-    
-    # Find all table containers (each represents a league)
-    table_containers = soup.find_all('article', class_='TableContainer')
-    
-    for container in table_containers:
-        league_data = parse_league_table(container)
-        if league_data:
-            standings["leagues"].append(league_data)
-    
-    return standings
-
-
-def parse_league_table(container) -> dict:
-    """
-    Parse a single league table from its container element.
-    
-    Args:
-        container: BeautifulSoup element for the table container
-        
-    Returns:
-        Dictionary with league name and team standings
-    """
-    # Get league name from header
-    header = container.find('header')
-    if not header:
-        return None
-    
-    league_link = header.find('a')
-    league_name_elem = header.find('h3')
-    
-    league_name = league_name_elem.get_text(strip=True) if league_name_elem else "Unknown League"
-    league_logo = None
-    league_url = None
-    
-    if league_link:
-        league_url = league_link.get('href', '')
-        logo_img = league_link.find('img')
-        if logo_img:
-            league_logo = logo_img.get('src', '')
-    
-    league_data = {
-        "name": league_name,
-        "logo": league_logo,
-        "url": f"https://www.fotmob.com{league_url}" if league_url else None,
-        "groups": [],
-        "teams": []
-    }
-    
-    # Check if this is a grouped table (like AFC Champions League)
-    sub_tables = container.find_all('section', class_=lambda x: x and 'SubTableCSS' in str(x))
-    
-    if sub_tables:
-        # Parse grouped tables
-        for sub_table in sub_tables:
-            group_name_elem = sub_table.find('a', class_=lambda x: x and 'SubTableHeaderCSS' in str(x))
-            group_name = group_name_elem.get_text(strip=True) if group_name_elem else "Unknown Group"
-            
-            group_data = {
-                "name": group_name,
-                "teams": parse_table_rows(sub_table)
-            }
-            league_data["groups"].append(group_data)
-    else:
-        # Parse single table
-        league_data["teams"] = parse_table_rows(container)
-    
-    return league_data
-
-
-def parse_table_rows(container) -> list:
-    """
-    Parse team rows from a table container.
-    
-    Args:
-        container: BeautifulSoup element containing the table
-        
-    Returns:
-        List of team dictionaries with standings data
-    """
-    teams = []
-    
-    # Find all table rows
-    rows = container.find_all('div', class_=lambda x: x and 'TableRowCSS' in str(x))
-    
-    for row in rows:
-        team_data = parse_team_row(row)
-        if team_data:
-            teams.append(team_data)
-    
-    return teams
-
-
-def parse_team_row(row) -> dict:
-    """
-    Parse a single team row from the standings table.
-    
-    Args:
-        row: BeautifulSoup element for the table row
-        
-    Returns:
-        Dictionary with team standings data
-    """
-    try:
-        # Get position
-        position_elem = row.find('div', class_=lambda x: x and 'TablePositionCell' in str(x))
-        position = int(position_elem.get_text(strip=True)) if position_elem else 0
-        
-        # Get team info
-        team_cell = row.find('div', class_=lambda x: x and 'TableTeamCell' in str(x))
-        team_name = ""
-        team_logo = ""
-        team_url = ""
-        team_id = ""
-        
-        if team_cell:
-            team_link = team_cell.find('a')
-            if team_link:
-                team_url = team_link.get('href', '')
-                # Extract team ID from URL
-                match = re.search(r'/teams/(\d+)/', team_url)
-                if match:
-                    team_id = match.group(1)
-            
-            team_name_elem = team_cell.find('span', class_='TeamName')
-            team_name = team_name_elem.get_text(strip=True) if team_name_elem else ""
-            
-            team_logo_elem = team_cell.find('img')
-            if team_logo_elem:
-                team_logo = team_logo_elem.get('src', '')
-        
-        # Get stats - find all TableCell divs
-        cells = row.find_all('div', class_=lambda x: x and 'TableCell' in str(x) and 'TableTeamCell' not in str(x) and 'TablePositionCell' not in str(x))
-        
-        # Parse stats from cells
-        stats = []
-        for cell in cells:
-            # Check if this is a goals cell (contains spans for goals)
-            spans = cell.find_all('span', recursive=False)
-            if len(spans) == 2:
-                # Goals for/against format
-                stats.append(f"{spans[0].get_text(strip=True)}-{spans[1].get_text(strip=True)}")
-            elif len(spans) == 1:
-                stats.append(spans[0].get_text(strip=True))
-            else:
-                text = cell.get_text(strip=True)
-                if text:
-                    stats.append(text)
-        
-        # Parse form
-        form = []
-        form_section = row.find('section', class_='SingleTeamForm')
-        if form_section:
-            form_items = form_section.find_all('a')
-            for item in form_items:
-                result = item.get_text(strip=True)
-                match_url = item.get('href', '')
-                form.append({
-                    "result": result,
-                    "match_url": f"https://www.fotmob.com{match_url}" if match_url else None
-                })
-        
-        # Parse next opponent
-        next_opponent = None
-        next_elem = row.find('a', class_=lambda x: x and 'NextOpponentCSS' in str(x))
-        if next_elem:
-            next_url = next_elem.get('href', '')
-            next_logo = next_elem.find('img')
-            next_opponent = {
-                "match_url": f"https://www.fotmob.com{next_url}" if next_url else None,
-                "logo": next_logo.get('src', '') if next_logo else None
-            }
-        
-        # Map stats to fields (PL, W, D, L, +/-, GD, PTS)
-        team_data = {
-            "position": position,
-            "team": {
-                "id": team_id,
-                "name": team_name,
-                "logo": team_logo,
-                "url": f"https://www.fotmob.com{team_url}" if team_url else None
-            },
-            "played": int(stats[0]) if len(stats) > 0 and stats[0].isdigit() else 0,
-            "won": int(stats[1]) if len(stats) > 1 and stats[1].isdigit() else 0,
-            "drawn": int(stats[2]) if len(stats) > 2 and stats[2].isdigit() else 0,
-            "lost": int(stats[3]) if len(stats) > 3 and stats[3].isdigit() else 0,
-            "goals": stats[4] if len(stats) > 4 else "0-0",
-            "goal_difference": stats[5] if len(stats) > 5 else "0",
-            "points": int(stats[6]) if len(stats) > 6 and stats[6].isdigit() else 0,
-            "form": form,
-            "next_match": next_opponent
-        }
-        
-        return team_data
-        
-    except Exception as e:
-        print(f"Error parsing team row: {e}")
-        return None
-
-
-def extract_persib_standings(standings: dict) -> dict:
-    """
-    Extract only Persib Bandung's standings from the full standings data.
-    
-    Args:
-        standings: Full standings dictionary
-        
-    Returns:
-        Dictionary with Persib's standings across all leagues
-    """
-    persib_data = {
-        "scraped_at": standings.get("scraped_at"),
-        "team": "Persib Bandung",
-        "standings": []
-    }
-    
-    for league in standings.get("leagues", []):
-        # Check in groups
-        for group in league.get("groups", []):
-            for team in group.get("teams", []):
-                if "Persib" in team.get("team", {}).get("name", ""):
-                    persib_data["standings"].append({
-                        "league": league.get("name"),
-                        "group": group.get("name"),
-                        "league_logo": league.get("logo"),
-                        **team
-                    })
-        
-        # Check in main teams list
-        for team in league.get("teams", []):
-            if "Persib" in team.get("team", {}).get("name", ""):
-                persib_data["standings"].append({
-                    "league": league.get("name"),
-                    "group": None,
-                    "league_logo": league.get("logo"),
-                    **team
-                })
-    
-    return persib_data
-
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
 
 def save_to_json(data: dict, filename: str):
-    """
-    Save data to a JSON file.
-    
-    Args:
-        data: Dictionary to save
-        filename: Output filename
-    """
-    output_path = Path(__file__).parent / filename
-    with open(output_path, 'w', encoding='utf-8') as f:
+    """Save data to JSON file."""
+    path = SCRIPT_DIR / filename
+    with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"Saved: {output_path}")
+    print(f"Saved JSON: {path}")
 
+def save_to_txt(filepath: Path, url: str, content: str):
+    """Save HTML snippet to txt file with URL header."""
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(f"{url}\n\n{content}")
+    print(f"Saved TXT: {filepath.name}")
 
+def load_html_from_file(filepath: Path) -> str:
+    """Load HTML from file, skipping the first lines (URL/Header)."""
+    if not filepath.exists():
+        return ""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Find the start of HTML
+    first_tag_pos = content.find('<')
+    if first_tag_pos == -1:
+        return ""
+    return content[first_tag_pos:]
 
+def fetch_content(url: str) -> str:
+    """Fetch content with requests."""
+    print(f"Fetching {url}...")
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        return response.text
+    except Exception as e:
+        print(f"  Error fetching {url}: {e}")
+        return ""
 
+def fetch_with_playwright(url: str, wait_selector: Optional[str] = None) -> str:
+    """Fetch content with Playwright for dynamic rendering."""
+    print(f"Fetching with Playwright: {url}...")
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context(user_agent=HEADERS['User-Agent'])
+            page = context.new_page()
+            page.goto(url, wait_until="networkidle", timeout=60000)
+            if wait_selector:
+                try:
+                    page.wait_for_selector(wait_selector, timeout=15000)
+                except:
+                    print(f"  Timeout waiting for selector: {wait_selector}")
+            
+            content = page.content()
+            browser.close()
+            return content
+    except Exception as e:
+        print(f"  Playwright error fetching {url}: {e}")
+        return ""
+
+# --- Parsing Functions (Robust logic) ---
+
+def parse_standings_from_html(html_content: str) -> dict:
+    soup = BeautifulSoup(html_content, 'html.parser')
+    standings = {"scraped_at": datetime.now().isoformat(), "leagues": []}
+    containers = soup.select('article[class*="TableContainer"]')
+    if not containers:
+        containers = soup.find_all('article', class_=lambda x: x and 'TableContainer' in x)
+        
+    for container in containers:
+        header = container.find('header')
+        if not header: continue
+        league_name_elem = header.find('h3')
+        league_name = re.sub(r'\s+\d{4}/\d{4}$', '', league_name_elem.get_text(strip=True)) if league_name_elem else "Unknown League"
+        league_link = header.find('a')
+        league_logo = league_link.find('img')['src'] if league_link and league_link.find('img') else None
+        league_url = f"https://www.fotmob.com{league_link['href']}" if league_link else None
+        
+        league_data = {"name": league_name, "logo": league_logo, "url": league_url, "groups": [], "teams": []}
+        
+        sub_tables = container.select('section[class*="SubTable"]')
+        if sub_tables:
+            for sub_table in sub_tables:
+                group_name_elem = sub_table.find('a', class_=re.compile(r'SubTableHeader', re.I))
+                group_name = group_name_elem.get_text(strip=True) if group_name_elem else "Unknown Group"
+                league_data["groups"].append({"name": group_name, "teams": parse_table_rows(sub_table)})
+        else:
+            league_data["teams"] = parse_table_rows(container)
+        
+        if league_data["teams"] or league_data["groups"]:
+            standings["leagues"].append(league_data)
+            
+    return standings
+
+def parse_table_rows(container) -> List[Dict]:
+    teams = []
+    rows = container.select('div[class*="TableRow"]')
+    for row in rows:
+        try:
+            pos_elem = row.select_one('div[class*="PositionCell"]')
+            position = int(pos_elem.get_text(strip=True)) if pos_elem else 0
+            team_cell = row.select_one('div[class*="TeamCell"]')
+            team_name = team_logo = team_url = team_id = ""
+            if team_cell:
+                team_link = team_cell.find('a')
+                if team_link:
+                    team_url = team_link['href']
+                    match = re.search(r'/teams/(\d+)/', team_url)
+                    team_id = match.group(1) if match else ""
+                team_name_elem = team_cell.select_one('span[class*="TeamName"]')
+                team_name = team_name_elem.get_text(strip=True) if team_name_elem else ""
+                team_logo_elem = team_cell.find('img')
+                team_logo = team_logo_elem['src'] if team_logo_elem else ""
+            
+            cells = row.select('div[class*="TableCell"]:not([class*="TeamCell"]):not([class*="PositionCell"])')
+            stats = [cell.get_text(strip=True) for cell in cells]
+            form = [item.get_text(strip=True) for item in row.select('section[class*="SingleTeamForm"] a')]
+            
+            teams.append({
+                "position": position,
+                "team": {"id": team_id, "name": team_name, "logo": team_logo, "url": f"https://www.fotmob.com{team_url}" if team_url else None},
+                "played": int(stats[0]) if stats and stats[0].isdigit() else 0,
+                "won": int(stats[1]) if len(stats)>1 and stats[1].isdigit() else 0,
+                "drawn": int(stats[2]) if len(stats)>2 and stats[2].isdigit() else 0,
+                "lost": int(stats[3]) if len(stats)>3 and stats[3].isdigit() else 0,
+                "goals": stats[4] if len(stats)>4 else "0-0",
+                "goal_difference": stats[5] if len(stats)>5 else "0",
+                "points": int(stats[6]) if len(stats)>6 and stats[6].isdigit() else 0,
+                "form": form
+            })
+        except: continue
+    return teams
+
+def extract_persib_standings(standings: dict) -> dict:
+    persib_data = {"scraped_at": standings.get("scraped_at"), "team": "Persib Bandung", "standings": []}
+    for league in standings.get("leagues", []):
+        for group in league.get("groups", []):
+            for team in group.get("teams", []):
+                if "Persib" in team["team"]["name"]:
+                    persib_data["standings"].append({"league": league["name"], "group": group["name"], "league_logo": league["logo"], **team})
+        for team in league.get("teams", []):
+            if "Persib" in team["team"]["name"]:
+                persib_data["standings"].append({"league": league["name"], "group": None, "league_logo": league["logo"], **team})
+    return persib_data
 
 def parse_fixtures_from_html(html_content: str) -> dict:
-    """
-    Parse fixtures from FotMob HTML content.
-    
-    Args:
-        html_content: Raw HTML string from FotMob fixtures page
-        
-    Returns:
-        Dictionary containing fixtures data
-    """
     soup = BeautifulSoup(html_content, 'html.parser')
-    
     fixtures_data = {
         "scraped_at": datetime.now().isoformat(),
-        "fixtures": []
+        "fixtures": [],
+        "fixture_difficulty": [],
+        "next_match": None
     }
     
-    # Find all fixture links - usually <a> tags with specific classes or structure
-    # Based on the file viewed: <a href="..." class="css-jiwnw2-FtContainer ...">
-    fixture_links = soup.find_all('a', href=True, class_=lambda x: x and 'FtContainer' in str(x))
+    # Identify primary league for fallback (Matches often don't label the primary league)
+    primary_league_name = "Unknown League"
+    primary_league_logo = None
+    # Try finding the league link with the league ID
+    league_link = soup.select_one(f'a[href*="/leagues/{LEAGUE_ID}/"]')
+    league_header_txt = league_link.get_text(strip=True) if league_link else ""
     
-    for link in fixture_links:
-        match_data = parse_match_element(link)
-        if match_data:
-            fixtures_data["fixtures"].append(match_data)
-            
-    # Parse Fixture Difficulty
-    fixtures_data["fixture_difficulty"] = []
-    diff_container = soup.find('div', class_=lambda x: x and 'FixtureDifficulties' in str(x))
-    if diff_container:
-        diff_items = diff_container.find_all('div', class_=lambda x: x and 'FixtureDifficultyMatch' in str(x))
-        for item in diff_items:
-            text = item.get_text(strip=True).replace('\u00a0', ' ')
-            fixtures_data["fixture_difficulty"].append(text)
-            
-    # Parse Next Match
-    fixtures_data["next_match"] = None
-    next_match_section = soup.find('section', class_=lambda x: x and 'NextMatchBoxCSS' in str(x))
-    if next_match_section:
+    if not league_header_txt:
+        # Fallback to any league link that looks like a header (e.g. in NextMatchSection)
+        alt_league = soup.select_one('a[class*="LeagueName"]')
+        if alt_league: 
+            primary_league_name = alt_league.get_text(strip=True)
+            img = alt_league.find('img')
+            if img: primary_league_logo = img.get('src')
+    else:
+        primary_league_name = league_header_txt
+        img = league_link.find('img')
+        if img: primary_league_logo = img.get('src')
+
+    # 1. Parse all fixtures from HTML (for previous match history)
+    seen_urls = set()
+    for link in soup.select('a[href*="/matches/"]'):
         try:
-            home_team = "Unknown"
-            away_team = "Unknown"
+            href = link.get('href', '')
+            if not href or "/matches/" not in href: continue
+            match_url = f"https://www.fotmob.com{href}" if href.startswith('/') else href
+            if match_url in seen_urls: continue
             
+            # Skip links that are just icons or team logos if they don't have enough data
+            if not link.select_one('span[class*="TeamName"]'): continue
+
+            date_elem = link.select_one('span[class*="StartDate"]')
+            date_str = date_elem.get_text(strip=True) if date_elem else ""
+            
+            league_name = primary_league_name
+            league_logo = primary_league_logo
+            league_container = link.select_one('div[class*="LeagueNameAndIcon"]')
+            if league_container:
+                name_elem = league_container.select_one('span[class*="LeagueName"]')
+                if name_elem: league_name = name_elem.get_text(strip=True)
+                logo_elem = league_container.select_one('img')
+                if logo_elem: league_logo = logo_elem['src']
+            
+            team_elems = link.select('span[class*="TeamName"]')
+            # Handle NextMatchContainerCSS structure which might use different classes
+            if not team_elems:
+                team_elems = link.select('div[class*="TeamNameCSS"]')
+                
+            home_team = team_elems[0].get_text(strip=True) if len(team_elems) >= 1 else "Unknown"
+            away_team = team_elems[1].get_text(strip=True) if len(team_elems) >= 2 else "Unknown"
+            
+            time_elem = link.select_one('div[class*="TimeCSS"]')
+            if not time_elem: time_elem = link.select_one('div[class*="NextMatchTime"]')
+                
+            time_str = time_elem.get_text(strip=True).strip() if time_elem else None
+            score_elem = link.select_one('span[class*="ScoreSpan"]')
+            score = score_elem.get_text(strip=True) if score_elem else None
+            
+            fixtures_data["fixtures"].append({
+                "date": date_str, "league": league_name, "league_logo": league_logo,
+                "home_team": home_team, "away_team": away_team, "status": "Finished" if score else "Scheduled",
+                "score": score, "time": time_str, "url": match_url
+            })
+            seen_urls.add(match_url)
+        except: continue
+
+    # 2. Parse Fixture Difficulty from HTML (using provided classes)
+    diff_elems = soup.select('div[class*="FixtureDifficultyMatch"]')
+    fixtures_data["fixture_difficulty"] = [el.get_text(strip=True).replace('\u00a0', ' ') for el in diff_elems]
+
+    # 3. Parse Next Match from HTML (using provided classes)
+    next_match_box = soup.select_one('section[class*="NextMatchBoxCSS"]')
+    if next_match_box:
+        try:
             # Teams
-            team_containers = next_match_section.find_all('div', class_=lambda x: x and 'TeamContainer' in str(x))
-            if len(team_containers) >= 2:
-                # The structure usually has opponent first or depends on home/away
-                # In the txt, it's Persik (first) vs Persib (second)
-                # Let's just grab names
-                t1 = team_containers[0].find('div', class_=lambda x: x and 'TeamNameCSS' in str(x))
-                t2 = team_containers[1].find('div', class_=lambda x: x and 'TeamNameCSS' in str(x))
-                home_team = t1.get_text(strip=True) if t1 else ""
-                away_team = t2.get_text(strip=True) if t2 else ""
-                
-            # Date/Time
-            time_elem = next_match_section.find('div', class_=lambda x: x and 'NextMatchTime' in str(x))
-            match_time = time_elem.get_text(strip=True) if time_elem else ""
+            team_names = [el.get_text(strip=True) for el in next_match_box.select('div[class*="TeamNameCSS"]')]
+            # In the snippet order: Persik, (Time), Persib Bandung
+            # Usually Away vs Home or Home vs Away.
+            # Let's assume the first is Guest and second is Home if Persib is in the list
+            if len(team_names) >= 2:
+                away = team_names[0]
+                home = team_names[1]
+            else:
+                away = "Unknown"
+                home = "Unknown"
             
-            date_elem = next_match_section.find('div', class_=lambda x: x and 'NextMatchDate' in str(x))
-            match_date = date_elem.get_text(strip=True) if date_elem else ""
+            m_time = next_match_box.select_one('div[class*="NextMatchTime"]').get_text(strip=True) if next_match_box.select_one('div[class*="NextMatchTime"]') else ""
+            m_date = next_match_box.select_one('div[class*="NextMatchDate"]').get_text(strip=True) if next_match_box.select_one('div[class*="NextMatchDate"]') else ""
             
-            # Stats (Position, Goals per match, etc)
             stats = []
-            stat_items = next_match_section.find_all('li', class_=lambda x: x and 'Stat' in str(x) and 'StatGroupContainer' not in str(x))
-            for stat in stat_items:
-                title_elem = stat.find('span', class_=lambda x: x and 'StatTitle' in str(x))
-                title = title_elem.get_text(strip=True) if title_elem else ""
+            for stat_li in next_match_box.select('li[class*="Stat"]'):
+                title_elem = stat_li.select_one('span[class*="StatTitle"]')
+                if not title_elem: continue
+                title = title_elem.get_text(strip=True)
                 
-                # Values (Left vs Right)
-                values = stat.find_all('span', class_=lambda x: x and 'StatValue' in str(x))
-                val_home = values[0].get_text(strip=True) if len(values) > 0 else ""
-                val_away = values[1].get_text(strip=True) if len(values) > 1 else ""
-                
-                stats.append({
-                    "title": title,
-                    "home": val_home,
-                    "away": val_away
-                })
-                
+                # Snippet shows values inside spans
+                values = [v.get_text(strip=True) for v in stat_li.select('span[class*="StatValue"]')]
+                if len(values) >= 2:
+                    stats.append({
+                        "title": title,
+                        "home": values[1],
+                        "away": values[0]
+                    })
+            
             fixtures_data["next_match"] = {
-                "home_team": home_team,
-                "away_team": away_team,
-                "date": match_date,
-                "time": match_time,
+                "home_team": home,
+                "away_team": away,
+                "date": m_date,
+                "time": m_time,
                 "stats": stats
             }
         except Exception as e:
-            print(f"Error parsing next match: {e}")
+            print(f"Error parsing next match HTML: {e}")
 
     return fixtures_data
 
-
-def parse_match_element(element) -> dict:
-    """
-    Parse a single match element (usually an <a> tag).
+def parse_player_stats() -> Dict:
+    """Fetch and parse player stats using direct API approach for better reliability."""
+    all_stats = {}
     
-    Args:
-        element: BeautifulSoup element for the match
-        
-    Returns:
-        Dictionary with match details
-    """
-    try:
-        match_url = element.get('href', '')
-        full_match_url = f"https://www.fotmob.com{match_url}" if match_url else None
-        
-        # 1. Date
-        date_elem = element.find('span', class_=lambda x: x and 'StartDate' in str(x))
-        date_str = date_elem.get_text(strip=True) if date_elem else ""
-        
-        # 2. League
-        league_elem = element.find('span', class_=lambda x: x and 'LeagueName' in str(x))
-        league_name = league_elem.get_text(strip=True) if league_elem else ""
-        
-        # 3. Teams
-        # Usually distinct team names are in spans with 'TeamName' in class
-        team_name_elems = element.find_all('span', class_=lambda x: x and 'TeamName' in str(x))
-        
-        home_team = "Unknown"
-        away_team = "Unknown"
-        
-        if len(team_name_elems) >= 2:
-            home_team = team_name_elems[0].get_text(strip=True)
-            away_team = team_name_elems[1].get_text(strip=True)
-            
-        # 4. Score or Time
-        score_elem = element.find('span', class_=lambda x: x and 'ScoreSpan' in str(x))
-        time_elem = element.find('div', class_=lambda x: x and 'TimeCSS' in str(x))
-        
-        status = "Scheduled"
-        score = None
-        match_time = None
-        
-        if score_elem:
-            status = "Finished"
-            score = score_elem.get_text(strip=True)
-        elif time_elem:
-            match_time = time_elem.get_text(strip=True)
-            # Clean up time string (sometimes has nested spans)
-            
-        return {
-            "date": date_str,
-            "league": league_name,
-            "home_team": home_team,
-            "away_team": away_team,
-            "status": status,
-            "score": score,
-            "time": match_time,
-            "url": full_match_url
-        }
-        
-    except Exception as e:
-        print(f"Error parsing match element: {e}")
-        return None
-
-
-def main():
-    """Main function to run the scraper."""
-    import os
-    script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
-    # input_dir = script_dir / "plan"  <-- REMOVED
-    # output_dir = script_dir  <-- REMOVED, using relative paths or script_dir for save_to_json handles it
+    # API endpoints for different stat types
+    # We use the league API which is more comprehensive
+    base_api = f"https://www.fotmob.com/api/leagues?id={LEAGUE_ID}&season={SEASON_ID}"
     
-    # Define tasks
-    tasks = [
-        {
-            "name": "table-all",
-            "url": "https://www.fotmob.com/teams/165196/table/persib-bandung?filter=all",
-            "type": "standings",
-            "output": "standings_all.json",
-            "persib_output": "persib_standings.json"
-        },
-        {
-            "name": "table-home",
-            "url": "https://www.fotmob.com/teams/165196/table/persib-bandung?filter=home",
-            "type": "standings",
-            "output": "standings_home.json"
-        },
-        {
-            "name": "table-away",
-            "url": "https://www.fotmob.com/teams/165196/table/persib-bandung?filter=away",
-            "type": "standings",
-            "output": "standings_away.json"
-        },
-        {
-            "name": "fixtures",
-            "url": "https://www.fotmob.com/teams/165196/fixtures/persib-bandung",
-            "type": "fixtures",
-            "output": "fixtures.json"
-        },
-        # Stats below
-        {
-            "name": "goal",
-            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/goals/team/165196/persib-bandung",
-            "type": "stats",
-            "stat_type": "goals"
-        },
-        {
-            "name": "assist",
-            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/goal_assist/team/165196",
-            "type": "stats",
-            "stat_type": "assists"
-        },
-        {
-            "name": "goal-assist",
-            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/_goals_and_goal_assist/team/165196",
-            "type": "stats",
-            "stat_type": "goals_assists"
-        },
-        {
-            "name": "yellow-cards",
-            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/yellow_card/team/165196",
-            "type": "stats",
-            "stat_type": "yellow_cards"
-        },
-        {
-            "name": "red-cards",
-            "url": "https://www.fotmob.com/leagues/8983/stats/season/27434/players/red_card/team/165196",
-            "type": "stats",
-            "stat_type": "red_cards"
-        }
-    ]
-    
-    top_stats = {
-        "scraped_at": datetime.now().isoformat(),
-        "team": "Persib Bandung",
-        "stats": {}
+    stat_types = {
+        "goals": "goals",
+        "assists": "goal_assist",
+        "red_cards": "red_cards",
+        "yellow_cards": "yellow_cards"
     }
-    has_stats = False
 
-    for task in tasks:
-        print(f"Processing {task['name']}...")
-        
-        # Fetch directly
-        html_content = fetch_html(task["url"])
-        
-        if not html_content:
-            print(f"Failed to get content for {task['name']}")
-            continue
-
-        if task["type"] == "standings":
-            standings = parse_standings_from_html(html_content)
-            save_to_json(standings, task["output"])
+    for key, api_stat_name in stat_types.items():
+        print(f"Fetching API stats: {key}...")
+        try:
+            response = requests.get(f"{base_api}&stat={api_stat_name}", headers=HEADERS, timeout=30)
+            if response.status_code == 200:
+                json_data = response.json()
+                # Use the existing parse_top_stats_from_json to process the fetched data
+                all_stats[key] = parse_top_stats_from_json(json_data, key)
+            else:
+                print(f"  Failed to fetch {key}: {response.status_code}")
+                all_stats[key] = []
+        except Exception as e:
+            print(f"  Error fetching {key}: {e}")
+            all_stats[key] = []
             
-            if "persib_output" in task:
-                persib_standings = extract_persib_standings(standings)
-                save_to_json(persib_standings, task["persib_output"])
-                
-        elif task["type"] == "fixtures":
-            fixtures_data = parse_fixtures_from_html(html_content)
-            save_to_json(fixtures_data, task["output"])
-            
-        elif task["type"] == "stats":
-            stat_type = task["stat_type"]
-            try:
-                stats_list = parse_top_stats_from_html(html_content, stat_type)
-                top_stats["stats"][stat_type] = stats_list
-                has_stats = True
-            except Exception as e:
-                print(f"Error parsing stats {stat_type}: {e}")
+    return all_stats
 
-    if has_stats:
-        save_to_json(top_stats, "top_stats.json")
-    else:
-        print("No stats data found.")
-
-    print("\nDone! JSON files created.")
-
-
-def parse_top_stats_from_html(html_content: str, stat_type: str) -> list:
-    """
-    Parse top player stats from FotMob HTML content.
-    
-    Args:
-        html_content: Raw HTML string
-        stat_type: Type of statistic (e.g., 'goals', 'assists')
-        
-    Returns:
-        List of player statistics
-    """
-    soup = BeautifulSoup(html_content, 'html.parser')
+def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = "Persib Bandung") -> List[Dict]:
+    """Parse player statistics from FotMob API JSON data."""
     stats_list = []
-    
-    # Find all table rows
-    # Rows usually have "LeagueSeasonStatsTableRowCSS" in their class
-    rows = soup.find_all(['div', 'a'], class_=lambda x: x and 'LeagueSeasonStatsTableRowCSS' in str(x))
-    
-    for row in rows:
-        player_data = parse_player_stat_row(row, stat_type)
-        if player_data:
-            stats_list.append(player_data)
+    top_lists = json_data.get('TopLists', [])
+    if not top_lists:
+        # Fallback if structure is different
+        data_list = json_data.get('StatList', []) or json_data.get('topStatList', []) or (json_data if isinstance(json_data, list) else [])
+    else:
+        data_list = top_lists[0].get('StatList', [])
+
+    for idx, item in enumerate(data_list):
+        try:
+            # Filter by team
+            current_team = item.get("TeamName", "") or item.get("teamName", "")
+            if team_name.lower() not in current_team.lower():
+                continue
+                
+            p_id = str(item.get("ParticiantId", "") or item.get("ParticipantId", "") or item.get("participantId", ""))
+            name = item.get("ParticipantName", "") or item.get("participantName", "")
+            rank = item.get("Rank", item.get("rank", idx + 1))
+            val = item.get("StatValue", item.get("statValue", 0))
+            if isinstance(val, (int, float, str)) and str(val).replace('.', '', 1).isdigit():
+                val = int(float(val))
             
+            stats_list.append({
+                "rank": rank,
+                "player": {
+                    "id": p_id,
+                    "name": name,
+                    "image": f"https://images.fotmob.com/image_resources/playerimages/{p_id}.png",
+                    "url": f"https://www.fotmob.com/players/{p_id}/{name.lower().replace(' ', '-')}" if p_id else None
+                },
+                "team_logo": f"https://images.fotmob.com/image_resources/logo/teamlogo/{TEAM_ID}.png",
+                "value": val,
+                "sub_stat": item.get("StatValueSuffix", item.get("statValueSuffix", None)),
+                "type": stat_type
+            })
+        except: continue
     return stats_list
 
+# --- Main Logic ---
 
-def parse_player_stat_row(row, stat_type: str) -> dict:
-    """
-    Parse a single player row from the top stats table.
-    """
-    try:
-        # 1. Rank
-        rank_elem = row.find('span', class_=lambda x: x and 'Rank' in str(x))
-        rank = int(rank_elem.get_text(strip=True)) if rank_elem else 0
+def main():
+    # 1. Fetch HTML and Save Snipets (for Table and Fixtures)
+    html_tasks = [
+        {"id": "table-all", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/table/persib-bandung?filter=all", "sel": 'article[class*="TableContainer"]'},
+        {"id": "table-home", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/table/persib-bandung?filter=home", "sel": 'article[class*="TableContainer"]'},
+        {"id": "table-away", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/table/persib-bandung?filter=away", "sel": 'article[class*="TableContainer"]'},
+        {"id": "fixtures", "url": f"https://www.fotmob.com/teams/{TEAM_ID}/fixtures/persib-bandung", "sel": 'section[class*="FixturesContainer"], div[class*="FixDiffContainer"], section[class*="NextMatchBox"], section[class*="NextMatchSection"]'},
+    ]
+    
+    for t in html_tasks:
+        if t["id"] == "fixtures":
+            # Use Playwright for fixtures to get dynamic content
+            html = fetch_with_playwright(t["url"], wait_selector='section[class*="NextMatchBoxCSS"]')
+        else:
+            # Use standard requests for tables (static)
+            html = fetch_content(t["url"])
+            
+        if not html: continue
         
-        # 2. Player Name
-        name_elem = row.find('span', class_=lambda x: x and 'TeamOrPlayerName' in str(x))
-        name = name_elem.get_text(strip=True) if name_elem else "Unknown"
+        # Save full HTML for fixtures to avoid missing dynamic content
+        if t["id"] == "fixtures":
+            save_to_txt(PLAN_DIR / f"{t['id']}.txt", t["url"], html)
+            continue
+            
+        soup = BeautifulSoup(html, 'html.parser')
+        snippet = ""
+        selectors = t["sel"].split(', ')
+        for sel in selectors:
+            elems = soup.select(sel)
+            for el in elems:
+                snippet += el.prettify() + "\n"
         
-        # 3. Stat Value
-        value_elem = row.find('span', class_=lambda x: x and 'StatValue' in str(x))
-        value = 0
-        if value_elem:
-            # value might be in a nested span
-            val_text = value_elem.get_text(strip=True)
-            if val_text.isdigit():
-                value = int(val_text)
-        
-        # 4. Player ID and Image
-        player_url = row.get('href', '') if row.name == 'a' else ''
-        if not player_url:
-            link = row.find('a')
-            if link:
-                player_url = link.get('href', '')
-                
-        player_id = ""
-        if player_url:
-            # /players/12345/name
-            match = re.search(r'/players/(\d+)/', player_url)
-            if match:
-                player_id = match.group(1)
-                
-        img_elem = row.find('img', class_=lambda x: x and 'PlayerImage' in str(x))
-        player_image = img_elem.get('src', '') if img_elem else ""
-        
-        # 5. Team Logo/ID (optional, usually small icon)
-        team_img_elem = row.find('img', class_=lambda x: x and 'TeamIcon' in str(x))
-        team_image = team_img_elem.get('src', '') if team_img_elem else ""
-        
-        # 6. Sub-stat (e.g. Penalty goals)
-        sub_stat = None
-        sub_stat_elem = row.find('span', class_=lambda x: x and 'SubStat' in str(x))
-        if sub_stat_elem:
-            sub_stat = sub_stat_elem.get_text(strip=True)
+        if not snippet:
+             snippet = html # Fallback to full HTML if selector fails
+        save_to_txt(PLAN_DIR / f"{t['id']}.txt", t["url"], snippet)
 
-        return {
-            "rank": rank,
-            "player": {
-                "id": player_id,
-                "name": name,
-                "image": player_image,
-                "url": f"https://www.fotmob.com{player_url}" if player_url else None
-            },
-            "team_logo": team_image,
-            "value": value,
-            "sub_stat": sub_stat,
-            "type": stat_type
-        }
-        
-    except Exception as e:
-        print(f"Error parsing player stat row: {e}")
-        return None
-
+    # 2. Fetch JSON Stats directly from FotMob Data API
+    api_stats_tasks = {
+        "goals": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/goals.json",
+        "assists": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/goal_assist.json",
+        "goals_assists": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/_goals_and_goal_assist.json",
+        "yellow_cards": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/yellow_card.json",
+        "red_cards": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/red_card.json",
+    }
+    
+    # 3. Parsing
+    print("\nParsing data to JSON...")
+    
+    # Standings
+    h_all = load_html_from_file(PLAN_DIR / "table-all.txt")
+    if h_all:
+        all_s = parse_standings_from_html(h_all)
+        save_to_json(all_s, "standings_all.json")
+        save_to_json(extract_persib_standings(all_s), "persib_standings.json")
+    
+    h_home = load_html_from_file(PLAN_DIR / "table-home.txt")
+    if h_home: save_to_json(parse_standings_from_html(h_home), "standings_home.json")
+    
+    h_away = load_html_from_file(PLAN_DIR / "table-away.txt")
+    if h_away: save_to_json(parse_standings_from_html(h_away), "standings_away.json")
+    
+    # Fixtures
+    h_fix = load_html_from_file(PLAN_DIR / "fixtures.txt")
+    if h_fix: save_to_json(parse_fixtures_from_html(h_fix), "fixtures.json")
+    
+    # Players Stats (API)
+    top = {"scraped_at": datetime.now().isoformat(), "team": "Persib Bandung", "stats": {}}
+    for stat_key, api_url in api_stats_tasks.items():
+        print(f"Fetching API stats: {stat_key}...")
+        try:
+            resp = requests.get(api_url, headers=HEADERS, timeout=30)
+            if resp.status_code == 200:
+                top["stats"][stat_key] = parse_top_stats_from_json(resp.json(), stat_key)
+            else:
+                print(f"  Failed to fetch {stat_key}: {resp.status_code}")
+                top["stats"][stat_key] = []
+        except Exception as e:
+            print(f"  Error fetching {stat_key}: {e}")
+            top["stats"][stat_key] = []
+            
+    save_to_json(top, "top_stats.json")
 
 if __name__ == "__main__":
     main()

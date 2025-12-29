@@ -5,9 +5,6 @@ on:
     - cron: "0 * * * *" # Runs every hour
   workflow_dispatch: # Allows manual trigger
 
-permissions:
-  contents: write
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -24,7 +21,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install beautifulsoup4 requests
+          pip install beautifulsoup4 requests playwright
+          playwright install chromium --with-deps
 
       - name: Run Scraper
         run: python persib_scraper.py
