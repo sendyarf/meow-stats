@@ -2,7 +2,7 @@ name: Update Liga 1 Standings Per Week
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Setiap 6 jam (ubah sesuai kebutuhan)
+    - cron: "0 * * * *" # Runs every hour
   workflow_dispatch:
 
 permissions:
