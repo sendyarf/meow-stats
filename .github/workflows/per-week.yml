@@ -2,8 +2,11 @@ name: Update Liga 1 Standings Per Week
 
 on:
   schedule:
-    - cron: "0 * * * *" # Runs every hour
-  workflow_dispatch:  # Bisa dijalankan manual dari GitHub Actions tab
+    - cron: "0 */6 * * *"  # Setiap 6 jam (ubah sesuai kebutuhan)
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-json:
@@ -16,19 +19,19 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'  # Bisa diganti ke versi lain
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install selenium beautifulsoup4  # Tambahkan yang dibutuhkan script
 
-      - name: Run script to generate per_week.json
+      - name: Run script to generate perweek.json
         run: python perweek.py
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add per_week.json
-          git diff --quiet && echo "No changes" || (git commit -m "Update standings per week $(date +'%Y-%m-%d')" && git push)
+          git add perweek.json  # Pastikan nama file sama dengan output script
+          git diff --quiet && echo "No changes" || (git commit -m "Update standings per week $(date +'%Y-%m-%d %H:%M')" && git push)
