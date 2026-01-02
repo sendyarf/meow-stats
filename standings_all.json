@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2025-12-30T04:54:09.169640",
+  "scraped_at": "2026-01-02T20:33:18.756976",
   "leagues": [
     {
-      "name": "Super League",
+      "name": "Liga 1",
       "logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-      "url": "https://www.fotmob.com/leagues/8983/overview/super-league",
+      "url": "https://www.fotmob.com/leagues/8983/overview/liga-1",
       "groups": [],
       "teams": [
         {
@@ -78,6 +78,23 @@
         {
           "position": 5,
           "team": {
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+          },
+          "played": 15,
+          "won": 7,
+          "drawn": 4,
+          "lost": 4,
+          "gs": 19,
+          "gc": 13,
+          "gd": 6,
+          "pts": 25
+        },
+        {
+          "position": 6,
+          "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
@@ -93,7 +110,7 @@
           "pts": 24
         },
         {
-          "position": 6,
+          "position": 7,
           "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
@@ -107,23 +124,6 @@
           "gs": 21,
           "gc": 15,
           "gd": 6,
-          "pts": 22
-        },
-        {
-          "position": 7,
-          "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
-          },
-          "played": 14,
-          "won": 6,
-          "drawn": 4,
-          "lost": 4,
-          "gs": 18,
-          "gc": 13,
-          "gd": 5,
           "pts": 22
         },
         {
@@ -185,13 +185,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
             "url": "https://www.fotmob.com/teams/165200/overview/arema"
           },
-          "played": 14,
+          "played": 15,
           "won": 4,
           "drawn": 6,
-          "lost": 4,
+          "lost": 5,
           "gs": 21,
-          "gc": 20,
-          "gd": 1,
+          "gc": 21,
+          "gd": 0,
           "pts": 18
         },
         {
