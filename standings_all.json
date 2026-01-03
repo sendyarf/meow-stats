@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T17:19:36.121898",
+  "scraped_at": "2026-01-03T18:16:26.732194",
   "leagues": [
     {
       "name": "Super League",
@@ -16,13 +16,13 @@
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
           "played": 16,
-          "won": 11,
-          "drawn": 2,
+          "won": 12,
+          "drawn": 1,
           "lost": 3,
-          "gs": 30,
+          "gs": 31,
           "gc": 14,
-          "gd": 16,
-          "pts": 35
+          "gd": 17,
+          "pts": 37
         },
         {
           "position": 2,
@@ -153,12 +153,12 @@
           },
           "played": 16,
           "won": 4,
-          "drawn": 8,
-          "lost": 4,
+          "drawn": 7,
+          "lost": 5,
           "gs": 21,
-          "gc": 16,
-          "gd": 5,
-          "pts": 20
+          "gc": 17,
+          "gd": 4,
+          "pts": 19
         },
         {
           "position": 10,
