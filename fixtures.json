@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T23:23:09.993812",
+  "scraped_at": "2026-01-04T00:16:47.586517",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -233,7 +233,7 @@
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-psm-makassar/p2nrzsd#4879816"
     },
     {
-      "date": "Mon, Jan 5",
+      "date": "tomorrow",
       "league": "Liga 1",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
       "home_team": "Persik",
@@ -474,7 +474,7 @@
   "next_match": {
     "home_team": "Persik",
     "away_team": "Persib Bandung",
-    "date": "Jan 5",
+    "date": "tomorrow",
     "time": "7:00 PM",
     "stats": [
       {
