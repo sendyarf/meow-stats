@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T16:19:38.742850",
+  "scraped_at": "2026-01-03T17:19:36.121898",
   "leagues": [
     {
       "name": "Super League",
@@ -9,6 +9,40 @@
       "teams": [
         {
           "position": 1,
+          "team": {
+            "id": "585858",
+            "name": "Borneo Samarinda",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
+            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
+          },
+          "played": 16,
+          "won": 11,
+          "drawn": 2,
+          "lost": 3,
+          "gs": 30,
+          "gc": 14,
+          "gd": 16,
+          "pts": 35
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": "165191",
+            "name": "Persija Jakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
+            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
+          },
+          "played": 16,
+          "won": 11,
+          "drawn": 2,
+          "lost": 3,
+          "gs": 32,
+          "gc": 13,
+          "gd": 19,
+          "pts": 35
+        },
+        {
+          "position": 3,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -23,40 +57,6 @@
           "gc": 10,
           "gd": 15,
           "pts": 34
-        },
-        {
-          "position": 2,
-          "team": {
-            "id": "585858",
-            "name": "Borneo Samarinda",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
-            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
-          },
-          "played": 16,
-          "won": 11,
-          "drawn": 1,
-          "lost": 4,
-          "gs": 29,
-          "gc": 14,
-          "gd": 15,
-          "pts": 34
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": "165191",
-            "name": "Persija Jakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
-            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
-          },
-          "played": 16,
-          "won": 10,
-          "drawn": 3,
-          "lost": 3,
-          "gs": 30,
-          "gc": 13,
-          "gd": 17,
-          "pts": 33
         },
         {
           "position": 4,
@@ -129,23 +129,6 @@
         {
           "position": 8,
           "team": {
-            "id": "165198",
-            "name": "PSM Makassar",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
-            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
-          },
-          "played": 16,
-          "won": 5,
-          "drawn": 7,
-          "lost": 4,
-          "gs": 21,
-          "gc": 15,
-          "gd": 6,
-          "pts": 22
-        },
-        {
-          "position": 9,
-          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -159,6 +142,23 @@
           "gc": 18,
           "gd": 1,
           "pts": 21
+        },
+        {
+          "position": 9,
+          "team": {
+            "id": "165198",
+            "name": "PSM Makassar",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
+            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
+          },
+          "played": 16,
+          "won": 4,
+          "drawn": 8,
+          "lost": 4,
+          "gs": 21,
+          "gc": 16,
+          "gd": 5,
+          "pts": 20
         },
         {
           "position": 10,
@@ -289,12 +289,12 @@
           },
           "played": 16,
           "won": 2,
-          "drawn": 4,
-          "lost": 10,
+          "drawn": 3,
+          "lost": 11,
           "gs": 14,
-          "gc": 28,
-          "gd": -14,
-          "pts": 10
+          "gc": 30,
+          "gd": -16,
+          "pts": 9
         },
         {
           "position": 18,
