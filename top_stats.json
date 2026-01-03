@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T19:37:48.820102",
+  "scraped_at": "2026-01-03T20:28:06.916766",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -439,7 +439,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -452,7 +452,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -465,7 +465,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -636,7 +636,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -649,7 +649,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
