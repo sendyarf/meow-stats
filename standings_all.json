@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T18:16:26.732194",
+  "scraped_at": "2026-01-03T19:37:48.714964",
   "leagues": [
     {
       "name": "Super League",
@@ -117,14 +117,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
             "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
           },
-          "played": 15,
+          "played": 16,
           "won": 5,
-          "drawn": 7,
+          "drawn": 8,
           "lost": 3,
           "gs": 21,
           "gc": 15,
           "gd": 6,
-          "pts": 22
+          "pts": 23
         },
         {
           "position": 8,
@@ -180,6 +180,23 @@
         {
           "position": 11,
           "team": {
+            "id": "165199",
+            "name": "Madura United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
+            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
+          },
+          "played": 16,
+          "won": 4,
+          "drawn": 6,
+          "lost": 6,
+          "gs": 18,
+          "gc": 20,
+          "gd": -2,
+          "pts": 18
+        },
+        {
+          "position": 12,
+          "team": {
             "id": "165200",
             "name": "Arema",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
@@ -195,7 +212,7 @@
           "pts": 18
         },
         {
-          "position": 12,
+          "position": 13,
           "team": {
             "id": "165197",
             "name": "Persik",
@@ -210,23 +227,6 @@
           "gc": 23,
           "gd": -6,
           "pts": 18
-        },
-        {
-          "position": 13,
-          "team": {
-            "id": "165199",
-            "name": "Madura United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
-            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
-          },
-          "played": 15,
-          "won": 4,
-          "drawn": 5,
-          "lost": 6,
-          "gs": 18,
-          "gc": 20,
-          "gd": -2,
-          "pts": 17
         },
         {
           "position": 14,
