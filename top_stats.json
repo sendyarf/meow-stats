@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T20:28:06.916766",
+  "scraped_at": "2026-01-03T21:18:05.425528",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -201,7 +201,7 @@
         "type": "assists"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -214,7 +214,7 @@
         "type": "assists"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -227,7 +227,7 @@
         "type": "assists"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -240,7 +240,7 @@
         "type": "assists"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -253,7 +253,7 @@
         "type": "assists"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -268,7 +268,7 @@
     ],
     "goals_assists": [
       {
-        "rank": 7,
+        "rank": 8,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -385,7 +385,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -452,7 +452,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -465,7 +465,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -636,7 +636,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -649,7 +649,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",

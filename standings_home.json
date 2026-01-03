@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T20:28:06.803476",
+  "scraped_at": "2026-01-03T21:18:05.308016",
   "leagues": [
     {
       "name": "Super League",
@@ -197,23 +197,6 @@
         {
           "position": 12,
           "team": {
-            "id": "165199",
-            "name": "Madura United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
-            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
-          },
-          "played": 8,
-          "won": 2,
-          "drawn": 3,
-          "lost": 3,
-          "gs": 10,
-          "gc": 10,
-          "gd": 0,
-          "pts": 9
-        },
-        {
-          "position": 13,
-          "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
@@ -227,6 +210,23 @@
           "gc": 14,
           "gd": -6,
           "pts": 9
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": "165199",
+            "name": "Madura United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
+            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
+          },
+          "played": 8,
+          "won": 2,
+          "drawn": 2,
+          "lost": 4,
+          "gs": 10,
+          "gc": 11,
+          "gd": -1,
+          "pts": 8
         },
         {
           "position": 14,

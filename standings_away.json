@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-03T20:28:06.804907",
+  "scraped_at": "2026-01-03T21:18:05.309477",
   "leagues": [
     {
       "name": "Super League",
@@ -135,13 +135,13 @@
             "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
           },
           "played": 8,
-          "won": 1,
-          "drawn": 6,
+          "won": 2,
+          "drawn": 5,
           "lost": 1,
-          "gs": 5,
+          "gs": 6,
           "gc": 5,
-          "gd": 0,
-          "pts": 9
+          "gd": 1,
+          "pts": 11
         },
         {
           "position": 9,
