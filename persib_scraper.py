@@ -266,12 +266,131 @@ def parse_fixtures_from_html(html_content: str) -> dict:
                 "away_team": away,
                 "date": m_date,
                 "time": m_time,
-                "stats": stats
+                "stats": stats,
+                "url": None  # Will be populated below
             }
+            
+            # Get match URL from the next match link
+            match_link = next_match_box.select_one('a[class*="NextMatchContainerCSS"]')
+            if match_link:
+                href = match_link.get('href', '')
+                if href:
+                    fixtures_data["next_match"]["url"] = f"https://www.fotmob.com{href}" if href.startswith('/') else href
         except Exception as e:
             print(f"Error parsing next match HTML: {e}")
 
     return fixtures_data
+
+def parse_head_to_head(html_content: str) -> dict:
+    """Parse head-to-head data from the H2H tab of a match page."""
+    soup = BeautifulSoup(html_content, 'html.parser')
+    h2h_data = {
+        "summary": None,
+        "matches": []
+    }
+    
+    # Find the H2H container
+    h2h_container = soup.select_one('div[class*="H2hContainerCSS"]')
+    if not h2h_container:
+        return h2h_data
+    
+    try:
+        # Parse H2H Summary (header with wins/draws)
+        header = h2h_container.select_one('div[class*="H2hHeader"]')
+        if header:
+            # Get team logos/names from header
+            team_icons = header.select('img.TeamIcon')
+            team1_logo = team_icons[0]['src'] if len(team_icons) > 0 else None
+            team2_logo = team_icons[1]['src'] if len(team_icons) > 1 else None
+            
+            # Get wins and draws numbers
+            wins_containers = header.select('div[class*="WinsContainer"]')
+            summary_values = []
+            summary_labels = []
+            
+            for container in wins_containers:
+                value_elem = container.select_one('span[class*="NumberOfWins"]')
+                label_elem = container.select_one('span[class*="HeaderText"]')
+                if value_elem:
+                    summary_values.append(value_elem.get_text(strip=True))
+                if label_elem:
+                    summary_labels.append(label_elem.get_text(strip=True))
+            
+            # Typically: [Team1 Wins, Draws, Team2 Wins]
+            h2h_data["summary"] = {
+                "team1_logo": team1_logo,
+                "team2_logo": team2_logo,
+                "team1_wins": int(summary_values[0]) if len(summary_values) > 0 else 0,
+                "draws": int(summary_values[1]) if len(summary_values) > 1 else 0,
+                "team2_wins": int(summary_values[2]) if len(summary_values) > 2 else 0
+            }
+        
+        # Parse individual match history
+        match_items = h2h_container.select('li[class*="MatchContainer"]')
+        for match_item in match_items:
+            try:
+                # Date
+                date_elem = match_item.select_one('span[class*="TimeTxt"]')
+                date_str = date_elem.get_text(strip=True) if date_elem else ""
+                
+                # League
+                league_elem = match_item.select_one('a[class*="LeagueName"]')
+                league_name = ""
+                league_logo = None
+                if league_elem:
+                    league_span = league_elem.select_one('span')
+                    league_name = league_span.get_text(strip=True) if league_span else ""
+                    league_img = league_elem.select_one('img')
+                    if league_img:
+                        league_logo = league_img.get('src')
+                
+                # Teams and Score
+                match_link = match_item.select_one('a[class*="MatchLink"]')
+                if not match_link:
+                    continue
+                    
+                match_url = match_link.get('href', '')
+                if match_url and match_url.startswith('/'):
+                    match_url = f"https://www.fotmob.com{match_url}"
+                
+                team_divs = match_link.select('div[class*="Team"]')
+                teams = []
+                for team_div in team_divs[:2]:  # Only first two are teams
+                    team_name_elem = team_div.select_one('span[class*="TeamName"]')
+                    team_logo_elem = team_div.select_one('img.TeamIcon')
+                    teams.append({
+                        "name": team_name_elem.get_text(strip=True) if team_name_elem else "",
+                        "logo": team_logo_elem.get('src') if team_logo_elem else None
+                    })
+                
+                # Score or scheduled time
+                score_elem = match_link.select_one('span[class*="LSMatchStatusScore"]')
+                time_elem = match_link.select_one('span[class*="LSMatchStatusTime"]')
+                
+                score = score_elem.get_text(strip=True) if score_elem else None
+                match_time = time_elem.get_text(strip=True) if time_elem else None
+                
+                match_data = {
+                    "date": date_str,
+                    "league": league_name,
+                    "league_logo": league_logo,
+                    "home_team": teams[0] if len(teams) > 0 else {"name": "", "logo": None},
+                    "away_team": teams[1] if len(teams) > 1 else {"name": "", "logo": None},
+                    "score": score,
+                    "time": match_time,
+                    "status": "Finished" if score else "Scheduled",
+                    "url": match_url
+                }
+                
+                h2h_data["matches"].append(match_data)
+            except Exception as e:
+                print(f"Error parsing H2H match item: {e}")
+                continue
+                
+    except Exception as e:
+        print(f"Error parsing H2H data: {e}")
+    
+    return h2h_data
 
 def parse_player_stats() -> Dict:
     """Fetch and parse player stats using direct API approach for better reliability."""
@@ -399,9 +518,26 @@ def main():
             if t_type == "all":
                 save_to_json(extract_persib_standings(s_data), "persib_standings.json")
     
-    # Fixtures (from HTML)
+    # Fixtures (from HTML) and Head-to-Head
+    fixtures_data = None
     if fixtures_html:
-        save_to_json(parse_fixtures_from_html(fixtures_html), "fixtures.json")
+        fixtures_data = parse_fixtures_from_html(fixtures_html)
+        
+        # Fetch H2H data if next_match URL is available
+        if fixtures_data.get("next_match") and fixtures_data["next_match"].get("url"):
+            next_match_url = fixtures_data["next_match"]["url"]
+            # Construct the H2H tab URL
+            h2h_url = f"{next_match_url}:tab=h2h"
+            print(f"Fetching H2H page: {h2h_url}...")
+            
+            h2h_html = fetch_with_playwright(h2h_url, wait_selector='div[class*="H2hContainerCSS"]')
+            if h2h_html:
+                h2h_data = parse_head_to_head(h2h_html)
+                fixtures_data["next_match"]["head_to_head"] = h2h_data
+            else:
+                fixtures_data["next_match"]["head_to_head"] = None
+        
+        save_to_json(fixtures_data, "fixtures.json")
     
     # Players Stats (API)
     top = {"scraped_at": datetime.now().isoformat(), "team": "Persib Bandung", "stats": {}}
