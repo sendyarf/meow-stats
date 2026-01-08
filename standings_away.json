@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-12-30T04:54:09.178404",
+  "scraped_at": "2026-01-09T06:59:33.866590",
   "leagues": [
     {
       "name": "Super League",
@@ -44,6 +44,23 @@
         {
           "position": 3,
           "team": {
+            "id": "165196",
+            "name": "Persib Bandung",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+          },
+          "played": 9,
+          "won": 4,
+          "drawn": 2,
+          "lost": 3,
+          "gs": 14,
+          "gc": 10,
+          "gd": 4,
+          "pts": 14
+        },
+        {
+          "position": 4,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -59,7 +76,7 @@
           "pts": 14
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
@@ -72,23 +89,6 @@
           "lost": 2,
           "gs": 14,
           "gc": 10,
-          "gd": 4,
-          "pts": 13
-        },
-        {
-          "position": 5,
-          "team": {
-            "id": "165196",
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
-          },
-          "played": 8,
-          "won": 4,
-          "drawn": 1,
-          "lost": 3,
-          "gs": 13,
-          "gc": 9,
           "gd": 4,
           "pts": 13
         },
@@ -112,39 +112,73 @@
         {
           "position": 7,
           "team": {
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+          },
+          "played": 9,
+          "won": 3,
+          "drawn": 3,
+          "lost": 3,
+          "gs": 9,
+          "gc": 11,
+          "gd": -2,
+          "pts": 12
+        },
+        {
+          "position": 8,
+          "team": {
             "id": "165200",
             "name": "Arema",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
             "url": "https://www.fotmob.com/teams/165200/overview/arema"
           },
-          "played": 7,
+          "played": 8,
           "won": 2,
           "drawn": 5,
-          "lost": 0,
+          "lost": 1,
           "gs": 9,
-          "gc": 7,
-          "gd": 2,
+          "gc": 8,
+          "gd": 1,
           "pts": 11
         },
         {
-          "position": 8,
+          "position": 9,
+          "team": {
+            "id": "930525",
+            "name": "Persebaya Surabaya",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
+            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
+          },
+          "played": 8,
+          "won": 2,
+          "drawn": 5,
+          "lost": 1,
+          "gs": 6,
+          "gc": 5,
+          "gd": 1,
+          "pts": 11
+        },
+        {
+          "position": 10,
           "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 7,
+          "played": 8,
           "won": 2,
           "drawn": 3,
-          "lost": 2,
-          "gs": 9,
-          "gc": 9,
-          "gd": 0,
+          "lost": 3,
+          "gs": 10,
+          "gc": 11,
+          "gd": -1,
           "pts": 9
         },
         {
-          "position": 9,
+          "position": 11,
           "team": {
             "id": "165199",
             "name": "Madura United",
@@ -161,24 +195,7 @@
           "pts": 9
         },
         {
-          "position": 10,
-          "team": {
-            "id": "930525",
-            "name": "Persebaya Surabaya",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
-            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
-          },
-          "played": 7,
-          "won": 1,
-          "drawn": 5,
-          "lost": 1,
-          "gs": 5,
-          "gc": 5,
-          "gd": 0,
-          "pts": 8
-        },
-        {
-          "position": 11,
+          "position": 12,
           "team": {
             "id": "165197",
             "name": "Persik",
@@ -193,23 +210,6 @@
           "gc": 16,
           "gd": -8,
           "pts": 7
-        },
-        {
-          "position": 12,
-          "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
-          },
-          "played": 7,
-          "won": 1,
-          "drawn": 3,
-          "lost": 3,
-          "gs": 5,
-          "gc": 10,
-          "gd": -5,
-          "pts": 6
         },
         {
           "position": 13,
@@ -253,13 +253,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 6,
+          "played": 7,
           "won": 1,
           "drawn": 1,
-          "lost": 4,
+          "lost": 5,
           "gs": 2,
-          "gc": 10,
-          "gd": -8,
+          "gc": 11,
+          "gd": -9,
           "pts": 4
         },
         {
@@ -270,13 +270,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
             "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
           },
-          "played": 7,
+          "played": 8,
           "won": 1,
           "drawn": 1,
-          "lost": 5,
+          "lost": 6,
           "gs": 7,
-          "gc": 16,
-          "gd": -9,
+          "gc": 18,
+          "gd": -11,
           "pts": 4
         },
         {
@@ -287,13 +287,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 6,
+          "played": 7,
           "won": 1,
           "drawn": 1,
-          "lost": 4,
-          "gs": 7,
-          "gc": 18,
-          "gd": -11,
+          "lost": 5,
+          "gs": 9,
+          "gc": 24,
+          "gd": -15,
           "pts": 4
         },
         {
@@ -304,13 +304,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 7,
+          "played": 8,
           "won": 1,
           "drawn": 0,
-          "lost": 6,
+          "lost": 7,
           "gs": 4,
-          "gc": 14,
-          "gd": -10,
+          "gc": 15,
+          "gd": -11,
           "pts": 3
         }
       ]
