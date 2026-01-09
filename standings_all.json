@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-09T15:29:01.671781",
+  "scraped_at": "2026-01-09T16:27:08.185170",
   "leagues": [
     {
       "name": "Super League",
@@ -15,13 +15,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
-          "played": 16,
+          "played": 17,
           "won": 12,
           "drawn": 1,
-          "lost": 3,
+          "lost": 4,
           "gs": 31,
-          "gc": 14,
-          "gd": 17,
+          "gc": 15,
+          "gd": 16,
           "pts": 37
         },
         {
@@ -83,14 +83,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 16,
-          "won": 8,
+          "played": 17,
+          "won": 9,
           "drawn": 4,
           "lost": 4,
-          "gs": 22,
+          "gs": 23,
           "gc": 14,
-          "gd": 8,
-          "pts": 28
+          "gd": 9,
+          "pts": 31
         },
         {
           "position": 6,

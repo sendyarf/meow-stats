@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-09T15:29:06.354644",
+  "scraped_at": "2026-01-09T16:27:12.540835",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -82,7 +82,7 @@
         "type": "goals"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -95,7 +95,7 @@
         "type": "goals"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -108,7 +108,7 @@
         "type": "goals"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -121,7 +121,7 @@
         "type": "goals"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -346,7 +346,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -359,7 +359,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -372,7 +372,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -385,7 +385,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -398,7 +398,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -411,7 +411,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -478,7 +478,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
