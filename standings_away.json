@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-09T18:18:46.593109",
+  "scraped_at": "2026-01-09T19:42:00.634157",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+          },
+          "played": 9,
+          "won": 5,
+          "drawn": 2,
+          "lost": 2,
+          "gs": 17,
+          "gc": 13,
+          "gd": 4,
+          "pts": 17
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "165191",
             "name": "Persija Jakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
@@ -42,7 +59,7 @@
           "pts": 15
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -56,23 +73,6 @@
           "gs": 14,
           "gc": 10,
           "gd": 4,
-          "pts": 14
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
-          },
-          "played": 8,
-          "won": 4,
-          "drawn": 2,
-          "lost": 2,
-          "gs": 16,
-          "gc": 13,
-          "gd": 3,
           "pts": 14
         },
         {

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-09T18:18:46.589733",
+  "scraped_at": "2026-01-09T19:42:00.630916",
   "leagues": [
     {
       "name": "Super League",
@@ -112,6 +112,23 @@
         {
           "position": 7,
           "team": {
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+          },
+          "played": 17,
+          "won": 7,
+          "drawn": 6,
+          "lost": 4,
+          "gs": 21,
+          "gc": 18,
+          "gd": 3,
+          "pts": 27
+        },
+        {
+          "position": 8,
+          "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
@@ -125,23 +142,6 @@
           "gc": 15,
           "gd": 7,
           "pts": 25
-        },
-        {
-          "position": 8,
-          "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
-          },
-          "played": 16,
-          "won": 6,
-          "drawn": 6,
-          "lost": 4,
-          "gs": 20,
-          "gc": 18,
-          "gd": 2,
-          "pts": 24
         },
         {
           "position": 9,
@@ -168,13 +168,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 16,
+          "played": 17,
           "won": 4,
           "drawn": 7,
-          "lost": 5,
+          "lost": 6,
           "gs": 21,
-          "gc": 17,
-          "gd": 4,
+          "gc": 18,
+          "gd": 3,
           "pts": 19
         },
         {
