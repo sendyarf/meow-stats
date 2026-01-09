@@ -57,5 +57,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update Liga 1 standings per week $(date +'%Y-%m-%d %H:%M')"
-            git push
+            git pull origin main --rebase
+            git push origin main
           fi
