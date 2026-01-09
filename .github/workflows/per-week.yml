@@ -2,15 +2,17 @@ name: Update Liga 1 Standings Per Week
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Setiap 6 jam (ubah sesuai kebutuhan)
+    - cron: "0 */6 * * *" # Setiap 6 jam
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-json:
+  update-standings:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Jakarta
 
     steps:
       - name: Checkout repository
@@ -19,19 +21,41 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Install ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
+
+      - name: Start virtual display
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb
+          Xvfb :99 -screen 0 1920x1080x24 &
+          echo "DISPLAY=:99" >> $GITHUB_ENV
+
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install selenium beautifulsoup4  # Tambahkan yang dibutuhkan script
+          pip install selenium beautifulsoup4 webdriver-manager
 
-      - name: Run script to generate perweek.json
+      - name: Run perweek.py script
         run: python perweek.py
+        env:
+          DISPLAY: ":99"
 
-      - name: Commit and push if changed
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add perweek.json  # Pastikan nama file sama dengan output script
-          git diff --quiet && echo "No changes" || (git commit -m "Update standings per week $(date +'%Y-%m-%d %H:%M')" && git push)
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add perweek.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Liga 1 standings per week $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
