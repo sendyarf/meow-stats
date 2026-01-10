@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-10T18:16:34.419581",
+  "scraped_at": "2026-01-10T19:37:52.322308",
   "leagues": [
     {
       "name": "Super League",
@@ -95,6 +95,23 @@
         {
           "position": 6,
           "team": {
+            "id": "585850",
+            "name": "PSIM Yogyakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
+            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
+          },
+          "played": 17,
+          "won": 7,
+          "drawn": 7,
+          "lost": 3,
+          "gs": 20,
+          "gc": 18,
+          "gd": 2,
+          "pts": 28
+        },
+        {
+          "position": 7,
+          "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
@@ -108,23 +125,6 @@
           "gc": 16,
           "gd": 8,
           "pts": 28
-        },
-        {
-          "position": 7,
-          "team": {
-            "id": "585850",
-            "name": "PSIM Yogyakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
-            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
-          },
-          "played": 16,
-          "won": 7,
-          "drawn": 6,
-          "lost": 3,
-          "gs": 20,
-          "gc": 18,
-          "gd": 2,
-          "pts": 27
         },
         {
           "position": 8,
@@ -197,6 +197,23 @@
         {
           "position": 12,
           "team": {
+            "id": "165199",
+            "name": "Madura United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
+            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
+          },
+          "played": 17,
+          "won": 4,
+          "drawn": 6,
+          "lost": 7,
+          "gs": 18,
+          "gc": 21,
+          "gd": -3,
+          "pts": 18
+        },
+        {
+          "position": 13,
+          "team": {
             "id": "165200",
             "name": "Arema",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
@@ -210,23 +227,6 @@
           "gc": 22,
           "gd": -1,
           "pts": 18
-        },
-        {
-          "position": 13,
-          "team": {
-            "id": "165199",
-            "name": "Madura United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
-            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
-          },
-          "played": 16,
-          "won": 4,
-          "drawn": 5,
-          "lost": 7,
-          "gs": 18,
-          "gc": 21,
-          "gd": -3,
-          "pts": 17
         },
         {
           "position": 14,
