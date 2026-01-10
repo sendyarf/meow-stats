@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-10T19:37:52.322308",
+  "scraped_at": "2026-01-10T20:28:33.533953",
   "leagues": [
     {
       "name": "Super League",
@@ -101,13 +101,13 @@
             "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
           },
           "played": 17,
-          "won": 7,
-          "drawn": 7,
+          "won": 8,
+          "drawn": 6,
           "lost": 3,
-          "gs": 20,
+          "gs": 23,
           "gc": 18,
-          "gd": 2,
-          "pts": 28
+          "gd": 5,
+          "pts": 30
         },
         {
           "position": 7,
@@ -197,23 +197,6 @@
         {
           "position": 12,
           "team": {
-            "id": "165199",
-            "name": "Madura United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
-            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
-          },
-          "played": 17,
-          "won": 4,
-          "drawn": 6,
-          "lost": 7,
-          "gs": 18,
-          "gc": 21,
-          "gd": -3,
-          "pts": 18
-        },
-        {
-          "position": 13,
-          "team": {
             "id": "165200",
             "name": "Arema",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
@@ -227,6 +210,23 @@
           "gc": 22,
           "gd": -1,
           "pts": 18
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": "165199",
+            "name": "Madura United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
+            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
+          },
+          "played": 17,
+          "won": 4,
+          "drawn": 5,
+          "lost": 8,
+          "gs": 18,
+          "gc": 24,
+          "gd": -6,
+          "pts": 17
         },
         {
           "position": 14,
