@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-10T15:25:04.714326",
+  "scraped_at": "2026-01-10T16:19:33.396255",
   "leagues": [
     {
       "name": "Super League",
@@ -66,13 +66,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 16,
+          "played": 17,
           "won": 10,
           "drawn": 4,
-          "lost": 2,
+          "lost": 3,
           "gs": 32,
-          "gc": 17,
-          "gd": 15,
+          "gc": 19,
+          "gd": 13,
           "pts": 34
         },
         {
@@ -95,6 +95,23 @@
         {
           "position": 6,
           "team": {
+            "id": "930525",
+            "name": "Persebaya Surabaya",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
+            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
+          },
+          "played": 17,
+          "won": 7,
+          "drawn": 7,
+          "lost": 3,
+          "gs": 24,
+          "gc": 15,
+          "gd": 9,
+          "pts": 28
+        },
+        {
+          "position": 7,
+          "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
@@ -110,7 +127,7 @@
           "pts": 27
         },
         {
-          "position": 7,
+          "position": 8,
           "team": {
             "id": "185751",
             "name": "Bali United FC",
@@ -125,23 +142,6 @@
           "gc": 18,
           "gd": 4,
           "pts": 27
-        },
-        {
-          "position": 8,
-          "team": {
-            "id": "930525",
-            "name": "Persebaya Surabaya",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
-            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
-          },
-          "played": 16,
-          "won": 6,
-          "drawn": 7,
-          "lost": 3,
-          "gs": 22,
-          "gc": 15,
-          "gd": 7,
-          "pts": 25
         },
         {
           "position": 9,
