@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-01-11T01:17:36.879550",
+  "generated_at": "2026-01-11T08:05:10.959540",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 148,
   "standings": {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Bali United",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -883,7 +883,7 @@
         "rank": 4
       },
       {
-        "team": "Persib Bandung",
+        "team": "Persebaya",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -898,7 +898,7 @@
         "rank": 5
       },
       {
-        "team": "Persebaya",
+        "team": "Persib Bandung",
         "played": 4,
         "win": 2,
         "draw": 1,
