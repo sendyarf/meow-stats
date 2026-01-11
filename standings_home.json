@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T16:20:07.067709",
+  "scraped_at": "2026-01-11T17:20:25.115206",
   "leagues": [
     {
       "name": "Super League",
@@ -231,23 +231,6 @@
         {
           "position": 14,
           "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 2,
-          "lost": 5,
-          "gs": 12,
-          "gc": 14,
-          "gd": -2,
-          "pts": 8
-        },
-        {
-          "position": 15,
-          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -263,6 +246,23 @@
           "pts": 8
         },
         {
+          "position": 15,
+          "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 9,
+          "won": 2,
+          "drawn": 1,
+          "lost": 6,
+          "gs": 12,
+          "gc": 15,
+          "gd": -3,
+          "pts": 7
+        },
+        {
           "position": 16,
           "team": {
             "id": "215564",
@@ -272,12 +272,12 @@
           },
           "played": 9,
           "won": 2,
-          "drawn": 2,
-          "lost": 5,
+          "drawn": 1,
+          "lost": 6,
           "gs": 8,
-          "gc": 12,
-          "gd": -4,
-          "pts": 8
+          "gc": 13,
+          "gd": -5,
+          "pts": 7
         },
         {
           "position": 17,

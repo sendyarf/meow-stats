@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T16:20:07.065913",
+  "scraped_at": "2026-01-11T17:20:25.113440",
   "leagues": [
     {
       "name": "Super League",
@@ -169,33 +169,16 @@
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
           "played": 17,
-          "won": 5,
-          "drawn": 5,
+          "won": 6,
+          "drawn": 4,
           "lost": 7,
-          "gs": 18,
+          "gs": 19,
           "gc": 24,
-          "gd": -6,
-          "pts": 20
+          "gd": -5,
+          "pts": 22
         },
         {
           "position": 11,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 17,
-          "won": 4,
-          "drawn": 7,
-          "lost": 6,
-          "gs": 21,
-          "gc": 22,
-          "gd": -1,
-          "pts": 19
-        },
-        {
-          "position": 12,
           "team": {
             "id": "165198",
             "name": "PSM Makassar",
@@ -210,6 +193,23 @@
           "gc": 19,
           "gd": 2,
           "pts": 19
+        },
+        {
+          "position": 12,
+          "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 17,
+          "won": 4,
+          "drawn": 6,
+          "lost": 7,
+          "gs": 21,
+          "gc": 23,
+          "gd": -2,
+          "pts": 18
         },
         {
           "position": 13,
@@ -265,6 +265,23 @@
         {
           "position": 16,
           "team": {
+            "id": "583034",
+            "name": "Persis Solo",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
+            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
+          },
+          "played": 17,
+          "won": 2,
+          "drawn": 4,
+          "lost": 11,
+          "gs": 19,
+          "gc": 37,
+          "gd": -18,
+          "pts": 10
+        },
+        {
+          "position": 17,
+          "team": {
             "id": "215564",
             "name": "Semen Padang",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
@@ -272,15 +289,15 @@
           },
           "played": 17,
           "won": 3,
-          "drawn": 2,
-          "lost": 12,
+          "drawn": 1,
+          "lost": 13,
           "gs": 12,
-          "gc": 27,
-          "gd": -15,
-          "pts": 11
+          "gc": 28,
+          "gd": -16,
+          "pts": 10
         },
         {
-          "position": 17,
+          "position": 18,
           "team": {
             "id": "165194",
             "name": "Persijap Jepara",
@@ -295,23 +312,6 @@
           "gc": 30,
           "gd": -16,
           "pts": 9
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "583034",
-            "name": "Persis Solo",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
-            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
-          },
-          "played": 17,
-          "won": 1,
-          "drawn": 5,
-          "lost": 11,
-          "gs": 18,
-          "gc": 37,
-          "gd": -19,
-          "pts": 8
         }
       ]
     },
