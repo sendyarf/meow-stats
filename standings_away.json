@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T15:25:25.674002",
+  "scraped_at": "2026-01-11T16:20:07.069173",
   "leagues": [
     {
       "name": "Super League",
@@ -49,13 +49,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 8,
+          "played": 9,
           "won": 5,
           "drawn": 0,
-          "lost": 3,
+          "lost": 4,
           "gs": 13,
-          "gc": 9,
-          "gd": 4,
+          "gc": 10,
+          "gd": 3,
           "pts": 15
         },
         {
@@ -202,14 +202,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 9,
+          "played": 10,
           "won": 2,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 6,
           "gs": 8,
           "gc": 16,
           "gd": -8,
-          "pts": 7
+          "pts": 8
         },
         {
           "position": 13,
@@ -219,14 +219,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 9,
+          "played": 10,
           "won": 1,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 6,
-          "gs": 7,
-          "gc": 17,
+          "gs": 8,
+          "gc": 18,
           "gd": -10,
-          "pts": 5
+          "pts": 6
         },
         {
           "position": 14,

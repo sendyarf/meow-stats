@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T15:25:25.670823",
+  "scraped_at": "2026-01-11T16:20:07.065913",
   "leagues": [
     {
       "name": "Super League",
@@ -9,6 +9,23 @@
       "teams": [
         {
           "position": 1,
+          "team": {
+            "id": "165196",
+            "name": "Persib Bandung",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+          },
+          "played": 17,
+          "won": 12,
+          "drawn": 2,
+          "lost": 3,
+          "gs": 27,
+          "gc": 11,
+          "gd": 16,
+          "pts": 38
+        },
+        {
+          "position": 2,
           "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
@@ -25,37 +42,20 @@
           "pts": 37
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": "165191",
             "name": "Persija Jakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 16,
+          "played": 17,
           "won": 11,
           "drawn": 2,
-          "lost": 3,
+          "lost": 4,
           "gs": 32,
-          "gc": 13,
-          "gd": 19,
-          "pts": 35
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": "165196",
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
-          },
-          "played": 16,
-          "won": 11,
-          "drawn": 2,
-          "lost": 3,
-          "gs": 26,
-          "gc": 11,
-          "gd": 15,
+          "gc": 14,
+          "gd": 18,
           "pts": 35
         },
         {
@@ -163,6 +163,40 @@
         {
           "position": 10,
           "team": {
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+          },
+          "played": 17,
+          "won": 5,
+          "drawn": 5,
+          "lost": 7,
+          "gs": 18,
+          "gc": 24,
+          "gd": -6,
+          "pts": 20
+        },
+        {
+          "position": 11,
+          "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 17,
+          "won": 4,
+          "drawn": 7,
+          "lost": 6,
+          "gs": 21,
+          "gc": 22,
+          "gd": -1,
+          "pts": 19
+        },
+        {
+          "position": 12,
+          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -176,40 +210,6 @@
           "gc": 19,
           "gd": 2,
           "pts": 19
-        },
-        {
-          "position": 11,
-          "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
-          },
-          "played": 16,
-          "won": 5,
-          "drawn": 4,
-          "lost": 7,
-          "gs": 18,
-          "gc": 24,
-          "gd": -6,
-          "pts": 19
-        },
-        {
-          "position": 12,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 16,
-          "won": 4,
-          "drawn": 6,
-          "lost": 6,
-          "gs": 21,
-          "gc": 22,
-          "gd": -1,
-          "pts": 18
         },
         {
           "position": 13,
@@ -270,14 +270,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 16,
+          "played": 17,
           "won": 3,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 12,
-          "gs": 11,
-          "gc": 26,
+          "gs": 12,
+          "gc": 27,
           "gd": -15,
-          "pts": 10
+          "pts": 11
         },
         {
           "position": 17,
@@ -304,14 +304,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 16,
+          "played": 17,
           "won": 1,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 11,
-          "gs": 17,
-          "gc": 36,
+          "gs": 18,
+          "gc": 37,
           "gd": -19,
-          "pts": 7
+          "pts": 8
         }
       ]
     },

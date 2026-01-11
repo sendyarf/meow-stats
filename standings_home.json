@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T15:25:25.672588",
+  "scraped_at": "2026-01-11T16:20:07.067709",
   "leagues": [
     {
       "name": "Super League",
@@ -32,14 +32,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
-          "played": 7,
-          "won": 7,
+          "played": 8,
+          "won": 8,
           "drawn": 0,
           "lost": 0,
-          "gs": 12,
+          "gs": 13,
           "gc": 1,
-          "gd": 11,
-          "pts": 21
+          "gd": 12,
+          "pts": 24
         },
         {
           "position": 3,
@@ -231,6 +231,23 @@
         {
           "position": 14,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 9,
+          "won": 2,
+          "drawn": 2,
+          "lost": 5,
+          "gs": 12,
+          "gc": 14,
+          "gd": -2,
+          "pts": 8
+        },
+        {
+          "position": 15,
+          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -246,23 +263,6 @@
           "pts": 8
         },
         {
-          "position": 15,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 8,
-          "won": 2,
-          "drawn": 1,
-          "lost": 5,
-          "gs": 12,
-          "gc": 14,
-          "gd": -2,
-          "pts": 7
-        },
-        {
           "position": 16,
           "team": {
             "id": "215564",
@@ -270,14 +270,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 8,
+          "played": 9,
           "won": 2,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 5,
-          "gs": 7,
-          "gc": 11,
+          "gs": 8,
+          "gc": 12,
           "gd": -4,
-          "pts": 7
+          "pts": 8
         },
         {
           "position": 17,

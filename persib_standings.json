@@ -1,26 +1,26 @@
 {
-  "scraped_at": "2026-01-11T15:25:25.670823",
+  "scraped_at": "2026-01-11T16:20:07.065913",
   "team": "Persib Bandung",
   "standings": [
     {
       "league": "Super League",
       "group": null,
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-      "position": 3,
+      "position": 1,
       "team": {
         "id": "165196",
         "name": "Persib Bandung",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
       },
-      "played": 16,
-      "won": 11,
+      "played": 17,
+      "won": 12,
       "drawn": 2,
       "lost": 3,
-      "gs": 26,
+      "gs": 27,
       "gc": 11,
-      "gd": 15,
-      "pts": 35
+      "gd": 16,
+      "pts": 38
     },
     {
       "league": "AFC Champions League Two",
