@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T17:20:25.116643",
+  "scraped_at": "2026-01-11T18:16:27.901896",
   "leagues": [
     {
       "name": "Super League",
@@ -163,23 +163,6 @@
         {
           "position": 10,
           "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
-          },
-          "played": 10,
-          "won": 3,
-          "drawn": 1,
-          "lost": 6,
-          "gs": 9,
-          "gc": 16,
-          "gd": -7,
-          "pts": 10
-        },
-        {
-          "position": 11,
-          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -195,7 +178,7 @@
           "pts": 9
         },
         {
-          "position": 12,
+          "position": 11,
           "team": {
             "id": "165199",
             "name": "Madura United",
@@ -212,7 +195,7 @@
           "pts": 9
         },
         {
-          "position": 13,
+          "position": 12,
           "team": {
             "id": "583034",
             "name": "Persis Solo",
@@ -223,10 +206,27 @@
           "won": 2,
           "drawn": 2,
           "lost": 6,
+          "gs": 10,
+          "gc": 19,
+          "gd": -9,
+          "pts": 8
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+          },
+          "played": 10,
+          "won": 2,
+          "drawn": 1,
+          "lost": 7,
           "gs": 9,
           "gc": 18,
           "gd": -9,
-          "pts": 8
+          "pts": 7
         },
         {
           "position": 14,

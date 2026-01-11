@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T17:20:25.113440",
+  "scraped_at": "2026-01-11T18:16:27.898496",
   "leagues": [
     {
       "name": "Super League",
@@ -163,19 +163,19 @@
         {
           "position": 10,
           "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
           },
           "played": 17,
-          "won": 6,
-          "drawn": 4,
-          "lost": 7,
-          "gs": 19,
-          "gc": 24,
-          "gd": -5,
-          "pts": 22
+          "won": 5,
+          "drawn": 6,
+          "lost": 6,
+          "gs": 23,
+          "gc": 23,
+          "gd": 0,
+          "pts": 21
         },
         {
           "position": 11,
@@ -197,19 +197,19 @@
         {
           "position": 12,
           "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
           "played": 17,
-          "won": 4,
-          "drawn": 6,
-          "lost": 7,
-          "gs": 21,
-          "gc": 23,
-          "gd": -2,
-          "pts": 18
+          "won": 5,
+          "drawn": 4,
+          "lost": 8,
+          "gs": 19,
+          "gc": 26,
+          "gd": -7,
+          "pts": 19
         },
         {
           "position": 13,
@@ -274,8 +274,8 @@
           "won": 2,
           "drawn": 4,
           "lost": 11,
-          "gs": 19,
-          "gc": 37,
+          "gs": 20,
+          "gc": 38,
           "gd": -18,
           "pts": 10
         },
@@ -291,8 +291,8 @@
           "won": 3,
           "drawn": 1,
           "lost": 13,
-          "gs": 12,
-          "gc": 28,
+          "gs": 13,
+          "gc": 29,
           "gd": -16,
           "pts": 10
         },

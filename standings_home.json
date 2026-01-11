@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T17:20:25.115206",
+  "scraped_at": "2026-01-11T18:16:27.900368",
   "leagues": [
     {
       "name": "Super League",
@@ -197,6 +197,23 @@
         {
           "position": 12,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 9,
+          "won": 3,
+          "drawn": 1,
+          "lost": 5,
+          "gs": 14,
+          "gc": 15,
+          "gd": -1,
+          "pts": 10
+        },
+        {
+          "position": 13,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -212,7 +229,7 @@
           "pts": 10
         },
         {
-          "position": 13,
+          "position": 14,
           "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
@@ -229,7 +246,7 @@
           "pts": 9
         },
         {
-          "position": 14,
+          "position": 15,
           "team": {
             "id": "165199",
             "name": "Madura United",
@@ -246,23 +263,6 @@
           "pts": 8
         },
         {
-          "position": 15,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 1,
-          "lost": 6,
-          "gs": 12,
-          "gc": 15,
-          "gd": -3,
-          "pts": 7
-        },
-        {
           "position": 16,
           "team": {
             "id": "215564",
@@ -274,8 +274,8 @@
           "won": 2,
           "drawn": 1,
           "lost": 6,
-          "gs": 8,
-          "gc": 13,
+          "gs": 9,
+          "gc": 14,
           "gd": -5,
           "pts": 7
         },

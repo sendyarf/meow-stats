@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-11T17:20:29.740717",
+  "scraped_at": "2026-01-11T18:16:32.203056",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -95,7 +95,7 @@
         "type": "goals"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -108,7 +108,7 @@
         "type": "goals"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -121,7 +121,7 @@
         "type": "goals"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -162,7 +162,7 @@
         "type": "assists"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -175,7 +175,7 @@
         "type": "assists"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -188,7 +188,7 @@
         "type": "assists"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -307,7 +307,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -320,7 +320,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -333,7 +333,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -346,7 +346,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -359,7 +359,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -372,7 +372,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -385,7 +385,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -398,7 +398,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 125,
+        "rank": 127,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -411,7 +411,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 125,
+        "rank": 127,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -465,7 +465,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -493,6 +493,19 @@
       {
         "rank": 102,
         "player": {
+          "id": "1032159",
+          "name": "Berguinho",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1032159.png",
+          "url": "https://www.fotmob.com/players/1032159/berguinho"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 2,
+        "sub_stat": null,
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 102,
+        "player": {
           "id": "384446",
           "name": "Thom Haye",
           "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
@@ -504,7 +517,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 174,
+        "rank": 175,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -517,7 +530,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 174,
+        "rank": 175,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -530,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -543,20 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
-        "player": {
-          "id": "1032159",
-          "name": "Berguinho",
-          "image": "https://images.fotmob.com/image_resources/playerimages/1032159.png",
-          "url": "https://www.fotmob.com/players/1032159/berguinho"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
-      },
-      {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -569,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -582,7 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -608,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -621,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -634,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 187,
+        "rank": 188,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
