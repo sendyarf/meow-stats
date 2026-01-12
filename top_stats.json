@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T16:31:06.267992",
+  "scraped_at": "2026-01-12T17:25:23.941634",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -426,7 +426,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 11,
+        "rank": 12,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -439,7 +439,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -465,7 +465,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 55,
+        "rank": 57,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
