@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-01-12T13:23:46.190912",
+  "generated_at": "2026-01-12T19:27:27.826946",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 151,
+  "total_matches": 152,
   "standings": {
     "Round 1": [
       {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Persijap Jepara",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -504,7 +504,7 @@
         "rank": 15
       },
       {
-        "team": "Dewa United",
+        "team": "PSBS Biak Numfor",
         "played": 2,
         "win": 0,
         "draw": 0,
@@ -519,7 +519,7 @@
         "rank": 16
       },
       {
-        "team": "PSBS Biak Numfor",
+        "team": "Dewa United",
         "played": 2,
         "win": 0,
         "draw": 0,
@@ -958,11 +958,11 @@
         "rank": 9
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSM Makassar",
         "played": 4,
-        "win": 1,
-        "draw": 1,
-        "loss": 2,
+        "win": 0,
+        "draw": 4,
+        "loss": 0,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -973,11 +973,11 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "FC Bhayangkara",
         "played": 4,
-        "win": 0,
-        "draw": 4,
-        "loss": 0,
+        "win": 1,
+        "draw": 1,
+        "loss": 2,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -4480,13 +4480,13 @@
       },
       {
         "team": "FC Bhayangkara",
-        "played": 16,
+        "played": 17,
         "win": 6,
         "draw": 4,
-        "loss": 6,
-        "gf": 13,
-        "ga": 14,
-        "gd": -1,
+        "loss": 7,
+        "gf": 14,
+        "ga": 18,
+        "gd": -4,
         "points": 22,
         "yellows": 0,
         "reds": 2,
@@ -4570,14 +4570,14 @@
       },
       {
         "team": "PSBS Biak Numfor",
-        "played": 16,
-        "win": 3,
+        "played": 17,
+        "win": 4,
         "draw": 4,
         "loss": 9,
-        "gf": 17,
-        "ga": 38,
-        "gd": -21,
-        "points": 13,
+        "gf": 21,
+        "ga": 39,
+        "gd": -18,
+        "points": 16,
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
