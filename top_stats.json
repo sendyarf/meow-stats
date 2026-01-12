@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T19:44:18.875186",
+  "scraped_at": "2026-01-12T20:41:42.365817",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -95,7 +95,7 @@
         "type": "goals"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -108,7 +108,7 @@
         "type": "goals"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -121,7 +121,7 @@
         "type": "goals"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -149,7 +149,7 @@
         "type": "assists"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -201,7 +201,7 @@
         "type": "assists"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -214,7 +214,7 @@
         "type": "assists"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -227,7 +227,7 @@
         "type": "assists"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -240,7 +240,7 @@
         "type": "assists"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -253,7 +253,7 @@
         "type": "assists"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -346,7 +346,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -359,7 +359,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -372,7 +372,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -385,7 +385,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -426,7 +426,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 12,
+        "rank": 13,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -439,7 +439,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
