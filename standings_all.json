@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T14:26:33.256947",
+  "scraped_at": "2026-01-12T15:31:03.737044",
   "leagues": [
     {
       "name": "Super League",
@@ -151,14 +151,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
             "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
           },
-          "played": 16,
+          "played": 17,
           "won": 6,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 6,
           "gs": 13,
           "gc": 14,
           "gd": -1,
-          "pts": 22
+          "pts": 23
         },
         {
           "position": 10,
@@ -253,14 +253,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 16,
+          "played": 17,
           "won": 3,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 9,
           "gs": 17,
           "gc": 38,
           "gd": -21,
-          "pts": 13
+          "pts": 14
         },
         {
           "position": 16,

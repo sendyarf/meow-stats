@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T14:26:33.260171",
+  "scraped_at": "2026-01-12T15:31:03.740246",
   "leagues": [
     {
       "name": "Super League",
@@ -236,14 +236,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
             "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
           },
-          "played": 7,
+          "played": 8,
           "won": 1,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 5,
           "gs": 2,
           "gc": 9,
           "gd": -7,
-          "pts": 4
+          "pts": 5
         },
         {
           "position": 15,
