@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T18:20:11.181761",
+  "scraped_at": "2026-01-12T19:44:14.438641",
   "leagues": [
     {
       "name": "Super League",
@@ -180,6 +180,23 @@
         {
           "position": 11,
           "team": {
+            "id": "585860",
+            "name": "Dewa United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
+            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
+          },
+          "played": 17,
+          "won": 6,
+          "drawn": 2,
+          "lost": 9,
+          "gs": 19,
+          "gc": 24,
+          "gd": -5,
+          "pts": 20
+        },
+        {
+          "position": 12,
+          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -195,7 +212,7 @@
           "pts": 19
         },
         {
-          "position": 12,
+          "position": 13,
           "team": {
             "id": "165197",
             "name": "Persik",
@@ -212,7 +229,7 @@
           "pts": 19
         },
         {
-          "position": 13,
+          "position": 14,
           "team": {
             "id": "165199",
             "name": "Madura United",
@@ -226,23 +243,6 @@
           "gs": 18,
           "gc": 24,
           "gd": -6,
-          "pts": 17
-        },
-        {
-          "position": 14,
-          "team": {
-            "id": "585860",
-            "name": "Dewa United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
-            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
-          },
-          "played": 16,
-          "won": 5,
-          "drawn": 2,
-          "lost": 9,
-          "gs": 17,
-          "gc": 24,
-          "gd": -7,
           "pts": 17
         },
         {
@@ -304,13 +304,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
             "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
           },
-          "played": 16,
+          "played": 17,
           "won": 2,
           "drawn": 3,
-          "lost": 11,
+          "lost": 12,
           "gs": 14,
-          "gc": 30,
-          "gd": -16,
+          "gc": 32,
+          "gd": -18,
           "pts": 9
         }
       ]

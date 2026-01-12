@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T18:20:11.184937",
+  "scraped_at": "2026-01-12T19:44:14.442024",
   "leagues": [
     {
       "name": "Super League",
@@ -214,6 +214,23 @@
         {
           "position": 13,
           "team": {
+            "id": "585860",
+            "name": "Dewa United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
+            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
+          },
+          "played": 8,
+          "won": 2,
+          "drawn": 1,
+          "lost": 5,
+          "gs": 4,
+          "gc": 11,
+          "gd": -7,
+          "pts": 7
+        },
+        {
+          "position": 14,
+          "team": {
             "id": "165197",
             "name": "Persik",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
@@ -227,23 +244,6 @@
           "gc": 18,
           "gd": -9,
           "pts": 7
-        },
-        {
-          "position": 14,
-          "team": {
-            "id": "585860",
-            "name": "Dewa United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
-            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
-          },
-          "played": 7,
-          "won": 1,
-          "drawn": 1,
-          "lost": 5,
-          "gs": 2,
-          "gc": 11,
-          "gd": -9,
-          "pts": 4
         },
         {
           "position": 15,

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-12T18:20:15.028761",
+  "scraped_at": "2026-01-12T19:44:18.875186",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -162,7 +162,7 @@
         "type": "assists"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -175,7 +175,7 @@
         "type": "assists"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -188,7 +188,7 @@
         "type": "assists"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -268,7 +268,7 @@
     ],
     "goals_assists": [
       {
-        "rank": 14,
+        "rank": 15,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -281,7 +281,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 29,
+        "rank": 30,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
