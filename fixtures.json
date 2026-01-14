@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-14T16:28:24.974442",
+  "scraped_at": "2026-01-14T17:23:40.077635",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -289,13 +289,13 @@
     },
     {
       "date": "Wed, Feb 11",
-      "league": "AFC Champions League Two",
+      "league": "AFC Champions League Two Final Stage",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "home_team": "Ratchaburi FC",
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "10:00PM",
+      "time": "7:15PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299"
     },
     {
@@ -311,13 +311,13 @@
     },
     {
       "date": "Wed, Feb 18",
-      "league": "AFC Champions League Two",
+      "league": "AFC Champions League Two Final Stage",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "home_team": "Persib Bandung",
       "away_team": "Ratchaburi FC",
       "status": "Scheduled",
       "score": null,
-      "time": "10:00PM",
+      "time": "7:15PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118300"
     },
     {
@@ -494,67 +494,6 @@
       }
     ],
     "url": "https://www.fotmob.com/matches/persib-bandung-vs-psbs-biak-numfor/3lkp13za#4879905",
-    "head_to_head": {
-      "summary": {
-        "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
-        "team1_wins": 2,
-        "draws": 1,
-        "team2_wins": 0
-      },
-      "matches": [
-        {
-          "date": "October 17, 2025",
-          "league": "Super League",
-          "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-          "home_team": {
-            "name": "PSBS Biak Numfor",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877_xsmall.png"
-          },
-          "away_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "score": "0 - 3",
-          "time": null,
-          "status": "Finished",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-psbs-biak-numfor/3lkp13za#4879819"
-        },
-        {
-          "date": "January 11, 2025",
-          "league": "Liga 1",
-          "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-          "home_team": {
-            "name": "PSBS Biak Numfor",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877_xsmall.png"
-          },
-          "away_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "score": "1 - 1",
-          "time": null,
-          "status": "Finished",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-psbs-biak-numfor/3lkp13za#4582575"
-        },
-        {
-          "date": "August 9, 2024",
-          "league": "Liga 1",
-          "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-          "home_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "away_team": {
-            "name": "PSBS Biak Numfor",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877_xsmall.png"
-          },
-          "score": "4 - 1",
-          "time": null,
-          "status": "Finished",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-psbs-biak-numfor/3lkp13za#4582439"
-        }
-      ]
-    }
+    "head_to_head": null
   }
 }
