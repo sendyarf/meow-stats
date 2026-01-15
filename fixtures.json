@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-15T12:25:28.826049",
+  "scraped_at": "2026-01-15T13:32:38.874325",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -289,7 +289,7 @@
     },
     {
       "date": "Wed, Feb 11",
-      "league": "AFC Champions League Two Final Stage",
+      "league": "AFC Champions League Two",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "home_team": "Ratchaburi FC",
       "away_team": "Persib Bandung",
@@ -311,7 +311,7 @@
     },
     {
       "date": "Wed, Feb 18",
-      "league": "AFC Champions League Two Final Stage",
+      "league": "AFC Champions League Two",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "home_team": "Persib Bandung",
       "away_team": "Ratchaburi FC",
