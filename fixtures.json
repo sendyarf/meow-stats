@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-19T16:33:33.184510",
+  "scraped_at": "2026-01-19T17:27:19.589844",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -464,13 +464,7 @@
       "url": "https://www.fotmob.com/matches/persijap-jepara-vs-persib-bandung/p2mzo21#4880048"
     }
   ],
-  "fixture_difficulty": [
-    "BIN (H)",
-    "PER (A)",
-    "MAU (H)",
-    "BOS (A)",
-    "SIT (H)"
-  ],
+  "fixture_difficulty": [],
   "next_match": {
     "home_team": "Persib Bandung",
     "away_team": "PSBS Biak Numfor",
