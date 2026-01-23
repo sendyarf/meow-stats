@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-23T23:29:21.186833",
+  "scraped_at": "2026-01-24T00:25:30.892796",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -255,7 +255,7 @@
       "url": "https://www.fotmob.com/matches/persija-jakarta-vs-persib-bandung/p2mef9m#4879893"
     },
     {
-      "date": "Sun, Jan 25",
+      "date": "tomorrow",
       "league": "Liga 1",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
       "home_team": "Persib Bandung",
@@ -468,7 +468,7 @@
   "next_match": {
     "home_team": "Persib Bandung",
     "away_team": "PSBS Biak Numfor",
-    "date": "Jan 25",
+    "date": "tomorrow",
     "time": "7:00 PM",
     "stats": [
       {
