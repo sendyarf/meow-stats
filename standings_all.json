@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-23T18:20:19.104056",
+  "scraped_at": "2026-01-23T19:44:04.362630",
   "leagues": [
     {
       "name": "Super League",
@@ -49,14 +49,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 17,
+          "played": 18,
           "won": 11,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 4,
           "gs": 32,
           "gc": 14,
           "gd": 18,
-          "pts": 35
+          "pts": 36
         },
         {
           "position": 4,
@@ -236,14 +236,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 17,
+          "played": 18,
           "won": 4,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 8,
           "gs": 18,
           "gc": 24,
           "gd": -6,
-          "pts": 17
+          "pts": 18
         },
         {
           "position": 15,
