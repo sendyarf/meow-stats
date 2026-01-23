@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-23T19:44:09.013181",
+  "scraped_at": "2026-01-23T20:41:55.544760",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -517,7 +517,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 176,
+        "rank": 178,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -530,7 +530,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 176,
+        "rank": 178,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -569,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -582,7 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -608,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -621,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -634,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 189,
+        "rank": 191,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
