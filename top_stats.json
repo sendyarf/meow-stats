@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-23T15:29:08.671865",
+  "scraped_at": "2026-01-23T16:29:29.650726",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -201,7 +201,7 @@
         "type": "assists"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -214,7 +214,7 @@
         "type": "assists"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -227,7 +227,7 @@
         "type": "assists"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -240,7 +240,7 @@
         "type": "assists"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -253,7 +253,7 @@
         "type": "assists"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -398,7 +398,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -411,7 +411,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",

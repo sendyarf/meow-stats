@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-23T15:29:03.355404",
+  "scraped_at": "2026-01-23T16:29:25.204695",
   "leagues": [
     {
       "name": "Super League",
@@ -9,6 +9,23 @@
       "teams": [
         {
           "position": 1,
+          "team": {
+            "id": "585858",
+            "name": "Borneo Samarinda",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
+            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
+          },
+          "played": 18,
+          "won": 13,
+          "drawn": 1,
+          "lost": 4,
+          "gs": 32,
+          "gc": 16,
+          "gd": 16,
+          "pts": 40
+        },
+        {
+          "position": 2,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -23,23 +40,6 @@
           "gc": 11,
           "gd": 16,
           "pts": 38
-        },
-        {
-          "position": 2,
-          "team": {
-            "id": "585858",
-            "name": "Borneo Samarinda",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
-            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
-          },
-          "played": 17,
-          "won": 12,
-          "drawn": 1,
-          "lost": 4,
-          "gs": 31,
-          "gc": 16,
-          "gd": 15,
-          "pts": 37
         },
         {
           "position": 3,
@@ -270,13 +270,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 17,
+          "played": 18,
           "won": 2,
           "drawn": 4,
-          "lost": 11,
+          "lost": 12,
           "gs": 20,
-          "gc": 38,
-          "gd": -18,
+          "gc": 39,
+          "gd": -19,
           "pts": 10
         },
         {
