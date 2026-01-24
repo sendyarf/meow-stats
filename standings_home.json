@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T16:19:44.790174",
+  "scraped_at": "2026-01-24T17:20:35.994482",
   "leagues": [
     {
       "name": "Super League",
@@ -85,12 +85,12 @@
           },
           "played": 9,
           "won": 6,
-          "drawn": 1,
-          "lost": 2,
-          "gs": 15,
+          "drawn": 2,
+          "lost": 1,
+          "gs": 16,
           "gc": 4,
-          "gd": 11,
-          "pts": 19
+          "gd": 12,
+          "pts": 20
         },
         {
           "position": 6,
@@ -197,6 +197,23 @@
         {
           "position": 12,
           "team": {
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+          },
+          "played": 9,
+          "won": 2,
+          "drawn": 5,
+          "lost": 2,
+          "gs": 7,
+          "gc": 8,
+          "gd": -1,
+          "pts": 11
+        },
+        {
+          "position": 13,
+          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -212,7 +229,7 @@
           "pts": 10
         },
         {
-          "position": 13,
+          "position": 14,
           "team": {
             "id": "165200",
             "name": "Arema",
@@ -226,23 +243,6 @@
           "gs": 14,
           "gc": 15,
           "gd": -1,
-          "pts": 10
-        },
-        {
-          "position": 14,
-          "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 4,
-          "lost": 3,
-          "gs": 4,
-          "gc": 7,
-          "gd": -3,
           "pts": 10
         },
         {

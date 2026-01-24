@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T16:19:44.788429",
+  "scraped_at": "2026-01-24T17:20:35.992750",
   "leagues": [
     {
       "name": "Super League",
@@ -85,12 +85,12 @@
           },
           "played": 18,
           "won": 9,
-          "drawn": 4,
-          "lost": 5,
-          "gs": 24,
+          "drawn": 5,
+          "lost": 4,
+          "gs": 25,
           "gc": 15,
-          "gd": 9,
-          "pts": 31
+          "gd": 10,
+          "pts": 32
         },
         {
           "position": 6,
@@ -136,12 +136,12 @@
           },
           "played": 18,
           "won": 7,
-          "drawn": 6,
-          "lost": 5,
-          "gs": 22,
-          "gc": 20,
-          "gd": 2,
-          "pts": 27
+          "drawn": 7,
+          "lost": 4,
+          "gs": 25,
+          "gc": 21,
+          "gd": 4,
+          "pts": 28
         },
         {
           "position": 9,
@@ -152,13 +152,13 @@
             "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
           },
           "played": 18,
-          "won": 7,
-          "drawn": 4,
+          "won": 6,
+          "drawn": 5,
           "lost": 7,
           "gs": 15,
-          "gc": 18,
-          "gd": -3,
-          "pts": 25
+          "gc": 19,
+          "gd": -4,
+          "pts": 23
         },
         {
           "position": 10,
@@ -271,13 +271,13 @@
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
           "played": 18,
-          "won": 4,
-          "drawn": 1,
+          "won": 3,
+          "drawn": 2,
           "lost": 13,
-          "gs": 15,
-          "gc": 29,
-          "gd": -14,
-          "pts": 13
+          "gs": 16,
+          "gc": 32,
+          "gd": -16,
+          "pts": 11
         },
         {
           "position": 17,
