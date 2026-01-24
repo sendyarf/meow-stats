@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T18:18:19.188361",
+  "scraped_at": "2026-01-24T19:38:29.890283",
   "leagues": [
     {
       "name": "Super League",
@@ -168,13 +168,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 8,
+          "played": 9,
           "won": 2,
           "drawn": 3,
-          "lost": 3,
+          "lost": 4,
           "gs": 10,
-          "gc": 11,
-          "gd": -1,
+          "gc": 12,
+          "gd": -2,
           "pts": 9
         },
         {

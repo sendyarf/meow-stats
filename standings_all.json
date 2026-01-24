@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T18:18:19.184411",
+  "scraped_at": "2026-01-24T19:38:29.887118",
   "leagues": [
     {
       "name": "Super League",
@@ -202,13 +202,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 17,
+          "played": 18,
           "won": 4,
           "drawn": 7,
-          "lost": 6,
+          "lost": 7,
           "gs": 21,
-          "gc": 19,
-          "gd": 2,
+          "gc": 20,
+          "gd": 1,
           "pts": 19
         },
         {
@@ -265,6 +265,23 @@
         {
           "position": 16,
           "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 18,
+          "won": 3,
+          "drawn": 3,
+          "lost": 12,
+          "gs": 15,
+          "gc": 33,
+          "gd": -18,
+          "pts": 12
+        },
+        {
+          "position": 17,
+          "team": {
             "id": "215564",
             "name": "Semen Padang",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
@@ -280,7 +297,7 @@
           "pts": 11
         },
         {
-          "position": 17,
+          "position": 18,
           "team": {
             "id": "583034",
             "name": "Persis Solo",
@@ -295,23 +312,6 @@
           "gc": 39,
           "gd": -19,
           "pts": 10
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 17,
-          "won": 2,
-          "drawn": 3,
-          "lost": 12,
-          "gs": 14,
-          "gc": 33,
-          "gd": -19,
-          "pts": 9
         }
       ]
     },
