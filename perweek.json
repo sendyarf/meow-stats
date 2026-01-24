@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-01-24T19:22:44.523994",
+  "generated_at": "2026-01-25T01:18:24.423352",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 158,
+  "total_matches": 159,
   "standings": {
     "Round 1": [
       {
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persik Kediri",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "PSM Makassar",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Bali United",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "Persebaya",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -958,11 +958,11 @@
         "rank": 9
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSM Makassar",
         "played": 4,
-        "win": 1,
-        "draw": 1,
-        "loss": 2,
+        "win": 0,
+        "draw": 4,
+        "loss": 0,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -973,11 +973,11 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "FC Bhayangkara",
         "played": 4,
-        "win": 0,
-        "draw": 4,
-        "loss": 0,
+        "win": 1,
+        "draw": 1,
+        "loss": 2,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -4797,13 +4797,13 @@
       },
       {
         "team": "PSM Makassar",
-        "played": 17,
+        "played": 18,
         "win": 4,
         "draw": 7,
-        "loss": 6,
+        "loss": 7,
         "gf": 21,
-        "ga": 19,
-        "gd": 2,
+        "ga": 21,
+        "gd": 0,
         "points": 19,
         "yellows": 0,
         "reds": 4,
@@ -4856,6 +4856,21 @@
         "rank": 15
       },
       {
+        "team": "Persijap Jepara",
+        "played": 18,
+        "win": 3,
+        "draw": 3,
+        "loss": 12,
+        "gf": 16,
+        "ga": 33,
+        "gd": -17,
+        "points": 12,
+        "yellows": 0,
+        "reds": 7,
+        "fair_play": 21,
+        "rank": 16
+      },
+      {
         "team": "Semen Padang",
         "played": 18,
         "win": 3,
@@ -4868,7 +4883,7 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 16
+        "rank": 17
       },
       {
         "team": "Persis Solo",
@@ -4883,21 +4898,6 @@
         "yellows": 0,
         "reds": 2,
         "fair_play": 6,
-        "rank": 17
-      },
-      {
-        "team": "Persijap Jepara",
-        "played": 17,
-        "win": 2,
-        "draw": 3,
-        "loss": 12,
-        "gf": 14,
-        "ga": 33,
-        "gd": -19,
-        "points": 9,
-        "yellows": 0,
-        "reds": 7,
-        "fair_play": 21,
         "rank": 18
       }
     ]
