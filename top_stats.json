@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T19:38:34.078197",
+  "scraped_at": "2026-01-24T20:30:36.986471",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -478,7 +478,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -491,7 +491,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -504,7 +504,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
