@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T13:30:15.647317",
+  "scraped_at": "2026-01-24T14:19:34.207014",
   "leagues": [
     {
       "name": "Super League",
@@ -66,14 +66,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 17,
-          "won": 10,
+          "played": 18,
+          "won": 11,
           "drawn": 4,
           "lost": 3,
-          "gs": 33,
+          "gs": 36,
           "gc": 19,
-          "gd": 14,
-          "pts": 34
+          "gd": 17,
+          "pts": 37
         },
         {
           "position": 5,
@@ -219,13 +219,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 17,
+          "played": 18,
           "won": 5,
           "drawn": 4,
-          "lost": 8,
+          "lost": 9,
           "gs": 19,
-          "gc": 26,
-          "gd": -7,
+          "gc": 29,
+          "gd": -10,
           "pts": 19
         },
         {

@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-01-24T13:30:20.558885",
+  "scraped_at": "2026-01-24T14:19:38.257737",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
       {
-        "rank": 7,
+        "rank": 9,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -149,7 +149,7 @@
         "type": "assists"
       },
       {
-        "rank": 13,
+        "rank": 15,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -268,7 +268,7 @@
     ],
     "goals_assists": [
       {
-        "rank": 15,
+        "rank": 16,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -465,7 +465,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",

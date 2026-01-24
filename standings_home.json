@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T13:30:15.649606",
+  "scraped_at": "2026-01-24T14:19:34.208797",
   "leagues": [
     {
       "name": "Super League",
@@ -61,6 +61,23 @@
         {
           "position": 4,
           "team": {
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
+          },
+          "played": 9,
+          "won": 6,
+          "drawn": 2,
+          "lost": 1,
+          "gs": 23,
+          "gc": 11,
+          "gd": 12,
+          "pts": 20
+        },
+        {
+          "position": 5,
+          "team": {
             "id": "165206",
             "name": "Persita",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
@@ -76,7 +93,7 @@
           "pts": 19
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "185749",
             "name": "Bhayangkara Presisi Indonesia FC",
@@ -91,23 +108,6 @@
           "gc": 5,
           "gd": 6,
           "pts": 18
-        },
-        {
-          "position": 6,
-          "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
-          },
-          "played": 8,
-          "won": 5,
-          "drawn": 2,
-          "lost": 1,
-          "gs": 20,
-          "gc": 11,
-          "gd": 9,
-          "pts": 17
         },
         {
           "position": 7,
