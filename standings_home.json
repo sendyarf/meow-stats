@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T15:26:02.314792",
+  "scraped_at": "2026-01-24T16:19:44.790174",
   "leagues": [
     {
       "name": "Super League",
@@ -83,13 +83,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 8,
+          "played": 9,
           "won": 6,
           "drawn": 1,
-          "lost": 1,
+          "lost": 2,
           "gs": 15,
-          "gc": 3,
-          "gd": 12,
+          "gc": 4,
+          "gd": 11,
           "pts": 19
         },
         {
@@ -236,13 +236,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
             "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
           },
-          "played": 8,
+          "played": 9,
           "won": 2,
           "drawn": 4,
-          "lost": 2,
+          "lost": 3,
           "gs": 4,
-          "gc": 5,
-          "gd": -1,
+          "gc": 7,
+          "gd": -3,
           "pts": 10
         },
         {
