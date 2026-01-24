@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-24T14:19:38.257737",
+  "scraped_at": "2026-01-24T15:26:06.430799",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -307,7 +307,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -320,7 +320,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -333,7 +333,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "1206260",
           "name": "Ramon",
