@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-25T15:26:34.774789",
+  "scraped_at": "2026-01-25T16:20:56.288758",
   "leagues": [
     {
       "name": "Super League",
@@ -95,36 +95,36 @@
         {
           "position": 6,
           "team": {
-            "id": "585850",
-            "name": "PSIM Yogyakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
-            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
-          },
-          "played": 17,
-          "won": 8,
-          "drawn": 6,
-          "lost": 3,
-          "gs": 23,
-          "gc": 18,
-          "gd": 5,
-          "pts": 30
-        },
-        {
-          "position": 7,
-          "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
             "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
           },
-          "played": 17,
-          "won": 7,
+          "played": 18,
+          "won": 8,
           "drawn": 7,
           "lost": 3,
-          "gs": 24,
+          "gs": 25,
           "gc": 16,
-          "gd": 8,
-          "pts": 28
+          "gd": 9,
+          "pts": 31
+        },
+        {
+          "position": 7,
+          "team": {
+            "id": "585850",
+            "name": "PSIM Yogyakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
+            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
+          },
+          "played": 18,
+          "won": 8,
+          "drawn": 6,
+          "lost": 4,
+          "gs": 23,
+          "gc": 19,
+          "gd": 4,
+          "pts": 30
         },
         {
           "position": 8,

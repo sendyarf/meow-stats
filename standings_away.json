@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-25T15:26:34.778074",
+  "scraped_at": "2026-01-25T16:20:56.291882",
   "leagues": [
     {
       "name": "Super League",
@@ -112,6 +112,23 @@
         {
           "position": 7,
           "team": {
+            "id": "930525",
+            "name": "Persebaya Surabaya",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
+            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
+          },
+          "played": 9,
+          "won": 3,
+          "drawn": 5,
+          "lost": 1,
+          "gs": 7,
+          "gc": 5,
+          "gd": 2,
+          "pts": 14
+        },
+        {
+          "position": 8,
+          "team": {
             "id": "165206",
             "name": "Persita",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
@@ -127,7 +144,7 @@
           "pts": 12
         },
         {
-          "position": 8,
+          "position": 9,
           "team": {
             "id": "165200",
             "name": "Arema",
@@ -140,23 +157,6 @@
           "lost": 1,
           "gs": 9,
           "gc": 8,
-          "gd": 1,
-          "pts": 11
-        },
-        {
-          "position": 9,
-          "team": {
-            "id": "930525",
-            "name": "Persebaya Surabaya",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
-            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
-          },
-          "played": 8,
-          "won": 2,
-          "drawn": 5,
-          "lost": 1,
-          "gs": 6,
-          "gc": 5,
           "gd": 1,
           "pts": 11
         },

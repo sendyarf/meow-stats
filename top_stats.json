@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-25T15:26:39.492917",
+  "scraped_at": "2026-01-25T16:21:56.955941",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -149,7 +149,7 @@
         "type": "assists"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -569,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -582,7 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -608,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -621,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -634,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
