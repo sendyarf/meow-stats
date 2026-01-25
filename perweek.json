@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-01-25T01:18:24.423352",
+  "generated_at": "2026-01-25T08:06:12.039079",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 159,
   "standings": {
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Bali United",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persik Kediri",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -504,7 +504,7 @@
         "rank": 15
       },
       {
-        "team": "Dewa United",
+        "team": "PSBS Biak Numfor",
         "played": 2,
         "win": 0,
         "draw": 0,
@@ -519,7 +519,7 @@
         "rank": 16
       },
       {
-        "team": "PSBS Biak Numfor",
+        "team": "Dewa United",
         "played": 2,
         "win": 0,
         "draw": 0,
