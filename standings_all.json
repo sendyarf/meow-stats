@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-26T18:20:18.315215",
+  "scraped_at": "2026-01-26T19:45:08.521505",
   "leagues": [
     {
       "name": "Super League",
@@ -163,36 +163,36 @@
         {
           "position": 10,
           "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 17,
-          "won": 5,
-          "drawn": 6,
-          "lost": 6,
-          "gs": 23,
-          "gc": 23,
-          "gd": 0,
-          "pts": 21
-        },
-        {
-          "position": 11,
-          "team": {
             "id": "585860",
             "name": "Dewa United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 17,
-          "won": 6,
+          "played": 18,
+          "won": 7,
           "drawn": 2,
           "lost": 9,
-          "gs": 20,
+          "gs": 22,
           "gc": 24,
-          "gd": -4,
-          "pts": 20
+          "gd": -2,
+          "pts": 23
+        },
+        {
+          "position": 11,
+          "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 18,
+          "won": 5,
+          "drawn": 6,
+          "lost": 7,
+          "gs": 23,
+          "gc": 25,
+          "gd": -2,
+          "pts": 21
         },
         {
           "position": 12,
