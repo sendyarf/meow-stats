@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-29T23:42:28.880481",
+  "scraped_at": "2026-01-30T00:36:53.385680",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -266,7 +266,7 @@
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-psbs-biak-numfor/3lkp13za#4879905"
     },
     {
-      "date": "Sat, Jan 31",
+      "date": "tomorrow",
       "league": "Liga 1",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
       "home_team": "Persis Solo",
@@ -468,7 +468,7 @@
   "next_match": {
     "home_team": "Persis Solo",
     "away_team": "Persib Bandung",
-    "date": "Jan 31",
+    "date": "tomorrow",
     "time": "3:30 PM",
     "stats": [
       {
