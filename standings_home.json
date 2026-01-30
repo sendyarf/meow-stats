@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-30T14:39:17.699423",
+  "scraped_at": "2026-01-30T15:37:43.728026",
   "leagues": [
     {
       "name": "Super League",
@@ -61,6 +61,23 @@
         {
           "position": 4,
           "team": {
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+          },
+          "played": 10,
+          "won": 6,
+          "drawn": 3,
+          "lost": 1,
+          "gs": 16,
+          "gc": 4,
+          "gd": 12,
+          "pts": 21
+        },
+        {
+          "position": 5,
+          "team": {
             "id": "1665351",
             "name": "Malut United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
@@ -73,23 +90,6 @@
           "gs": 24,
           "gc": 11,
           "gd": 13,
-          "pts": 20
-        },
-        {
-          "position": 5,
-          "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
-          },
-          "played": 9,
-          "won": 6,
-          "drawn": 2,
-          "lost": 1,
-          "gs": 16,
-          "gc": 4,
-          "gd": 12,
           "pts": 20
         },
         {
@@ -168,14 +168,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 7,
+          "played": 8,
           "won": 3,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 1,
           "gs": 10,
           "gc": 8,
           "gd": 2,
-          "pts": 12
+          "pts": 13
         },
         {
           "position": 11,

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-30T14:39:17.697579",
+  "scraped_at": "2026-01-30T15:37:43.726178",
   "leagues": [
     {
       "name": "Super League",
@@ -49,14 +49,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 18,
+          "played": 19,
           "won": 12,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 4,
           "gs": 34,
           "gc": 14,
           "gd": 20,
-          "pts": 38
+          "pts": 39
         },
         {
           "position": 4,
@@ -83,14 +83,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 18,
+          "played": 19,
           "won": 9,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 4,
           "gs": 25,
           "gc": 15,
           "gd": 10,
-          "pts": 32
+          "pts": 33
         },
         {
           "position": 6,
@@ -134,14 +134,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
             "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
           },
-          "played": 18,
+          "played": 19,
           "won": 7,
-          "drawn": 7,
+          "drawn": 8,
           "lost": 4,
           "gs": 25,
           "gc": 21,
           "gd": 4,
-          "pts": 28
+          "pts": 29
         },
         {
           "position": 9,
@@ -197,6 +197,23 @@
         {
           "position": 12,
           "team": {
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+          },
+          "played": 19,
+          "won": 5,
+          "drawn": 5,
+          "lost": 9,
+          "gs": 19,
+          "gc": 30,
+          "gd": -11,
+          "pts": 20
+        },
+        {
+          "position": 13,
+          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -209,23 +226,6 @@
           "gs": 21,
           "gc": 21,
           "gd": 0,
-          "pts": 19
-        },
-        {
-          "position": 13,
-          "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
-          },
-          "played": 18,
-          "won": 5,
-          "drawn": 4,
-          "lost": 9,
-          "gs": 19,
-          "gc": 30,
-          "gd": -11,
           "pts": 19
         },
         {
