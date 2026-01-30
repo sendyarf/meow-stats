@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-30T15:37:43.728026",
+  "scraped_at": "2026-01-30T16:37:32.518546",
   "leagues": [
     {
       "name": "Super League",
@@ -61,23 +61,6 @@
         {
           "position": 4,
           "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
-          },
-          "played": 10,
-          "won": 6,
-          "drawn": 3,
-          "lost": 1,
-          "gs": 16,
-          "gc": 4,
-          "gd": 12,
-          "pts": 21
-        },
-        {
-          "position": 5,
-          "team": {
             "id": "1665351",
             "name": "Malut United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
@@ -90,6 +73,23 @@
           "gs": 24,
           "gc": 11,
           "gd": 13,
+          "pts": 20
+        },
+        {
+          "position": 5,
+          "team": {
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+          },
+          "played": 10,
+          "won": 6,
+          "drawn": 2,
+          "lost": 2,
+          "gs": 16,
+          "gc": 5,
+          "gd": 11,
           "pts": 20
         },
         {
@@ -146,6 +146,23 @@
         {
           "position": 9,
           "team": {
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+          },
+          "played": 8,
+          "won": 4,
+          "drawn": 3,
+          "lost": 1,
+          "gs": 13,
+          "gc": 9,
+          "gd": 4,
+          "pts": 15
+        },
+        {
+          "position": 10,
+          "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
@@ -159,23 +176,6 @@
           "gc": 11,
           "gd": 0,
           "pts": 15
-        },
-        {
-          "position": 10,
-          "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
-          },
-          "played": 8,
-          "won": 3,
-          "drawn": 4,
-          "lost": 1,
-          "gs": 10,
-          "gc": 8,
-          "gd": 2,
-          "pts": 13
         },
         {
           "position": 11,
