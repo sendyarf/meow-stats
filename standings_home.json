@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-31T15:29:04.716699",
+  "scraped_at": "2026-01-31T16:27:12.982247",
   "leagues": [
     {
       "name": "Super League",
@@ -304,13 +304,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 8,
+          "played": 9,
           "won": 0,
           "drawn": 2,
-          "lost": 6,
+          "lost": 7,
           "gs": 10,
-          "gc": 20,
-          "gd": -10,
+          "gc": 21,
+          "gd": -11,
           "pts": 2
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-31T15:29:04.693483",
+  "scraped_at": "2026-01-31T16:27:12.980508",
   "leagues": [
     {
       "name": "Super League",
@@ -15,14 +15,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
-          "played": 18,
-          "won": 13,
+          "played": 19,
+          "won": 14,
           "drawn": 2,
           "lost": 3,
-          "gs": 28,
+          "gs": 29,
           "gc": 11,
-          "gd": 17,
-          "pts": 41
+          "gd": 18,
+          "pts": 44
         },
         {
           "position": 2,
@@ -304,13 +304,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 18,
+          "played": 19,
           "won": 2,
           "drawn": 4,
-          "lost": 12,
+          "lost": 13,
           "gs": 20,
-          "gc": 39,
-          "gd": -19,
+          "gc": 40,
+          "gd": -20,
           "pts": 10
         }
       ]
