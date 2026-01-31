@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-31T18:19:27.381292",
+  "scraped_at": "2026-01-31T19:43:56.355769",
   "leagues": [
     {
       "name": "Super League",
@@ -253,14 +253,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 9,
+          "played": 10,
           "won": 2,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 5,
           "gs": 10,
           "gc": 14,
           "gd": -4,
-          "pts": 8
+          "pts": 9
         },
         {
           "position": 16,

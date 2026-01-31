@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-31T18:19:27.379529",
+  "scraped_at": "2026-01-31T19:43:56.354009",
   "leagues": [
     {
       "name": "Super League",
@@ -236,14 +236,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 18,
+          "played": 19,
           "won": 4,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 9,
           "gs": 18,
           "gc": 26,
           "gd": -8,
-          "pts": 17
+          "pts": 18
         },
         {
           "position": 15,
@@ -253,14 +253,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 18,
+          "played": 19,
           "won": 4,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 10,
           "gs": 21,
           "gc": 40,
           "gd": -19,
-          "pts": 16
+          "pts": 17
         },
         {
           "position": 16,
