@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-31T13:37:08.543251",
+  "scraped_at": "2026-01-31T14:28:07.487230",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -411,7 +411,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 133,
+        "rank": 135,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -424,7 +424,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 133,
+        "rank": 135,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
