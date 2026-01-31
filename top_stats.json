@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-31T16:27:17.296096",
+  "scraped_at": "2026-01-31T17:23:16.312415",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -229,6 +229,19 @@
       {
         "rank": 57,
         "player": {
+          "id": "972306",
+          "name": "Eliano Reijnders",
+          "image": "https://images.fotmob.com/image_resources/playerimages/972306.png",
+          "url": "https://www.fotmob.com/players/972306/eliano-reijnders"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "assists"
+      },
+      {
+        "rank": 57,
+        "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
           "image": "https://images.fotmob.com/image_resources/playerimages/464897.png",
@@ -413,6 +426,19 @@
       {
         "rank": 135,
         "player": {
+          "id": "972306",
+          "name": "Eliano Reijnders",
+          "image": "https://images.fotmob.com/image_resources/playerimages/972306.png",
+          "url": "https://www.fotmob.com/players/972306/eliano-reijnders"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 135,
+        "player": {
           "id": "805657",
           "name": "Febri Haryadi",
           "image": "https://images.fotmob.com/image_resources/playerimages/805657.png",
@@ -504,7 +530,20 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 101,
+        "rank": 65,
+        "player": {
+          "id": "384446",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": "https://www.fotmob.com/players/384446/thom-haye"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 3,
+        "sub_stat": null,
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 102,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -517,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -530,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -543,20 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 113,
-        "player": {
-          "id": "384446",
-          "name": "Thom Haye",
-          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
-          "url": "https://www.fotmob.com/players/384446/thom-haye"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "yellow_cards"
-      },
-      {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -588,6 +614,19 @@
           "name": "Adam Przybek",
           "image": "https://images.fotmob.com/image_resources/playerimages/1113454.png",
           "url": "https://www.fotmob.com/players/1113454/adam-przybek"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 1,
+        "sub_stat": null,
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 202,
+        "player": {
+          "id": "805657",
+          "name": "Febri Haryadi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/805657.png",
+          "url": "https://www.fotmob.com/players/805657/febri-haryadi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 1,
