@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-01-31T19:26:01.399716",
+  "generated_at": "2026-02-01T01:19:58.424152",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 166,
+  "total_matches": 167,
   "standings": {
     "Round 1": [
       {
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "PSM Makassar",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Persik Kediri",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Bali United",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -883,7 +883,7 @@
         "rank": 4
       },
       {
-        "team": "Persib Bandung",
+        "team": "Persebaya",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -898,7 +898,7 @@
         "rank": 5
       },
       {
-        "team": "Persebaya",
+        "team": "Persib Bandung",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -958,11 +958,11 @@
         "rank": 9
       },
       {
-        "team": "PSM Makassar",
+        "team": "FC Bhayangkara",
         "played": 4,
-        "win": 0,
-        "draw": 4,
-        "loss": 0,
+        "win": 1,
+        "draw": 1,
+        "loss": 2,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -973,11 +973,11 @@
         "rank": 10
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSM Makassar",
         "played": 4,
-        "win": 1,
-        "draw": 1,
-        "loss": 2,
+        "win": 0,
+        "draw": 4,
+        "loss": 0,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -5099,14 +5099,14 @@
       },
       {
         "team": "Madura United",
-        "played": 18,
+        "played": 19,
         "win": 4,
-        "draw": 5,
+        "draw": 6,
         "loss": 9,
         "gf": 18,
         "ga": 26,
         "gd": -8,
-        "points": 17,
+        "points": 18,
         "yellows": 0,
         "reds": 5,
         "fair_play": 15,
@@ -5114,14 +5114,14 @@
       },
       {
         "team": "PSBS Biak Numfor",
-        "played": 18,
+        "played": 19,
         "win": 4,
-        "draw": 4,
+        "draw": 5,
         "loss": 10,
         "gf": 21,
         "ga": 40,
         "gd": -19,
-        "points": 16,
+        "points": 17,
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
