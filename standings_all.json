@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-31T12:37:15.004865",
+  "scraped_at": "2026-01-31T13:37:03.423864",
   "leagues": [
     {
       "name": "Super League",
@@ -66,14 +66,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 18,
+          "played": 19,
           "won": 11,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 3,
           "gs": 37,
           "gc": 19,
           "gd": 18,
-          "pts": 37
+          "pts": 38
         },
         {
           "position": 5,
@@ -151,14 +151,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
             "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
           },
-          "played": 18,
+          "played": 19,
           "won": 6,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 7,
           "gs": 15,
           "gc": 19,
           "gd": -4,
-          "pts": 23
+          "pts": 24
         },
         {
           "position": 10,
