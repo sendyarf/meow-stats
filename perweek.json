@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-02-01T13:38:04.069315",
+  "generated_at": "2026-02-01T19:27:45.948231",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 167,
+  "total_matches": 168,
   "standings": {
     "Round 1": [
       {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persijap Jepara",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Bali United",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persik Kediri",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "Persebaya",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -958,11 +958,11 @@
         "rank": 9
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSM Makassar",
         "played": 4,
-        "win": 1,
-        "draw": 1,
-        "loss": 2,
+        "win": 0,
+        "draw": 4,
+        "loss": 0,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -973,11 +973,11 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "FC Bhayangkara",
         "played": 4,
-        "win": 0,
-        "draw": 4,
-        "loss": 0,
+        "win": 1,
+        "draw": 1,
+        "loss": 2,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -4918,6 +4918,21 @@
         "rank": 1
       },
       {
+        "team": "Borneo",
+        "played": 19,
+        "win": 14,
+        "draw": 1,
+        "loss": 4,
+        "gf": 34,
+        "ga": 17,
+        "gd": 17,
+        "points": 43,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 2
+      },
+      {
         "team": "Persija Jakarta",
         "played": 19,
         "win": 13,
@@ -4930,21 +4945,6 @@
         "yellows": 0,
         "reds": 6,
         "fair_play": 18,
-        "rank": 2
-      },
-      {
-        "team": "Borneo",
-        "played": 18,
-        "win": 13,
-        "draw": 1,
-        "loss": 4,
-        "gf": 32,
-        "ga": 16,
-        "gd": 16,
-        "points": 40,
-        "yellows": 0,
-        "reds": 0,
-        "fair_play": 0,
         "rank": 3
       },
       {
@@ -4994,13 +4994,13 @@
       },
       {
         "team": "PSIM Yogyakarta",
-        "played": 18,
+        "played": 19,
         "win": 8,
         "draw": 6,
-        "loss": 4,
-        "gf": 23,
-        "ga": 21,
-        "gd": 2,
+        "loss": 5,
+        "gf": 24,
+        "ga": 23,
+        "gd": 1,
         "points": 30,
         "yellows": 0,
         "reds": 3,
