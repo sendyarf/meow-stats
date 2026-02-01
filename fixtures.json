@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-02T00:23:50.348942",
+  "scraped_at": "2026-02-02T01:33:11.642390",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -488,67 +488,6 @@
       }
     ],
     "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879917",
-    "head_to_head": {
-      "summary": {
-        "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-        "team1_wins": 1,
-        "draws": 0,
-        "team2_wins": 2
-      },
-      "matches": [
-        {
-          "date": "December 14, 2025",
-          "league": "Super League",
-          "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-          "home_team": {
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351_xsmall.png"
-          },
-          "away_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "score": "2 - 0",
-          "time": null,
-          "status": "Finished",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879852"
-        },
-        {
-          "date": "May 2, 2025",
-          "league": "Liga 1",
-          "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-          "home_team": {
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351_xsmall.png"
-          },
-          "away_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "score": "1 - 0",
-          "time": null,
-          "status": "Finished",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4582713"
-        },
-        {
-          "date": "December 13, 2024",
-          "league": "Liga 1",
-          "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-          "home_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "away_team": {
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351_xsmall.png"
-          },
-          "score": "2 - 0",
-          "time": null,
-          "status": "Finished",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4582529"
-        }
-      ]
-    }
+    "head_to_head": null
   }
 }
