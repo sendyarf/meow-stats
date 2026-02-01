@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-01T18:20:46.497228",
+  "scraped_at": "2026-02-01T19:46:26.712859",
   "leagues": [
     {
       "name": "Super League",
@@ -78,6 +78,23 @@
         {
           "position": 5,
           "team": {
+            "id": "930525",
+            "name": "Persebaya Surabaya",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
+            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
+          },
+          "played": 19,
+          "won": 8,
+          "drawn": 8,
+          "lost": 3,
+          "gs": 28,
+          "gc": 17,
+          "gd": 11,
+          "pts": 32
+        },
+        {
+          "position": 6,
+          "team": {
             "id": "165206",
             "name": "Persita",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
@@ -91,23 +108,6 @@
           "gc": 17,
           "gd": 8,
           "pts": 32
-        },
-        {
-          "position": 6,
-          "team": {
-            "id": "930525",
-            "name": "Persebaya Surabaya",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
-            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
-          },
-          "played": 18,
-          "won": 8,
-          "drawn": 7,
-          "lost": 3,
-          "gs": 27,
-          "gc": 16,
-          "gd": 11,
-          "pts": 31
         },
         {
           "position": 7,
@@ -168,14 +168,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 18,
+          "played": 19,
           "won": 7,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 9,
-          "gs": 22,
-          "gc": 24,
+          "gs": 23,
+          "gc": 25,
           "gd": -2,
-          "pts": 23
+          "pts": 24
         },
         {
           "position": 11,
