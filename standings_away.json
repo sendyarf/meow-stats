@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-01T15:31:01.982345",
+  "scraped_at": "2026-02-01T16:30:19.558713",
   "leagues": [
     {
       "name": "Super League",
@@ -100,13 +100,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
             "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
           },
-          "played": 9,
+          "played": 10,
           "won": 4,
           "drawn": 3,
-          "lost": 2,
+          "lost": 3,
           "gs": 12,
-          "gc": 10,
-          "gd": 2,
+          "gc": 11,
+          "gd": 1,
           "pts": 15
         },
         {
