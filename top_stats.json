@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-01T16:30:19.560711",
+  "scraped_at": "2026-02-01T17:24:50.787197",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -175,7 +175,7 @@
         "type": "assists"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -188,7 +188,7 @@
         "type": "assists"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -201,7 +201,7 @@
         "type": "assists"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -214,7 +214,7 @@
         "type": "assists"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 190,
+        "rank": 191,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -608,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 204,
+        "rank": 205,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -621,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 204,
+        "rank": 205,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -634,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 204,
+        "rank": 205,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -647,7 +647,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 204,
+        "rank": 205,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -660,7 +660,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 204,
+        "rank": 205,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -673,7 +673,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 204,
+        "rank": 205,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -686,7 +686,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 204,
+        "rank": 205,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
