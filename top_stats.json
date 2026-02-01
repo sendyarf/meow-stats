@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-01T19:46:31.453441",
+  "scraped_at": "2026-02-01T20:43:10.564436",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -504,7 +504,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -517,7 +517,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -530,7 +530,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
