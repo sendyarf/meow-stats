@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-02T14:49:08.994965",
+  "scraped_at": "2026-02-02T15:42:42.354241",
   "leagues": [
     {
       "name": "Super League",
@@ -202,13 +202,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
             "url": "https://www.fotmob.com/teams/165200/overview/arema"
           },
-          "played": 18,
+          "played": 19,
           "won": 5,
           "drawn": 6,
-          "lost": 7,
+          "lost": 8,
           "gs": 23,
-          "gc": 25,
-          "gd": -2,
+          "gc": 26,
+          "gd": -3,
           "pts": 21
         },
         {
@@ -270,14 +270,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
             "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
           },
-          "played": 18,
-          "won": 3,
+          "played": 19,
+          "won": 4,
           "drawn": 3,
           "lost": 12,
-          "gs": 16,
+          "gs": 17,
           "gc": 33,
-          "gd": -17,
-          "pts": 12
+          "gd": -16,
+          "pts": 15
         },
         {
           "position": 17,
