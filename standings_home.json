@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-02T15:42:42.356038",
+  "scraped_at": "2026-02-02T16:47:10.295311",
   "leagues": [
     {
       "name": "Super League",
@@ -180,6 +180,23 @@
         {
           "position": 11,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 10,
+          "won": 4,
+          "drawn": 1,
+          "lost": 5,
+          "gs": 15,
+          "gc": 15,
+          "gd": 0,
+          "pts": 13
+        },
+        {
+          "position": 12,
+          "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
@@ -195,7 +212,7 @@
           "pts": 12
         },
         {
-          "position": 12,
+          "position": 13,
           "team": {
             "id": "185751",
             "name": "Bali United FC",
@@ -212,7 +229,7 @@
           "pts": 11
         },
         {
-          "position": 13,
+          "position": 14,
           "team": {
             "id": "165198",
             "name": "PSM Makassar",
@@ -226,23 +243,6 @@
           "gs": 11,
           "gc": 8,
           "gd": 3,
-          "pts": 10
-        },
-        {
-          "position": 14,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 10,
-          "won": 3,
-          "drawn": 1,
-          "lost": 6,
-          "gs": 14,
-          "gc": 16,
-          "gd": -2,
           "pts": 10
         },
         {

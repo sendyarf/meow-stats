@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-02T15:42:42.354241",
+  "scraped_at": "2026-02-02T16:47:10.293443",
   "leagues": [
     {
       "name": "Super League",
@@ -180,6 +180,23 @@
         {
           "position": 11,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 19,
+          "won": 6,
+          "drawn": 6,
+          "lost": 7,
+          "gs": 24,
+          "gc": 25,
+          "gd": -1,
+          "pts": 24
+        },
+        {
+          "position": 12,
+          "team": {
             "id": "165197",
             "name": "Persik",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
@@ -193,23 +210,6 @@
           "gc": 32,
           "gd": -10,
           "pts": 22
-        },
-        {
-          "position": 12,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 19,
-          "won": 5,
-          "drawn": 6,
-          "lost": 8,
-          "gs": 23,
-          "gc": 26,
-          "gd": -3,
-          "pts": 21
         },
         {
           "position": 13,
@@ -271,13 +271,13 @@
             "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
           },
           "played": 19,
-          "won": 4,
+          "won": 3,
           "drawn": 3,
-          "lost": 12,
-          "gs": 17,
-          "gc": 33,
-          "gd": -16,
-          "pts": 15
+          "lost": 13,
+          "gs": 16,
+          "gc": 34,
+          "gd": -18,
+          "pts": 12
         },
         {
           "position": 17,

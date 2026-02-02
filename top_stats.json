@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-02T15:42:42.359011",
+  "scraped_at": "2026-02-02T16:47:16.248900",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -491,7 +491,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -504,7 +504,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -517,7 +517,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -530,7 +530,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -714,7 +714,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -727,7 +727,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
