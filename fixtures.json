@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-02T19:57:10.502795",
+  "scraped_at": "2026-02-02T21:03:52.787457",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -299,17 +299,6 @@
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299"
     },
     {
-      "date": "Mon, Feb 16",
-      "league": "Liga 1",
-      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-      "home_team": "Borneo Samarinda",
-      "away_team": "Persib Bandung",
-      "status": "Scheduled",
-      "score": null,
-      "time": "7:00PM",
-      "url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879933"
-    },
-    {
       "date": "Wed, Feb 18",
       "league": "AFC Champions League Two",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
@@ -363,6 +352,17 @@
       "score": null,
       "time": "8:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879965"
+    },
+    {
+      "date": "Sun, Mar 15",
+      "league": "Liga 1",
+      "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
+      "home_team": "Borneo Samarinda",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00PM",
+      "url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879933"
     },
     {
       "date": "Sun, Apr 5",
