@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-02T18:34:45.221780",
+  "scraped_at": "2026-02-02T19:57:10.428533",
   "leagues": [
     {
       "name": "Super League",
@@ -214,6 +214,23 @@
         {
           "position": 13,
           "team": {
+            "id": "165198",
+            "name": "PSM Makassar",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
+            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
+          },
+          "played": 10,
+          "won": 2,
+          "drawn": 5,
+          "lost": 3,
+          "gs": 11,
+          "gc": 8,
+          "gd": 3,
+          "pts": 11
+        },
+        {
+          "position": 14,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -227,23 +244,6 @@
           "gc": 8,
           "gd": -1,
           "pts": 11
-        },
-        {
-          "position": 14,
-          "team": {
-            "id": "165198",
-            "name": "PSM Makassar",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
-            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 4,
-          "lost": 3,
-          "gs": 11,
-          "gc": 8,
-          "gd": 3,
-          "pts": 10
         },
         {
           "position": 15,
