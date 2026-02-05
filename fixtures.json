@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-05T23:45:35.911536",
+  "scraped_at": "2026-02-06T00:46:16.593877",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -277,7 +277,7 @@
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persis-solo/3klg4qjz#4879909"
     },
     {
-      "date": "tomorrow",
+      "date": "today",
       "league": "Liga 1",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
       "home_team": "Persib Bandung",
@@ -468,7 +468,7 @@
   "next_match": {
     "home_team": "Persib Bandung",
     "away_team": "Malut United",
-    "date": "tomorrow",
+    "date": "today",
     "time": "7:00 PM",
     "stats": [
       {
