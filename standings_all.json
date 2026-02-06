@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-06T14:45:24.109669",
+  "scraped_at": "2026-02-06T15:39:49.848277",
   "leagues": [
     {
       "name": "Super League",
@@ -117,14 +117,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
             "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
           },
-          "played": 19,
+          "played": 20,
           "won": 8,
-          "drawn": 6,
+          "drawn": 7,
           "lost": 5,
           "gs": 24,
           "gc": 23,
           "gd": 1,
-          "pts": 30
+          "pts": 31
         },
         {
           "position": 8,
@@ -304,14 +304,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 19,
+          "played": 20,
           "won": 2,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 13,
           "gs": 20,
           "gc": 40,
           "gd": -20,
-          "pts": 10
+          "pts": 11
         }
       ]
     },
