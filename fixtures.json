@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-06T21:02:48.464023",
+  "scraped_at": "2026-02-06T22:38:54.952192",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -479,12 +479,12 @@
       {
         "title": "Goals per match",
         "home": "1.63",
-        "away": "1.53"
+        "away": "1.55"
       },
       {
         "title": "Goals conceded per match",
         "home": "0.89",
-        "away": "0.58"
+        "away": "0.55"
       }
     ],
     "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299",
