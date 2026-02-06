@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-06T18:32:51.901394",
+  "scraped_at": "2026-02-06T19:56:38.608800",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -95,7 +95,20 @@
         "type": "goals"
       },
       {
-        "rank": 84,
+        "rank": 82,
+        "player": {
+          "id": "384446",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": "https://www.fotmob.com/players/384446/thom-haye"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 2,
+        "sub_stat": 1,
+        "type": "goals"
+      },
+      {
+        "rank": 85,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -108,7 +121,7 @@
         "type": "goals"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -121,25 +134,12 @@
         "type": "goals"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
           "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
           "url": "https://www.fotmob.com/players/492636/patricio-matricardi"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "goals"
-      },
-      {
-        "rank": 84,
-        "player": {
-          "id": "384446",
-          "name": "Thom Haye",
-          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
-          "url": "https://www.fotmob.com/players/384446/thom-haye"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 1,
@@ -372,7 +372,20 @@
         "type": "goals_assists"
       },
       {
-        "rank": 59,
+        "rank": 44,
+        "player": {
+          "id": "384446",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": "https://www.fotmob.com/players/384446/thom-haye"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 4,
+        "sub_stat": null,
+        "type": "goals_assists"
+      },
+      {
+        "rank": 60,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -385,7 +398,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -398,25 +411,12 @@
         "type": "goals_assists"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
           "image": "https://images.fotmob.com/image_resources/playerimages/809521.png",
           "url": "https://www.fotmob.com/players/809521/saddil-ramdani"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "goals_assists"
-      },
-      {
-        "rank": 59,
-        "player": {
-          "id": "384446",
-          "name": "Thom Haye",
-          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
-          "url": "https://www.fotmob.com/players/384446/thom-haye"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 3,
@@ -504,7 +504,20 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 67,
+        "rank": 38,
+        "player": {
+          "id": "384446",
+          "name": "Thom Haye",
+          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
+          "url": "https://www.fotmob.com/players/384446/thom-haye"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 4,
+        "sub_stat": null,
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 68,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -517,25 +530,12 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
           "image": "https://images.fotmob.com/image_resources/playerimages/866393.png",
           "url": "https://www.fotmob.com/players/866393/julio-cesar"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "yellow_cards"
-      },
-      {
-        "rank": 67,
-        "player": {
-          "id": "384446",
-          "name": "Thom Haye",
-          "image": "https://images.fotmob.com/image_resources/playerimages/384446.png",
-          "url": "https://www.fotmob.com/players/384446/thom-haye"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "value": 3,
@@ -571,6 +571,19 @@
       {
         "rank": 116,
         "player": {
+          "id": "365624",
+          "name": "Federico Barba",
+          "image": "https://images.fotmob.com/image_resources/playerimages/365624.png",
+          "url": "https://www.fotmob.com/players/365624/federico-barba"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "value": 2,
+        "sub_stat": null,
+        "type": "yellow_cards"
+      },
+      {
+        "rank": 116,
+        "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
           "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
@@ -595,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 195,
+        "rank": 196,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -608,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 209,
+        "rank": 210,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -621,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 209,
+        "rank": 210,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -634,20 +647,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 209,
-        "player": {
-          "id": "365624",
-          "name": "Federico Barba",
-          "image": "https://images.fotmob.com/image_resources/playerimages/365624.png",
-          "url": "https://www.fotmob.com/players/365624/federico-barba"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
-      },
-      {
-        "rank": 209,
+        "rank": 210,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -660,7 +660,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 209,
+        "rank": 210,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -673,7 +673,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 209,
+        "rank": 210,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -686,7 +686,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 209,
+        "rank": 210,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",

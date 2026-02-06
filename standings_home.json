@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-06T18:32:46.074178",
+  "scraped_at": "2026-02-06T19:56:33.618747",
   "leagues": [
     {
       "name": "Super League",
@@ -9,6 +9,23 @@
       "teams": [
         {
           "position": 1,
+          "team": {
+            "id": "165196",
+            "name": "Persib Bandung",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+          },
+          "played": 10,
+          "won": 10,
+          "drawn": 0,
+          "lost": 0,
+          "gs": 15,
+          "gc": 1,
+          "gd": 14,
+          "pts": 30
+        },
+        {
+          "position": 2,
           "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
@@ -22,23 +39,6 @@
           "gs": 19,
           "gc": 5,
           "gd": 14,
-          "pts": 27
-        },
-        {
-          "position": 2,
-          "team": {
-            "id": "165196",
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
-          },
-          "played": 9,
-          "won": 9,
-          "drawn": 0,
-          "lost": 0,
-          "gs": 14,
-          "gc": 1,
-          "gd": 13,
           "pts": 27
         },
         {

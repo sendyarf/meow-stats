@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-06T18:32:46.075605",
+  "scraped_at": "2026-02-06T19:56:33.620262",
   "leagues": [
     {
       "name": "Super League",
@@ -44,23 +44,6 @@
         {
           "position": 3,
           "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
-          },
-          "played": 9,
-          "won": 5,
-          "drawn": 2,
-          "lost": 2,
-          "gs": 13,
-          "gc": 8,
-          "gd": 5,
-          "pts": 17
-        },
-        {
-          "position": 4,
-          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -72,6 +55,23 @@
           "lost": 3,
           "gs": 20,
           "gc": 16,
+          "gd": 4,
+          "pts": 17
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
+          },
+          "played": 10,
+          "won": 5,
+          "drawn": 2,
+          "lost": 3,
+          "gs": 13,
+          "gc": 9,
           "gd": 4,
           "pts": 17
         },
