@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T18:21:21.596640",
+  "scraped_at": "2026-02-07T19:44:55.277898",
   "leagues": [
     {
       "name": "Super League",
@@ -83,14 +83,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
             "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
           },
-          "played": 19,
-          "won": 8,
+          "played": 20,
+          "won": 9,
           "drawn": 8,
           "lost": 3,
-          "gs": 28,
+          "gs": 29,
           "gc": 17,
-          "gd": 11,
-          "pts": 32
+          "gd": 12,
+          "pts": 35
         },
         {
           "position": 6,
@@ -134,13 +134,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
             "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
           },
-          "played": 19,
+          "played": 20,
           "won": 7,
           "drawn": 7,
-          "lost": 5,
+          "lost": 6,
           "gs": 27,
-          "gc": 24,
-          "gd": 3,
+          "gc": 25,
+          "gd": 2,
           "pts": 28
         },
         {
@@ -236,14 +236,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 19,
+          "played": 20,
           "won": 4,
-          "drawn": 6,
+          "drawn": 7,
           "lost": 9,
           "gs": 18,
           "gc": 26,
           "gd": -8,
-          "pts": 18
+          "pts": 19
         },
         {
           "position": 15,
@@ -265,6 +265,23 @@
         {
           "position": 16,
           "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 20,
+          "won": 3,
+          "drawn": 4,
+          "lost": 13,
+          "gs": 16,
+          "gc": 34,
+          "gd": -18,
+          "pts": 13
+        },
+        {
+          "position": 17,
+          "team": {
             "id": "215564",
             "name": "Semen Padang",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
@@ -277,23 +294,6 @@
           "gs": 16,
           "gc": 32,
           "gd": -16,
-          "pts": 12
-        },
-        {
-          "position": 17,
-          "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 19,
-          "won": 3,
-          "drawn": 3,
-          "lost": 13,
-          "gs": 16,
-          "gc": 34,
-          "gd": -18,
           "pts": 12
         },
         {

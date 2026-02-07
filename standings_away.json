@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T18:21:21.599958",
+  "scraped_at": "2026-02-07T19:44:55.281245",
   "leagues": [
     {
       "name": "Super League",
@@ -61,6 +61,23 @@
         {
           "position": 4,
           "team": {
+            "id": "930525",
+            "name": "Persebaya Surabaya",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
+            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
+          },
+          "played": 10,
+          "won": 4,
+          "drawn": 5,
+          "lost": 1,
+          "gs": 10,
+          "gc": 5,
+          "gd": 5,
+          "pts": 17
+        },
+        {
+          "position": 5,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -76,7 +93,7 @@
           "pts": 17
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "1665351",
             "name": "Malut United",
@@ -93,7 +110,7 @@
           "pts": 17
         },
         {
-          "position": 6,
+          "position": 7,
           "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
@@ -108,23 +125,6 @@
           "gc": 12,
           "gd": 1,
           "pts": 15
-        },
-        {
-          "position": 7,
-          "team": {
-            "id": "930525",
-            "name": "Persebaya Surabaya",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
-            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
-          },
-          "played": 9,
-          "won": 3,
-          "drawn": 5,
-          "lost": 1,
-          "gs": 9,
-          "gc": 5,
-          "gd": 4,
-          "pts": 14
         },
         {
           "position": 8,
@@ -163,6 +163,23 @@
         {
           "position": 10,
           "team": {
+            "id": "165199",
+            "name": "Madura United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
+            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
+          },
+          "played": 10,
+          "won": 2,
+          "drawn": 4,
+          "lost": 4,
+          "gs": 8,
+          "gc": 12,
+          "gd": -4,
+          "pts": 10
+        },
+        {
+          "position": 11,
+          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -175,23 +192,6 @@
           "gs": 10,
           "gc": 13,
           "gd": -3,
-          "pts": 9
-        },
-        {
-          "position": 11,
-          "team": {
-            "id": "165199",
-            "name": "Madura United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
-            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 3,
-          "lost": 4,
-          "gs": 8,
-          "gc": 12,
-          "gd": -4,
           "pts": 9
         },
         {
