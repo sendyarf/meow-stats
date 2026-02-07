@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T15:30:13.272577",
+  "scraped_at": "2026-02-07T16:29:24.460051",
   "leagues": [
     {
       "name": "Super League",
@@ -83,13 +83,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
-          "played": 9,
+          "played": 10,
           "won": 5,
           "drawn": 1,
-          "lost": 3,
+          "lost": 4,
           "gs": 15,
-          "gc": 12,
-          "gd": 3,
+          "gc": 13,
+          "gd": 2,
           "pts": 16
         },
         {
@@ -219,13 +219,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 9,
+          "played": 10,
           "won": 2,
           "drawn": 2,
-          "lost": 5,
+          "lost": 6,
           "gs": 6,
-          "gc": 12,
-          "gd": -6,
+          "gc": 14,
+          "gd": -8,
           "pts": 8
         },
         {
