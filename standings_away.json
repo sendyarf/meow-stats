@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T16:29:24.460051",
+  "scraped_at": "2026-02-07T17:24:36.362558",
   "leagues": [
     {
       "name": "Super League",
@@ -9,6 +9,23 @@
       "teams": [
         {
           "position": 1,
+          "team": {
+            "id": "585858",
+            "name": "Borneo Samarinda",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
+            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
+          },
+          "played": 10,
+          "won": 6,
+          "drawn": 1,
+          "lost": 3,
+          "gs": 17,
+          "gc": 13,
+          "gd": 4,
+          "pts": 19
+        },
+        {
+          "position": 2,
           "team": {
             "id": "165191",
             "name": "Persija Jakarta",
@@ -25,7 +42,7 @@
           "pts": 18
         },
         {
-          "position": 2,
+          "position": 3,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -42,7 +59,7 @@
           "pts": 17
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "id": "185751",
             "name": "Bali United FC",
@@ -59,7 +76,7 @@
           "pts": 17
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "1665351",
             "name": "Malut United",
@@ -74,23 +91,6 @@
           "gc": 10,
           "gd": 3,
           "pts": 17
-        },
-        {
-          "position": 5,
-          "team": {
-            "id": "585858",
-            "name": "Borneo Samarinda",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
-            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
-          },
-          "played": 10,
-          "won": 5,
-          "drawn": 1,
-          "lost": 4,
-          "gs": 15,
-          "gc": 13,
-          "gd": 2,
-          "pts": 16
         },
         {
           "position": 6,
@@ -219,13 +219,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 10,
+          "played": 9,
           "won": 2,
           "drawn": 2,
-          "lost": 6,
+          "lost": 5,
           "gs": 6,
-          "gc": 14,
-          "gd": -8,
+          "gc": 12,
+          "gd": -6,
           "pts": 8
         },
         {
