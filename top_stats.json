@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T19:45:00.064553",
+  "scraped_at": "2026-02-07T20:42:46.091526",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -95,7 +95,7 @@
         "type": "goals"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -108,7 +108,7 @@
         "type": "goals"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -121,7 +121,7 @@
         "type": "goals"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -134,7 +134,7 @@
         "type": "goals"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -424,7 +424,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -437,7 +437,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -450,7 +450,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -465,7 +465,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 17,
+        "rank": 18,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -491,7 +491,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -504,7 +504,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -608,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 198,
+        "rank": 199,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -621,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 212,
+        "rank": 213,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -634,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 212,
+        "rank": 213,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -647,7 +647,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 212,
+        "rank": 213,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -660,7 +660,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 212,
+        "rank": 213,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -673,7 +673,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 212,
+        "rank": 213,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -686,7 +686,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 212,
+        "rank": 213,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -701,7 +701,7 @@
     ],
     "red_cards": [
       {
-        "rank": 10,
+        "rank": 11,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
