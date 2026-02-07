@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T22:24:21.569229",
+  "scraped_at": "2026-02-07T23:28:43.652595",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -517,7 +517,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -530,7 +530,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -714,7 +714,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -727,7 +727,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
