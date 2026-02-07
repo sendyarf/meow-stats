@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T17:24:36.362558",
+  "scraped_at": "2026-02-07T18:21:21.599958",
   "leagues": [
     {
       "name": "Super League",
@@ -219,13 +219,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 9,
+          "played": 10,
           "won": 2,
           "drawn": 2,
-          "lost": 5,
-          "gs": 6,
-          "gc": 12,
-          "gd": -6,
+          "lost": 6,
+          "gs": 7,
+          "gc": 14,
+          "gd": -7,
           "pts": 8
         },
         {

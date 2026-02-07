@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-07T17:24:36.361020",
+  "scraped_at": "2026-02-07T18:21:21.598438",
   "leagues": [
     {
       "name": "Super League",
@@ -129,6 +129,23 @@
         {
           "position": 8,
           "team": {
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+          },
+          "played": 9,
+          "won": 5,
+          "drawn": 3,
+          "lost": 1,
+          "gs": 15,
+          "gc": 11,
+          "gd": 4,
+          "pts": 18
+        },
+        {
+          "position": 9,
+          "team": {
             "id": "585860",
             "name": "Dewa United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
@@ -144,7 +161,7 @@
           "pts": 16
         },
         {
-          "position": 9,
+          "position": 10,
           "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
@@ -159,23 +176,6 @@
           "gc": 11,
           "gd": 0,
           "pts": 16
-        },
-        {
-          "position": 10,
-          "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
-          },
-          "played": 8,
-          "won": 4,
-          "drawn": 3,
-          "lost": 1,
-          "gs": 13,
-          "gc": 10,
-          "gd": 3,
-          "pts": 15
         },
         {
           "position": 11,
