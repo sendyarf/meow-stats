@@ -17,6 +17,25 @@ TEAM_ID = "165196"
 LEAGUE_ID = "8983"
 SEASON_ID = "27434"
 
+# Sofascore Configuration
+SOFASCORE_TEAM_ID = "64289"
+
+# Sofascore Competitions (list of tournaments Persib participates in)
+SOFASCORE_COMPETITIONS = [
+    {
+        "name": "Indonesia Super League",
+        "tournament_id": "1015",
+        "season_id": "78590",
+        "season_name": "25/26"
+    },
+    {
+        "name": "AFC Champions League Two",
+        "tournament_id": "668",
+        "season_id": "77009",
+        "season_name": "25/26"
+    }
+]
+
 SCRIPT_DIR = Path(__file__).parent
 
 HEADERS = {
@@ -476,6 +495,143 @@ def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = 
         except: continue
     return stats_list
 
+def fetch_sofascore_team_statistics() -> dict:
+    """Fetch team statistics from Sofascore API for all competitions."""
+    all_stats = {
+        "scraped_at": datetime.now().isoformat(),
+        "team": "Persib Bandung",
+        "team_id": SOFASCORE_TEAM_ID,
+        "competitions": []
+    }
+    
+    for competition in SOFASCORE_COMPETITIONS:
+        comp_name = competition["name"]
+        tournament_id = competition["tournament_id"]
+        season_id = competition["season_id"]
+        season_name = competition["season_name"]
+        
+        api_url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/unique-tournament/{tournament_id}/season/{season_id}/statistics/overall"
+        print(f"Fetching Sofascore statistics for {comp_name} ({season_name})...")
+        
+        comp_stats = {
+            "name": comp_name,
+            "tournament_id": tournament_id,
+            "season": season_name,
+            "season_id": season_id,
+            "summary": {},
+            "attacking": {},
+            "passes": {},
+            "defending": {},
+            "other": {}
+        }
+        
+        try:
+            response = requests.get(api_url, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            }, timeout=30)
+            
+            if response.status_code != 200:
+                print(f"  Failed to fetch {comp_name}: {response.status_code}")
+                all_stats["competitions"].append(comp_stats)
+                continue
+            
+            data = response.json()
+            stats = data.get("statistics", {})
+            
+            # Parse Summary
+            comp_stats["summary"] = {
+                "matches": stats.get("matches", 0),
+                "goals_scored": stats.get("goalsScored", 0),
+                "goals_conceded": stats.get("goalsConceded", 0),
+                "assists": stats.get("assists", 0),
+                "awarded_matches": stats.get("awardedMatches", 0)
+            }
+            
+            # Parse Attacking stats
+            comp_stats["attacking"] = {
+                "goals_per_game": round(stats.get("goalsScored", 0) / max(stats.get("matches", 1), 1), 2),
+                "penalty_goals": stats.get("penaltyGoals", 0),
+                "penalty_won": stats.get("penaltyWon", 0),
+                "total_shots": stats.get("shotsTotal", 0),
+                "shots_on_target": stats.get("shotsOnTarget", 0),
+                "shots_off_target": stats.get("shotsOffTarget", 0),
+                "blocked_shots": stats.get("shotsBlocked", 0),
+                "shots_inside_box": stats.get("shotsInsideBox", 0),
+                "shots_outside_box": stats.get("shotsOutsideBox", 0),
+                "big_chances_created": stats.get("bigChancesCreated", 0),
+                "big_chances_scored": stats.get("bigChancesScored", 0),
+                "big_chances_missed": stats.get("bigChancesMissed", 0),
+                "successful_dribbles": stats.get("successfulDribbles", 0),
+                "dribble_attempts": stats.get("dribbleAttempts", 0),
+                "corners": stats.get("corners", 0),
+                "free_kicks": stats.get("freeKicks", 0),
+                "hit_woodwork": stats.get("hitWoodwork", 0),
+                "offsides": stats.get("offsides", 0)
+            }
+            
+            # Parse Passes stats
+            comp_stats["passes"] = {
+                "ball_possession": stats.get("ballPossession", 0),
+                "total_passes": stats.get("totalPasses", 0),
+                "accurate_passes": stats.get("accuratePasses", 0),
+                "accurate_passes_pct": stats.get("accuratePassesPercentage", 0),
+                "long_balls": stats.get("longBalls", 0),
+                "accurate_long_balls": stats.get("accurateLongBalls", 0),
+                "accurate_long_balls_pct": stats.get("accurateLongBallsPercentage", 0),
+                "crosses": stats.get("totalCross", 0),
+                "accurate_crosses": stats.get("accurateCross", 0),
+                "accurate_crosses_pct": stats.get("accurateCrossPercentage", 0),
+                "key_passes": stats.get("keyPasses", 0),
+                "passes_to_final_third": stats.get("passesToFinalThird", 0),
+                "accurate_passes_final_third": stats.get("accuratePassesToFinalThird", 0)
+            }
+            
+            # Parse Defending stats
+            comp_stats["defending"] = {
+                "clean_sheets": stats.get("cleanSheets", 0),
+                "goals_conceded_per_game": round(stats.get("goalsConceded", 0) / max(stats.get("matches", 1), 1), 2),
+                "tackles": stats.get("tackles", 0),
+                "interceptions": stats.get("interceptions", 0),
+                "saves": stats.get("saves", 0),
+                "clearances": stats.get("clearances", 0),
+                "balls_recovered": stats.get("ballRecovery", 0),
+                "blocked_scoring_attempts": stats.get("blockedScoringAttempt", 0),
+                "errors_leading_to_shot": stats.get("errorLeadToShot", 0),
+                "errors_leading_to_goal": stats.get("errorLeadToGoal", 0),
+                "penalty_committed": stats.get("penaltyCommitted", 0),
+                "penalty_faced": stats.get("penaltiesFaced", 0),
+                "penalty_saves": stats.get("penaltySaves", 0)
+            }
+            
+            # Parse Other stats
+            comp_stats["other"] = {
+                "duels_won": stats.get("duelsWon", 0),
+                "duels_lost": stats.get("duelsLost", 0),
+                "duels_won_pct": stats.get("duelsWonPercentage", 0),
+                "aerial_duels_won": stats.get("aerialDuelsWon", 0),
+                "aerial_duels_won_pct": stats.get("aerialDuelsWonPercentage", 0),
+                "ground_duels_won": stats.get("groundDuelsWon", 0),
+                "ground_duels_won_pct": stats.get("groundDuelsWonPercentage", 0),
+                "yellow_cards": stats.get("yellowCards", 0),
+                "red_cards": stats.get("redCards", 0),
+                "fouls": stats.get("fouls", 0),
+                "fouls_suffered": stats.get("foulsSuffered", 0),
+                "throw_ins": stats.get("throwIns", 0),
+                "goal_kicks": stats.get("goalKicks", 0),
+                "dispossessed": stats.get("dispossessed", 0)
+            }
+            
+            print(f"  Successfully fetched {comp_name}: {comp_stats['summary']['matches']} matches")
+            
+        except Exception as e:
+            print(f"  Error fetching {comp_name}: {e}")
+            import traceback
+            traceback.print_exc()
+        
+        all_stats["competitions"].append(comp_stats)
+    
+    return all_stats
+
 # --- Main Logic ---
 
 def main():
@@ -555,6 +711,11 @@ def main():
             top["stats"][stat_key] = []
             
     save_to_json(top, "top_stats.json")
+    
+    # 5. Fetch Sofascore Team Statistics
+    print("\nFetching Sofascore team statistics...")
+    sofascore_stats = fetch_sofascore_team_statistics()
+    save_to_json(sofascore_stats, "team_statistics.json")
 
 if __name__ == "__main__":
     main()
