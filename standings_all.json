@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T15:28:59.911049",
+  "scraped_at": "2026-02-08T16:29:02.576159",
   "leagues": [
     {
       "name": "Super League",
@@ -100,14 +100,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 19,
+          "played": 20,
           "won": 9,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 5,
           "gs": 25,
           "gc": 17,
           "gd": 8,
-          "pts": 32
+          "pts": 33
         },
         {
           "position": 7,
@@ -219,14 +219,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 19,
-          "won": 4,
+          "played": 20,
+          "won": 5,
           "drawn": 8,
           "lost": 7,
-          "gs": 21,
+          "gs": 22,
           "gc": 21,
-          "gd": 0,
-          "pts": 20
+          "gd": 1,
+          "pts": 23
         },
         {
           "position": 14,
@@ -253,13 +253,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 19,
+          "played": 20,
           "won": 4,
           "drawn": 5,
-          "lost": 10,
+          "lost": 11,
           "gs": 21,
-          "gc": 40,
-          "gd": -19,
+          "gc": 41,
+          "gd": -20,
           "pts": 17
         },
         {
@@ -287,14 +287,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 19,
+          "played": 20,
           "won": 3,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 13,
           "gs": 16,
           "gc": 32,
           "gd": -16,
-          "pts": 12
+          "pts": 13
         },
         {
           "position": 18,

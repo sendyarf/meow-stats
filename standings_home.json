@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T15:28:59.920527",
+  "scraped_at": "2026-02-08T16:29:02.680422",
   "leagues": [
     {
       "name": "Super League",
@@ -202,13 +202,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 10,
+          "played": 11,
           "won": 3,
           "drawn": 3,
-          "lost": 4,
+          "lost": 5,
           "gs": 12,
-          "gc": 15,
-          "gd": -3,
+          "gc": 16,
+          "gd": -4,
           "pts": 12
         },
         {
@@ -287,14 +287,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 9,
+          "played": 10,
           "won": 2,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 6,
           "gs": 9,
           "gc": 14,
           "gd": -5,
-          "pts": 7
+          "pts": 8
         },
         {
           "position": 18,

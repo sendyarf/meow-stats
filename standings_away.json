@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T15:28:59.928758",
+  "scraped_at": "2026-02-08T16:29:02.682394",
   "leagues": [
     {
       "name": "Super League",
@@ -134,17 +134,34 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 9,
+          "played": 10,
           "won": 3,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 3,
           "gs": 9,
           "gc": 11,
           "gd": -2,
-          "pts": 12
+          "pts": 13
         },
         {
           "position": 9,
+          "team": {
+            "id": "165198",
+            "name": "PSM Makassar",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
+            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
+          },
+          "played": 10,
+          "won": 3,
+          "drawn": 3,
+          "lost": 4,
+          "gs": 11,
+          "gc": 13,
+          "gd": -2,
+          "pts": 12
+        },
+        {
+          "position": 10,
           "team": {
             "id": "165200",
             "name": "Arema",
@@ -159,23 +176,6 @@
           "gc": 10,
           "gd": -1,
           "pts": 11
-        },
-        {
-          "position": 10,
-          "team": {
-            "id": "165198",
-            "name": "PSM Makassar",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
-            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 3,
-          "lost": 4,
-          "gs": 10,
-          "gc": 13,
-          "gd": -3,
-          "pts": 9
         },
         {
           "position": 11,
