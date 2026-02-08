@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T18:23:06.477372",
+  "scraped_at": "2026-02-08T19:46:47.822982",
   "leagues": [
     {
       "name": "Super League",
@@ -129,6 +129,23 @@
         {
           "position": 8,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 10,
+          "won": 2,
+          "drawn": 6,
+          "lost": 2,
+          "gs": 9,
+          "gc": 10,
+          "gd": -1,
+          "pts": 12
+        },
+        {
+          "position": 9,
+          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -144,7 +161,7 @@
           "pts": 12
         },
         {
-          "position": 9,
+          "position": 10,
           "team": {
             "id": "165206",
             "name": "Persita",
@@ -159,23 +176,6 @@
           "gc": 12,
           "gd": -3,
           "pts": 12
-        },
-        {
-          "position": 10,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 5,
-          "lost": 2,
-          "gs": 9,
-          "gc": 10,
-          "gd": -1,
-          "pts": 11
         },
         {
           "position": 11,
