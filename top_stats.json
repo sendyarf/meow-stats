@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T19:46:52.528086",
+  "scraped_at": "2026-02-08T20:44:47.133185",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -82,7 +82,7 @@
         "type": "goals"
       },
       {
-        "rank": 56,
+        "rank": 57,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -95,7 +95,7 @@
         "type": "goals"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -517,7 +517,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -530,7 +530,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -569,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -582,7 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "789859",
           "name": "Uilliam",

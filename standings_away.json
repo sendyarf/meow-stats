@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T19:46:47.822982",
+  "scraped_at": "2026-02-08T20:44:47.131749",
   "leagues": [
     {
       "name": "Super League",
@@ -135,13 +135,13 @@
             "url": "https://www.fotmob.com/teams/165200/overview/arema"
           },
           "played": 10,
-          "won": 2,
-          "drawn": 6,
+          "won": 3,
+          "drawn": 5,
           "lost": 2,
-          "gs": 9,
+          "gs": 10,
           "gc": 10,
-          "gd": -1,
-          "pts": 12
+          "gd": 0,
+          "pts": 14
         },
         {
           "position": 9,

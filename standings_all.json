@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T19:46:47.819711",
+  "scraped_at": "2026-02-08T20:44:47.128519",
   "leagues": [
     {
       "name": "Super League",
@@ -51,12 +51,12 @@
           },
           "played": 20,
           "won": 13,
-          "drawn": 3,
-          "lost": 4,
+          "drawn": 2,
+          "lost": 5,
           "gs": 36,
-          "gc": 14,
-          "gd": 22,
-          "pts": 42
+          "gc": 15,
+          "gd": 21,
+          "pts": 41
         },
         {
           "position": 4,
@@ -146,6 +146,23 @@
         {
           "position": 9,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 20,
+          "won": 7,
+          "drawn": 6,
+          "lost": 7,
+          "gs": 25,
+          "gc": 25,
+          "gd": 0,
+          "pts": 27
+        },
+        {
+          "position": 10,
+          "team": {
             "id": "185749",
             "name": "Bhayangkara Presisi Indonesia FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
@@ -159,23 +176,6 @@
           "gc": 22,
           "gd": -4,
           "pts": 26
-        },
-        {
-          "position": 10,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 20,
-          "won": 6,
-          "drawn": 7,
-          "lost": 7,
-          "gs": 24,
-          "gc": 25,
-          "gd": -1,
-          "pts": 25
         },
         {
           "position": 11,
