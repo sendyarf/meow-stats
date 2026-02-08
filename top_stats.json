@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T17:26:15.202040",
+  "scraped_at": "2026-02-08T18:23:06.478774",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 109,
+        "rank": 111,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 109,
+        "rank": 111,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -569,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -582,7 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -701,7 +701,7 @@
     ],
     "red_cards": [
       {
-        "rank": 11,
+        "rank": 12,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -714,7 +714,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -727,7 +727,7 @@
         "type": "red_cards"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",

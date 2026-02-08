@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-08T17:26:09.667292",
+  "scraped_at": "2026-02-08T18:23:06.477372",
   "leagues": [
     {
       "name": "Super League",
@@ -129,23 +129,6 @@
         {
           "position": 8,
           "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
-          },
-          "played": 10,
-          "won": 3,
-          "drawn": 4,
-          "lost": 3,
-          "gs": 9,
-          "gc": 11,
-          "gd": -2,
-          "pts": 13
-        },
-        {
-          "position": 9,
-          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
@@ -158,6 +141,23 @@
           "gs": 12,
           "gc": 14,
           "gd": -2,
+          "pts": 12
+        },
+        {
+          "position": 9,
+          "team": {
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+          },
+          "played": 10,
+          "won": 3,
+          "drawn": 3,
+          "lost": 4,
+          "gs": 9,
+          "gc": 12,
+          "gd": -3,
           "pts": 12
         },
         {
