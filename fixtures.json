@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-10T23:09:07.449815",
+  "scraped_at": "2026-02-11T01:00:50.037831",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -288,7 +288,7 @@
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879917"
     },
     {
-      "date": "tomorrow",
+      "date": "today",
       "league": "AFC Champions League Two",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "home_team": "Ratchaburi FC",
@@ -468,7 +468,7 @@
   "next_match": {
     "home_team": "Ratchaburi FC",
     "away_team": "Persib Bandung",
-    "date": "tomorrow",
+    "date": "today",
     "time": "7:15 PM",
     "stats": [
       {
