@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-11T20:07:03.010111",
+  "scraped_at": "2026-02-11T21:52:01.298020",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -294,7 +294,7 @@
       "home_team": "Ratchaburi FC",
       "away_team": "Persib Bandung",
       "status": "Finished",
-      "score": "1 - 0",
+      "score": "3 - 0",
       "time": null,
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299"
     },
@@ -466,53 +466,53 @@
   ],
   "fixture_difficulty": [],
   "next_match": {
-    "home_team": "Ratchaburi FC",
-    "away_team": "Persib Bandung",
-    "date": "",
-    "time": "",
+    "home_team": "Persib Bandung",
+    "away_team": "Ratchaburi FC",
+    "date": "Feb 18",
+    "time": "7:15 PM",
     "stats": [
       {
         "title": "Table position",
-        "home": "2",
-        "away": "1"
+        "home": "1",
+        "away": "2"
       },
       {
         "title": "Goals per match",
-        "home": "1.63",
-        "away": "1.55"
+        "home": "1.55",
+        "away": "1.63"
       },
       {
         "title": "Goals conceded per match",
-        "home": "0.89",
-        "away": "0.55"
+        "home": "0.55",
+        "away": "0.89"
       }
     ],
-    "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299",
+    "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118300",
     "head_to_head": {
       "summary": {
-        "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/421346.png",
-        "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/421346.png",
         "team1_wins": 0,
         "draws": 0,
         "team2_wins": 0
       },
       "matches": [
         {
-          "date": "February 18",
+          "date": "today",
           "league": "AFC Champions League Two Final Stage",
           "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
           "home_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "away_team": {
             "name": "Ratchaburi FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/421346_xsmall.png"
+          },
+          "away_team": {
+            "name": "Persib Bandung",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
           },
           "score": null,
           "time": "7:15 PM",
           "status": "Scheduled",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118300"
+          "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299"
         }
       ]
     }
