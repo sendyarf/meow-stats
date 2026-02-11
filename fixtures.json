@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-11T23:00:22.049459",
+  "scraped_at": "2026-02-12T00:13:57.552248",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -288,7 +288,7 @@
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-malut-united/ldoxwbt1#4879917"
     },
     {
-      "date": "today",
+      "date": "yesterday",
       "league": "AFC Champions League Two Final Stage",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "home_team": "Ratchaburi FC",
@@ -498,7 +498,7 @@
       },
       "matches": [
         {
-          "date": "today",
+          "date": "yesterday",
           "league": "AFC Champions League Two Final Stage",
           "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
           "home_team": {
