@@ -585,46 +585,55 @@ def fetch_sofascore_team_statistics() -> dict:
                 "goals_scored": stats.get("goalsScored", 0),
                 "goals_conceded": stats.get("goalsConceded", 0),
                 "assists": stats.get("assists", 0),
-                "awarded_matches": stats.get("awardedMatches", 0)
+                "awarded_matches": stats.get("awardedMatches", 0),
+                "rating": stats.get("avgRating", 0)
             }
             
             # Parse Attacking stats
             comp_stats["attacking"] = {
                 "goals_per_game": round(stats.get("goalsScored", 0) / max(stats.get("matches", 1), 1), 2),
                 "penalty_goals": stats.get("penaltyGoals", 0),
-                "penalty_won": stats.get("penaltyWon", 0),
-                "total_shots": stats.get("shotsTotal", 0),
+                "penalties_taken": stats.get("penaltiesTaken", 0),
+                "total_shots": stats.get("shots", 0),
                 "shots_on_target": stats.get("shotsOnTarget", 0),
                 "shots_off_target": stats.get("shotsOffTarget", 0),
-                "blocked_shots": stats.get("shotsBlocked", 0),
-                "shots_inside_box": stats.get("shotsInsideBox", 0),
-                "shots_outside_box": stats.get("shotsOutsideBox", 0),
+                "blocked_shots": stats.get("blockedScoringAttempt", 0),
+                "shots_inside_box": stats.get("shotsFromInsideTheBox", 0),
+                "shots_outside_box": stats.get("shotsFromOutsideTheBox", 0),
+                "goals_inside_box": stats.get("goalsFromInsideTheBox", 0),
+                "goals_outside_box": stats.get("goalsFromOutsideTheBox", 0),
+                "left_foot_goals": stats.get("leftFootGoals", 0),
+                "right_foot_goals": stats.get("rightFootGoals", 0),
+                "headed_goals": stats.get("headedGoals", 0),
                 "big_chances_created": stats.get("bigChancesCreated", 0),
-                "big_chances_scored": stats.get("bigChancesScored", 0),
+                "big_chances_scored": stats.get("bigChancesScored", 0), # Note: API might not have this explicit key, often calculated or named differently. Debug data didn't show 'bigChancesScored', only 'bigChances', 'bigChancesCreated', 'bigChancesMissed'.
                 "big_chances_missed": stats.get("bigChancesMissed", 0),
                 "successful_dribbles": stats.get("successfulDribbles", 0),
                 "dribble_attempts": stats.get("dribbleAttempts", 0),
                 "corners": stats.get("corners", 0),
-                "free_kicks": stats.get("freeKicks", 0),
+                "free_kicks": stats.get("freeKickShots", 0), # 'freeKickShots' seems to match 'Free kicks per game' ~8.8
                 "hit_woodwork": stats.get("hitWoodwork", 0),
                 "offsides": stats.get("offsides", 0)
             }
             
             # Parse Passes stats
             comp_stats["passes"] = {
-                "ball_possession": stats.get("ballPossession", 0),
+                "ball_possession": stats.get("averageBallPossession", 0),
                 "total_passes": stats.get("totalPasses", 0),
                 "accurate_passes": stats.get("accuratePasses", 0),
                 "accurate_passes_pct": stats.get("accuratePassesPercentage", 0),
-                "long_balls": stats.get("longBalls", 0),
+                "long_balls": stats.get("totalLongBalls", 0),
                 "accurate_long_balls": stats.get("accurateLongBalls", 0),
                 "accurate_long_balls_pct": stats.get("accurateLongBallsPercentage", 0),
-                "crosses": stats.get("totalCross", 0),
-                "accurate_crosses": stats.get("accurateCross", 0),
-                "accurate_crosses_pct": stats.get("accurateCrossPercentage", 0),
-                "key_passes": stats.get("keyPasses", 0),
-                "passes_to_final_third": stats.get("passesToFinalThird", 0),
-                "accurate_passes_final_third": stats.get("accuratePassesToFinalThird", 0)
+                "crosses": stats.get("totalCrosses", 0),
+                "accurate_crosses": stats.get("accurateCrosses", 0),
+                "accurate_crosses_pct": stats.get("accurateCrossesPercentage", 0),
+                "passes_own_half": stats.get("totalOwnHalfPasses", 0),
+                "accurate_passes_own_half": stats.get("accurateOwnHalfPasses", 0),
+                "accurate_passes_own_half_pct": stats.get("accurateOwnHalfPassesPercentage", 0),
+                "passes_opposition_half": stats.get("totalOppositionHalfPasses", 0),
+                "accurate_passes_opposition_half": stats.get("accurateOppositionHalfPasses", 0),
+                "accurate_passes_opposition_half_pct": stats.get("accurateOppositionHalfPassesPercentage", 0)
             }
             
             # Parse Defending stats
@@ -635,19 +644,19 @@ def fetch_sofascore_team_statistics() -> dict:
                 "interceptions": stats.get("interceptions", 0),
                 "saves": stats.get("saves", 0),
                 "clearances": stats.get("clearances", 0),
+                "clearances_off_line": stats.get("clearancesOffLine", 0),
                 "balls_recovered": stats.get("ballRecovery", 0),
-                "blocked_scoring_attempts": stats.get("blockedScoringAttempt", 0),
-                "errors_leading_to_shot": stats.get("errorLeadToShot", 0),
-                "errors_leading_to_goal": stats.get("errorLeadToGoal", 0),
-                "penalty_committed": stats.get("penaltyCommitted", 0),
-                "penalty_faced": stats.get("penaltiesFaced", 0),
-                "penalty_saves": stats.get("penaltySaves", 0)
+                "errors_leading_to_shot": stats.get("errorsLeadingToShot", 0),
+                "errors_leading_to_goal": stats.get("errorsLeadingToGoal", 0),
+                "penalties_committed": stats.get("penaltiesCommited", 0),
+                "last_man_tackles": stats.get("lastManTackles", 0)
             }
             
             # Parse Other stats
             comp_stats["other"] = {
+                "total_duels": stats.get("totalDuels", 0),
                 "duels_won": stats.get("duelsWon", 0),
-                "duels_lost": stats.get("duelsLost", 0),
+                "duels_lost": stats.get("totalDuels", 0) - stats.get("duelsWon", 0),
                 "duels_won_pct": stats.get("duelsWonPercentage", 0),
                 "aerial_duels_won": stats.get("aerialDuelsWon", 0),
                 "aerial_duels_won_pct": stats.get("aerialDuelsWonPercentage", 0),
@@ -656,10 +665,9 @@ def fetch_sofascore_team_statistics() -> dict:
                 "yellow_cards": stats.get("yellowCards", 0),
                 "red_cards": stats.get("redCards", 0),
                 "fouls": stats.get("fouls", 0),
-                "fouls_suffered": stats.get("foulsSuffered", 0),
                 "throw_ins": stats.get("throwIns", 0),
                 "goal_kicks": stats.get("goalKicks", 0),
-                "dispossessed": stats.get("dispossessed", 0)
+                "possession_lost": stats.get("possessionLost", 0)
             }
             
             print(f"  Successfully fetched {comp_name}: {comp_stats['summary']['matches']} matches")
