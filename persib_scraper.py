@@ -495,6 +495,49 @@ def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = 
         except: continue
     return stats_list
 
+def fetch_json_with_playwright(url: str) -> dict:
+    """Fetch JSON content with Playwright (useful for APIs blocked by standard requests)."""
+    print(f"Fetching JSON with Playwright: {url}...")
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context(user_agent=HEADERS['User-Agent'])
+            page = context.new_page()
+            
+            # Go to URL and wait for network to be idle
+            response = page.goto(url, wait_until="networkidle", timeout=60000)
+            
+            # Check if response was successful
+            if not response or not response.ok:
+                print(f"  Playwright response not OK: {response.status if response else 'No Response'}")
+                browser.close()
+                return {}
+
+            # Get the text content, which should be the JSON string
+            # Sometimes APIs return HTML-wrapped JSON (e.g. <pre>...</pre>), so we handle that:
+            content = page.content()
+            soup = BeautifulSoup(content, 'html.parser')
+            # Try to find JSON in body text or pre tag
+            body_text = soup.get_text()
+            
+            # Attempt to parse
+            try:
+                data = json.loads(body_text)
+            except json.JSONDecodeError:
+                # If direct body text fails, maybe it's inside a <pre>?
+                pre = soup.find('pre')
+                if pre:
+                    data = json.loads(pre.get_text())
+                else:
+                    print("  Could not parse JSON from Playwright content")
+                    data = {}
+            
+            browser.close()
+            return data
+    except Exception as e:
+        print(f"  Playwright JSON error fetching {url}: {e}")
+        return {}
+
 def fetch_sofascore_team_statistics() -> dict:
     """Fetch team statistics from Sofascore API for all competitions."""
     all_stats = {
@@ -526,16 +569,14 @@ def fetch_sofascore_team_statistics() -> dict:
         }
         
         try:
-            response = requests.get(api_url, headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-            }, timeout=30)
+            # Use Playwright instead of requests to avoid 403
+            data = fetch_json_with_playwright(api_url)
             
-            if response.status_code != 200:
-                print(f"  Failed to fetch {comp_name}: {response.status_code}")
+            if not data:
+                print(f"  Failed to fetch {comp_name} (Empty Data)")
                 all_stats["competitions"].append(comp_stats)
                 continue
             
-            data = response.json()
             stats = data.get("statistics", {})
             
             # Parse Summary
