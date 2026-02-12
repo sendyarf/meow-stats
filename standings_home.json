@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-02-08T15:28:59.920527",
+  "scraped_at": "2026-02-12T13:05:39.986532",
   "leagues": [
     {
-      "name": "Super League",
+      "name": "Liga 1",
       "logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/8983.png",
-      "url": "https://www.fotmob.com/leagues/8983/overview/super-league",
+      "url": "https://www.fotmob.com/leagues/8983/overview/liga-1",
       "groups": [],
       "teams": [
         {
@@ -49,13 +49,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 9,
+          "played": 10,
           "won": 7,
           "drawn": 2,
-          "lost": 0,
+          "lost": 1,
           "gs": 21,
-          "gc": 4,
-          "gd": 17,
+          "gc": 6,
+          "gd": 15,
           "pts": 23
         },
         {
@@ -202,13 +202,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 10,
+          "played": 11,
           "won": 3,
           "drawn": 3,
-          "lost": 4,
-          "gs": 12,
-          "gc": 15,
-          "gd": -3,
+          "lost": 5,
+          "gs": 13,
+          "gc": 17,
+          "gd": -4,
           "pts": 12
         },
         {
@@ -265,6 +265,23 @@
         {
           "position": 16,
           "team": {
+            "id": "215564",
+            "name": "Semen Padang",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
+            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
+          },
+          "played": 10,
+          "won": 3,
+          "drawn": 1,
+          "lost": 6,
+          "gs": 10,
+          "gc": 14,
+          "gd": -4,
+          "pts": 10
+        },
+        {
+          "position": 17,
+          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -278,23 +295,6 @@
           "gc": 14,
           "gd": -4,
           "pts": 9
-        },
-        {
-          "position": 17,
-          "team": {
-            "id": "215564",
-            "name": "Semen Padang",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
-            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
-          },
-          "played": 9,
-          "won": 2,
-          "drawn": 1,
-          "lost": 6,
-          "gs": 9,
-          "gc": 14,
-          "gd": -5,
-          "pts": 7
         },
         {
           "position": 18,
