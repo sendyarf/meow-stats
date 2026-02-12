@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-12T14:32:58.195615",
+  "scraped_at": "2026-02-12T18:26:22.531120",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -37,7 +37,7 @@
         "successful_dribbles": 291,
         "dribble_attempts": 379,
         "corners": 96,
-        "free_kicks": 0,
+        "free_kicks": 51,
         "hit_woodwork": 0,
         "offsides": 30
       },
@@ -124,7 +124,7 @@
         "successful_dribbles": 30,
         "dribble_attempts": 66,
         "corners": 46,
-        "free_kicks": 1,
+        "free_kicks": 62,
         "hit_woodwork": 5,
         "offsides": 13
       },

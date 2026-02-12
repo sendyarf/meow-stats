@@ -611,7 +611,8 @@ def fetch_sofascore_team_statistics() -> dict:
                 "successful_dribbles": stats.get("successfulDribbles", 0),
                 "dribble_attempts": stats.get("dribbleAttempts", 0),
                 "corners": stats.get("corners", 0),
-                "free_kicks": stats.get("freeKickShots", 0), # 'freeKickShots' seems to match 'Free kicks per game' ~8.8
+                # ISL uses 'freeKicks' (~51), AFC uses 'freeKickShots' (~1). Prioritize 'freeKicks' if available and > 0, else 'freeKickShots'.
+                "free_kicks": stats.get("freeKicks") if stats.get("freeKicks", 0) > 0 else stats.get("freeKickShots", 0),
                 "hit_woodwork": stats.get("hitWoodwork", 0),
                 "offsides": stats.get("offsides", 0)
             }
