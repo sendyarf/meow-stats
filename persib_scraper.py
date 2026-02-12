@@ -763,9 +763,9 @@ def main():
     save_to_json(top, "top_stats.json")
     
     # 5. Fetch Sofascore Team Statistics
-    print("\nFetching Sofascore team statistics...")
-    sofascore_stats = fetch_sofascore_team_statistics()
-    save_to_json(sofascore_stats, "team_statistics.json")
+    # print("\nFetching Sofascore team statistics...")
+    # sofascore_stats = fetch_sofascore_team_statistics()
+    # save_to_json(sofascore_stats, "team_statistics.json")
 
 if __name__ == "__main__":
     main()
