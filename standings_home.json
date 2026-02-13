@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-13T14:07:35.513725",
+  "scraped_at": "2026-02-13T15:41:03.040509",
   "leagues": [
     {
       "name": "Super League",
@@ -95,6 +95,23 @@
         {
           "position": 6,
           "team": {
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+          },
+          "played": 10,
+          "won": 5,
+          "drawn": 4,
+          "lost": 1,
+          "gs": 15,
+          "gc": 11,
+          "gd": 4,
+          "pts": 19
+        },
+        {
+          "position": 7,
+          "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
@@ -110,7 +127,7 @@
           "pts": 18
         },
         {
-          "position": 7,
+          "position": 8,
           "team": {
             "id": "185749",
             "name": "Bhayangkara Presisi Indonesia FC",
@@ -124,23 +141,6 @@
           "gs": 12,
           "gc": 7,
           "gd": 5,
-          "pts": 18
-        },
-        {
-          "position": 8,
-          "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
-          },
-          "played": 9,
-          "won": 5,
-          "drawn": 3,
-          "lost": 1,
-          "gs": 15,
-          "gc": 11,
-          "gd": 4,
           "pts": 18
         },
         {
@@ -304,14 +304,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 9,
+          "played": 10,
           "won": 0,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 7,
           "gs": 10,
           "gc": 21,
           "gd": -11,
-          "pts": 2
+          "pts": 3
         }
       ]
     },

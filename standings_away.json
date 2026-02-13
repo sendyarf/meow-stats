@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-13T14:07:35.515227",
+  "scraped_at": "2026-02-13T15:41:03.042005",
   "leagues": [
     {
       "name": "Super League",
@@ -117,14 +117,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
             "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
           },
-          "played": 10,
+          "played": 11,
           "won": 4,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 3,
           "gs": 13,
           "gc": 12,
           "gd": 1,
-          "pts": 15
+          "pts": 16
         },
         {
           "position": 8,
@@ -185,14 +185,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 10,
+          "played": 11,
           "won": 2,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 5,
           "gs": 8,
           "gc": 13,
           "gd": -5,
-          "pts": 9
+          "pts": 10
         },
         {
           "position": 12,

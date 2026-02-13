@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-13T14:07:35.511834",
+  "scraped_at": "2026-02-13T15:41:03.038714",
   "leagues": [
     {
       "name": "Super League",
@@ -117,14 +117,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
             "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
           },
-          "played": 20,
+          "played": 21,
           "won": 8,
-          "drawn": 7,
+          "drawn": 8,
           "lost": 5,
           "gs": 24,
           "gc": 23,
           "gd": 1,
-          "pts": 31
+          "pts": 32
         },
         {
           "position": 8,
@@ -185,14 +185,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 20,
+          "played": 21,
           "won": 7,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 9,
           "gs": 24,
           "gc": 33,
           "gd": -9,
-          "pts": 25
+          "pts": 26
         },
         {
           "position": 12,
@@ -236,14 +236,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 20,
+          "played": 21,
           "won": 4,
-          "drawn": 6,
+          "drawn": 7,
           "lost": 10,
           "gs": 18,
           "gc": 27,
           "gd": -9,
-          "pts": 18
+          "pts": 19
         },
         {
           "position": 15,
@@ -304,14 +304,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 20,
+          "played": 21,
           "won": 2,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 13,
           "gs": 20,
           "gc": 40,
           "gd": -20,
-          "pts": 11
+          "pts": 12
         }
       ]
     },
