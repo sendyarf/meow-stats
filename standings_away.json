@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-13T18:30:43.111945",
+  "scraped_at": "2026-02-13T19:56:26.702032",
   "leagues": [
     {
       "name": "Super League",
@@ -304,13 +304,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
             "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
           },
-          "played": 9,
+          "played": 10,
           "won": 1,
           "drawn": 1,
-          "lost": 7,
+          "lost": 8,
           "gs": 7,
-          "gc": 19,
-          "gd": -12,
+          "gc": 21,
+          "gd": -14,
           "pts": 4
         }
       ]
