@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-13T19:56:32.536928",
+  "scraped_at": "2026-02-13T21:03:02.998708",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -175,7 +175,7 @@
         "type": "assists"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -188,7 +188,7 @@
         "type": "assists"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -201,7 +201,7 @@
         "type": "assists"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -214,7 +214,7 @@
         "type": "assists"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -491,7 +491,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -504,7 +504,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -569,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -582,7 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "player": {
           "id": "789859",
           "name": "Uilliam",
