@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-14T18:21:26.039741",
+  "scraped_at": "2026-02-14T19:44:22.132649",
   "leagues": [
     {
       "name": "Super League",
@@ -83,13 +83,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
             "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
           },
-          "played": 20,
+          "played": 21,
           "won": 9,
           "drawn": 8,
-          "lost": 3,
+          "lost": 4,
           "gs": 31,
-          "gc": 18,
-          "gd": 13,
+          "gc": 19,
+          "gd": 12,
           "pts": 35
         },
         {
@@ -129,6 +129,23 @@
         {
           "position": 8,
           "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 21,
+          "won": 8,
+          "drawn": 5,
+          "lost": 8,
+          "gs": 19,
+          "gc": 22,
+          "gd": -3,
+          "pts": 29
+        },
+        {
+          "position": 9,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -144,7 +161,7 @@
           "pts": 28
         },
         {
-          "position": 9,
+          "position": 10,
           "team": {
             "id": "585860",
             "name": "Dewa United FC",
@@ -161,7 +178,7 @@
           "pts": 27
         },
         {
-          "position": 10,
+          "position": 11,
           "team": {
             "id": "165200",
             "name": "Arema",
@@ -176,23 +193,6 @@
           "gc": 25,
           "gd": 1,
           "pts": 27
-        },
-        {
-          "position": 11,
-          "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 20,
-          "won": 7,
-          "drawn": 5,
-          "lost": 8,
-          "gs": 18,
-          "gc": 22,
-          "gd": -4,
-          "pts": 26
         },
         {
           "position": 12,

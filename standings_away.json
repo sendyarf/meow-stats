@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-14T18:21:26.043004",
+  "scraped_at": "2026-02-14T19:44:22.136009",
   "leagues": [
     {
       "name": "Super League",
@@ -197,6 +197,23 @@
         {
           "position": 12,
           "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gs": 7,
+          "gc": 15,
+          "gd": -8,
+          "pts": 11
+        },
+        {
+          "position": 13,
+          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -212,7 +229,7 @@
           "pts": 10
         },
         {
-          "position": 13,
+          "position": 14,
           "team": {
             "id": "583034",
             "name": "Persis Solo",
@@ -227,23 +244,6 @@
           "gc": 19,
           "gd": -9,
           "pts": 9
-        },
-        {
-          "position": 14,
-          "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 10,
-          "won": 2,
-          "drawn": 2,
-          "lost": 6,
-          "gs": 6,
-          "gc": 15,
-          "gd": -9,
-          "pts": 8
         },
         {
           "position": 15,
