@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-02-14T19:26:06.471518",
+  "generated_at": "2026-02-15T01:21:21.201977",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 184,
+  "total_matches": 185,
   "standings": {
     "Round 1": [
       {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "PSM Makassar",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Bali United",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -504,7 +504,7 @@
         "rank": 15
       },
       {
-        "team": "PSBS Biak Numfor",
+        "team": "Dewa United",
         "played": 2,
         "win": 0,
         "draw": 0,
@@ -519,7 +519,7 @@
         "rank": 16
       },
       {
-        "team": "Dewa United",
+        "team": "PSBS Biak Numfor",
         "played": 2,
         "win": 0,
         "draw": 0,
@@ -883,7 +883,7 @@
         "rank": 4
       },
       {
-        "team": "Persebaya",
+        "team": "Persib Bandung",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -898,7 +898,7 @@
         "rank": 5
       },
       {
-        "team": "Persib Bandung",
+        "team": "Persebaya",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -5508,13 +5508,13 @@
       },
       {
         "team": "Persebaya",
-        "played": 20,
+        "played": 21,
         "win": 9,
         "draw": 8,
-        "loss": 3,
-        "gf": 31,
-        "ga": 18,
-        "gd": 13,
+        "loss": 4,
+        "gf": 32,
+        "ga": 20,
+        "gd": 12,
         "points": 35,
         "yellows": 0,
         "reds": 6,
@@ -5552,6 +5552,21 @@
         "rank": 7
       },
       {
+        "team": "FC Bhayangkara",
+        "played": 21,
+        "win": 8,
+        "draw": 5,
+        "loss": 8,
+        "gf": 20,
+        "ga": 23,
+        "gd": -3,
+        "points": 29,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 8
+      },
+      {
         "team": "Bali United",
         "played": 20,
         "win": 7,
@@ -5564,7 +5579,7 @@
         "yellows": 0,
         "reds": 3,
         "fair_play": 9,
-        "rank": 8
+        "rank": 9
       },
       {
         "team": "Arema FC",
@@ -5579,7 +5594,7 @@
         "yellows": 0,
         "reds": 6,
         "fair_play": 18,
-        "rank": 9
+        "rank": 10
       },
       {
         "team": "Dewa United",
@@ -5594,21 +5609,6 @@
         "yellows": 0,
         "reds": 3,
         "fair_play": 9,
-        "rank": 10
-      },
-      {
-        "team": "FC Bhayangkara",
-        "played": 20,
-        "win": 7,
-        "draw": 5,
-        "loss": 8,
-        "gf": 18,
-        "ga": 22,
-        "gd": -4,
-        "points": 26,
-        "yellows": 0,
-        "reds": 2,
-        "fair_play": 6,
         "rank": 11
       },
       {
