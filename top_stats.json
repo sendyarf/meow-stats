@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-14T20:43:33.712642",
+  "scraped_at": "2026-02-14T21:26:06.965034",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -465,7 +465,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 19,
+        "rank": 21,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -478,7 +478,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 26,
+        "rank": 28,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -608,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 208,
+        "rank": 209,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -621,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 222,
+        "rank": 223,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -634,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 222,
+        "rank": 223,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -647,7 +647,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 222,
+        "rank": 223,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -660,7 +660,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 222,
+        "rank": 223,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -673,7 +673,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 222,
+        "rank": 223,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -686,7 +686,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 222,
+        "rank": 223,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
