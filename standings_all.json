@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-14T15:31:03.102129",
+  "scraped_at": "2026-02-14T16:29:29.718436",
   "leagues": [
     {
       "name": "Super League",
@@ -202,14 +202,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 20,
+          "played": 21,
           "won": 7,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 10,
           "gs": 24,
           "gc": 27,
           "gd": -3,
-          "pts": 24
+          "pts": 25
         },
         {
           "position": 13,
@@ -219,14 +219,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 20,
+          "played": 21,
           "won": 5,
-          "drawn": 8,
+          "drawn": 9,
           "lost": 7,
           "gs": 23,
           "gc": 22,
           "gd": 1,
-          "pts": 23
+          "pts": 24
         },
         {
           "position": 14,
