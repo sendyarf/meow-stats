@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-14T16:29:29.720229",
+  "scraped_at": "2026-02-14T17:25:13.194162",
   "leagues": [
     {
       "name": "Super League",
@@ -197,23 +197,6 @@
         {
           "position": 12,
           "team": {
-            "id": "165198",
-            "name": "PSM Makassar",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
-            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
-          },
-          "played": 11,
-          "won": 2,
-          "drawn": 6,
-          "lost": 3,
-          "gs": 11,
-          "gc": 8,
-          "gd": 3,
-          "pts": 12
-        },
-        {
-          "position": 13,
-          "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
@@ -227,6 +210,23 @@
           "gc": 17,
           "gd": -4,
           "pts": 12
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": "165198",
+            "name": "PSM Makassar",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
+            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
+          },
+          "played": 11,
+          "won": 2,
+          "drawn": 5,
+          "lost": 4,
+          "gs": 11,
+          "gc": 10,
+          "gd": 1,
+          "pts": 11
         },
         {
           "position": 14,

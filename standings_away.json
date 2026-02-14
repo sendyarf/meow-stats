@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-14T16:29:29.721748",
+  "scraped_at": "2026-02-14T17:25:13.195614",
   "leagues": [
     {
       "name": "Super League",
@@ -180,6 +180,23 @@
         {
           "position": 11,
           "team": {
+            "id": "585860",
+            "name": "Dewa United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
+            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
+          },
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gs": 9,
+          "gc": 14,
+          "gd": -5,
+          "pts": 11
+        },
+        {
+          "position": 12,
+          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -193,23 +210,6 @@
           "gc": 15,
           "gd": -5,
           "pts": 10
-        },
-        {
-          "position": 12,
-          "team": {
-            "id": "585860",
-            "name": "Dewa United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
-            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
-          },
-          "played": 11,
-          "won": 2,
-          "drawn": 3,
-          "lost": 6,
-          "gs": 7,
-          "gc": 14,
-          "gd": -7,
-          "pts": 9
         },
         {
           "position": 13,
