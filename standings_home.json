@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-15T15:31:57.611809",
+  "scraped_at": "2026-02-15T16:30:19.535819",
   "leagues": [
     {
       "name": "Super League",
@@ -163,6 +163,23 @@
         {
           "position": 10,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 11,
+          "won": 5,
+          "drawn": 1,
+          "lost": 5,
+          "gs": 16,
+          "gc": 15,
+          "gd": 1,
+          "pts": 16
+        },
+        {
+          "position": 11,
+          "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
@@ -176,23 +193,6 @@
           "gc": 11,
           "gd": 0,
           "pts": 16
-        },
-        {
-          "position": 11,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 11,
-          "won": 4,
-          "drawn": 2,
-          "lost": 5,
-          "gs": 15,
-          "gc": 15,
-          "gd": 0,
-          "pts": 14
         },
         {
           "position": 12,
