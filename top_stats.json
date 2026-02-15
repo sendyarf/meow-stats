@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-15T19:47:55.557186",
+  "scraped_at": "2026-02-15T20:44:02.722720",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -491,7 +491,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -504,7 +504,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
