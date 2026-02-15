@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-15T18:22:13.699390",
+  "scraped_at": "2026-02-15T19:47:50.080293",
   "leagues": [
     {
       "name": "Super League",
@@ -236,13 +236,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
             "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
           },
-          "played": 10,
+          "played": 11,
           "won": 2,
           "drawn": 5,
-          "lost": 3,
+          "lost": 4,
           "gs": 8,
-          "gc": 11,
-          "gd": -3,
+          "gc": 12,
+          "gd": -4,
           "pts": 11
         },
         {

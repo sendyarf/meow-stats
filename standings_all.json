@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-15T18:22:13.697329",
+  "scraped_at": "2026-02-15T19:47:50.078546",
   "leagues": [
     {
       "name": "Super League",
@@ -49,14 +49,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 20,
-          "won": 13,
+          "played": 21,
+          "won": 14,
           "drawn": 2,
           "lost": 5,
-          "gs": 36,
+          "gs": 37,
           "gc": 16,
-          "gd": 20,
-          "pts": 41
+          "gd": 21,
+          "pts": 44
         },
         {
           "position": 4,
@@ -168,13 +168,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
             "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
           },
-          "played": 20,
+          "played": 21,
           "won": 7,
           "drawn": 7,
-          "lost": 6,
+          "lost": 7,
           "gs": 28,
-          "gc": 27,
-          "gd": 1,
+          "gc": 28,
+          "gd": 0,
           "pts": 28
         },
         {
