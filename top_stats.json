@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-15T16:30:24.326284",
+  "scraped_at": "2026-02-15T17:25:02.939652",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -82,7 +82,7 @@
         "type": "goals"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -175,7 +175,7 @@
         "type": "assists"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -188,7 +188,7 @@
         "type": "assists"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -201,7 +201,7 @@
         "type": "assists"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -214,7 +214,7 @@
         "type": "assists"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -227,7 +227,7 @@
         "type": "assists"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -240,7 +240,7 @@
         "type": "assists"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -253,7 +253,7 @@
         "type": "assists"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -266,7 +266,7 @@
         "type": "assists"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -279,7 +279,7 @@
         "type": "assists"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -333,7 +333,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 36,
+        "rank": 38,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -346,7 +346,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 36,
+        "rank": 38,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -359,7 +359,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -372,7 +372,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -385,7 +385,7 @@
         "type": "goals_assists"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
