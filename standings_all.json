@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-15T14:37:29.946632",
+  "scraped_at": "2026-02-15T15:31:57.610022",
   "leagues": [
     {
       "name": "Super League",
@@ -163,6 +163,23 @@
         {
           "position": 10,
           "team": {
+            "id": "165200",
+            "name": "Arema",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
+            "url": "https://www.fotmob.com/teams/165200/overview/arema"
+          },
+          "played": 21,
+          "won": 7,
+          "drawn": 7,
+          "lost": 7,
+          "gs": 26,
+          "gc": 25,
+          "gd": 1,
+          "pts": 28
+        },
+        {
+          "position": 11,
+          "team": {
             "id": "585860",
             "name": "Dewa United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
@@ -175,23 +192,6 @@
           "gs": 26,
           "gc": 27,
           "gd": -1,
-          "pts": 27
-        },
-        {
-          "position": 11,
-          "team": {
-            "id": "165200",
-            "name": "Arema",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
-            "url": "https://www.fotmob.com/teams/165200/overview/arema"
-          },
-          "played": 20,
-          "won": 7,
-          "drawn": 6,
-          "lost": 7,
-          "gs": 26,
-          "gc": 25,
-          "gd": 1,
           "pts": 27
         },
         {
@@ -270,14 +270,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 20,
+          "played": 21,
           "won": 4,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 13,
           "gs": 17,
           "gc": 32,
           "gd": -15,
-          "pts": 15
+          "pts": 16
         },
         {
           "position": 17,

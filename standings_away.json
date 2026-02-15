@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-15T14:37:29.949870",
+  "scraped_at": "2026-02-15T15:31:57.613300",
   "leagues": [
     {
       "name": "Super League",
@@ -270,14 +270,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 10,
+          "played": 11,
           "won": 1,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 7,
           "gs": 7,
           "gc": 18,
           "gd": -11,
-          "pts": 5
+          "pts": 6
         },
         {
           "position": 17,
