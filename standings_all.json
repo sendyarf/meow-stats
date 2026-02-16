@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-16T16:54:19.516560",
+  "scraped_at": "2026-02-16T17:49:27.222859",
   "leagues": [
     {
       "name": "Super League",
@@ -101,13 +101,13 @@
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
           "played": 21,
-          "won": 9,
+          "won": 10,
           "drawn": 5,
-          "lost": 7,
-          "gs": 25,
+          "lost": 6,
+          "gs": 27,
           "gc": 19,
-          "gd": 6,
-          "pts": 32
+          "gd": 8,
+          "pts": 35
         },
         {
           "position": 7,
@@ -231,23 +231,6 @@
         {
           "position": 14,
           "team": {
-            "id": "585877",
-            "name": "PSBS Biak Numfor",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
-            "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
-          },
-          "played": 21,
-          "won": 5,
-          "drawn": 5,
-          "lost": 11,
-          "gs": 23,
-          "gc": 42,
-          "gd": -19,
-          "pts": 20
-        },
-        {
-          "position": 15,
-          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -261,6 +244,23 @@
           "gc": 29,
           "gd": -9,
           "pts": 19
+        },
+        {
+          "position": 15,
+          "team": {
+            "id": "585877",
+            "name": "PSBS Biak Numfor",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
+            "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
+          },
+          "played": 21,
+          "won": 4,
+          "drawn": 5,
+          "lost": 12,
+          "gs": 23,
+          "gc": 44,
+          "gd": -21,
+          "pts": 17
         },
         {
           "position": 16,

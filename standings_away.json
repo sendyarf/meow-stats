@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-16T16:54:19.519821",
+  "scraped_at": "2026-02-16T17:49:27.226113",
   "leagues": [
     {
       "name": "Super League",
@@ -248,23 +248,6 @@
         {
           "position": 15,
           "team": {
-            "id": "585877",
-            "name": "PSBS Biak Numfor",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
-            "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
-          },
-          "played": 10,
-          "won": 2,
-          "drawn": 2,
-          "lost": 6,
-          "gs": 10,
-          "gc": 25,
-          "gd": -15,
-          "pts": 8
-        },
-        {
-          "position": 16,
-          "team": {
             "id": "165197",
             "name": "Persik",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
@@ -280,7 +263,7 @@
           "pts": 7
         },
         {
-          "position": 17,
+          "position": 16,
           "team": {
             "id": "215564",
             "name": "Semen Padang",
@@ -294,6 +277,23 @@
           "gs": 7,
           "gc": 21,
           "gd": -14,
+          "pts": 5
+        },
+        {
+          "position": 17,
+          "team": {
+            "id": "585877",
+            "name": "PSBS Biak Numfor",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
+            "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
+          },
+          "played": 10,
+          "won": 1,
+          "drawn": 2,
+          "lost": 7,
+          "gs": 10,
+          "gc": 27,
+          "gd": -17,
           "pts": 5
         },
         {
