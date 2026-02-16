@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-16T15:45:37.121016",
+  "scraped_at": "2026-02-16T16:54:19.521267",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -294,7 +294,7 @@
     ],
     "goals_assists": [
       {
-        "rank": 23,
+        "rank": 24,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -543,7 +543,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -556,7 +556,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -569,7 +569,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -582,7 +582,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -595,7 +595,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -608,7 +608,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 210,
+        "rank": 211,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -621,7 +621,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 224,
+        "rank": 225,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -634,7 +634,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 224,
+        "rank": 225,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -647,7 +647,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 224,
+        "rank": 225,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -660,7 +660,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 224,
+        "rank": 225,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -673,7 +673,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 224,
+        "rank": 225,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -686,7 +686,7 @@
         "type": "yellow_cards"
       },
       {
-        "rank": 224,
+        "rank": 225,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
