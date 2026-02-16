@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-16T14:54:26.033985",
+  "scraped_at": "2026-02-16T15:45:37.116302",
   "leagues": [
     {
       "name": "Super League",
@@ -100,14 +100,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 20,
+          "played": 21,
           "won": 9,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 6,
           "gs": 25,
           "gc": 18,
           "gd": 7,
-          "pts": 32
+          "pts": 33
         },
         {
           "position": 7,
@@ -253,14 +253,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 20,
+          "played": 21,
           "won": 4,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 11,
           "gs": 22,
           "gc": 42,
           "gd": -20,
-          "pts": 17
+          "pts": 18
         },
         {
           "position": 16,

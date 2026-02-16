@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-16T14:54:26.035774",
+  "scraped_at": "2026-02-16T15:45:37.118137",
   "leagues": [
     {
       "name": "Super League",
@@ -83,14 +83,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 10,
+          "played": 11,
           "won": 6,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 2,
           "gs": 16,
           "gc": 6,
           "gd": 10,
-          "pts": 20
+          "pts": 21
         },
         {
           "position": 6,
