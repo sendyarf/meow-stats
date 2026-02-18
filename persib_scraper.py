@@ -64,24 +64,42 @@ def fetch_content(url: str) -> str:
 def fetch_with_playwright(url: str, wait_selector: Optional[str] = None) -> str:
     """Fetch content with Playwright for dynamic rendering."""
     print(f"Fetching with Playwright: {url}...")
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            context = browser.new_context(user_agent=HEADERS['User-Agent'])
-            page = context.new_page()
-            page.goto(url, wait_until="networkidle", timeout=60000)
-            if wait_selector:
-                try:
-                    page.wait_for_selector(wait_selector, timeout=15000)
-                except:
-                    print(f"  Timeout waiting for selector: {wait_selector}")
-            
-            content = page.content()
-            browser.close()
-            return content
-    except Exception as e:
-        print(f"  Playwright error fetching {url}: {e}")
-        return ""
+    
+    # Try multiple wait strategies in order of preference
+    wait_strategies = ["domcontentloaded", "load", "commit"]
+    
+    for strategy in wait_strategies:
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch(
+                    headless=True,
+                    args=['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage']
+                )
+                context = browser.new_context(user_agent=HEADERS['User-Agent'])
+                page = context.new_page()
+                print(f"  Trying wait strategy: {strategy}")
+                page.goto(url, wait_until=strategy, timeout=90000)
+                
+                if wait_selector:
+                    try:
+                        page.wait_for_selector(wait_selector, timeout=30000)
+                    except:
+                        print(f"  Timeout waiting for selector: {wait_selector}, continuing anyway...")
+                else:
+                    # Wait a bit for dynamic content to render
+                    page.wait_for_timeout(5000)
+                
+                content = page.content()
+                browser.close()
+                if content and len(content) > 1000:  # Ensure we got real content
+                    return content
+                else:
+                    print(f"  Content too short with strategy {strategy}, trying next...")
+        except Exception as e:
+            print(f"  Playwright error with strategy {strategy}: {e}")
+    
+    print(f"  All Playwright strategies failed for {url}")
+    return ""
 
 # --- Parsing Functions (Robust logic) ---
 
@@ -500,12 +518,15 @@ def fetch_json_with_playwright(url: str) -> dict:
     print(f"Fetching JSON with Playwright: {url}...")
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(
+                headless=True,
+                args=['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage']
+            )
             context = browser.new_context(user_agent=HEADERS['User-Agent'])
             page = context.new_page()
             
-            # Go to URL and wait for network to be idle
-            response = page.goto(url, wait_until="networkidle", timeout=60000)
+            # Use domcontentloaded instead of networkidle for reliability
+            response = page.goto(url, wait_until="domcontentloaded", timeout=90000)
             
             # Check if response was successful
             if not response or not response.ok:
