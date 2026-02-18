@@ -708,6 +708,164 @@ def fetch_sofascore_team_statistics() -> dict:
     
     return all_stats
 
+# --- SofaScore Fixtures ---
+
+def fetch_fixtures_sofascore() -> dict:
+    """Fetch all Persib fixtures (past and upcoming) from SofaScore API."""
+    from datetime import timezone, timedelta
+    import traceback
+    
+    print("\nFetching fixtures from SofaScore API...")
+    
+    fixtures_data = {
+        "scraped_at": datetime.now().isoformat(),
+        "fixtures": [],
+        "next_match": None
+    }
+    
+    all_events = []
+    seen_ids = set()
+    
+    # Current season start (Aug 2025) as a filter
+    season_start_ts = int(datetime(2025, 7, 1, tzinfo=timezone(timedelta(hours=7))).timestamp())
+    
+    # Step 1: Fetch PAST events (paginated)
+    page = 0
+    while True:
+        try:
+            url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/last/{page}"
+            resp = requests.get(url, headers=SOFASCORE_HEADERS, timeout=30)
+            if resp.status_code != 200:
+                print(f"  Failed to fetch past events page {page}: {resp.status_code}")
+                break
+            
+            events = resp.json().get("events", [])
+            if not events:
+                break
+            
+            # Filter events that are in current season (after July 2025)
+            for ev in events:
+                ev_id = ev.get("id")
+                start_ts = ev.get("startTimestamp", 0)
+                if ev_id in seen_ids:
+                    continue
+                if start_ts < season_start_ts:
+                    continue
+                seen_ids.add(ev_id)
+                all_events.append(ev)
+            
+            # If the oldest event on this page is before season start, stop paginating
+            oldest_ts = min(ev.get("startTimestamp", 0) for ev in events)
+            if oldest_ts < season_start_ts:
+                break
+            
+            page += 1
+            if page > 10:  # Safety limit
+                break
+        except Exception as e:
+            print(f"  Error fetching past events page {page}: {e}")
+            break
+    
+    print(f"  Fetched {len(all_events)} past events")
+    
+    # Step 2: Fetch NEXT/upcoming events (paginated)
+    page = 0
+    while True:
+        try:
+            url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/next/{page}"
+            resp = requests.get(url, headers=SOFASCORE_HEADERS, timeout=30)
+            if resp.status_code != 200:
+                print(f"  Failed to fetch next events page {page}: {resp.status_code}")
+                break
+            
+            events = resp.json().get("events", [])
+            if not events:
+                break
+            
+            for ev in events:
+                ev_id = ev.get("id")
+                if ev_id in seen_ids:
+                    continue
+                seen_ids.add(ev_id)
+                all_events.append(ev)
+            
+            page += 1
+            if page > 5:  # Safety limit
+                break
+        except Exception as e:
+            print(f"  Error fetching next events page {page}: {e}")
+            break
+    
+    print(f"  Total events: {len(all_events)}")
+    
+    # Step 3: Sort all events by start timestamp
+    all_events.sort(key=lambda ev: ev.get("startTimestamp", 0))
+    
+    # Step 4: Parse each event into fixtures format
+    for ev in all_events:
+        try:
+            home_team = ev.get("homeTeam", {})
+            away_team = ev.get("awayTeam", {})
+            tournament = ev.get("tournament", {})
+            unique_tournament = tournament.get("uniqueTournament", {})
+            start_ts = ev.get("startTimestamp", 0)
+            home_score = ev.get("homeScore", {})
+            away_score = ev.get("awayScore", {})
+            status_obj = ev.get("status", {})
+            status_type = status_obj.get("type", "")
+            slug = ev.get("slug", "")
+            custom_id = ev.get("customId", "")
+            
+            # Convert timestamp to GMT+7
+            match_dt = datetime.fromtimestamp(start_ts, tz=timezone(timedelta(hours=7)))
+            date_str = match_dt.strftime("%b %d, %Y")  # e.g. "Feb 18, 2026"
+            time_str = match_dt.strftime("%I:%M %p").lstrip('0')  # e.g. "8:30 PM"
+            
+            # Determine status and score
+            if status_type == "finished":
+                status = "Finished"
+                h_score = home_score.get("current", home_score.get("display", 0))
+                a_score = away_score.get("current", away_score.get("display", 0))
+                score = f"{h_score} - {a_score}"
+                display_time = None
+            elif status_type == "notstarted":
+                status = "Scheduled"
+                score = None
+                display_time = time_str
+            elif status_type == "inprogress":
+                status = "Live"
+                h_score = home_score.get("current", home_score.get("display", 0))
+                a_score = away_score.get("current", away_score.get("display", 0))
+                score = f"{h_score} - {a_score}"
+                display_time = None
+            else:
+                status = status_obj.get("description", status_type.capitalize())
+                score = None
+                display_time = time_str
+            
+            # League info
+            league_name = unique_tournament.get("name", tournament.get("name", "Unknown"))
+            tournament_id = unique_tournament.get("id", tournament.get("id"))
+            league_logo = f"https://api.sofascore.com/api/v1/unique-tournament/{tournament_id}/image" if tournament_id else None
+            
+            fixtures_data["fixtures"].append({
+                "date": date_str,
+                "league": league_name,
+                "league_logo": league_logo,
+                "home_team": home_team.get("name", "Unknown"),
+                "away_team": away_team.get("name", "Unknown"),
+                "status": status,
+                "score": score,
+                "time": display_time,
+                "url": f"https://www.sofascore.com/{slug}/{custom_id}" if slug and custom_id else None
+            })
+        except Exception as e:
+            print(f"  Error parsing event: {e}")
+            continue
+    
+    print(f"  Parsed {len(fixtures_data['fixtures'])} fixtures")
+    return fixtures_data
+
 # --- SofaScore Next Match & H2H ---
 
 def fetch_next_match_sofascore() -> dict:
@@ -834,33 +992,81 @@ def fetch_next_match_sofascore() -> dict:
                 except Exception as e:
                     print(f"  Error fetching team stats for {team_key}: {e}")
         
-        # Step 4: Fetch H2H data
+        # Step 4: Fetch H2H data (summary + match history)
         try:
             h2h_url = f"https://api.sofascore.com/api/v1/event/{event_id}/h2h"
             h2h_resp = requests.get(h2h_url, headers=SOFASCORE_HEADERS, timeout=30)
+            
+            home_team_logo = f"https://api.sofascore.com/api/v1/team/{home_team_id}/image" if home_team_id else None
+            away_team_logo = f"https://api.sofascore.com/api/v1/team/{away_team_id}/image" if away_team_id else None
+            
+            team_duel = {}
             if h2h_resp.status_code == 200:
                 h2h_data = h2h_resp.json()
                 team_duel = h2h_data.get("teamDuel", {})
-                
-                home_team_logo = f"https://api.sofascore.com/api/v1/team/{home_team_id}/image" if home_team_id else None
-                away_team_logo = f"https://api.sofascore.com/api/v1/team/{away_team_id}/image" if away_team_id else None
-                
-                next_match_data["head_to_head"] = {
-                    "summary": {
-                        "team1_name": home_team.get("name", "Unknown"),
-                        "team2_name": away_team.get("name", "Unknown"),
-                        "team1_logo": home_team_logo,
-                        "team2_logo": away_team_logo,
-                        "team1_wins": team_duel.get("homeWins", 0),
-                        "draws": team_duel.get("draws", 0),
-                        "team2_wins": team_duel.get("awayWins", 0)
-                    },
-                    "matches": []  # SofaScore H2H API only provides summary totals
-                }
-                
-                print(f"  H2H: {team_duel.get('homeWins', 0)}W - {team_duel.get('draws', 0)}D - {team_duel.get('awayWins', 0)}L")
-            else:
-                print(f"  Failed to fetch H2H: {h2h_resp.status_code}")
+            
+            # Fetch H2H match history by scanning Persib's past events for opponent matches
+            opponent_id = away_team_id if home_team_id == int(SOFASCORE_TEAM_ID) else home_team_id
+            h2h_matches = []
+            
+            for pg in range(10):  # Scan up to 10 pages of past events
+                try:
+                    past_url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/last/{pg}"
+                    past_resp = requests.get(past_url, headers=SOFASCORE_HEADERS, timeout=30)
+                    if past_resp.status_code != 200:
+                        break
+                    past_events = past_resp.json().get("events", [])
+                    if not past_events:
+                        break
+                    
+                    for ev in past_events:
+                        ev_home_id = ev.get("homeTeam", {}).get("id")
+                        ev_away_id = ev.get("awayTeam", {}).get("id")
+                        ev_status = ev.get("status", {}).get("type", "")
+                        
+                        if ev_status != "finished":
+                            continue
+                        if opponent_id not in (ev_home_id, ev_away_id):
+                            continue
+                        
+                        ev_ts = ev.get("startTimestamp", 0)
+                        ev_dt = datetime.fromtimestamp(ev_ts, tz=timezone(timedelta(hours=7)))
+                        ev_hs = ev.get("homeScore", {}).get("current", 0)
+                        ev_as = ev.get("awayScore", {}).get("current", 0)
+                        
+                        h2h_matches.append({
+                            "_ts": ev_ts,
+                            "date": ev_dt.strftime("%b %d, %Y"),
+                            "home_team": ev.get("homeTeam", {}).get("name", "Unknown"),
+                            "away_team": ev.get("awayTeam", {}).get("name", "Unknown"),
+                            "score": f"{ev_hs} - {ev_as}"
+                        })
+                except Exception:
+                    break
+            
+            # Sort by date descending (most recent first) and take top 5
+            h2h_matches.sort(key=lambda x: x["_ts"], reverse=True)
+            h2h_matches = h2h_matches[:5]
+            # Remove internal timestamp
+            for m in h2h_matches:
+                del m["_ts"]
+            
+            next_match_data["head_to_head"] = {
+                "summary": {
+                    "team1_name": home_team.get("name", "Unknown"),
+                    "team2_name": away_team.get("name", "Unknown"),
+                    "team1_logo": home_team_logo,
+                    "team2_logo": away_team_logo,
+                    "team1_wins": team_duel.get("homeWins", 0),
+                    "draws": team_duel.get("draws", 0),
+                    "team2_wins": team_duel.get("awayWins", 0)
+                },
+                "matches": h2h_matches
+            }
+            
+            print(f"  H2H: {team_duel.get('homeWins', 0)}W - {team_duel.get('draws', 0)}D - {team_duel.get('awayWins', 0)}L ({len(h2h_matches)} matches)")
+            for m in h2h_matches:
+                print(f"    {m['date']}: {m['home_team']} {m['score']} {m['away_team']}")
         except Exception as e:
             print(f"  Error fetching H2H: {e}")
         
@@ -873,13 +1079,7 @@ def fetch_next_match_sofascore() -> dict:
 # --- Main Logic ---
 
 def main():
-    # 1. Fetch Fixtures HTML directly
-    print("Fetching Fixtures HTML...")
-    fixtures_url = f"https://www.fotmob.com/teams/{TEAM_ID}/fixtures/persib-bandung"
-    # Use Playwright for fixtures to get dynamic content
-    fixtures_html = fetch_with_playwright(fixtures_url, wait_selector='section[class*="NextMatchBoxCSS"]')
-
-    # 2. Fetch Team API directly (for standings)
+    # 1. Fetch Team API directly (for standings)
     print("Fetching Team API data...")
     team_api_url = f"https://www.fotmob.com/api/teams?id={TEAM_ID}"
     team_api_data = {}
@@ -892,7 +1092,7 @@ def main():
     except Exception as e:
         print(f"  Error fetching Team API: {e}")
 
-    # 3. Fetch Player JSON Stats
+    # 2. Fetch Player JSON Stats
     api_stats_tasks = {
         "goals": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/goals.json",
         "assists": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/goal_assist.json",
@@ -901,7 +1101,7 @@ def main():
         "red_cards": f"https://data.fotmob.com/stats/{LEAGUE_ID}/season/{SEASON_ID}/red_card.json",
     }
     
-    # 4. Parsing
+    # 3. Parsing
     print("\nParsing data to JSON...")
     
     # Standings (from API)
@@ -912,20 +1112,10 @@ def main():
             if t_type == "all":
                 save_to_json(extract_persib_standings(s_data), "persib_standings.json")
     
-    # Fixtures (from HTML) and Head-to-Head (from SofaScore API)
-    fixtures_data = None
-    if fixtures_html:
-        fixtures_data = parse_fixtures_from_html(fixtures_html)
-    else:
-        # Create minimal fixtures data if HTML fetch failed
-        fixtures_data = {
-            "scraped_at": datetime.now().isoformat(),
-            "fixtures": [],
-            "fixture_difficulty": [],
-            "next_match": None
-        }
+    # Fixtures (from SofaScore API)
+    fixtures_data = fetch_fixtures_sofascore()
     
-    # Use SofaScore API for next match data (replaces Playwright-based H2H)
+    # Next match data with pregame stats & H2H (from SofaScore API)
     sofascore_next = fetch_next_match_sofascore()
     if sofascore_next:
         fixtures_data["next_match"] = sofascore_next
