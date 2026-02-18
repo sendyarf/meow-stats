@@ -1,5 +1,645 @@
 {
-  "scraped_at": "2026-02-19T06:28:32.155854",
-  "fixtures": [],
-  "next_match": null
+  "scraped_at": "2026-02-19T06:27:21.742981",
+  "fixtures": [
+    {
+      "date": "Jul 06, 2025",
+      "league": "Indonesia President's Cup",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/23013/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Port FC",
+      "status": "Finished",
+      "score": "0 - 2",
+      "time": null,
+      "url": "https://www.sofascore.com/persib-bandung-port-fc/lnqsOKA"
+    },
+    {
+      "date": "Jul 08, 2025",
+      "league": "Indonesia President's Cup",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/23013/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Dewa United FC",
+      "status": "Finished",
+      "score": "1 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/dewa-united-fc-persib-bandung/OKAsQCdd"
+    },
+    {
+      "date": "Aug 02, 2025",
+      "league": "Club Friendly Games",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/853/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Western Sydney Wanderers",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/western-sydney-wanderers-persib-bandung/OKAsBiE"
+    },
+    {
+      "date": "Aug 09, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Semen Padang FC",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/semen-padang-fc-persib-bandung/OKAsqwJ"
+    },
+    {
+      "date": "Aug 13, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Manila Digger FC",
+      "away_team": "Persib Bandung",
+      "status": "Canceled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/manila-digger-fc-persib-bandung/OKAsuZee"
+    },
+    {
+      "date": "Aug 13, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Manila Digger FC",
+      "status": "Finished",
+      "score": "2 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/manila-digger-fc-persib-bandung/OKAsuZee"
+    },
+    {
+      "date": "Aug 18, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persijap Jepara",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "2 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/persijap-jepara-persib-bandung/OKAstreb"
+    },
+    {
+      "date": "Aug 24, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "PSIM Yogyakarta",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "1 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/psim-yogyakarta-persib-bandung/OKAsdnF"
+    },
+    {
+      "date": "Aug 31, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Borneo FC Samarinda",
+      "status": "Postponed",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/borneo-fc-samarinda-persib-bandung/OKAsVYAb"
+    },
+    {
+      "date": "Sep 12, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Persebaya Surabaya",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/persebaya-surabaya-persib-bandung/OKAsuBF"
+    },
+    {
+      "date": "Sep 18, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Lion City Sailors",
+      "status": "Finished",
+      "score": "1 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/persib-bandung-lion-city-sailors/QkbsOKA"
+    },
+    {
+      "date": "Sep 22, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Arema FC",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "1 - 2",
+      "time": null,
+      "url": "https://www.sofascore.com/persib-bandung-arema-fc/pZtsOKA"
+    },
+    {
+      "date": "Sep 27, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persita Tangerang",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "2 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/persita-tangerang-persib-bandung/OKAsBGJ"
+    },
+    {
+      "date": "Oct 01, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "True Bangkok United",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "0 - 2",
+      "time": null,
+      "url": "https://www.sofascore.com/true-bangkok-united-persib-bandung/OKAsQoJ"
+    },
+    {
+      "date": "Oct 05, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "PSM Makassar",
+      "status": "Postponed",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/psm-makassar-persib-bandung/OKAsoreb"
+    },
+    {
+      "date": "Oct 17, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "PSBS Biak",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "0 - 3",
+      "time": null,
+      "url": "https://www.sofascore.com/psbs-biak-persib-bandung/OKAslMgc"
+    },
+    {
+      "date": "Oct 23, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Selangor FC",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/persib-bandung-selangor-football-club/yqbsOKA"
+    },
+    {
+      "date": "Oct 27, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Persis Solo",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/persis-solo-persib-bandung/OKAsvaFb"
+    },
+    {
+      "date": "Nov 01, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Bali United FC",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "0 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/bali-united-fc-persib-bandung/OKAsZKA"
+    },
+    {
+      "date": "Nov 06, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Selangor FC",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "2 - 3",
+      "time": null,
+      "url": "https://www.sofascore.com/persib-bandung-selangor-football-club/yqbsOKA"
+    },
+    {
+      "date": "Nov 09, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Malut United FC",
+      "away_team": "Persib Bandung",
+      "status": "Postponed",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/malut-united-fc-persib-bandung/OKAstOWd"
+    },
+    {
+      "date": "Nov 21, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Dewa United FC",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/dewa-united-fc-persib-bandung/OKAsQCdd"
+    },
+    {
+      "date": "Nov 26, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Lion City Sailors",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "3 - 2",
+      "time": null,
+      "url": "https://www.sofascore.com/persib-bandung-lion-city-sailors/QkbsOKA"
+    },
+    {
+      "date": "Nov 30, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Madura United FC",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "1 - 4",
+      "time": null,
+      "url": "https://www.sofascore.com/madura-united-fc-persib-bandung/OKAsDGJ"
+    },
+    {
+      "date": "Dec 05, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Borneo FC Samarinda",
+      "status": "Finished",
+      "score": "3 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/borneo-fc-samarinda-persib-bandung/OKAsVYAb"
+    },
+    {
+      "date": "Dec 10, 2025",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Persib Bandung",
+      "away_team": "True Bangkok United",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/true-bangkok-united-persib-bandung/OKAsQoJ"
+    },
+    {
+      "date": "Dec 14, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Malut United FC",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/malut-united-fc-persib-bandung/OKAstOWd"
+    },
+    {
+      "date": "Dec 21, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Bhayangkara Presisi Lampung FC",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/bhayangkara-presisi-indonesia-fc-persib-bandung/OKAsrrNb"
+    },
+    {
+      "date": "Dec 27, 2025",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "PSM Makassar",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/psm-makassar-persib-bandung/OKAsoreb"
+    },
+    {
+      "date": "Jan 05, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persik Kediri",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "1 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/persik-kediri-persib-bandung/OKAsqreb"
+    },
+    {
+      "date": "Jan 11, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Persija Jakarta",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/persija-jakarta-persib-bandung/OKAsVKA"
+    },
+    {
+      "date": "Jan 25, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "PSBS Biak",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/psbs-biak-persib-bandung/OKAslMgc"
+    },
+    {
+      "date": "Jan 31, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persis Solo",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "0 - 1",
+      "time": null,
+      "url": "https://www.sofascore.com/persis-solo-persib-bandung/OKAsvaFb"
+    },
+    {
+      "date": "Feb 06, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Malut United FC",
+      "status": "Finished",
+      "score": "2 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/malut-united-fc-persib-bandung/OKAstOWd"
+    },
+    {
+      "date": "Feb 11, 2026",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Ratchaburi",
+      "away_team": "Persib Bandung",
+      "status": "Finished",
+      "score": "3 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/ratchaburi-persib-bandung/OKAsToJ"
+    },
+    {
+      "date": "Feb 16, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Borneo FC Samarinda",
+      "away_team": "Persib Bandung",
+      "status": "Postponed",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/borneo-fc-samarinda-persib-bandung/OKAsVYAb"
+    },
+    {
+      "date": "Feb 18, 2026",
+      "league": "AFC Champions League Two",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/668/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Ratchaburi",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
+      "url": "https://www.sofascore.com/ratchaburi-persib-bandung/OKAsToJ"
+    },
+    {
+      "date": "Feb 22, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Persita Tangerang",
+      "status": "Scheduled",
+      "score": null,
+      "time": "8:30 PM",
+      "url": "https://www.sofascore.com/persita-tangerang-persib-bandung/OKAsBGJ"
+    },
+    {
+      "date": "Feb 26, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Madura United FC",
+      "status": "Scheduled",
+      "score": null,
+      "time": "8:30 PM",
+      "url": "https://www.sofascore.com/madura-united-fc-persib-bandung/OKAsDGJ"
+    },
+    {
+      "date": "Mar 02, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persebaya Surabaya",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "8:30 PM",
+      "url": "https://www.sofascore.com/persebaya-surabaya-persib-bandung/OKAsuBF"
+    },
+    {
+      "date": "Mar 09, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Persik Kediri",
+      "status": "Scheduled",
+      "score": null,
+      "time": "8:30 PM",
+      "url": "https://www.sofascore.com/persik-kediri-persib-bandung/OKAsqreb"
+    },
+    {
+      "date": "Mar 15, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Borneo FC Samarinda",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/borneo-fc-samarinda-persib-bandung/OKAsVYAb"
+    },
+    {
+      "date": "Apr 05, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Semen Padang FC",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/semen-padang-fc-persib-bandung/OKAsqwJ"
+    },
+    {
+      "date": "Apr 12, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Bali United FC",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/bali-united-fc-persib-bandung/OKAsZKA"
+    },
+    {
+      "date": "Apr 20, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Dewa United FC",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/dewa-united-fc-persib-bandung/OKAsQCdd"
+    },
+    {
+      "date": "Apr 24, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Arema FC",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/persib-bandung-arema-fc/pZtsOKA"
+    },
+    {
+      "date": "Apr 30, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Bhayangkara Presisi Lampung FC",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/bhayangkara-presisi-indonesia-fc-persib-bandung/OKAsrrNb"
+    },
+    {
+      "date": "May 04, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "PSIM Yogyakarta",
+      "status": "Scheduled",
+      "score": null,
+      "time": "3:30 PM",
+      "url": "https://www.sofascore.com/psim-yogyakarta-persib-bandung/OKAsdnF"
+    },
+    {
+      "date": "May 10, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persija Jakarta",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "3:30 PM",
+      "url": "https://www.sofascore.com/persija-jakarta-persib-bandung/OKAsVKA"
+    },
+    {
+      "date": "May 17, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "PSM Makassar",
+      "away_team": "Persib Bandung",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/psm-makassar-persib-bandung/OKAsoreb"
+    },
+    {
+      "date": "May 23, 2026",
+      "league": "Indonesia Super League",
+      "league_logo": "https://api.sofascore.com/api/v1/unique-tournament/1015/image",
+      "home_team": "Persib Bandung",
+      "away_team": "Persijap Jepara",
+      "status": "Scheduled",
+      "score": null,
+      "time": "7:00 PM",
+      "url": "https://www.sofascore.com/persijap-jepara-persib-bandung/OKAstreb"
+    }
+  ],
+  "next_match": {
+    "home_team": "Persib Bandung",
+    "away_team": "Persita Tangerang",
+    "date": "Feb 22",
+    "time": "8:30 PM",
+    "league": "Indonesia Super League",
+    "round": 22,
+    "stats": [
+      {
+        "title": "Table position",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "title": "Pts",
+        "home": "47",
+        "away": "35"
+      },
+      {
+        "title": "Form (last 5)",
+        "home": "DWWWW",
+        "away": "WDLLW"
+      },
+      {
+        "title": "Goals per match",
+        "home": "1.55",
+        "away": "1.29"
+      },
+      {
+        "title": "Goals conceded per match",
+        "home": "0.55",
+        "away": "0.90"
+      }
+    ],
+    "url": "https://www.sofascore.com/persita-tangerang-persib-bandung/OKAsBGJ",
+    "head_to_head": {
+      "summary": {
+        "team1_name": "Persib Bandung",
+        "team2_name": "Persita Tangerang",
+        "team1_logo": "https://api.sofascore.com/api/v1/team/64289/image",
+        "team2_logo": "https://api.sofascore.com/api/v1/team/86576/image",
+        "team1_wins": 6,
+        "draws": 2,
+        "team2_wins": 2
+      },
+      "matches": [
+        {
+          "date": "Sep 27, 2025",
+          "home_team": "Persita Tangerang",
+          "away_team": "Persib Bandung",
+          "score": "2 - 1"
+        },
+        {
+          "date": "May 16, 2025",
+          "home_team": "Persita Tangerang",
+          "away_team": "Persib Bandung",
+          "score": "2 - 2"
+        },
+        {
+          "date": "Dec 22, 2024",
+          "home_team": "Persib Bandung",
+          "away_team": "Persita Tangerang",
+          "score": "3 - 1"
+        },
+        {
+          "date": "Apr 15, 2024",
+          "home_team": "Persita Tangerang",
+          "away_team": "Persib Bandung",
+          "score": "3 - 3"
+        },
+        {
+          "date": "Oct 01, 2023",
+          "home_team": "Persib Bandung",
+          "away_team": "Persita Tangerang",
+          "score": "5 - 0"
+        }
+      ]
+    }
+  }
 }

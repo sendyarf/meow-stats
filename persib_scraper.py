@@ -542,10 +542,30 @@ def fetch_json_with_playwright(url: str) -> dict:
         with sync_playwright() as p:
             browser = p.chromium.launch(
                 headless=True,
-                args=['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage']
+                args=[
+                    '--no-sandbox', 
+                    '--disable-gpu', 
+                    '--disable-dev-shm-usage',
+                    '--disable-blink-features=AutomationControlled'  # Stealth arg
+                ]
             )
-            context = browser.new_context(user_agent=HEADERS['User-Agent'])
+            context = browser.new_context(
+                user_agent=HEADERS['User-Agent'],
+                viewport={'width': 1920, 'height': 1080}
+            )
+            
+            # Stealth: inject script to hide webdriver property
+            context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+            
             page = context.new_page()
+            
+            # Warmup: Visit homepage first to set cookies/session
+            try:
+                print("  Warmup: Visiting homepage...")
+                page.goto("https://www.sofascore.com", wait_until="domcontentloaded", timeout=30000)
+                page.wait_for_timeout(2000)
+            except Exception as e:
+                print(f"  Warmup failed (continuing): {e}")
             
             # Use domcontentloaded instead of networkidle for reliability
             response = page.goto(url, wait_until="domcontentloaded", timeout=90000)
@@ -751,12 +771,13 @@ def fetch_fixtures_sofascore() -> dict:
     while True:
         try:
             url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/last/{page}"
-            resp = requests.get(url, headers=SOFASCORE_HEADERS, timeout=30)
-            if resp.status_code != 200:
-                print(f"  Failed to fetch past events page {page}: {resp.status_code}")
+            data = fetch_json_with_playwright(url)
+            
+            if not data:
+                print(f"  Failed to fetch past events page {page} (Empty Data)")
                 break
             
-            events = resp.json().get("events", [])
+            events = data.get("events", [])
             if not events:
                 break
             
@@ -790,12 +811,13 @@ def fetch_fixtures_sofascore() -> dict:
     while True:
         try:
             url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/next/{page}"
-            resp = requests.get(url, headers=SOFASCORE_HEADERS, timeout=30)
-            if resp.status_code != 200:
-                print(f"  Failed to fetch next events page {page}: {resp.status_code}")
+            data = fetch_json_with_playwright(url)
+            
+            if not data:
+                print(f"  Failed to fetch next events page {page} (Empty Data)")
                 break
             
-            events = resp.json().get("events", [])
+            events = data.get("events", [])
             if not events:
                 break
             
@@ -894,12 +916,13 @@ def fetch_next_match_sofascore() -> dict:
     try:
         # Step 1: Get next match event
         next_url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/next/0"
-        resp = requests.get(next_url, headers=SOFASCORE_HEADERS, timeout=30)
-        if resp.status_code != 200:
-            print(f"  Failed to fetch SofaScore next match: {resp.status_code}")
+        data = fetch_json_with_playwright(next_url)
+        
+        if not data:
+            print(f"  Failed to fetch SofaScore next match (Empty Data)")
             return None
         
-        events = resp.json().get("events", [])
+        events = data.get("events", [])
         if not events:
             print("  No upcoming events found from SofaScore")
             return None
@@ -940,9 +963,9 @@ def fetch_next_match_sofascore() -> dict:
         # Step 2: Fetch pregame form (positions, points, form)
         try:
             form_url = f"https://api.sofascore.com/api/v1/event/{event_id}/pregame-form"
-            form_resp = requests.get(form_url, headers=SOFASCORE_HEADERS, timeout=30)
-            if form_resp.status_code == 200:
-                form_data = form_resp.json()
+            form_data = fetch_json_with_playwright(form_url)
+            
+            if form_data:
                 home_form = form_data.get("homeTeam", {})
                 away_form = form_data.get("awayTeam", {})
                 label = form_data.get("label", "Pts")
@@ -971,8 +994,9 @@ def fetch_next_match_sofascore() -> dict:
                 })
                 
                 print(f"  Pregame form: Home pos {home_form.get('position')}, Away pos {away_form.get('position')}")
+                print(f"  Pregame form: Home pos {home_form.get('position')}, Away pos {away_form.get('position')}")
             else:
-                print(f"  Failed to fetch pregame form: {form_resp.status_code}")
+                print(f"  Failed to fetch pregame form (Empty Data)")
         except Exception as e:
             print(f"  Error fetching pregame form: {e}")
         
@@ -984,9 +1008,10 @@ def fetch_next_match_sofascore() -> dict:
             for team_key, team_id in [("home", home_team_id), ("away", away_team_id)]:
                 try:
                     stats_url = f"https://api.sofascore.com/api/v1/team/{team_id}/unique-tournament/{tournament_id}/season/{season_id}/statistics/overall"
-                    stats_resp = requests.get(stats_url, headers=SOFASCORE_HEADERS, timeout=30)
-                    if stats_resp.status_code == 200:
-                        stats_data = stats_resp.json().get("statistics", {})
+                    stats_data_root = fetch_json_with_playwright(stats_url)
+                    
+                    if stats_data_root:
+                        stats_data = stats_data_root.get("statistics", {})
                         goals_scored = stats_data.get("goalsScored", 0)
                         goals_conceded = stats_data.get("goalsConceded", 0)
                         matches_total = stats_data.get("matches", 1)
@@ -1012,14 +1037,13 @@ def fetch_next_match_sofascore() -> dict:
         # Step 4: Fetch H2H data (summary + match history)
         try:
             h2h_url = f"https://api.sofascore.com/api/v1/event/{event_id}/h2h"
-            h2h_resp = requests.get(h2h_url, headers=SOFASCORE_HEADERS, timeout=30)
+            h2h_data = fetch_json_with_playwright(h2h_url)
             
             home_team_logo = f"https://api.sofascore.com/api/v1/team/{home_team_id}/image" if home_team_id else None
             away_team_logo = f"https://api.sofascore.com/api/v1/team/{away_team_id}/image" if away_team_id else None
             
             team_duel = {}
-            if h2h_resp.status_code == 200:
-                h2h_data = h2h_resp.json()
+            if h2h_data:
                 team_duel = h2h_data.get("teamDuel", {})
             
             # Fetch H2H match history by scanning Persib's past events for opponent matches
@@ -1029,10 +1053,11 @@ def fetch_next_match_sofascore() -> dict:
             for pg in range(10):  # Scan up to 10 pages of past events
                 try:
                     past_url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/last/{pg}"
-                    past_resp = requests.get(past_url, headers=SOFASCORE_HEADERS, timeout=30)
-                    if past_resp.status_code != 200:
+                    past_data = fetch_json_with_playwright(past_url)
+                    
+                    if not past_data:
                         break
-                    past_events = past_resp.json().get("events", [])
+                    past_events = past_data.get("events", [])
                     if not past_events:
                         break
                     
