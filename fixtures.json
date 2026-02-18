@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-19T03:43:27.686781",
+  "scraped_at": "2026-02-19T04:33:49.986579",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -471,10 +471,6 @@
     "date": "Feb 22",
     "time": "1:30 PM",
     "stats": [],
-    "url": "https://www.fotmob.com/matches/persib-bandung-vs-persita/p2pcnah#4879941",
-    "head_to_head": {
-      "summary": null,
-      "matches": []
-    }
+    "url": "https://www.fotmob.com/matches/persib-bandung-vs-persita/p2pcnah#4879941"
   }
 }
