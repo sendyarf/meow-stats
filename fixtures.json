@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-16T13:08:21.679055",
+  "scraped_at": "2026-02-19T03:43:27.686781",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -299,14 +299,14 @@
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299"
     },
     {
-      "date": "Wed, Feb 18",
-      "league": "AFC Champions League Two",
+      "date": "yesterday",
+      "league": "AFC Champions League Two Final Stage",
       "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
       "home_team": "Persib Bandung",
       "away_team": "Ratchaburi FC",
-      "status": "Scheduled",
-      "score": null,
-      "time": "7:15PM",
+      "status": "Finished",
+      "score": "1 - 0",
+      "time": null,
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118300"
     },
     {
@@ -317,7 +317,7 @@
       "away_team": "Persita",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persita/p2pcnah#4879941"
     },
     {
@@ -328,7 +328,7 @@
       "away_team": "Madura United",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-madura-united/p2nz2q1#4879947"
     },
     {
@@ -339,7 +339,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persebaya-surabaya/7nrxcd2y#4879953"
     },
     {
@@ -350,7 +350,7 @@
       "away_team": "Persik",
       "status": "Scheduled",
       "score": null,
-      "time": "8:30PM",
+      "time": "1:30PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-persik/p2nkwuq#4879965"
     },
     {
@@ -361,7 +361,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-borneo-samarinda/3lkgj8zv#4879933"
     },
     {
@@ -372,7 +372,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-semen-padang/xaudg48#4879976"
     },
     {
@@ -383,7 +383,7 @@
       "away_team": "Bali United FC",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-bali-united-fc/saghjn1#4879987"
     },
     {
@@ -394,7 +394,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-dewa-united-fc/3lkhfg18#4879996"
     },
     {
@@ -405,7 +405,7 @@
       "away_team": "Arema",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-arema/p2o65nq#4880003"
     },
     {
@@ -416,7 +416,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-bhayangkara-presisi-indonesia-fc/sag2i1y#4880014"
     },
     {
@@ -427,7 +427,7 @@
       "away_team": "PSIM Yogyakarta",
       "status": "Scheduled",
       "score": null,
-      "time": "3:30PM",
+      "time": "8:30AM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-psim-yogyakarta/3lkcygvj#4880019"
     },
     {
@@ -438,7 +438,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "3:30PM",
+      "time": "8:30AM",
       "url": "https://www.fotmob.com/matches/persija-jakarta-vs-persib-bandung/p2mef9m#4880028"
     },
     {
@@ -449,7 +449,7 @@
       "away_team": "Persib Bandung",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persib-bandung-vs-psm-makassar/p2nrzsd#4880041"
     },
     {
@@ -460,61 +460,21 @@
       "away_team": "Persijap Jepara",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00PM",
+      "time": "12:00PM",
       "url": "https://www.fotmob.com/matches/persijap-jepara-vs-persib-bandung/p2mzo21#4880048"
     }
   ],
   "fixture_difficulty": [],
   "next_match": {
     "home_team": "Persib Bandung",
-    "away_team": "Ratchaburi FC",
-    "date": "Feb 18",
-    "time": "7:15 PM",
-    "stats": [
-      {
-        "title": "Table position",
-        "home": "1",
-        "away": "2"
-      },
-      {
-        "title": "Goals per match",
-        "home": "1.55",
-        "away": "1.60"
-      },
-      {
-        "title": "Goals conceded per match",
-        "home": "0.55",
-        "away": "0.90"
-      }
-    ],
-    "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118300",
+    "away_team": "Persita",
+    "date": "Feb 22",
+    "time": "1:30 PM",
+    "stats": [],
+    "url": "https://www.fotmob.com/matches/persib-bandung-vs-persita/p2pcnah#4879941",
     "head_to_head": {
-      "summary": {
-        "team1_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "team2_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/421346.png",
-        "team1_wins": 0,
-        "draws": 0,
-        "team2_wins": 1
-      },
-      "matches": [
-        {
-          "date": "February 11",
-          "league": "AFC Champions League Two Final Stage",
-          "league_logo": "https://images.fotmob.com/image_resources/logo/leaguelogo/9469.png",
-          "home_team": {
-            "name": "Ratchaburi FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/421346_xsmall.png"
-          },
-          "away_team": {
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196_xsmall.png"
-          },
-          "score": "3 - 0",
-          "time": null,
-          "status": "Finished",
-          "url": "https://www.fotmob.com/matches/persib-bandung-vs-ratchaburi-fc/270u60ez#5118299"
-        }
-      ]
+      "summary": null,
+      "matches": []
     }
   }
 }
