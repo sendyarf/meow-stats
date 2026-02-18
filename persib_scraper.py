@@ -42,6 +42,11 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
+SOFASCORE_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'Referer': 'https://www.sofascore.com'
+}
+
 def save_to_json(data: dict, filename: str):
     """Save data to JSON file."""
     path = SCRIPT_DIR / filename
@@ -703,6 +708,168 @@ def fetch_sofascore_team_statistics() -> dict:
     
     return all_stats
 
+# --- SofaScore Next Match & H2H ---
+
+def fetch_next_match_sofascore() -> dict:
+    """Fetch next match data, pregame stats, and H2H from SofaScore API."""
+    print("\nFetching next match data from SofaScore API...")
+    
+    next_match_data = None
+    
+    try:
+        # Step 1: Get next match event
+        next_url = f"https://api.sofascore.com/api/v1/team/{SOFASCORE_TEAM_ID}/events/next/0"
+        resp = requests.get(next_url, headers=SOFASCORE_HEADERS, timeout=30)
+        if resp.status_code != 200:
+            print(f"  Failed to fetch SofaScore next match: {resp.status_code}")
+            return None
+        
+        events = resp.json().get("events", [])
+        if not events:
+            print("  No upcoming events found from SofaScore")
+            return None
+        
+        event = events[0]  # First upcoming match
+        event_id = event.get("id")
+        home_team = event.get("homeTeam", {})
+        away_team = event.get("awayTeam", {})
+        tournament = event.get("tournament", {})
+        unique_tournament = tournament.get("uniqueTournament", {})
+        season = event.get("season", {})
+        start_ts = event.get("startTimestamp", 0)
+        round_info = event.get("roundInfo", {})
+        
+        # Convert timestamp to readable date/time
+        from datetime import timezone, timedelta
+        match_dt = datetime.fromtimestamp(start_ts, tz=timezone(timedelta(hours=7)))  # GMT+7
+        date_str = match_dt.strftime("%b %d")
+        time_str = match_dt.strftime("%I:%M %p").lstrip('0')
+        
+        home_team_id = home_team.get("id")
+        away_team_id = away_team.get("id")
+        
+        next_match_data = {
+            "home_team": home_team.get("name", "Unknown"),
+            "away_team": away_team.get("name", "Unknown"),
+            "date": date_str,
+            "time": time_str,
+            "league": unique_tournament.get("name", tournament.get("name", "Unknown")),
+            "round": round_info.get("round"),
+            "stats": [],
+            "url": f"https://www.sofascore.com/{event.get('slug', '')}/{event.get('customId', '')}",
+            "head_to_head": None
+        }
+        
+        print(f"  Next match: {next_match_data['home_team']} vs {next_match_data['away_team']} ({date_str} {time_str})")
+        
+        # Step 2: Fetch pregame form (positions, points, form)
+        try:
+            form_url = f"https://api.sofascore.com/api/v1/event/{event_id}/pregame-form"
+            form_resp = requests.get(form_url, headers=SOFASCORE_HEADERS, timeout=30)
+            if form_resp.status_code == 200:
+                form_data = form_resp.json()
+                home_form = form_data.get("homeTeam", {})
+                away_form = form_data.get("awayTeam", {})
+                label = form_data.get("label", "Pts")
+                
+                # Table position
+                next_match_data["stats"].append({
+                    "title": "Table position",
+                    "home": str(home_form.get("position", "-")),
+                    "away": str(away_form.get("position", "-"))
+                })
+                
+                # Points
+                next_match_data["stats"].append({
+                    "title": label,
+                    "home": str(home_form.get("value", "-")),
+                    "away": str(away_form.get("value", "-"))
+                })
+                
+                # Form (last 5 matches: W/D/L)
+                home_form_str = "".join(home_form.get("form", []))
+                away_form_str = "".join(away_form.get("form", []))
+                next_match_data["stats"].append({
+                    "title": "Form (last 5)",
+                    "home": home_form_str,
+                    "away": away_form_str
+                })
+                
+                print(f"  Pregame form: Home pos {home_form.get('position')}, Away pos {away_form.get('position')}")
+            else:
+                print(f"  Failed to fetch pregame form: {form_resp.status_code}")
+        except Exception as e:
+            print(f"  Error fetching pregame form: {e}")
+        
+        # Step 3: Fetch team statistics for goals per match
+        tournament_id = unique_tournament.get("id")
+        season_id = season.get("id")
+        
+        if tournament_id and season_id:
+            for team_key, team_id in [("home", home_team_id), ("away", away_team_id)]:
+                try:
+                    stats_url = f"https://api.sofascore.com/api/v1/team/{team_id}/unique-tournament/{tournament_id}/season/{season_id}/statistics/overall"
+                    stats_resp = requests.get(stats_url, headers=SOFASCORE_HEADERS, timeout=30)
+                    if stats_resp.status_code == 200:
+                        stats_data = stats_resp.json().get("statistics", {})
+                        goals_scored = stats_data.get("goalsScored", 0)
+                        goals_conceded = stats_data.get("goalsConceded", 0)
+                        matches_total = stats_data.get("matches", 1)
+                        
+                        gpg = round(goals_scored / max(matches_total, 1), 2) if goals_scored else 0
+                        gcpg = round(goals_conceded / max(matches_total, 1), 2) if goals_conceded else 0
+                        
+                        # Find and update or append stats
+                        gpg_stat = next((s for s in next_match_data["stats"] if s["title"] == "Goals per match"), None)
+                        if not gpg_stat:
+                            gpg_stat = {"title": "Goals per match", "home": "-", "away": "-"}
+                            next_match_data["stats"].append(gpg_stat)
+                        gpg_stat[team_key] = f"{gpg:.2f}"
+                        
+                        gcpg_stat = next((s for s in next_match_data["stats"] if s["title"] == "Goals conceded per match"), None)
+                        if not gcpg_stat:
+                            gcpg_stat = {"title": "Goals conceded per match", "home": "-", "away": "-"}
+                            next_match_data["stats"].append(gcpg_stat)
+                        gcpg_stat[team_key] = f"{gcpg:.2f}"
+                except Exception as e:
+                    print(f"  Error fetching team stats for {team_key}: {e}")
+        
+        # Step 4: Fetch H2H data
+        try:
+            h2h_url = f"https://api.sofascore.com/api/v1/event/{event_id}/h2h"
+            h2h_resp = requests.get(h2h_url, headers=SOFASCORE_HEADERS, timeout=30)
+            if h2h_resp.status_code == 200:
+                h2h_data = h2h_resp.json()
+                team_duel = h2h_data.get("teamDuel", {})
+                
+                home_team_logo = f"https://api.sofascore.com/api/v1/team/{home_team_id}/image" if home_team_id else None
+                away_team_logo = f"https://api.sofascore.com/api/v1/team/{away_team_id}/image" if away_team_id else None
+                
+                next_match_data["head_to_head"] = {
+                    "summary": {
+                        "team1_name": home_team.get("name", "Unknown"),
+                        "team2_name": away_team.get("name", "Unknown"),
+                        "team1_logo": home_team_logo,
+                        "team2_logo": away_team_logo,
+                        "team1_wins": team_duel.get("homeWins", 0),
+                        "draws": team_duel.get("draws", 0),
+                        "team2_wins": team_duel.get("awayWins", 0)
+                    },
+                    "matches": []  # SofaScore H2H API only provides summary totals
+                }
+                
+                print(f"  H2H: {team_duel.get('homeWins', 0)}W - {team_duel.get('draws', 0)}D - {team_duel.get('awayWins', 0)}L")
+            else:
+                print(f"  Failed to fetch H2H: {h2h_resp.status_code}")
+        except Exception as e:
+            print(f"  Error fetching H2H: {e}")
+        
+    except Exception as e:
+        print(f"  Error in SofaScore next match fetch: {e}")
+        traceback.print_exc()
+    
+    return next_match_data
+
 # --- Main Logic ---
 
 def main():
@@ -745,26 +912,25 @@ def main():
             if t_type == "all":
                 save_to_json(extract_persib_standings(s_data), "persib_standings.json")
     
-    # Fixtures (from HTML) and Head-to-Head
+    # Fixtures (from HTML) and Head-to-Head (from SofaScore API)
     fixtures_data = None
     if fixtures_html:
         fixtures_data = parse_fixtures_from_html(fixtures_html)
-        
-        # Fetch H2H data if next_match URL is available
-        if fixtures_data.get("next_match") and fixtures_data["next_match"].get("url"):
-            next_match_url = fixtures_data["next_match"]["url"]
-            # Construct the H2H tab URL
-            h2h_url = f"{next_match_url}:tab=h2h"
-            print(f"Fetching H2H page: {h2h_url}...")
-            
-            h2h_html = fetch_with_playwright(h2h_url, wait_selector='div[class*="H2hContainerCSS"]')
-            if h2h_html:
-                h2h_data = parse_head_to_head(h2h_html)
-                fixtures_data["next_match"]["head_to_head"] = h2h_data
-            else:
-                fixtures_data["next_match"]["head_to_head"] = None
-        
-        save_to_json(fixtures_data, "fixtures.json")
+    else:
+        # Create minimal fixtures data if HTML fetch failed
+        fixtures_data = {
+            "scraped_at": datetime.now().isoformat(),
+            "fixtures": [],
+            "fixture_difficulty": [],
+            "next_match": None
+        }
+    
+    # Use SofaScore API for next match data (replaces Playwright-based H2H)
+    sofascore_next = fetch_next_match_sofascore()
+    if sofascore_next:
+        fixtures_data["next_match"] = sofascore_next
+    
+    save_to_json(fixtures_data, "fixtures.json")
     
     # Players Stats (API)
     top = {"scraped_at": datetime.now().isoformat(), "team": "Persib Bandung", "stats": {}}
