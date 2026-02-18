@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-19T04:33:49.986579",
+  "scraped_at": "2026-02-19T05:31:27.355103",
   "fixtures": [
     {
       "date": "Aug 9, 2025",
@@ -470,7 +470,23 @@
     "away_team": "Persita",
     "date": "Feb 22",
     "time": "1:30 PM",
-    "stats": [],
+    "stats": [
+      {
+        "title": "Table position",
+        "home": "1",
+        "away": "6"
+      },
+      {
+        "title": "Goals per match",
+        "home": "1.55",
+        "away": "1.29"
+      },
+      {
+        "title": "Goals conceded per match",
+        "home": "0.55",
+        "away": "0.90"
+      }
+    ],
     "url": "https://www.fotmob.com/matches/persib-bandung-vs-persita/p2pcnah#4879941"
   }
 }
