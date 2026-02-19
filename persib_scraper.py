@@ -887,12 +887,19 @@ def fetch_fixtures_sofascore() -> dict:
             tournament_id = unique_tournament.get("id", tournament.get("id"))
             league_logo = f"https://api.sofascore.com/api/v1/unique-tournament/{tournament_id}/image" if tournament_id else None
             
+            home_team_id = home_team.get("id")
+            away_team_id = away_team.get("id")
+            home_team_logo = f"https://img.sofascore.com/api/v1/team/{home_team_id}/image" if home_team_id else None
+            away_team_logo = f"https://img.sofascore.com/api/v1/team/{away_team_id}/image" if away_team_id else None
+            
             fixtures_data["fixtures"].append({
                 "date": date_str,
                 "league": league_name,
                 "league_logo": league_logo,
                 "home_team": home_team.get("name", "Unknown"),
+                "home_team_logo": home_team_logo,
                 "away_team": away_team.get("name", "Unknown"),
+                "away_team_logo": away_team_logo,
                 "status": status,
                 "score": score,
                 "time": display_time,
