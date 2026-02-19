@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-19T11:52:19.773529",
+  "scraped_at": "2026-02-19T10:44:54.612160",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -12,9 +12,9 @@
           "url": "https://www.fotmob.com/players/789859/uilliam"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 7,
-        "sub_stat": 1,
-        "type": "goals"
+        "type": "goals",
+        "goals": 7,
+        "assists": 1
       },
       {
         "rank": 28,
@@ -25,9 +25,9 @@
           "url": "https://www.fotmob.com/players/813421/andrew-jung"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 5,
-        "sub_stat": 2,
-        "type": "goals"
+        "type": "goals",
+        "goals": 5,
+        "assists": 2
       },
       {
         "rank": 40,
@@ -38,9 +38,8 @@
           "url": "https://www.fotmob.com/players/365624/federico-barba"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 3
       },
       {
         "rank": 40,
@@ -51,9 +50,8 @@
           "url": "https://www.fotmob.com/players/464897/luciano-guaycochea"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 3
       },
       {
         "rank": 40,
@@ -64,9 +62,8 @@
           "url": "https://www.fotmob.com/players/1206260/ramon"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 3
       },
       {
         "rank": 40,
@@ -77,9 +74,8 @@
           "url": "https://www.fotmob.com/players/809521/saddil-ramdani"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 3
       },
       {
         "rank": 60,
@@ -90,9 +86,8 @@
           "url": "https://www.fotmob.com/players/1298538/beckham-putra"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 2
       },
       {
         "rank": 91,
@@ -103,9 +98,9 @@
           "url": "https://www.fotmob.com/players/384446/thom-haye"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": 1,
-        "type": "goals"
+        "type": "goals",
+        "goals": 2,
+        "assists": 1
       },
       {
         "rank": 93,
@@ -116,9 +111,8 @@
           "url": "https://www.fotmob.com/players/1032159/berguinho"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 1
       },
       {
         "rank": 93,
@@ -129,9 +123,8 @@
           "url": "https://www.fotmob.com/players/805657/febri-haryadi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 1
       },
       {
         "rank": 93,
@@ -142,9 +135,8 @@
           "url": "https://www.fotmob.com/players/492636/patricio-matricardi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "goals"
+        "type": "goals",
+        "goals": 1
       }
     ],
     "assists": [
@@ -157,9 +149,8 @@
           "url": "https://www.fotmob.com/players/1032159/berguinho"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 5,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 5
       },
       {
         "rank": 19,
@@ -170,9 +161,8 @@
           "url": "https://www.fotmob.com/players/1298538/beckham-putra"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 3
       },
       {
         "rank": 36,
@@ -183,9 +173,8 @@
           "url": "https://www.fotmob.com/players/813421/andrew-jung"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 2
       },
       {
         "rank": 36,
@@ -196,9 +185,8 @@
           "url": "https://www.fotmob.com/players/492636/patricio-matricardi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 2
       },
       {
         "rank": 36,
@@ -209,9 +197,8 @@
           "url": "https://www.fotmob.com/players/1206260/ramon"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 2
       },
       {
         "rank": 36,
@@ -222,9 +209,8 @@
           "url": "https://www.fotmob.com/players/384446/thom-haye"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 2
       },
       {
         "rank": 63,
@@ -235,9 +221,8 @@
           "url": "https://www.fotmob.com/players/972306/eliano-reijnders"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 1
       },
       {
         "rank": 63,
@@ -248,9 +233,8 @@
           "url": "https://www.fotmob.com/players/464897/luciano-guaycochea"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 1
       },
       {
         "rank": 63,
@@ -261,9 +245,8 @@
           "url": "https://www.fotmob.com/players/809521/saddil-ramdani"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 1
       },
       {
         "rank": 63,
@@ -274,9 +257,8 @@
           "url": "https://www.fotmob.com/players/789859/uilliam"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 1
       },
       {
         "rank": 63,
@@ -287,9 +269,8 @@
           "url": "https://www.fotmob.com/players/1666508/wilian-marcilio"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "assists"
+        "type": "assists",
+        "assists": 1
       }
     ],
     "goals_assists": [
@@ -302,9 +283,8 @@
           "url": "https://www.fotmob.com/players/789859/uilliam"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 8,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 8
       },
       {
         "rank": 28,
@@ -315,9 +295,8 @@
           "url": "https://www.fotmob.com/players/813421/andrew-jung"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 7,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 7
       },
       {
         "rank": 32,
@@ -328,9 +307,8 @@
           "url": "https://www.fotmob.com/players/1032159/berguinho"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 6,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 6
       },
       {
         "rank": 38,
@@ -341,9 +319,8 @@
           "url": "https://www.fotmob.com/players/1298538/beckham-putra"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 5,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 5
       },
       {
         "rank": 38,
@@ -354,9 +331,8 @@
           "url": "https://www.fotmob.com/players/1206260/ramon"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 5,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 5
       },
       {
         "rank": 47,
@@ -367,9 +343,8 @@
           "url": "https://www.fotmob.com/players/464897/luciano-guaycochea"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 4,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 4
       },
       {
         "rank": 47,
@@ -380,9 +355,8 @@
           "url": "https://www.fotmob.com/players/809521/saddil-ramdani"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 4,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 4
       },
       {
         "rank": 47,
@@ -393,9 +367,8 @@
           "url": "https://www.fotmob.com/players/384446/thom-haye"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 4,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 4
       },
       {
         "rank": 63,
@@ -406,9 +379,8 @@
           "url": "https://www.fotmob.com/players/365624/federico-barba"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 3
       },
       {
         "rank": 63,
@@ -419,9 +391,8 @@
           "url": "https://www.fotmob.com/players/492636/patricio-matricardi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 3
       },
       {
         "rank": 145,
@@ -432,9 +403,8 @@
           "url": "https://www.fotmob.com/players/972306/eliano-reijnders"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 1
       },
       {
         "rank": 145,
@@ -445,9 +415,8 @@
           "url": "https://www.fotmob.com/players/805657/febri-haryadi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 1
       },
       {
         "rank": 145,
@@ -458,9 +427,8 @@
           "url": "https://www.fotmob.com/players/1666508/wilian-marcilio"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "goals_assists"
+        "type": "goals_assists",
+        "goals_assists": 1
       }
     ],
     "yellow_cards": [
@@ -473,9 +441,9 @@
           "url": "https://www.fotmob.com/players/320139/frans-putros"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 5,
-        "sub_stat": 1,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 5,
+        "red_cards": 1
       },
       {
         "rank": 28,
@@ -486,9 +454,8 @@
           "url": "https://www.fotmob.com/players/469277/marc-klok"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 5,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 5
       },
       {
         "rank": 46,
@@ -499,9 +466,8 @@
           "url": "https://www.fotmob.com/players/972306/eliano-reijnders"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 4,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 4
       },
       {
         "rank": 46,
@@ -512,9 +478,8 @@
           "url": "https://www.fotmob.com/players/384446/thom-haye"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 4,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 4
       },
       {
         "rank": 72,
@@ -525,9 +490,8 @@
           "url": "https://www.fotmob.com/players/1032159/berguinho"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 3
       },
       {
         "rank": 72,
@@ -538,9 +502,8 @@
           "url": "https://www.fotmob.com/players/866393/julio-cesar"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 3,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 3
       },
       {
         "rank": 122,
@@ -551,9 +514,9 @@
           "url": "https://www.fotmob.com/players/1298538/beckham-putra"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": 1,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 2,
+        "red_cards": 1
       },
       {
         "rank": 122,
@@ -564,9 +527,9 @@
           "url": "https://www.fotmob.com/players/809521/saddil-ramdani"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": 1,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 2,
+        "red_cards": 1
       },
       {
         "rank": 133,
@@ -577,9 +540,8 @@
           "url": "https://www.fotmob.com/players/365624/federico-barba"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 2
       },
       {
         "rank": 133,
@@ -590,9 +552,8 @@
           "url": "https://www.fotmob.com/players/492636/patricio-matricardi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 2
       },
       {
         "rank": 133,
@@ -603,9 +564,8 @@
           "url": "https://www.fotmob.com/players/789859/uilliam"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 2,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 2
       },
       {
         "rank": 212,
@@ -616,9 +576,9 @@
           "url": "https://www.fotmob.com/players/464897/luciano-guaycochea"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": 1,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 1,
+        "red_cards": 1
       },
       {
         "rank": 226,
@@ -629,9 +589,8 @@
           "url": "https://www.fotmob.com/players/1113454/adam-przybek"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 1
       },
       {
         "rank": 226,
@@ -642,9 +601,8 @@
           "url": "https://www.fotmob.com/players/805657/febri-haryadi"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 1
       },
       {
         "rank": 226,
@@ -655,9 +613,8 @@
           "url": "https://www.fotmob.com/players/1332771/kakang-rudianto"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 1
       },
       {
         "rank": 226,
@@ -668,9 +625,8 @@
           "url": "https://www.fotmob.com/players/1758712/nazriel-alfaro"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 1
       },
       {
         "rank": 226,
@@ -681,9 +637,8 @@
           "url": "https://www.fotmob.com/players/1206260/ramon"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 1
       },
       {
         "rank": 226,
@@ -694,9 +649,8 @@
           "url": "https://www.fotmob.com/players/1666508/wilian-marcilio"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": null,
-        "type": "yellow_cards"
+        "type": "yellow_cards",
+        "yellow_cards": 1
       }
     ],
     "red_cards": [
@@ -709,9 +663,9 @@
           "url": "https://www.fotmob.com/players/320139/frans-putros"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": 5,
-        "type": "red_cards"
+        "type": "red_cards",
+        "red_cards": 1,
+        "yellow_cards": 5
       },
       {
         "rank": 28,
@@ -722,9 +676,9 @@
           "url": "https://www.fotmob.com/players/1298538/beckham-putra"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": 2,
-        "type": "red_cards"
+        "type": "red_cards",
+        "red_cards": 1,
+        "yellow_cards": 2
       },
       {
         "rank": 28,
@@ -735,9 +689,9 @@
           "url": "https://www.fotmob.com/players/809521/saddil-ramdani"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": 2,
-        "type": "red_cards"
+        "type": "red_cards",
+        "red_cards": 1,
+        "yellow_cards": 2
       },
       {
         "rank": 39,
@@ -748,9 +702,9 @@
           "url": "https://www.fotmob.com/players/464897/luciano-guaycochea"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "value": 1,
-        "sub_stat": 1,
-        "type": "red_cards"
+        "type": "red_cards",
+        "red_cards": 1,
+        "yellow_cards": 1
       }
     ]
   }

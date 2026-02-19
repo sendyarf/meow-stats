@@ -510,28 +510,53 @@ def parse_top_stats_from_json(json_data: dict, stat_type: str, team_name: str = 
             sub_val = item.get("SubStatValue", item.get("subStatValue"))
             if sub_val is not None and isinstance(sub_val, (int, float, str)):
                 try:
-                    if float(sub_val) > 0:
-                        sub_val = int(float(sub_val))
-                    else:
-                        sub_val = None
+                    sub_val = int(float(sub_val))
                 except:
                     sub_val = None
             else:
                 sub_val = None
 
-            stats_list.append({
+            player_info = {
+                "id": p_id,
+                "name": name,
+                "image": f"https://images.fotmob.com/image_resources/playerimages/{p_id}.png",
+                "url": f"https://www.fotmob.com/players/{p_id}/{name.lower().replace(' ', '-')}" if p_id else None
+            }
+            
+            entry = {
                 "rank": rank,
-                "player": {
-                    "id": p_id,
-                    "name": name,
-                    "image": f"https://images.fotmob.com/image_resources/playerimages/{p_id}.png",
-                    "url": f"https://www.fotmob.com/players/{p_id}/{name.lower().replace(' ', '-')}" if p_id else None
-                },
+                "player": player_info,
                 "team_logo": f"https://images.fotmob.com/image_resources/logo/teamlogo/{TEAM_ID}.png",
-                "value": val,
-                "sub_stat": sub_val,
                 "type": stat_type
-            })
+            }
+            
+            # Use descriptive field names based on stat type
+            if stat_type == "yellow_cards":
+                entry["yellow_cards"] = val
+                if sub_val:
+                    entry["red_cards"] = sub_val
+            elif stat_type == "red_cards":
+                entry["red_cards"] = val
+                if sub_val:
+                    entry["yellow_cards"] = sub_val
+            elif stat_type == "goals":
+                entry["goals"] = val
+                if sub_val:
+                    entry["assists"] = sub_val
+            elif stat_type == "assists":
+                entry["assists"] = val
+                if sub_val:
+                    entry["goals"] = sub_val
+            elif stat_type == "goals_assists":
+                entry["goals_assists"] = val
+                if sub_val:
+                    entry["sub_stat"] = sub_val
+            else:
+                entry["value"] = val
+                if sub_val:
+                    entry["sub_stat"] = sub_val
+
+            stats_list.append(entry)
         except: continue
     return stats_list
 
@@ -642,6 +667,9 @@ def fetch_sofascore_team_statistics() -> dict:
             
             stats = data.get("statistics", {})
             
+            # Use None for fields not available in the API response
+            # (ISL API returns fewer fields than AFC, so None = not available)
+            
             # Parse Summary
             comp_stats["summary"] = {
                 "matches": stats.get("matches", 0),
@@ -649,90 +677,99 @@ def fetch_sofascore_team_statistics() -> dict:
                 "goals_conceded": stats.get("goalsConceded", 0),
                 "assists": stats.get("assists", 0),
                 "awarded_matches": stats.get("awardedMatches", 0),
-                "rating": stats.get("avgRating", 0)
+                "rating": stats.get("avgRating"),
+                "shots_against": stats.get("shotsAgainst")
             }
             
             # Parse Attacking stats
+            matches = max(stats.get("matches", 1), 1)
             comp_stats["attacking"] = {
-                "goals_per_game": round(stats.get("goalsScored", 0) / max(stats.get("matches", 1), 1), 2),
-                "penalty_goals": stats.get("penaltyGoals", 0),
-                "penalties_taken": stats.get("penaltiesTaken", 0),
-                "total_shots": stats.get("shots", 0),
-                "shots_on_target": stats.get("shotsOnTarget", 0),
-                "shots_off_target": stats.get("shotsOffTarget", 0),
-                "blocked_shots": stats.get("blockedScoringAttempt", 0),
-                "shots_inside_box": stats.get("shotsFromInsideTheBox", 0),
-                "shots_outside_box": stats.get("shotsFromOutsideTheBox", 0),
-                "goals_inside_box": stats.get("goalsFromInsideTheBox", 0),
-                "goals_outside_box": stats.get("goalsFromOutsideTheBox", 0),
-                "left_foot_goals": stats.get("leftFootGoals", 0),
-                "right_foot_goals": stats.get("rightFootGoals", 0),
-                "headed_goals": stats.get("headedGoals", 0),
-                "big_chances_created": stats.get("bigChancesCreated", 0),
-                "big_chances_scored": stats.get("bigChancesScored", 0), # Note: API might not have this explicit key, often calculated or named differently. Debug data didn't show 'bigChancesScored', only 'bigChances', 'bigChancesCreated', 'bigChancesMissed'.
-                "big_chances_missed": stats.get("bigChancesMissed", 0),
-                "successful_dribbles": stats.get("successfulDribbles", 0),
-                "dribble_attempts": stats.get("dribbleAttempts", 0),
-                "corners": stats.get("corners", 0),
-                # ISL uses 'freeKicks' (~51), AFC uses 'freeKickShots' (~1). Prioritize 'freeKicks' if available and > 0, else 'freeKickShots'.
-                "free_kicks": stats.get("freeKicks") if stats.get("freeKicks", 0) > 0 else stats.get("freeKickShots", 0),
-                "hit_woodwork": stats.get("hitWoodwork", 0),
-                "offsides": stats.get("offsides", 0)
+                "goals_per_game": round(stats.get("goalsScored", 0) / matches, 2),
+                "penalty_goals": stats.get("penaltyGoals"),
+                "penalties_taken": stats.get("penaltiesTaken"),
+                "total_shots": stats.get("shots"),
+                "shots_on_target": stats.get("shotsOnTarget"),
+                "shots_off_target": stats.get("shotsOffTarget"),
+                "blocked_shots": stats.get("blockedScoringAttempt"),
+                "shots_inside_box": stats.get("shotsFromInsideTheBox"),
+                "shots_outside_box": stats.get("shotsFromOutsideTheBox"),
+                "goals_inside_box": stats.get("goalsFromInsideTheBox"),
+                "goals_outside_box": stats.get("goalsFromOutsideTheBox"),
+                "left_foot_goals": stats.get("leftFootGoals"),
+                "right_foot_goals": stats.get("rightFootGoals"),
+                "headed_goals": stats.get("headedGoals"),
+                "big_chances_created": stats.get("bigChancesCreated"),
+                "big_chances_scored": stats.get("bigChancesScored"),
+                "big_chances_missed": stats.get("bigChancesMissed"),
+                "successful_dribbles": stats.get("successfulDribbles"),
+                "dribble_attempts": stats.get("dribbleAttempts"),
+                "corners": stats.get("corners"),
+                "free_kicks": stats.get("freeKicks") if stats.get("freeKicks") else stats.get("freeKickShots"),
+                "hit_woodwork": stats.get("hitWoodwork"),
+                "offsides": stats.get("offsides")
             }
             
             # Parse Passes stats
             comp_stats["passes"] = {
-                "ball_possession": stats.get("averageBallPossession", 0),
-                "total_passes": stats.get("totalPasses", 0),
-                "accurate_passes": stats.get("accuratePasses", 0),
-                "accurate_passes_pct": stats.get("accuratePassesPercentage", 0),
-                "long_balls": stats.get("totalLongBalls", 0),
-                "accurate_long_balls": stats.get("accurateLongBalls", 0),
-                "accurate_long_balls_pct": stats.get("accurateLongBallsPercentage", 0),
-                "crosses": stats.get("totalCrosses", 0),
-                "accurate_crosses": stats.get("accurateCrosses", 0),
-                "accurate_crosses_pct": stats.get("accurateCrossesPercentage", 0),
-                "passes_own_half": stats.get("totalOwnHalfPasses", 0),
-                "accurate_passes_own_half": stats.get("accurateOwnHalfPasses", 0),
-                "accurate_passes_own_half_pct": stats.get("accurateOwnHalfPassesPercentage", 0),
-                "passes_opposition_half": stats.get("totalOppositionHalfPasses", 0),
-                "accurate_passes_opposition_half": stats.get("accurateOppositionHalfPasses", 0),
-                "accurate_passes_opposition_half_pct": stats.get("accurateOppositionHalfPassesPercentage", 0)
+                "ball_possession": stats.get("averageBallPossession"),
+                "total_passes": stats.get("totalPasses"),
+                "accurate_passes": stats.get("accuratePasses"),
+                "accurate_passes_pct": stats.get("accuratePassesPercentage"),
+                "long_balls": stats.get("totalLongBalls"),
+                "accurate_long_balls": stats.get("accurateLongBalls"),
+                "accurate_long_balls_pct": stats.get("accurateLongBallsPercentage"),
+                "crosses": stats.get("totalCrosses"),
+                "accurate_crosses": stats.get("accurateCrosses"),
+                "accurate_crosses_pct": stats.get("accurateCrossesPercentage"),
+                "passes_own_half": stats.get("totalOwnHalfPasses"),
+                "accurate_passes_own_half": stats.get("accurateOwnHalfPasses"),
+                "accurate_passes_own_half_pct": stats.get("accurateOwnHalfPassesPercentage"),
+                "passes_opposition_half": stats.get("totalOppositionHalfPasses"),
+                "accurate_passes_opposition_half": stats.get("accurateOppositionHalfPasses"),
+                "accurate_passes_opposition_half_pct": stats.get("accurateOppositionHalfPassesPercentage")
             }
             
             # Parse Defending stats
             comp_stats["defending"] = {
-                "clean_sheets": stats.get("cleanSheets", 0),
-                "goals_conceded_per_game": round(stats.get("goalsConceded", 0) / max(stats.get("matches", 1), 1), 2),
-                "tackles": stats.get("tackles", 0),
-                "interceptions": stats.get("interceptions", 0),
-                "saves": stats.get("saves", 0),
-                "clearances": stats.get("clearances", 0),
-                "clearances_off_line": stats.get("clearancesOffLine", 0),
-                "balls_recovered": stats.get("ballRecovery", 0),
-                "errors_leading_to_shot": stats.get("errorsLeadingToShot", 0),
-                "errors_leading_to_goal": stats.get("errorsLeadingToGoal", 0),
-                "penalties_committed": stats.get("penaltiesCommited", 0),
-                "last_man_tackles": stats.get("lastManTackles", 0)
+                "clean_sheets": stats.get("cleanSheets"),
+                "goals_conceded_per_game": round(stats.get("goalsConceded", 0) / matches, 2),
+                "tackles": stats.get("tackles"),
+                "interceptions": stats.get("interceptions"),
+                "saves": stats.get("saves"),
+                "clearances": stats.get("clearances"),
+                "clearances_off_line": stats.get("clearancesOffLine"),
+                "balls_recovered": stats.get("ballRecovery"),
+                "errors_leading_to_shot": stats.get("errorsLeadingToShot"),
+                "errors_leading_to_goal": stats.get("errorsLeadingToGoal"),
+                "penalties_committed": stats.get("penaltiesCommited"),
+                "last_man_tackles": stats.get("lastManTackles")
             }
             
             # Parse Other stats
+            total_duels = stats.get("totalDuels")
+            duels_won = stats.get("duelsWon")
             comp_stats["other"] = {
-                "total_duels": stats.get("totalDuels", 0),
-                "duels_won": stats.get("duelsWon", 0),
-                "duels_lost": stats.get("totalDuels", 0) - stats.get("duelsWon", 0),
-                "duels_won_pct": stats.get("duelsWonPercentage", 0),
-                "aerial_duels_won": stats.get("aerialDuelsWon", 0),
-                "aerial_duels_won_pct": stats.get("aerialDuelsWonPercentage", 0),
-                "ground_duels_won": stats.get("groundDuelsWon", 0),
-                "ground_duels_won_pct": stats.get("groundDuelsWonPercentage", 0),
-                "yellow_cards": stats.get("yellowCards", 0),
-                "red_cards": stats.get("redCards", 0),
-                "fouls": stats.get("fouls", 0),
-                "throw_ins": stats.get("throwIns", 0),
-                "goal_kicks": stats.get("goalKicks", 0),
-                "possession_lost": stats.get("possessionLost", 0)
+                "total_duels": total_duels,
+                "duels_won": duels_won,
+                "duels_lost": (total_duels - duels_won) if total_duels is not None and duels_won is not None else None,
+                "duels_won_pct": stats.get("duelsWonPercentage"),
+                "total_aerial_duels": stats.get("totalAerialDuels"),
+                "aerial_duels_won": stats.get("aerialDuelsWon"),
+                "aerial_duels_won_pct": stats.get("aerialDuelsWonPercentage"),
+                "ground_duels_won": stats.get("groundDuelsWon"),
+                "ground_duels_won_pct": stats.get("groundDuelsWonPercentage"),
+                "yellow_cards": stats.get("yellowCards"),
+                "yellow_red_cards": stats.get("yellowRedCards"),
+                "red_cards": stats.get("redCards"),
+                "fouls": stats.get("fouls"),
+                "throw_ins": stats.get("throwIns"),
+                "goal_kicks": stats.get("goalKicks"),
+                "possession_lost": stats.get("possessionLost")
             }
+            
+            # Filter out None values from each section (only keep fields with actual data)
+            for section in ["summary", "attacking", "passes", "defending", "other"]:
+                comp_stats[section] = {k: v for k, v in comp_stats[section].items() if v is not None}
             
             print(f"  Successfully fetched {comp_name}: {comp_stats['summary']['matches']} matches")
             
@@ -1189,9 +1226,9 @@ def main():
     save_to_json(top, "top_stats.json")
     
     # 5. Fetch Sofascore Team Statistics
-    # print("\nFetching Sofascore team statistics...")
-    # sofascore_stats = fetch_sofascore_team_statistics()
-    # save_to_json(sofascore_stats, "team_statistics.json")
+    print("\nFetching Sofascore team statistics...")
+    sofascore_stats = fetch_sofascore_team_statistics()
+    save_to_json(sofascore_stats, "team_statistics.json")
 
 if __name__ == "__main__":
     main()
