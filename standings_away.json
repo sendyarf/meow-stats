@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-20T21:01:12.904775",
+  "scraped_at": "2026-02-20T22:36:34.921157",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
+          },
+          "played": 11,
+          "won": 6,
+          "drawn": 2,
+          "lost": 3,
+          "gs": 15,
+          "gc": 10,
+          "gd": 5,
+          "pts": 20
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
@@ -40,23 +57,6 @@
           "gc": 13,
           "gd": 4,
           "pts": 19
-        },
-        {
-          "position": 3,
-          "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
-          },
-          "played": 11,
-          "won": 5,
-          "drawn": 3,
-          "lost": 3,
-          "gs": 13,
-          "gc": 10,
-          "gd": 3,
-          "pts": 18
         },
         {
           "position": 4,
@@ -155,8 +155,8 @@
           "won": 4,
           "drawn": 2,
           "lost": 6,
-          "gs": 9,
-          "gc": 16,
+          "gs": 12,
+          "gc": 19,
           "gd": -7,
           "pts": 14
         },
@@ -172,8 +172,8 @@
           "won": 3,
           "drawn": 3,
           "lost": 5,
-          "gs": 12,
-          "gc": 15,
+          "gs": 13,
+          "gc": 16,
           "gd": -3,
           "pts": 12
         },
