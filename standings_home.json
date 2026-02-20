@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-20T19:56:20.418344",
+  "scraped_at": "2026-02-20T21:01:12.903294",
   "leagues": [
     {
       "name": "Super League",
@@ -44,6 +44,23 @@
         {
           "position": 3,
           "team": {
+            "id": "165191",
+            "name": "Persija Jakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
+            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
+          },
+          "played": 11,
+          "won": 8,
+          "drawn": 2,
+          "lost": 1,
+          "gs": 22,
+          "gc": 6,
+          "gd": 16,
+          "pts": 26
+        },
+        {
+          "position": 4,
+          "team": {
             "id": "1665351",
             "name": "Malut United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
@@ -56,23 +73,6 @@
           "gs": 29,
           "gc": 13,
           "gd": 16,
-          "pts": 23
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": "165191",
-            "name": "Persija Jakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
-            "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
-          },
-          "played": 10,
-          "won": 7,
-          "drawn": 2,
-          "lost": 1,
-          "gs": 21,
-          "gc": 6,
-          "gd": 15,
           "pts": 23
         },
         {
@@ -100,13 +100,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 10,
+          "played": 11,
           "won": 5,
           "drawn": 4,
-          "lost": 1,
+          "lost": 2,
           "gs": 17,
-          "gc": 13,
-          "gd": 4,
+          "gc": 14,
+          "gd": 3,
           "pts": 19
         },
         {
@@ -231,6 +231,23 @@
         {
           "position": 14,
           "team": {
+            "id": "215564",
+            "name": "Semen Padang",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
+            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
+          },
+          "played": 11,
+          "won": 3,
+          "drawn": 2,
+          "lost": 6,
+          "gs": 10,
+          "gc": 14,
+          "gd": -4,
+          "pts": 11
+        },
+        {
+          "position": 15,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -246,7 +263,7 @@
           "pts": 11
         },
         {
-          "position": 15,
+          "position": 16,
           "team": {
             "id": "165194",
             "name": "Persijap Jepara",
@@ -261,23 +278,6 @@
           "gc": 15,
           "gd": -5,
           "pts": 11
-        },
-        {
-          "position": 16,
-          "team": {
-            "id": "215564",
-            "name": "Semen Padang",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
-            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
-          },
-          "played": 10,
-          "won": 3,
-          "drawn": 1,
-          "lost": 6,
-          "gs": 10,
-          "gc": 14,
-          "gd": -4,
-          "pts": 10
         },
         {
           "position": 17,

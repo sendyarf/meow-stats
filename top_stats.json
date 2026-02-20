@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-20T19:57:24.524710",
+  "scraped_at": "2026-02-20T21:02:14.962050",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 60,
+        "rank": 61,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -568,7 +568,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 212,
+        "rank": 214,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -581,7 +581,7 @@
         "red_cards": 1
       },
       {
-        "rank": 226,
+        "rank": 228,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -593,7 +593,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 226,
+        "rank": 228,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -605,7 +605,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 226,
+        "rank": 228,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -617,7 +617,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 226,
+        "rank": 228,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -629,7 +629,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 226,
+        "rank": 228,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -641,7 +641,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 226,
+        "rank": 228,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-20T19:56:20.419800",
+  "scraped_at": "2026-02-20T21:01:12.904775",
   "leagues": [
     {
       "name": "Super League",
@@ -44,6 +44,23 @@
         {
           "position": 3,
           "team": {
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
+          },
+          "played": 11,
+          "won": 5,
+          "drawn": 3,
+          "lost": 3,
+          "gs": 13,
+          "gc": 10,
+          "gd": 3,
+          "pts": 18
+        },
+        {
+          "position": 4,
+          "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
@@ -59,7 +76,7 @@
           "pts": 17
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -76,7 +93,7 @@
           "pts": 17
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "185751",
             "name": "Bali United FC",
@@ -90,23 +107,6 @@
           "gs": 20,
           "gc": 16,
           "gd": 4,
-          "pts": 17
-        },
-        {
-          "position": 6,
-          "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
-          },
-          "played": 10,
-          "won": 5,
-          "drawn": 2,
-          "lost": 3,
-          "gs": 13,
-          "gc": 10,
-          "gd": 3,
           "pts": 17
         },
         {
@@ -146,22 +146,39 @@
         {
           "position": 9,
           "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 12,
+          "won": 4,
+          "drawn": 2,
+          "lost": 6,
+          "gs": 9,
+          "gc": 16,
+          "gd": -7,
+          "pts": 14
+        },
+        {
+          "position": 10,
+          "team": {
             "id": "165198",
             "name": "PSM Makassar",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 10,
+          "played": 11,
           "won": 3,
           "drawn": 3,
-          "lost": 4,
+          "lost": 5,
           "gs": 12,
-          "gc": 14,
-          "gd": -2,
+          "gc": 15,
+          "gd": -3,
           "pts": 12
         },
         {
-          "position": 10,
+          "position": 11,
           "team": {
             "id": "165206",
             "name": "Persita",
@@ -178,7 +195,7 @@
           "pts": 12
         },
         {
-          "position": 11,
+          "position": 12,
           "team": {
             "id": "585860",
             "name": "Dewa United FC",
@@ -192,23 +209,6 @@
           "gs": 9,
           "gc": 14,
           "gd": -5,
-          "pts": 11
-        },
-        {
-          "position": 12,
-          "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 11,
-          "won": 3,
-          "drawn": 2,
-          "lost": 6,
-          "gs": 8,
-          "gc": 16,
-          "gd": -8,
           "pts": 11
         },
         {
