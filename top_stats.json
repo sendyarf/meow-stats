@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-21T17:25:07.338356",
+  "scraped_at": "2026-02-21T18:22:29.605613",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -90,7 +90,7 @@
         "goals": 2
       },
       {
-        "rank": 92,
+        "rank": 93,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -103,7 +103,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -115,7 +115,7 @@
         "goals": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -127,7 +127,7 @@
         "goals": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -395,7 +395,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 147,
+        "rank": 148,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -407,7 +407,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 147,
+        "rank": 148,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -419,7 +419,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 147,
+        "rank": 148,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
