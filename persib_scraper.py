@@ -926,8 +926,8 @@ def fetch_fixtures_sofascore() -> dict:
             
             home_team_id = home_team.get("id")
             away_team_id = away_team.get("id")
-            home_team_logo = f"https://img.sofascore.com/api/v1/team/{home_team_id}/image" if home_team_id else None
-            away_team_logo = f"https://img.sofascore.com/api/v1/team/{away_team_id}/image" if away_team_id else None
+            home_team_logo = f"https://api.sofascore1.com/api/v1/team/{home_team_id}/image" if home_team_id else None
+            away_team_logo = f"https://api.sofascore1.com/api/v1/team/{away_team_id}/image" if away_team_id else None
             
             fixtures_data["fixtures"].append({
                 "date": date_str,
