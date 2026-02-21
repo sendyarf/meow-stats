@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-21T20:41:28.447064",
+  "scraped_at": "2026-02-21T21:25:36.663556",
   "leagues": [
     {
       "name": "Super League",
@@ -197,6 +197,40 @@
         {
           "position": 12,
           "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 12,
+          "won": 4,
+          "drawn": 2,
+          "lost": 6,
+          "gs": 11,
+          "gc": 15,
+          "gd": -4,
+          "pts": 14
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": "165199",
+            "name": "Madura United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
+            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
+          },
+          "played": 11,
+          "won": 3,
+          "drawn": 3,
+          "lost": 5,
+          "gs": 11,
+          "gc": 14,
+          "gd": -3,
+          "pts": 12
+        },
+        {
+          "position": 14,
+          "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
@@ -212,24 +246,7 @@
           "pts": 12
         },
         {
-          "position": 13,
-          "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 12,
-          "won": 3,
-          "drawn": 3,
-          "lost": 6,
-          "gs": 10,
-          "gc": 15,
-          "gd": -5,
-          "pts": 12
-        },
-        {
-          "position": 14,
+          "position": 15,
           "team": {
             "id": "165198",
             "name": "PSM Makassar",
@@ -246,7 +263,7 @@
           "pts": 11
         },
         {
-          "position": 15,
+          "position": 16,
           "team": {
             "id": "215564",
             "name": "Semen Padang",
@@ -263,7 +280,7 @@
           "pts": 11
         },
         {
-          "position": 16,
+          "position": 17,
           "team": {
             "id": "185751",
             "name": "Bali United FC",
@@ -280,23 +297,6 @@
           "pts": 11
         },
         {
-          "position": 17,
-          "team": {
-            "id": "165199",
-            "name": "Madura United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
-            "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
-          },
-          "played": 11,
-          "won": 2,
-          "drawn": 4,
-          "lost": 5,
-          "gs": 10,
-          "gc": 14,
-          "gd": -4,
-          "pts": 10
-        },
-        {
           "position": 18,
           "team": {
             "id": "583034",
@@ -305,13 +305,13 @@
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
           "played": 11,
-          "won": 0,
-          "drawn": 4,
+          "won": 1,
+          "drawn": 3,
           "lost": 7,
-          "gs": 12,
+          "gs": 13,
           "gc": 23,
-          "gd": -11,
-          "pts": 4
+          "gd": -10,
+          "pts": 6
         }
       ]
     },
