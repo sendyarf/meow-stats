@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-02-21T13:30:37.427697",
+  "generated_at": "2026-02-21T18:12:01.595339",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 191,
   "standings": {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Bali United",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "PSM Makassar",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persijap Jepara",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Persebaya",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -883,7 +883,7 @@
         "rank": 4
       },
       {
-        "team": "Persebaya",
+        "team": "Persib Bandung",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -898,7 +898,7 @@
         "rank": 5
       },
       {
-        "team": "Persib Bandung",
+        "team": "Persebaya",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -5719,21 +5719,6 @@
     ],
     "Round 22": [
       {
-        "team": "Persija Jakarta",
-        "played": 22,
-        "win": 15,
-        "draw": 2,
-        "loss": 5,
-        "gf": 39,
-        "ga": 17,
-        "gd": 22,
-        "points": 47,
-        "yellows": 0,
-        "reds": 6,
-        "fair_play": 18,
-        "rank": 1
-      },
-      {
         "team": "Persib Bandung",
         "played": 20,
         "win": 15,
@@ -5746,6 +5731,21 @@
         "yellows": 0,
         "reds": 5,
         "fair_play": 15,
+        "rank": 1
+      },
+      {
+        "team": "Persija Jakarta",
+        "played": 22,
+        "win": 15,
+        "draw": 2,
+        "loss": 5,
+        "gf": 39,
+        "ga": 17,
+        "gd": 22,
+        "points": 47,
+        "yellows": 0,
+        "reds": 6,
+        "fair_play": 18,
         "rank": 2
       },
       {
