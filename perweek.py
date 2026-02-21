@@ -12,9 +12,12 @@ from collections import defaultdict
 
 def fetch_full_html(url):
     options = Options()
-    options.add_argument("--headless")
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-software-rasterizer")
+    options.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(options=options)
     
     print("Mengakses halaman dan memuat semua pertandingan...")
@@ -218,11 +221,6 @@ def check_h2h_eligibility(group, h2h):
     - Semua tim sudah bertemu satu sama lain dengan jumlah pertemuan yang sama
     """
     if len(group) < 2:
-        return False
-    
-    # Cek apakah semua tim memiliki played yang sama
-    played_counts = set(row['played'] for row in group)
-    if len(played_counts) > 1:
         return False
     
     # Cek apakah semua tim sudah bertemu dengan jumlah yang sama
