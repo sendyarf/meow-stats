@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-21T21:26:40.403070",
+  "scraped_at": "2026-02-21T22:24:57.636086",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -30,7 +30,7 @@
         "assists": 2
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -42,7 +42,7 @@
         "goals": 3
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -54,7 +54,7 @@
         "goals": 3
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -66,7 +66,7 @@
         "goals": 3
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -165,7 +165,7 @@
         "assists": 3
       },
       {
-        "rank": 37,
+        "rank": 38,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -177,7 +177,7 @@
         "assists": 2
       },
       {
-        "rank": 37,
+        "rank": 38,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -189,7 +189,7 @@
         "assists": 2
       },
       {
-        "rank": 37,
+        "rank": 38,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -201,7 +201,7 @@
         "assists": 2
       },
       {
-        "rank": 37,
+        "rank": 38,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 67,
+        "rank": 68,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -225,7 +225,7 @@
         "assists": 1
       },
       {
-        "rank": 67,
+        "rank": 68,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -237,7 +237,7 @@
         "assists": 1
       },
       {
-        "rank": 67,
+        "rank": 68,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -249,7 +249,7 @@
         "assists": 1
       },
       {
-        "rank": 67,
+        "rank": 68,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -261,7 +261,7 @@
         "assists": 1
       },
       {
-        "rank": 67,
+        "rank": 68,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -371,7 +371,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 66,
+        "rank": 68,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -383,7 +383,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 66,
+        "rank": 68,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -395,7 +395,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 151,
+        "rank": 152,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -407,7 +407,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 151,
+        "rank": 152,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -419,7 +419,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 151,
+        "rank": 152,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -458,7 +458,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 49,
+        "rank": 50,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -470,7 +470,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 49,
+        "rank": 50,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
