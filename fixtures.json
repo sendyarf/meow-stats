@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T22:23:58.717052",
+  "scraped_at": "2026-02-22T23:28:47.930873",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -490,7 +490,7 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
       "away_team": "Persita Tangerang",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/86576/image",
-      "status": "Live",
+      "status": "Finished",
       "score": "1 - 0",
       "time": null,
       "url": "https://www.sofascore.com/persita-tangerang-persib-bandung/OKAsBGJ"
@@ -675,27 +675,27 @@
     "stats": [
       {
         "title": "Table position",
-        "home": "2",
+        "home": "1",
         "away": "14"
       },
       {
         "title": "Pts",
-        "home": "47",
+        "home": "50",
         "away": "20"
       },
       {
         "title": "Form (last 5)",
-        "home": "DWWWW",
+        "home": "WWWWW",
         "away": "LDLDD"
       },
       {
         "title": "Goals per match",
-        "home": "1.55",
+        "home": "1.52",
         "away": "1.00"
       },
       {
         "title": "Goals conceded per match",
-        "home": "0.55",
+        "home": "0.52",
         "away": "1.41"
       }
     ],

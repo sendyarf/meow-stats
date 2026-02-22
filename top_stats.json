@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T22:24:59.048776",
+  "scraped_at": "2026-02-22T23:29:51.007695",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -433,7 +433,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 23,
+        "rank": 13,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -442,7 +442,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "yellow_cards",
-        "yellow_cards": 5,
+        "yellow_cards": 6,
         "red_cards": 1
       },
       {
@@ -532,7 +532,7 @@
         "red_cards": 1
       },
       {
-        "rank": 140,
+        "rank": 141,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -544,7 +544,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 140,
+        "rank": 141,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -556,7 +556,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 140,
+        "rank": 141,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -587,6 +587,18 @@
           "name": "Adam Przybek",
           "image": "https://images.fotmob.com/image_resources/playerimages/1113454.png",
           "url": "https://www.fotmob.com/players/1113454/adam-przybek"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "yellow_cards",
+        "yellow_cards": 1
+      },
+      {
+        "rank": 231,
+        "player": {
+          "id": "1520096",
+          "name": "Bojan Hodak",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1520096.png",
+          "url": "https://www.fotmob.com/players/1520096/bojan-hodak"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "yellow_cards",
@@ -655,7 +667,7 @@
     ],
     "red_cards": [
       {
-        "rank": 15,
+        "rank": 10,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -665,7 +677,7 @@
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "red_cards",
         "red_cards": 1,
-        "yellow_cards": 5
+        "yellow_cards": 6
       },
       {
         "rank": 29,
@@ -694,7 +706,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
