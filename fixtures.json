@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T19:46:45.680525",
+  "scraped_at": "2026-02-22T20:42:35.644443",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -490,9 +490,9 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
       "away_team": "Persita Tangerang",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/86576/image",
-      "status": "Scheduled",
-      "score": null,
-      "time": "8:30 PM",
+      "status": "Live",
+      "score": "0 - 0",
+      "time": null,
       "url": "https://www.sofascore.com/persita-tangerang-persib-bandung/OKAsBGJ"
     },
     {
@@ -667,79 +667,79 @@
   ],
   "next_match": {
     "home_team": "Persib Bandung",
-    "away_team": "Persita Tangerang",
-    "date": "Feb 22",
+    "away_team": "Madura United FC",
+    "date": "Feb 26",
     "time": "8:30 PM",
     "league": "Indonesia Super League",
-    "round": 22,
+    "round": 23,
     "stats": [
       {
         "title": "Table position",
         "home": "2",
-        "away": "6"
+        "away": "14"
       },
       {
         "title": "Pts",
         "home": "47",
-        "away": "35"
+        "away": "20"
       },
       {
         "title": "Form (last 5)",
         "home": "DWWWW",
-        "away": "WDLLW"
+        "away": "LDLDD"
       },
       {
         "title": "Goals per match",
         "home": "1.55",
-        "away": "1.29"
+        "away": "1.00"
       },
       {
         "title": "Goals conceded per match",
         "home": "0.55",
-        "away": "0.90"
+        "away": "1.41"
       }
     ],
-    "url": "https://www.sofascore.com/persita-tangerang-persib-bandung/OKAsBGJ",
+    "url": "https://www.sofascore.com/madura-united-fc-persib-bandung/OKAsDGJ",
     "head_to_head": {
       "summary": {
         "team1_name": "Persib Bandung",
-        "team2_name": "Persita Tangerang",
+        "team2_name": "Madura United FC",
         "team1_logo": "https://api.sofascore.com/api/v1/team/64289/image",
-        "team2_logo": "https://api.sofascore.com/api/v1/team/86576/image",
+        "team2_logo": "https://api.sofascore.com/api/v1/team/86578/image",
         "team1_wins": 6,
-        "draws": 2,
-        "team2_wins": 2
+        "draws": 3,
+        "team2_wins": 1
       },
       "matches": [
         {
-          "date": "Sep 27, 2025",
-          "home_team": "Persita Tangerang",
+          "date": "Nov 30, 2025",
+          "home_team": "Madura United FC",
           "away_team": "Persib Bandung",
-          "score": "2 - 1"
+          "score": "1 - 4"
         },
         {
-          "date": "May 16, 2025",
-          "home_team": "Persita Tangerang",
+          "date": "Feb 22, 2025",
+          "home_team": "Persib Bandung",
+          "away_team": "Madura United FC",
+          "score": "0 - 0"
+        },
+        {
+          "date": "Sep 28, 2024",
+          "home_team": "Madura United FC",
           "away_team": "Persib Bandung",
           "score": "2 - 2"
         },
         {
-          "date": "Dec 22, 2024",
-          "home_team": "Persib Bandung",
-          "away_team": "Persita Tangerang",
-          "score": "3 - 1"
-        },
-        {
-          "date": "Apr 15, 2024",
-          "home_team": "Persita Tangerang",
+          "date": "May 31, 2024",
+          "home_team": "Madura United FC",
           "away_team": "Persib Bandung",
-          "score": "3 - 3"
+          "score": "1 - 3"
         },
         {
-          "date": "Oct 01, 2023",
+          "date": "May 26, 2024",
           "home_team": "Persib Bandung",
-          "away_team": "Persita Tangerang",
-          "score": "5 - 0"
+          "away_team": "Madura United FC",
+          "score": "3 - 0"
         }
       ]
     }

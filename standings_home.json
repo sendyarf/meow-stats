@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T19:46:45.677570",
+  "scraped_at": "2026-02-22T20:42:35.641588",
   "leagues": [
     {
       "name": "Super League",
@@ -15,14 +15,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
-          "played": 10,
+          "played": 11,
           "won": 10,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gs": 16,
           "gc": 1,
           "gd": 15,
-          "pts": 30
+          "pts": 31
         },
         {
           "position": 2,
@@ -151,14 +151,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 10,
+          "played": 11,
           "won": 5,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 4,
           "gs": 17,
           "gc": 13,
           "gd": 4,
-          "pts": 16
+          "pts": 17
         },
         {
           "position": 10,

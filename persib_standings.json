@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T19:46:45.675687",
+  "scraped_at": "2026-02-22T20:42:35.639733",
   "team": "Persib Bandung",
   "standings": [
     {
@@ -13,14 +13,14 @@
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
       },
-      "played": 20,
+      "played": 21,
       "won": 15,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 3,
       "gs": 31,
       "gc": 11,
       "gd": 20,
-      "pts": 47
+      "pts": 48
     },
     {
       "league": "AFC Champions League Two",
