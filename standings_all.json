@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T21:24:53.255454",
+  "scraped_at": "2026-02-22T22:23:58.712397",
   "leagues": [
     {
       "name": "Super League",
@@ -16,13 +16,13 @@
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
           "played": 21,
-          "won": 15,
-          "drawn": 3,
+          "won": 16,
+          "drawn": 2,
           "lost": 3,
-          "gs": 31,
+          "gs": 32,
           "gc": 11,
-          "gd": 20,
-          "pts": 48
+          "gd": 21,
+          "pts": 50
         },
         {
           "position": 2,
@@ -78,23 +78,6 @@
         {
           "position": 5,
           "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
-          },
-          "played": 22,
-          "won": 10,
-          "drawn": 6,
-          "lost": 6,
-          "gs": 27,
-          "gc": 19,
-          "gd": 8,
-          "pts": 36
-        },
-        {
-          "position": 6,
-          "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
@@ -107,6 +90,23 @@
           "gs": 33,
           "gc": 23,
           "gd": 10,
+          "pts": 35
+        },
+        {
+          "position": 6,
+          "team": {
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+          },
+          "played": 22,
+          "won": 10,
+          "drawn": 5,
+          "lost": 7,
+          "gs": 27,
+          "gc": 20,
+          "gd": 7,
           "pts": 35
         },
         {

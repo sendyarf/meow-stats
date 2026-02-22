@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T21:24:53.260238",
+  "scraped_at": "2026-02-22T22:23:58.717052",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -491,7 +491,7 @@
       "away_team": "Persita Tangerang",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/86576/image",
       "status": "Live",
-      "score": "0 - 0",
+      "score": "1 - 0",
       "time": null,
       "url": "https://www.sofascore.com/persita-tangerang-persib-bandung/OKAsBGJ"
     },

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T21:24:53.257284",
+  "scraped_at": "2026-02-22T22:23:58.714166",
   "leagues": [
     {
       "name": "Super League",
@@ -16,13 +16,13 @@
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
           "played": 11,
-          "won": 10,
-          "drawn": 1,
+          "won": 11,
+          "drawn": 0,
           "lost": 0,
-          "gs": 16,
+          "gs": 17,
           "gc": 1,
-          "gd": 15,
-          "pts": 31
+          "gd": 16,
+          "pts": 33
         },
         {
           "position": 2,
