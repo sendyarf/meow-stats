@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-22T20:42:35.641588",
+  "scraped_at": "2026-02-22T21:24:53.257284",
   "leagues": [
     {
       "name": "Super League",
@@ -95,6 +95,23 @@
         {
           "position": 6,
           "team": {
+            "id": "585860",
+            "name": "Dewa United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
+            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
+          },
+          "played": 11,
+          "won": 6,
+          "drawn": 1,
+          "lost": 4,
+          "gs": 19,
+          "gc": 14,
+          "gd": 5,
+          "pts": 19
+        },
+        {
+          "position": 7,
+          "team": {
             "id": "165197",
             "name": "Persik",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
@@ -110,7 +127,7 @@
           "pts": 19
         },
         {
-          "position": 7,
+          "position": 8,
           "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
@@ -127,7 +144,7 @@
           "pts": 18
         },
         {
-          "position": 8,
+          "position": 9,
           "team": {
             "id": "185749",
             "name": "Bhayangkara Presisi Indonesia FC",
@@ -142,23 +159,6 @@
           "gc": 7,
           "gd": 5,
           "pts": 18
-        },
-        {
-          "position": 9,
-          "team": {
-            "id": "585860",
-            "name": "Dewa United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
-            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
-          },
-          "played": 11,
-          "won": 5,
-          "drawn": 2,
-          "lost": 4,
-          "gs": 17,
-          "gc": 13,
-          "gd": 4,
-          "pts": 17
         },
         {
           "position": 10,
