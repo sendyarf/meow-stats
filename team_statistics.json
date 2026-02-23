@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-24T01:01:45.658794",
+  "scraped_at": "2026-02-24T02:24:23.826927",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -55,7 +55,7 @@
         "total_aerial_duels": 659,
         "aerial_duels_won": 353,
         "aerial_duels_won_pct": 53.57,
-        "yellow_cards": 42,
+        "yellow_cards": 43,
         "yellow_red_cards": 4,
         "red_cards": 4,
         "fouls": 301,
