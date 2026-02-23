@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T21:44:45.690907",
+  "scraped_at": "2026-02-23T22:44:45.311275",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 64,
+        "rank": 66,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -90,7 +90,7 @@
         "goals": 2
       },
       {
-        "rank": 96,
+        "rank": 97,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -103,7 +103,7 @@
         "assists": 1
       },
       {
-        "rank": 99,
+        "rank": 100,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -115,7 +115,7 @@
         "goals": 1
       },
       {
-        "rank": 99,
+        "rank": 100,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -127,7 +127,7 @@
         "goals": 1
       },
       {
-        "rank": 99,
+        "rank": 100,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -141,7 +141,7 @@
     ],
     "assists": [
       {
-        "rank": 6,
+        "rank": 7,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -153,7 +153,7 @@
         "assists": 5
       },
       {
-        "rank": 19,
+        "rank": 20,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -347,7 +347,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 50,
+        "rank": 51,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -359,7 +359,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 50,
+        "rank": 51,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -395,7 +395,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 154,
+        "rank": 155,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -407,7 +407,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 154,
+        "rank": 155,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -419,7 +419,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 154,
+        "rank": 155,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -446,7 +446,7 @@
         "red_cards": 1
       },
       {
-        "rank": 30,
+        "rank": 31,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -458,7 +458,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 51,
+        "rank": 52,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -470,7 +470,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 51,
+        "rank": 52,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -667,7 +667,7 @@
     ],
     "red_cards": [
       {
-        "rank": 10,
+        "rank": 11,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
