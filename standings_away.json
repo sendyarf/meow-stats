@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T20:01:34.267696",
+  "scraped_at": "2026-02-23T21:43:46.728631",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+          },
+          "played": 11,
+          "won": 6,
+          "drawn": 2,
+          "lost": 3,
+          "gs": 22,
+          "gc": 16,
+          "gd": 6,
+          "pts": 20
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
@@ -42,7 +59,7 @@
           "pts": 19
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "id": "1665351",
             "name": "Malut United",
@@ -59,7 +76,7 @@
           "pts": 18
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -73,23 +90,6 @@
           "gs": 15,
           "gc": 10,
           "gd": 5,
-          "pts": 17
-        },
-        {
-          "position": 5,
-          "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
-          },
-          "played": 10,
-          "won": 5,
-          "drawn": 2,
-          "lost": 3,
-          "gs": 20,
-          "gc": 16,
-          "gd": 4,
           "pts": 17
         },
         {

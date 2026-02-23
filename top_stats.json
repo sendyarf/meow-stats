@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T20:02:37.481612",
+  "scraped_at": "2026-02-23T21:44:45.690907",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -17,7 +17,7 @@
         "assists": 1
       },
       {
-        "rank": 18,
+        "rank": 19,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -90,7 +90,7 @@
         "goals": 2
       },
       {
-        "rank": 95,
+        "rank": 96,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -103,7 +103,7 @@
         "assists": 1
       },
       {
-        "rank": 98,
+        "rank": 99,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -115,7 +115,7 @@
         "goals": 1
       },
       {
-        "rank": 98,
+        "rank": 99,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -127,7 +127,7 @@
         "goals": 1
       },
       {
-        "rank": 98,
+        "rank": 99,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 72,
+        "rank": 74,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -237,7 +237,7 @@
         "assists": 1
       },
       {
-        "rank": 72,
+        "rank": 74,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -249,7 +249,7 @@
         "assists": 1
       },
       {
-        "rank": 72,
+        "rank": 74,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -261,7 +261,7 @@
         "assists": 1
       },
       {
-        "rank": 72,
+        "rank": 74,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -371,7 +371,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 69,
+        "rank": 70,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -383,7 +383,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 69,
+        "rank": 70,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",

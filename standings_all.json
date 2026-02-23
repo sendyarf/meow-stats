@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-23T20:01:34.264486",
+  "scraped_at": "2026-02-23T21:43:46.725407",
   "leagues": [
     {
       "name": "Super League",
@@ -117,13 +117,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
             "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
           },
-          "played": 21,
+          "played": 22,
           "won": 8,
           "drawn": 8,
-          "lost": 5,
+          "lost": 6,
           "gs": 26,
-          "gc": 25,
-          "gd": 1,
+          "gc": 27,
+          "gd": -1,
           "pts": 32
         },
         {
@@ -146,6 +146,23 @@
         {
           "position": 9,
           "team": {
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+          },
+          "played": 22,
+          "won": 8,
+          "drawn": 7,
+          "lost": 7,
+          "gs": 30,
+          "gc": 28,
+          "gd": 2,
+          "pts": 31
+        },
+        {
+          "position": 10,
+          "team": {
             "id": "165200",
             "name": "Arema",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
@@ -161,7 +178,7 @@
           "pts": 31
         },
         {
-          "position": 10,
+          "position": 11,
           "team": {
             "id": "585860",
             "name": "Dewa United FC",
@@ -176,23 +193,6 @@
           "gc": 28,
           "gd": 0,
           "pts": 30
-        },
-        {
-          "position": 11,
-          "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
-          },
-          "played": 21,
-          "won": 7,
-          "drawn": 7,
-          "lost": 7,
-          "gs": 28,
-          "gc": 28,
-          "gd": 0,
-          "pts": 28
         },
         {
           "position": 12,
