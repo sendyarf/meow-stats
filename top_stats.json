@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-24T18:40:57.654935",
+  "scraped_at": "2026-02-24T20:03:40.582384",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -30,7 +30,7 @@
         "assists": 2
       },
       {
-        "rank": 41,
+        "rank": 42,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -42,7 +42,7 @@
         "goals": 3
       },
       {
-        "rank": 41,
+        "rank": 42,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -54,7 +54,7 @@
         "goals": 3
       },
       {
-        "rank": 41,
+        "rank": 42,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -66,7 +66,7 @@
         "goals": 3
       },
       {
-        "rank": 41,
+        "rank": 42,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 66,
+        "rank": 67,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -141,7 +141,7 @@
     ],
     "assists": [
       {
-        "rank": 7,
+        "rank": 8,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -165,7 +165,7 @@
         "assists": 3
       },
       {
-        "rank": 38,
+        "rank": 39,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -177,7 +177,7 @@
         "assists": 2
       },
       {
-        "rank": 38,
+        "rank": 39,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -189,7 +189,7 @@
         "assists": 2
       },
       {
-        "rank": 38,
+        "rank": 39,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -201,7 +201,7 @@
         "assists": 2
       },
       {
-        "rank": 38,
+        "rank": 39,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 38,
+        "rank": 39,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -371,7 +371,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 70,
+        "rank": 72,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -383,7 +383,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 70,
+        "rank": 72,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
