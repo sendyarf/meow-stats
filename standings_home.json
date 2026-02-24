@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-24T20:02:41.015420",
+  "scraped_at": "2026-02-24T21:48:19.587888",
   "leagues": [
     {
       "name": "Super League",
@@ -70,9 +70,9 @@
           "won": 7,
           "drawn": 2,
           "lost": 3,
-          "gs": 29,
-          "gc": 15,
-          "gd": 14,
+          "gs": 31,
+          "gc": 16,
+          "gd": 15,
           "pts": 23
         },
         {
@@ -95,6 +95,23 @@
         {
           "position": 6,
           "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 11,
+          "won": 6,
+          "drawn": 3,
+          "lost": 2,
+          "gs": 15,
+          "gc": 7,
+          "gd": 8,
+          "pts": 21
+        },
+        {
+          "position": 7,
+          "team": {
             "id": "585860",
             "name": "Dewa United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
@@ -110,7 +127,7 @@
           "pts": 19
         },
         {
-          "position": 7,
+          "position": 8,
           "team": {
             "id": "165197",
             "name": "Persik",
@@ -127,7 +144,7 @@
           "pts": 19
         },
         {
-          "position": 8,
+          "position": 9,
           "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
@@ -141,23 +158,6 @@
           "gs": 20,
           "gc": 14,
           "gd": 6,
-          "pts": 18
-        },
-        {
-          "position": 9,
-          "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 10,
-          "won": 5,
-          "drawn": 3,
-          "lost": 2,
-          "gs": 12,
-          "gc": 7,
-          "gd": 5,
           "pts": 18
         },
         {

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-24T20:02:41.013658",
+  "scraped_at": "2026-02-24T21:48:19.586039",
   "leagues": [
     {
       "name": "Super League",
@@ -36,9 +36,9 @@
           "won": 16,
           "drawn": 2,
           "lost": 5,
-          "gs": 41,
-          "gc": 17,
-          "gd": 24,
+          "gs": 42,
+          "gc": 19,
+          "gd": 23,
           "pts": 50
         },
         {
@@ -70,13 +70,30 @@
           "won": 12,
           "drawn": 5,
           "lost": 6,
-          "gs": 44,
-          "gc": 27,
-          "gd": 17,
+          "gs": 46,
+          "gc": 28,
+          "gd": 18,
           "pts": 41
         },
         {
           "position": 5,
+          "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 23,
+          "won": 10,
+          "drawn": 5,
+          "lost": 8,
+          "gs": 27,
+          "gc": 26,
+          "gd": 1,
+          "pts": 35
+        },
+        {
+          "position": 6,
           "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
@@ -93,7 +110,7 @@
           "pts": 35
         },
         {
-          "position": 6,
+          "position": 7,
           "team": {
             "id": "165206",
             "name": "Persita",
@@ -110,7 +127,7 @@
           "pts": 35
         },
         {
-          "position": 7,
+          "position": 8,
           "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
@@ -125,23 +142,6 @@
           "gc": 28,
           "gd": 1,
           "pts": 33
-        },
-        {
-          "position": 8,
-          "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 22,
-          "won": 9,
-          "drawn": 5,
-          "lost": 8,
-          "gs": 24,
-          "gc": 26,
-          "gd": -2,
-          "pts": 32
         },
         {
           "position": 9,
@@ -287,13 +287,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
             "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
           },
-          "played": 22,
+          "played": 23,
           "won": 4,
           "drawn": 4,
-          "lost": 14,
+          "lost": 15,
           "gs": 19,
-          "gc": 37,
-          "gd": -18,
+          "gc": 40,
+          "gd": -21,
           "pts": 16
         },
         {
