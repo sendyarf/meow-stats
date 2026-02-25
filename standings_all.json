@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-25T20:01:36.799343",
+  "scraped_at": "2026-02-25T21:47:07.631723",
   "leagues": [
     {
       "name": "Super League",
@@ -78,39 +78,22 @@
         {
           "position": 5,
           "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 23,
-          "won": 10,
-          "drawn": 5,
-          "lost": 8,
-          "gs": 28,
-          "gc": 26,
-          "gd": 2,
-          "pts": 35
-        },
-        {
-          "position": 6,
-          "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
             "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
           },
-          "played": 22,
-          "won": 9,
+          "played": 23,
+          "won": 10,
           "drawn": 8,
           "lost": 5,
-          "gs": 33,
+          "gs": 34,
           "gc": 23,
-          "gd": 10,
-          "pts": 35
+          "gd": 11,
+          "pts": 38
         },
         {
-          "position": 7,
+          "position": 6,
           "team": {
             "id": "165206",
             "name": "Persita",
@@ -124,6 +107,23 @@
           "gs": 27,
           "gc": 20,
           "gd": 7,
+          "pts": 35
+        },
+        {
+          "position": 7,
+          "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 23,
+          "won": 10,
+          "drawn": 5,
+          "lost": 8,
+          "gs": 28,
+          "gc": 26,
+          "gd": 2,
           "pts": 35
         },
         {
@@ -219,13 +219,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 22,
+          "played": 23,
           "won": 5,
           "drawn": 8,
-          "lost": 9,
+          "lost": 10,
           "gs": 24,
-          "gc": 26,
-          "gd": -2,
+          "gc": 27,
+          "gd": -3,
           "pts": 23
         },
         {
