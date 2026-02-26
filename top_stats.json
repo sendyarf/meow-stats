@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-02-26T20:03:58.049924",
+  "scraped_at": "2026-02-26T21:46:24.336007",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
       {
-        "rank": 13,
+        "rank": 10,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -13,11 +13,11 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals",
-        "goals": 7,
+        "goals": 8,
         "assists": 1
       },
       {
-        "rank": 20,
+        "rank": 21,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -30,7 +30,19 @@
         "assists": 2
       },
       {
-        "rank": 43,
+        "rank": 26,
+        "player": {
+          "id": "1206260",
+          "name": "Ramon",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
+          "url": "https://www.fotmob.com/players/1206260/ramon"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals",
+        "goals": 5
+      },
+      {
+        "rank": 44,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -42,7 +54,7 @@
         "goals": 3
       },
       {
-        "rank": 43,
+        "rank": 44,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -54,19 +66,7 @@
         "goals": 3
       },
       {
-        "rank": 43,
-        "player": {
-          "id": "1206260",
-          "name": "Ramon",
-          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
-          "url": "https://www.fotmob.com/players/1206260/ramon"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "goals",
-        "goals": 3
-      },
-      {
-        "rank": 43,
+        "rank": 44,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -141,7 +141,7 @@
     ],
     "assists": [
       {
-        "rank": 8,
+        "rank": 5,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -150,7 +150,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "assists",
-        "assists": 5
+        "assists": 6
       },
       {
         "rank": 20,
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 75,
+        "rank": 76,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -237,7 +237,19 @@
         "assists": 1
       },
       {
-        "rank": 75,
+        "rank": 76,
+        "player": {
+          "id": "1332771",
+          "name": "Kakang Rudianto",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1332771.png",
+          "url": "https://www.fotmob.com/players/1332771/kakang-rudianto"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "assists",
+        "assists": 1
+      },
+      {
+        "rank": 76,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -249,7 +261,7 @@
         "assists": 1
       },
       {
-        "rank": 75,
+        "rank": 76,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -261,7 +273,7 @@
         "assists": 1
       },
       {
-        "rank": 75,
+        "rank": 76,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -275,7 +287,19 @@
     ],
     "goals_assists": [
       {
-        "rank": 24,
+        "rank": 19,
+        "player": {
+          "id": "789859",
+          "name": "Uilliam",
+          "image": "https://images.fotmob.com/image_resources/playerimages/789859.png",
+          "url": "https://www.fotmob.com/players/789859/uilliam"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals_assists",
+        "goals_assists": 9
+      },
+      {
+        "rank": 25,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -287,19 +311,7 @@
         "goals_assists": 8
       },
       {
-        "rank": 24,
-        "player": {
-          "id": "789859",
-          "name": "Uilliam",
-          "image": "https://images.fotmob.com/image_resources/playerimages/789859.png",
-          "url": "https://www.fotmob.com/players/789859/uilliam"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "goals_assists",
-        "goals_assists": 8
-      },
-      {
-        "rank": 33,
+        "rank": 30,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -308,10 +320,22 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals_assists",
-        "goals_assists": 6
+        "goals_assists": 7
       },
       {
-        "rank": 39,
+        "rank": 30,
+        "player": {
+          "id": "1206260",
+          "name": "Ramon",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
+          "url": "https://www.fotmob.com/players/1206260/ramon"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals_assists",
+        "goals_assists": 7
+      },
+      {
+        "rank": 40,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -323,24 +347,12 @@
         "goals_assists": 5
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
           "image": "https://images.fotmob.com/image_resources/playerimages/464897.png",
           "url": "https://www.fotmob.com/players/464897/luciano-guaycochea"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "goals_assists",
-        "goals_assists": 5
-      },
-      {
-        "rank": 39,
-        "player": {
-          "id": "1206260",
-          "name": "Ramon",
-          "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
-          "url": "https://www.fotmob.com/players/1206260/ramon"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals_assists",
@@ -371,7 +383,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 73,
+        "rank": 75,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -383,7 +395,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 73,
+        "rank": 75,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -413,6 +425,18 @@
           "name": "Febri Haryadi",
           "image": "https://images.fotmob.com/image_resources/playerimages/805657.png",
           "url": "https://www.fotmob.com/players/805657/febri-haryadi"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals_assists",
+        "goals_assists": 1
+      },
+      {
+        "rank": 156,
+        "player": {
+          "id": "1332771",
+          "name": "Kakang Rudianto",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1332771.png",
+          "url": "https://www.fotmob.com/players/1332771/kakang-rudianto"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals_assists",
@@ -482,7 +506,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 78,
+        "rank": 82,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -494,7 +518,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 78,
+        "rank": 82,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",

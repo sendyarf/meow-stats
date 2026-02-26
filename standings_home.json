@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-26T20:02:56.333538",
+  "scraped_at": "2026-02-26T21:45:22.721144",
   "leagues": [
     {
       "name": "Super League",
@@ -15,14 +15,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
-          "played": 11,
-          "won": 11,
+          "played": 12,
+          "won": 12,
           "drawn": 0,
           "lost": 0,
-          "gs": 17,
+          "gs": 20,
           "gc": 1,
-          "gd": 16,
-          "pts": 33
+          "gd": 19,
+          "pts": 36
         },
         {
           "position": 2,
@@ -32,14 +32,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
-          "played": 10,
-          "won": 9,
+          "played": 11,
+          "won": 10,
           "drawn": 0,
           "lost": 1,
-          "gs": 19,
+          "gs": 22,
           "gc": 5,
-          "gd": 14,
-          "pts": 27
+          "gd": 17,
+          "pts": 30
         },
         {
           "position": 3,
@@ -83,13 +83,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 11,
+          "played": 12,
           "won": 7,
           "drawn": 2,
-          "lost": 2,
+          "lost": 3,
           "gs": 18,
-          "gc": 7,
-          "gd": 11,
+          "gc": 8,
+          "gd": 10,
           "pts": 23
         },
         {
