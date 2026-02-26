@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-26T21:46:24.336007",
+  "scraped_at": "2026-02-26T22:53:52.048238",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -17,7 +17,7 @@
         "assists": 1
       },
       {
-        "rank": 21,
+        "rank": 16,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -26,7 +26,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals",
-        "goals": 6,
+        "goals": 7,
         "assists": 2
       },
       {
@@ -129,6 +129,18 @@
       {
         "rank": 100,
         "player": {
+          "id": "320139",
+          "name": "Frans Putros",
+          "image": "https://images.fotmob.com/image_resources/playerimages/320139.png",
+          "url": "https://www.fotmob.com/players/320139/frans-putros"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals",
+        "goals": 1
+      },
+      {
+        "rank": 100,
+        "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
           "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
@@ -153,7 +165,7 @@
         "assists": 6
       },
       {
-        "rank": 20,
+        "rank": 21,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -171,6 +183,18 @@
           "name": "Andrew Jung",
           "image": "https://images.fotmob.com/image_resources/playerimages/813421.png",
           "url": "https://www.fotmob.com/players/813421/andrew-jung"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "assists",
+        "assists": 2
+      },
+      {
+        "rank": 40,
+        "player": {
+          "id": "972306",
+          "name": "Eliano Reijnders",
+          "image": "https://images.fotmob.com/image_resources/playerimages/972306.png",
+          "url": "https://www.fotmob.com/players/972306/eliano-reijnders"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "assists",
@@ -225,19 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 76,
-        "player": {
-          "id": "972306",
-          "name": "Eliano Reijnders",
-          "image": "https://images.fotmob.com/image_resources/playerimages/972306.png",
-          "url": "https://www.fotmob.com/players/972306/eliano-reijnders"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "assists",
-        "assists": 1
-      },
-      {
-        "rank": 76,
+        "rank": 77,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -249,7 +261,7 @@
         "assists": 1
       },
       {
-        "rank": 76,
+        "rank": 77,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -261,7 +273,7 @@
         "assists": 1
       },
       {
-        "rank": 76,
+        "rank": 77,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -273,7 +285,7 @@
         "assists": 1
       },
       {
-        "rank": 76,
+        "rank": 77,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -289,6 +301,18 @@
       {
         "rank": 19,
         "player": {
+          "id": "813421",
+          "name": "Andrew Jung",
+          "image": "https://images.fotmob.com/image_resources/playerimages/813421.png",
+          "url": "https://www.fotmob.com/players/813421/andrew-jung"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals_assists",
+        "goals_assists": 9
+      },
+      {
+        "rank": 19,
+        "player": {
           "id": "789859",
           "name": "Uilliam",
           "image": "https://images.fotmob.com/image_resources/playerimages/789859.png",
@@ -297,18 +321,6 @@
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals_assists",
         "goals_assists": 9
-      },
-      {
-        "rank": 25,
-        "player": {
-          "id": "813421",
-          "name": "Andrew Jung",
-          "image": "https://images.fotmob.com/image_resources/playerimages/813421.png",
-          "url": "https://www.fotmob.com/players/813421/andrew-jung"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "goals_assists",
-        "goals_assists": 8
       },
       {
         "rank": 30,
@@ -407,7 +419,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 156,
+        "rank": 118,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -416,10 +428,10 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals_assists",
-        "goals_assists": 1
+        "goals_assists": 2
       },
       {
-        "rank": 156,
+        "rank": 157,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -431,7 +443,19 @@
         "goals_assists": 1
       },
       {
-        "rank": 156,
+        "rank": 157,
+        "player": {
+          "id": "320139",
+          "name": "Frans Putros",
+          "image": "https://images.fotmob.com/image_resources/playerimages/320139.png",
+          "url": "https://www.fotmob.com/players/320139/frans-putros"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals_assists",
+        "goals_assists": 1
+      },
+      {
+        "rank": 157,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -443,7 +467,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 156,
+        "rank": 157,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -457,7 +481,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 13,
+        "rank": 14,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -470,7 +494,7 @@
         "red_cards": 1
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -506,7 +530,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -518,7 +542,19 @@
         "yellow_cards": 3
       },
       {
-        "rank": 82,
+        "rank": 83,
+        "player": {
+          "id": "365624",
+          "name": "Federico Barba",
+          "image": "https://images.fotmob.com/image_resources/playerimages/365624.png",
+          "url": "https://www.fotmob.com/players/365624/federico-barba"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "yellow_cards",
+        "yellow_cards": 3
+      },
+      {
+        "rank": 83,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -530,7 +566,19 @@
         "yellow_cards": 3
       },
       {
-        "rank": 129,
+        "rank": 83,
+        "player": {
+          "id": "492636",
+          "name": "Patricio Matricardi",
+          "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
+          "url": "https://www.fotmob.com/players/492636/patricio-matricardi"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "yellow_cards",
+        "yellow_cards": 3
+      },
+      {
+        "rank": 131,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -543,7 +591,7 @@
         "red_cards": 1
       },
       {
-        "rank": 129,
+        "rank": 131,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -556,31 +604,7 @@
         "red_cards": 1
       },
       {
-        "rank": 144,
-        "player": {
-          "id": "365624",
-          "name": "Federico Barba",
-          "image": "https://images.fotmob.com/image_resources/playerimages/365624.png",
-          "url": "https://www.fotmob.com/players/365624/federico-barba"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "yellow_cards",
-        "yellow_cards": 2
-      },
-      {
-        "rank": 144,
-        "player": {
-          "id": "492636",
-          "name": "Patricio Matricardi",
-          "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
-          "url": "https://www.fotmob.com/players/492636/patricio-matricardi"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "yellow_cards",
-        "yellow_cards": 2
-      },
-      {
-        "rank": 144,
+        "rank": 146,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -592,7 +616,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 221,
+        "rank": 222,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -605,7 +629,7 @@
         "red_cards": 1
       },
       {
-        "rank": 236,
+        "rank": 237,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -617,7 +641,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 236,
+        "rank": 237,
         "player": {
           "id": "1520096",
           "name": "Bojan Hodak",
@@ -629,7 +653,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 236,
+        "rank": 237,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -641,7 +665,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 236,
+        "rank": 237,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -653,7 +677,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 236,
+        "rank": 237,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -665,7 +689,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 236,
+        "rank": 237,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -677,7 +701,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 236,
+        "rank": 237,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",

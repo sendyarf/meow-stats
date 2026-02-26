@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-26T21:45:22.724025",
+  "scraped_at": "2026-02-26T22:52:48.823027",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -503,8 +503,8 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
       "away_team": "Madura United FC",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/86578/image",
-      "status": "Live",
-      "score": "3 - 0",
+      "status": "Finished",
+      "score": "5 - 0",
       "time": null,
       "url": "https://www.sofascore.com/madura-united-fc-persib-bandung/OKAsDGJ"
     },
@@ -676,12 +676,12 @@
       {
         "title": "Table position",
         "home": "5",
-        "away": "2"
+        "away": "1"
       },
       {
         "title": "Pts",
         "home": "38",
-        "away": "50"
+        "away": "53"
       },
       {
         "title": "Form (last 5)",
@@ -691,12 +691,12 @@
       {
         "title": "Goals per match",
         "home": "1.48",
-        "away": "1.52"
+        "away": "1.68"
       },
       {
         "title": "Goals conceded per match",
         "home": "1.00",
-        "away": "0.52"
+        "away": "0.50"
       }
     ],
     "url": "https://www.sofascore.com/persebaya-surabaya-persib-bandung/OKAsuBF",
