@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-27T21:51:13.240524",
+  "scraped_at": "2026-02-27T22:36:30.311378",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "585850",
+            "name": "PSIM Yogyakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
+            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
+          },
+          "played": 12,
+          "won": 5,
+          "drawn": 4,
+          "lost": 3,
+          "gs": 19,
+          "gc": 16,
+          "gd": 3,
+          "pts": 19
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
@@ -42,7 +59,7 @@
           "pts": 19
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "id": "185751",
             "name": "Bali United FC",
@@ -59,7 +76,7 @@
           "pts": 18
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "1665351",
             "name": "Malut United",
@@ -76,7 +93,7 @@
           "pts": 18
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -93,7 +110,7 @@
           "pts": 17
         },
         {
-          "position": 6,
+          "position": 7,
           "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
@@ -107,23 +124,6 @@
           "gs": 13,
           "gc": 9,
           "gd": 4,
-          "pts": 17
-        },
-        {
-          "position": 7,
-          "team": {
-            "id": "585850",
-            "name": "PSIM Yogyakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
-            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
-          },
-          "played": 12,
-          "won": 4,
-          "drawn": 5,
-          "lost": 3,
-          "gs": 16,
-          "gc": 15,
-          "gd": 1,
           "pts": 17
         },
         {
