@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-27T19:56:19.855560",
+  "scraped_at": "2026-02-27T21:00:39.784698",
   "leagues": [
     {
       "name": "Super League",
@@ -95,6 +95,23 @@
         {
           "position": 6,
           "team": {
+            "id": "585850",
+            "name": "PSIM Yogyakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
+            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
+          },
+          "played": 23,
+          "won": 9,
+          "drawn": 9,
+          "lost": 5,
+          "gs": 30,
+          "gc": 28,
+          "gd": 2,
+          "pts": 36
+        },
+        {
+          "position": 7,
+          "team": {
             "id": "165206",
             "name": "Persita",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
@@ -110,7 +127,7 @@
           "pts": 35
         },
         {
-          "position": 7,
+          "position": 8,
           "team": {
             "id": "185749",
             "name": "Bhayangkara Presisi Indonesia FC",
@@ -125,23 +142,6 @@
           "gc": 26,
           "gd": 2,
           "pts": 35
-        },
-        {
-          "position": 8,
-          "team": {
-            "id": "585850",
-            "name": "PSIM Yogyakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
-            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
-          },
-          "played": 22,
-          "won": 8,
-          "drawn": 9,
-          "lost": 5,
-          "gs": 29,
-          "gc": 28,
-          "gd": 1,
-          "pts": 33
         },
         {
           "position": 9,
@@ -253,13 +253,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 22,
+          "played": 23,
           "won": 4,
           "drawn": 6,
-          "lost": 12,
+          "lost": 13,
           "gs": 24,
-          "gc": 45,
-          "gd": -21,
+          "gc": 46,
+          "gd": -22,
           "pts": 18
         },
         {

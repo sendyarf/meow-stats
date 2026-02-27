@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-27T19:57:24.477171",
+  "scraped_at": "2026-02-27T21:01:43.654602",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 69,
+        "rank": 70,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -299,7 +299,7 @@
     ],
     "goals_assists": [
       {
-        "rank": 19,
+        "rank": 20,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -311,7 +311,7 @@
         "goals_assists": 9
       },
       {
-        "rank": 19,
+        "rank": 20,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -419,7 +419,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 118,
+        "rank": 119,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",

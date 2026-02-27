@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-27T19:56:19.861234",
+  "scraped_at": "2026-02-27T21:00:39.788005",
   "leagues": [
     {
       "name": "Super League",
@@ -44,6 +44,23 @@
         {
           "position": 3,
           "team": {
+            "id": "585850",
+            "name": "PSIM Yogyakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
+            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
+          },
+          "played": 12,
+          "won": 5,
+          "drawn": 4,
+          "lost": 3,
+          "gs": 16,
+          "gc": 14,
+          "gd": 2,
+          "pts": 19
+        },
+        {
+          "position": 4,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -59,7 +76,7 @@
           "pts": 18
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "1665351",
             "name": "Malut United",
@@ -76,7 +93,7 @@
           "pts": 18
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -93,7 +110,7 @@
           "pts": 17
         },
         {
-          "position": 6,
+          "position": 7,
           "team": {
             "id": "930525",
             "name": "Persebaya Surabaya",
@@ -108,23 +125,6 @@
           "gc": 9,
           "gd": 4,
           "pts": 17
-        },
-        {
-          "position": 7,
-          "team": {
-            "id": "585850",
-            "name": "PSIM Yogyakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
-            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
-          },
-          "played": 11,
-          "won": 4,
-          "drawn": 4,
-          "lost": 3,
-          "gs": 15,
-          "gc": 14,
-          "gd": 1,
-          "pts": 16
         },
         {
           "position": 8,

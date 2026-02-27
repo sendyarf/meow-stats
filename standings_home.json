@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-27T19:56:19.857649",
+  "scraped_at": "2026-02-27T21:00:39.786544",
   "leagues": [
     {
       "name": "Super League",
@@ -219,13 +219,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 11,
+          "played": 12,
           "won": 3,
           "drawn": 3,
-          "lost": 5,
+          "lost": 6,
           "gs": 13,
-          "gc": 17,
-          "gd": -4,
+          "gc": 18,
+          "gd": -5,
           "pts": 12
         },
         {
