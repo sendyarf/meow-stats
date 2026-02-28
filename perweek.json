@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-02-28T19:25:25.547269",
+  "generated_at": "2026-03-01T01:19:42.770381",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 204,
+  "total_matches": 205,
   "standings": {
     "Round 1": [
       {
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persik Kediri",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -504,7 +504,7 @@
         "rank": 15
       },
       {
-        "team": "Dewa United",
+        "team": "PSBS Biak Numfor",
         "played": 2,
         "win": 0,
         "draw": 0,
@@ -519,7 +519,7 @@
         "rank": 16
       },
       {
-        "team": "PSBS Biak Numfor",
+        "team": "Dewa United",
         "played": 2,
         "win": 0,
         "draw": 0,
@@ -958,11 +958,11 @@
         "rank": 9
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSM Makassar",
         "played": 4,
-        "win": 1,
-        "draw": 1,
-        "loss": 2,
+        "win": 0,
+        "draw": 4,
+        "loss": 0,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -973,11 +973,11 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "FC Bhayangkara",
         "played": 4,
-        "win": 0,
-        "draw": 4,
-        "loss": 0,
+        "win": 1,
+        "draw": 1,
+        "loss": 2,
         "gf": 4,
         "ga": 4,
         "gd": 0,
@@ -6142,14 +6142,14 @@
       },
       {
         "team": "Bali United",
-        "played": 22,
+        "played": 23,
         "win": 7,
-        "draw": 8,
+        "draw": 9,
         "loss": 7,
         "gf": 31,
         "ga": 31,
         "gd": 0,
-        "points": 29,
+        "points": 30,
         "yellows": 0,
         "reds": 4,
         "fair_play": 12,
@@ -6201,6 +6201,21 @@
         "rank": 14
       },
       {
+        "team": "Persijap Jepara",
+        "played": 23,
+        "win": 5,
+        "draw": 4,
+        "loss": 14,
+        "gf": 20,
+        "ga": 39,
+        "gd": -19,
+        "points": 19,
+        "yellows": 0,
+        "reds": 7,
+        "fair_play": 21,
+        "rank": 15
+      },
+      {
         "team": "PSBS Biak Numfor",
         "played": 23,
         "win": 4,
@@ -6213,21 +6228,6 @@
         "yellows": 0,
         "reds": 2,
         "fair_play": 6,
-        "rank": 15
-      },
-      {
-        "team": "Persijap Jepara",
-        "played": 22,
-        "win": 5,
-        "draw": 3,
-        "loss": 14,
-        "gf": 20,
-        "ga": 39,
-        "gd": -19,
-        "points": 18,
-        "yellows": 0,
-        "reds": 7,
-        "fair_play": 21,
         "rank": 16
       },
       {
