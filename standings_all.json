@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-28T19:42:08.167898",
+  "scraped_at": "2026-02-28T20:35:41.005685",
   "leagues": [
     {
       "name": "Super League",
@@ -185,14 +185,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
             "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
           },
-          "played": 22,
+          "played": 23,
           "won": 7,
-          "drawn": 8,
+          "drawn": 9,
           "lost": 7,
           "gs": 31,
           "gc": 31,
           "gd": 0,
-          "pts": 29
+          "pts": 30
         },
         {
           "position": 12,
@@ -248,6 +248,23 @@
         {
           "position": 15,
           "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 23,
+          "won": 5,
+          "drawn": 4,
+          "lost": 14,
+          "gs": 20,
+          "gc": 39,
+          "gd": -19,
+          "pts": 19
+        },
+        {
+          "position": 16,
+          "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
@@ -260,23 +277,6 @@
           "gs": 26,
           "gc": 49,
           "gd": -23,
-          "pts": 18
-        },
-        {
-          "position": 16,
-          "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 22,
-          "won": 5,
-          "drawn": 3,
-          "lost": 14,
-          "gs": 20,
-          "gc": 39,
-          "gd": -19,
           "pts": 18
         },
         {

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-02-28T19:42:08.171638",
+  "scraped_at": "2026-02-28T20:35:41.008995",
   "leagues": [
     {
       "name": "Super League",
@@ -282,6 +282,23 @@
         {
           "position": 17,
           "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 11,
+          "won": 1,
+          "drawn": 2,
+          "lost": 8,
+          "gs": 7,
+          "gc": 23,
+          "gd": -16,
+          "pts": 5
+        },
+        {
+          "position": 18,
+          "team": {
             "id": "215564",
             "name": "Semen Padang",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
@@ -295,23 +312,6 @@
           "gc": 25,
           "gd": -18,
           "pts": 5
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 10,
-          "won": 1,
-          "drawn": 1,
-          "lost": 8,
-          "gs": 7,
-          "gc": 23,
-          "gd": -16,
-          "pts": 4
         }
       ]
     },
