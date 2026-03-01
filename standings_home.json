@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-01T19:44:39.080879",
+  "scraped_at": "2026-03-01T20:38:11.573798",
   "leagues": [
     {
       "name": "Super League",
@@ -134,14 +134,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 11,
+          "played": 12,
           "won": 6,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 4,
           "gs": 19,
           "gc": 14,
           "gd": 5,
-          "pts": 19
+          "pts": 20
         },
         {
           "position": 9,
@@ -304,14 +304,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
-          "played": 11,
+          "played": 12,
           "won": 0,
-          "drawn": 4,
+          "drawn": 5,
           "lost": 7,
           "gs": 13,
           "gc": 24,
           "gd": -11,
-          "pts": 4
+          "pts": 5
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-01T19:44:39.082387",
+  "scraped_at": "2026-03-01T20:38:11.575243",
   "leagues": [
     {
       "name": "Super League",
@@ -146,6 +146,23 @@
         {
           "position": 9,
           "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 13,
+          "won": 4,
+          "drawn": 3,
+          "lost": 6,
+          "gs": 12,
+          "gc": 19,
+          "gd": -7,
+          "pts": 15
+        },
+        {
+          "position": 10,
+          "team": {
             "id": "585860",
             "name": "Dewa United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
@@ -158,23 +175,6 @@
           "gs": 10,
           "gc": 14,
           "gd": -4,
-          "pts": 14
-        },
-        {
-          "position": 10,
-          "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 12,
-          "won": 4,
-          "drawn": 2,
-          "lost": 6,
-          "gs": 12,
-          "gc": 19,
-          "gd": -7,
           "pts": 14
         },
         {
@@ -253,14 +253,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 11,
+          "played": 12,
           "won": 2,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 8,
           "gs": 9,
           "gc": 22,
           "gd": -13,
-          "pts": 7
+          "pts": 8
         },
         {
           "position": 16,
