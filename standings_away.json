@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-01T21:23:03.203579",
+  "scraped_at": "2026-03-01T22:21:46.879842",
   "leagues": [
     {
       "name": "Super League",
@@ -138,9 +138,9 @@
           "won": 5,
           "drawn": 2,
           "lost": 6,
-          "gs": 13,
+          "gs": 14,
           "gc": 19,
-          "gd": -6,
+          "gd": -5,
           "pts": 17
         },
         {
@@ -255,12 +255,12 @@
           },
           "played": 12,
           "won": 2,
-          "drawn": 2,
-          "lost": 8,
+          "drawn": 1,
+          "lost": 9,
           "gs": 10,
-          "gc": 23,
-          "gd": -13,
-          "pts": 8
+          "gc": 24,
+          "gd": -14,
+          "pts": 7
         },
         {
           "position": 16,

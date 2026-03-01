@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-01T21:23:03.200320",
+  "scraped_at": "2026-03-01T22:21:46.876610",
   "leagues": [
     {
       "name": "Super League",
@@ -87,9 +87,9 @@
           "won": 11,
           "drawn": 5,
           "lost": 8,
-          "gs": 29,
+          "gs": 30,
           "gc": 26,
-          "gd": 3,
+          "gd": 4,
           "pts": 38
         },
         {
@@ -156,8 +156,8 @@
           "drawn": 3,
           "lost": 11,
           "gs": 29,
-          "gc": 29,
-          "gd": 0,
+          "gc": 30,
+          "gd": -1,
           "pts": 33
         },
         {
@@ -204,12 +204,12 @@
           },
           "played": 23,
           "won": 7,
-          "drawn": 6,
-          "lost": 10,
+          "drawn": 5,
+          "lost": 11,
           "gs": 30,
-          "gc": 40,
-          "gd": -10,
-          "pts": 27
+          "gc": 41,
+          "gd": -11,
+          "pts": 26
         },
         {
           "position": 13,
@@ -282,6 +282,23 @@
         {
           "position": 17,
           "team": {
+            "id": "583034",
+            "name": "Persis Solo",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
+            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
+          },
+          "played": 23,
+          "won": 3,
+          "drawn": 7,
+          "lost": 13,
+          "gs": 25,
+          "gc": 44,
+          "gd": -19,
+          "pts": 16
+        },
+        {
+          "position": 18,
+          "team": {
             "id": "215564",
             "name": "Semen Padang",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
@@ -295,23 +312,6 @@
           "gc": 41,
           "gd": -22,
           "pts": 16
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "583034",
-            "name": "Persis Solo",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
-            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
-          },
-          "played": 23,
-          "won": 2,
-          "drawn": 8,
-          "lost": 13,
-          "gs": 24,
-          "gc": 44,
-          "gd": -20,
-          "pts": 14
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-01T21:23:03.202116",
+  "scraped_at": "2026-03-01T22:21:46.878435",
   "leagues": [
     {
       "name": "Super League",
@@ -129,23 +129,6 @@
         {
           "position": 8,
           "team": {
-            "id": "585860",
-            "name": "Dewa United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
-            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
-          },
-          "played": 12,
-          "won": 6,
-          "drawn": 1,
-          "lost": 5,
-          "gs": 19,
-          "gc": 15,
-          "gd": 4,
-          "pts": 19
-        },
-        {
-          "position": 9,
-          "team": {
             "id": "165197",
             "name": "Persik",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
@@ -157,6 +140,23 @@
           "lost": 2,
           "gs": 20,
           "gc": 17,
+          "gd": 3,
+          "pts": 19
+        },
+        {
+          "position": 9,
+          "team": {
+            "id": "585860",
+            "name": "Dewa United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
+            "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
+          },
+          "played": 12,
+          "won": 6,
+          "drawn": 1,
+          "lost": 5,
+          "gs": 19,
+          "gc": 16,
           "gd": 3,
           "pts": 19
         },
@@ -305,13 +305,13 @@
             "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
           },
           "played": 12,
-          "won": 0,
-          "drawn": 5,
+          "won": 1,
+          "drawn": 4,
           "lost": 7,
-          "gs": 14,
+          "gs": 15,
           "gc": 25,
-          "gd": -11,
-          "pts": 5
+          "gd": -10,
+          "pts": 7
         }
       ]
     },
