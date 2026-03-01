@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-01T22:22:53.572989",
+  "scraped_at": "2026-03-01T23:27:08.561955",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -90,7 +90,7 @@
         "goals": 2
       },
       {
-        "rank": 98,
+        "rank": 99,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -103,7 +103,7 @@
         "assists": 1
       },
       {
-        "rank": 101,
+        "rank": 102,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -115,7 +115,7 @@
         "goals": 1
       },
       {
-        "rank": 101,
+        "rank": 102,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -127,7 +127,7 @@
         "goals": 1
       },
       {
-        "rank": 101,
+        "rank": 102,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -139,7 +139,7 @@
         "goals": 1
       },
       {
-        "rank": 101,
+        "rank": 102,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -431,7 +431,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 159,
+        "rank": 160,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -443,7 +443,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 159,
+        "rank": 160,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -455,7 +455,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 159,
+        "rank": 160,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -467,7 +467,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 159,
+        "rank": 160,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
