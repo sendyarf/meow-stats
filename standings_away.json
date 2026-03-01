@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-01T20:38:11.575243",
+  "scraped_at": "2026-03-01T21:23:03.203579",
   "leagues": [
     {
       "name": "Super League",
@@ -129,6 +129,23 @@
         {
           "position": 8,
           "team": {
+            "id": "185749",
+            "name": "Bhayangkara Presisi Indonesia FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
+            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
+          },
+          "played": 13,
+          "won": 5,
+          "drawn": 2,
+          "lost": 6,
+          "gs": 13,
+          "gc": 19,
+          "gd": -6,
+          "pts": 17
+        },
+        {
+          "position": 9,
+          "team": {
             "id": "165200",
             "name": "Arema",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165200.png",
@@ -141,23 +158,6 @@
           "gs": 14,
           "gc": 15,
           "gd": -1,
-          "pts": 15
-        },
-        {
-          "position": 9,
-          "team": {
-            "id": "185749",
-            "name": "Bhayangkara Presisi Indonesia FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
-            "url": "https://www.fotmob.com/teams/185749/overview/bhayangkara-presisi-indonesia-fc"
-          },
-          "played": 13,
-          "won": 4,
-          "drawn": 3,
-          "lost": 6,
-          "gs": 12,
-          "gc": 19,
-          "gd": -7,
           "pts": 15
         },
         {
@@ -257,8 +257,8 @@
           "won": 2,
           "drawn": 2,
           "lost": 8,
-          "gs": 9,
-          "gc": 22,
+          "gs": 10,
+          "gc": 23,
           "gd": -13,
           "pts": 8
         },
