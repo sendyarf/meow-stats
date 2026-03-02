@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-02T21:00:38.657094",
+  "scraped_at": "2026-03-02T21:54:26.351726",
   "leagues": [
     {
       "name": "Super League",
@@ -104,8 +104,8 @@
           "won": 6,
           "drawn": 4,
           "lost": 3,
-          "gs": 21,
-          "gc": 14,
+          "gs": 22,
+          "gc": 15,
           "gd": 7,
           "pts": 22
         },
@@ -197,23 +197,6 @@
         {
           "position": 12,
           "team": {
-            "id": "165198",
-            "name": "PSM Makassar",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
-            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
-          },
-          "played": 12,
-          "won": 3,
-          "drawn": 5,
-          "lost": 4,
-          "gs": 13,
-          "gc": 10,
-          "gd": 3,
-          "pts": 14
-        },
-        {
-          "position": 13,
-          "team": {
             "id": "165194",
             "name": "Persijap Jepara",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
@@ -227,6 +210,23 @@
           "gc": 16,
           "gd": -3,
           "pts": 14
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": "165198",
+            "name": "PSM Makassar",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
+            "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
+          },
+          "played": 12,
+          "won": 2,
+          "drawn": 6,
+          "lost": 4,
+          "gs": 13,
+          "gc": 12,
+          "gd": 1,
+          "pts": 12
         },
         {
           "position": 14,
