@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-02T21:54:26.354552",
+  "scraped_at": "2026-03-02T22:40:27.581900",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -516,8 +516,8 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/76319/image",
       "away_team": "Persib Bandung",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
-      "status": "Live",
-      "score": "1 - 1",
+      "status": "Finished",
+      "score": "2 - 2",
       "time": null,
       "url": "https://www.sofascore.com/persebaya-surabaya-persib-bandung/OKAsuBF"
     },
@@ -675,12 +675,12 @@
     "stats": [
       {
         "title": "Goals per match",
-        "home": "1.68",
+        "home": "1.70",
         "away": "1.30"
       },
       {
         "title": "Goals conceded per match",
-        "home": "0.50",
+        "home": "0.57",
         "away": "1.78"
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-02T21:54:26.349857",
+  "scraped_at": "2026-03-02T22:40:27.577302",
   "leagues": [
     {
       "name": "Super League",
@@ -19,8 +19,8 @@
           "won": 17,
           "drawn": 3,
           "lost": 3,
-          "gs": 38,
-          "gc": 12,
+          "gs": 39,
+          "gc": 13,
           "gd": 26,
           "pts": 54
         },
@@ -87,13 +87,30 @@
           "won": 10,
           "drawn": 9,
           "lost": 5,
-          "gs": 35,
-          "gc": 24,
+          "gs": 36,
+          "gc": 25,
           "gd": 11,
           "pts": 39
         },
         {
           "position": 6,
+          "team": {
+            "id": "165206",
+            "name": "Persita",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
+            "url": "https://www.fotmob.com/teams/165206/overview/persita"
+          },
+          "played": 24,
+          "won": 11,
+          "drawn": 5,
+          "lost": 8,
+          "gs": 31,
+          "gc": 23,
+          "gd": 8,
+          "pts": 38
+        },
+        {
+          "position": 7,
           "team": {
             "id": "185749",
             "name": "Bhayangkara Presisi Indonesia FC",
@@ -108,23 +125,6 @@
           "gc": 26,
           "gd": 4,
           "pts": 38
-        },
-        {
-          "position": 7,
-          "team": {
-            "id": "165206",
-            "name": "Persita",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
-            "url": "https://www.fotmob.com/teams/165206/overview/persita"
-          },
-          "played": 24,
-          "won": 10,
-          "drawn": 6,
-          "lost": 8,
-          "gs": 29,
-          "gc": 23,
-          "gd": 6,
-          "pts": 36
         },
         {
           "position": 8,
@@ -221,12 +221,12 @@
           },
           "played": 24,
           "won": 5,
-          "drawn": 9,
-          "lost": 10,
+          "drawn": 8,
+          "lost": 11,
           "gs": 26,
-          "gc": 29,
-          "gd": -3,
-          "pts": 24
+          "gc": 31,
+          "gd": -5,
+          "pts": 23
         },
         {
           "position": 14,
