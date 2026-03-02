@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-02T19:55:59.529770",
+  "scraped_at": "2026-03-02T21:00:38.658564",
   "leagues": [
     {
       "name": "Super League",
@@ -61,6 +61,23 @@
         {
           "position": 4,
           "team": {
+            "id": "165196",
+            "name": "Persib Bandung",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
+          },
+          "played": 11,
+          "won": 5,
+          "drawn": 3,
+          "lost": 3,
+          "gs": 15,
+          "gc": 10,
+          "gd": 5,
+          "pts": 18
+        },
+        {
+          "position": 5,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -76,7 +93,7 @@
           "pts": 18
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "1665351",
             "name": "Malut United",
@@ -91,23 +108,6 @@
           "gc": 12,
           "gd": 3,
           "pts": 18
-        },
-        {
-          "position": 6,
-          "team": {
-            "id": "165196",
-            "name": "Persib Bandung",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-            "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
-          },
-          "played": 10,
-          "won": 5,
-          "drawn": 2,
-          "lost": 3,
-          "gs": 15,
-          "gc": 10,
-          "gd": 5,
-          "pts": 17
         },
         {
           "position": 7,
@@ -202,13 +202,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 11,
+          "played": 12,
           "won": 3,
           "drawn": 3,
-          "lost": 5,
+          "lost": 6,
           "gs": 9,
-          "gc": 13,
-          "gd": -4,
+          "gc": 15,
+          "gd": -6,
           "pts": 12
         },
         {
