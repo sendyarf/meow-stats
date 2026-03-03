@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-03T20:59:35.519438",
+  "scraped_at": "2026-03-03T21:55:54.859150",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
+          },
+          "played": 12,
+          "won": 6,
+          "drawn": 3,
+          "lost": 3,
+          "gs": 17,
+          "gc": 12,
+          "gd": 5,
+          "pts": 21
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
@@ -36,13 +53,13 @@
           "won": 6,
           "drawn": 2,
           "lost": 4,
-          "gs": 18,
-          "gc": 15,
+          "gs": 19,
+          "gc": 16,
           "gd": 3,
           "pts": 20
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
@@ -55,23 +72,6 @@
           "lost": 3,
           "gs": 19,
           "gc": 16,
-          "gd": 3,
-          "pts": 19
-        },
-        {
-          "position": 4,
-          "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
-          },
-          "played": 12,
-          "won": 5,
-          "drawn": 4,
-          "lost": 3,
-          "gs": 15,
-          "gc": 12,
           "gd": 3,
           "pts": 19
         },
