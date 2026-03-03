@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-03T19:54:52.017845",
+  "scraped_at": "2026-03-03T20:59:35.516206",
   "leagues": [
     {
       "name": "Super League",
@@ -32,14 +32,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 23,
+          "played": 24,
           "won": 16,
-          "drawn": 2,
+          "drawn": 3,
           "lost": 5,
           "gs": 42,
           "gc": 19,
           "gd": 23,
-          "pts": 50
+          "pts": 51
         },
         {
           "position": 3,
@@ -49,14 +49,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
-          "played": 22,
+          "played": 23,
           "won": 16,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 5,
           "gs": 40,
           "gc": 21,
           "gd": 19,
-          "pts": 49
+          "pts": 50
         },
         {
           "position": 4,
@@ -66,14 +66,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 23,
+          "played": 24,
           "won": 12,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 6,
           "gs": 46,
           "gc": 28,
           "gd": 18,
-          "pts": 41
+          "pts": 42
         },
         {
           "position": 5,
@@ -236,14 +236,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 23,
+          "played": 24,
           "won": 4,
-          "drawn": 8,
+          "drawn": 9,
           "lost": 11,
           "gs": 22,
           "gc": 36,
           "gd": -14,
-          "pts": 20
+          "pts": 21
         },
         {
           "position": 15,

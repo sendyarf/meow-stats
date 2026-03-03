@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-03T19:54:52.021107",
+  "scraped_at": "2026-03-03T20:59:35.519438",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "585858",
+            "name": "Borneo Samarinda",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
+            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
+          },
+          "played": 12,
+          "won": 6,
+          "drawn": 2,
+          "lost": 4,
+          "gs": 18,
+          "gc": 15,
+          "gd": 3,
+          "pts": 20
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
@@ -42,24 +59,24 @@
           "pts": 19
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
-            "id": "585858",
-            "name": "Borneo Samarinda",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
-            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 11,
-          "won": 6,
-          "drawn": 1,
-          "lost": 4,
-          "gs": 18,
-          "gc": 15,
+          "played": 12,
+          "won": 5,
+          "drawn": 4,
+          "lost": 3,
+          "gs": 15,
+          "gc": 12,
           "gd": 3,
           "pts": 19
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -76,7 +93,7 @@
           "pts": 18
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "185751",
             "name": "Bali United FC",
@@ -90,23 +107,6 @@
           "gs": 23,
           "gc": 19,
           "gd": 4,
-          "pts": 18
-        },
-        {
-          "position": 6,
-          "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
-          },
-          "played": 11,
-          "won": 5,
-          "drawn": 3,
-          "lost": 3,
-          "gs": 15,
-          "gc": 12,
-          "gd": 3,
           "pts": 18
         },
         {
