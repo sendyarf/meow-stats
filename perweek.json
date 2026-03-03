@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-03-03T19:34:26.250367",
+  "generated_at": "2026-03-04T01:35:23.487504",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 209,
+  "total_matches": 211,
   "standings": {
     "Round 1": [
       {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Bali United",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Persik Kediri",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -883,7 +883,7 @@
         "rank": 4
       },
       {
-        "team": "Persib Bandung",
+        "team": "Persebaya",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -898,7 +898,7 @@
         "rank": 5
       },
       {
-        "team": "Persebaya",
+        "team": "Persib Bandung",
         "played": 4,
         "win": 2,
         "draw": 1,
@@ -6279,14 +6279,14 @@
       },
       {
         "team": "Persija Jakarta",
-        "played": 23,
+        "played": 24,
         "win": 16,
-        "draw": 2,
+        "draw": 3,
         "loss": 5,
-        "gf": 42,
-        "ga": 19,
+        "gf": 44,
+        "ga": 21,
         "gd": 23,
-        "points": 50,
+        "points": 51,
         "yellows": 0,
         "reds": 7,
         "fair_play": 21,
@@ -6294,14 +6294,14 @@
       },
       {
         "team": "Borneo",
-        "played": 22,
+        "played": 23,
         "win": 16,
-        "draw": 1,
+        "draw": 2,
         "loss": 5,
-        "gf": 40,
-        "ga": 21,
+        "gf": 42,
+        "ga": 23,
         "gd": 19,
-        "points": 49,
+        "points": 50,
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
@@ -6309,14 +6309,14 @@
       },
       {
         "team": "Malut United",
-        "played": 23,
-        "win": 12,
+        "played": 24,
+        "win": 13,
         "draw": 5,
         "loss": 6,
-        "gf": 46,
-        "ga": 28,
-        "gd": 18,
-        "points": 41,
+        "gf": 48,
+        "ga": 29,
+        "gd": 19,
+        "points": 44,
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
@@ -6459,13 +6459,13 @@
       },
       {
         "team": "Madura United",
-        "played": 23,
+        "played": 24,
         "win": 4,
         "draw": 8,
-        "loss": 11,
-        "gf": 22,
-        "ga": 36,
-        "gd": -14,
+        "loss": 12,
+        "gf": 23,
+        "ga": 38,
+        "gd": -15,
         "points": 20,
         "yellows": 0,
         "reds": 6,
