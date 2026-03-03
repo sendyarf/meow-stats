@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-03T16:41:34.699864",
+  "scraped_at": "2026-03-03T17:38:30.939120",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -114,9 +114,9 @@
         "passes_own_half": 1421,
         "accurate_passes_own_half": 1304,
         "accurate_passes_own_half_pct": 91.766361717101,
-        "passes_opposition_half": 1667,
-        "accurate_passes_opposition_half": 1182,
-        "accurate_passes_opposition_half_pct": 70.905818836233
+        "passes_opposition_half": 1621,
+        "accurate_passes_opposition_half": 1221,
+        "accurate_passes_opposition_half_pct": 75.323874151758
       },
       "defending": {
         "clean_sheets": 4,
