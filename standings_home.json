@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-04T20:57:50.246325",
+  "scraped_at": "2026-03-04T21:40:17.771247",
   "leagues": [
     {
       "name": "Super League",
@@ -214,6 +214,23 @@
         {
           "position": 13,
           "team": {
+            "id": "215564",
+            "name": "Semen Padang",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
+            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
+          },
+          "played": 12,
+          "won": 3,
+          "drawn": 3,
+          "lost": 6,
+          "gs": 12,
+          "gc": 16,
+          "gd": -4,
+          "pts": 12
+        },
+        {
+          "position": 14,
+          "team": {
             "id": "185751",
             "name": "Bali United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
@@ -229,7 +246,7 @@
           "pts": 12
         },
         {
-          "position": 14,
+          "position": 15,
           "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
@@ -246,7 +263,7 @@
           "pts": 12
         },
         {
-          "position": 15,
+          "position": 16,
           "team": {
             "id": "165198",
             "name": "PSM Makassar",
@@ -260,23 +277,6 @@
           "gs": 13,
           "gc": 14,
           "gd": -1,
-          "pts": 11
-        },
-        {
-          "position": 16,
-          "team": {
-            "id": "215564",
-            "name": "Semen Padang",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
-            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
-          },
-          "played": 11,
-          "won": 3,
-          "drawn": 2,
-          "lost": 6,
-          "gs": 12,
-          "gc": 16,
-          "gd": -4,
           "pts": 11
         },
         {
