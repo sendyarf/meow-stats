@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-05T19:57:34.511349",
+  "scraped_at": "2026-03-05T21:02:50.907283",
   "leagues": [
     {
       "name": "Super League",
@@ -202,14 +202,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 23,
+          "played": 24,
           "won": 7,
-          "drawn": 5,
+          "drawn": 6,
           "lost": 11,
           "gs": 30,
           "gc": 41,
           "gd": -11,
-          "pts": 26
+          "pts": 27
         },
         {
           "position": 13,
@@ -231,6 +231,23 @@
         {
           "position": 14,
           "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 24,
+          "won": 5,
+          "drawn": 5,
+          "lost": 14,
+          "gs": 20,
+          "gc": 39,
+          "gd": -19,
+          "pts": 20
+        },
+        {
+          "position": 15,
+          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -246,23 +263,6 @@
           "pts": 20
         },
         {
-          "position": 15,
-          "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 23,
-          "won": 5,
-          "drawn": 4,
-          "lost": 14,
-          "gs": 20,
-          "gc": 39,
-          "gd": -19,
-          "pts": 19
-        },
-        {
           "position": 16,
           "team": {
             "id": "585877",
@@ -270,17 +270,34 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 23,
+          "played": 24,
           "won": 4,
-          "drawn": 6,
+          "drawn": 7,
           "lost": 13,
           "gs": 26,
           "gc": 49,
           "gd": -23,
-          "pts": 18
+          "pts": 19
         },
         {
           "position": 17,
+          "team": {
+            "id": "583034",
+            "name": "Persis Solo",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
+            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
+          },
+          "played": 24,
+          "won": 3,
+          "drawn": 8,
+          "lost": 13,
+          "gs": 25,
+          "gc": 44,
+          "gd": -19,
+          "pts": 17
+        },
+        {
+          "position": 18,
           "team": {
             "id": "215564",
             "name": "Semen Padang",
@@ -295,23 +312,6 @@
           "gc": 41,
           "gd": -22,
           "pts": 17
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "583034",
-            "name": "Persis Solo",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/583034.png",
-            "url": "https://www.fotmob.com/teams/583034/overview/persis-solo"
-          },
-          "played": 23,
-          "won": 3,
-          "drawn": 7,
-          "lost": 13,
-          "gs": 25,
-          "gc": 44,
-          "gd": -19,
-          "pts": 16
         }
       ]
     },
