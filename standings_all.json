@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-05T21:02:50.907283",
+  "scraped_at": "2026-03-05T22:50:14.928565",
   "leagues": [
     {
       "name": "Super League",
@@ -203,13 +203,13 @@
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
           "played": 24,
-          "won": 7,
-          "drawn": 6,
+          "won": 8,
+          "drawn": 5,
           "lost": 11,
-          "gs": 30,
-          "gc": 41,
-          "gd": -11,
-          "pts": 27
+          "gs": 32,
+          "gc": 42,
+          "gd": -10,
+          "pts": 29
         },
         {
           "position": 13,
@@ -272,12 +272,12 @@
           },
           "played": 24,
           "won": 4,
-          "drawn": 7,
-          "lost": 13,
-          "gs": 26,
-          "gc": 49,
-          "gd": -23,
-          "pts": 19
+          "drawn": 6,
+          "lost": 14,
+          "gs": 27,
+          "gc": 51,
+          "gd": -24,
+          "pts": 18
         },
         {
           "position": 17,

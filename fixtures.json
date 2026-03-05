@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-05T21:02:50.911927",
+  "scraped_at": "2026-03-05T22:50:14.933433",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -681,22 +681,22 @@
       {
         "title": "Pts",
         "home": "54",
-        "away": "26"
+        "away": "29"
       },
       {
         "title": "Form (last 5)",
         "home": "WWWWD",
-        "away": "WWDLL"
+        "away": "WDLLW"
       },
       {
         "title": "Goals per match",
         "home": "1.70",
-        "away": "1.30"
+        "away": "1.33"
       },
       {
         "title": "Goals conceded per match",
         "home": "0.57",
-        "away": "1.78"
+        "away": "1.75"
       }
     ],
     "url": "https://www.sofascore.com/persik-kediri-persib-bandung/OKAsqreb",

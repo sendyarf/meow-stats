@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-05T21:02:50.909082",
+  "scraped_at": "2026-03-05T22:50:14.930488",
   "leagues": [
     {
       "name": "Super League",
@@ -112,6 +112,23 @@
         {
           "position": 7,
           "team": {
+            "id": "165197",
+            "name": "Persik",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
+            "url": "https://www.fotmob.com/teams/165197/overview/persik"
+          },
+          "played": 12,
+          "won": 6,
+          "drawn": 4,
+          "lost": 2,
+          "gs": 22,
+          "gc": 18,
+          "gd": 4,
+          "pts": 22
+        },
+        {
+          "position": 8,
+          "team": {
             "id": "185749",
             "name": "Bhayangkara Presisi Indonesia FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185749.png",
@@ -125,23 +142,6 @@
           "gc": 7,
           "gd": 9,
           "pts": 21
-        },
-        {
-          "position": 8,
-          "team": {
-            "id": "165197",
-            "name": "Persik",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
-            "url": "https://www.fotmob.com/teams/165197/overview/persik"
-          },
-          "played": 12,
-          "won": 5,
-          "drawn": 5,
-          "lost": 2,
-          "gs": 20,
-          "gc": 17,
-          "gd": 3,
-          "pts": 20
         },
         {
           "position": 9,
