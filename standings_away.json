@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-06T19:53:15.040116",
+  "scraped_at": "2026-03-06T20:54:54.854246",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+          },
+          "played": 12,
+          "won": 6,
+          "drawn": 3,
+          "lost": 3,
+          "gs": 24,
+          "gc": 19,
+          "gd": 5,
+          "pts": 21
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "1665351",
             "name": "Malut United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
@@ -42,7 +59,7 @@
           "pts": 21
         },
         {
-          "position": 3,
+          "position": 4,
           "team": {
             "id": "585858",
             "name": "Borneo Samarinda",
@@ -59,7 +76,7 @@
           "pts": 20
         },
         {
-          "position": 4,
+          "position": 5,
           "team": {
             "id": "585850",
             "name": "PSIM Yogyakarta",
@@ -76,7 +93,7 @@
           "pts": 20
         },
         {
-          "position": 5,
+          "position": 6,
           "team": {
             "id": "165196",
             "name": "Persib Bandung",
@@ -90,23 +107,6 @@
           "gs": 17,
           "gc": 12,
           "gd": 5,
-          "pts": 18
-        },
-        {
-          "position": 6,
-          "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
-          },
-          "played": 11,
-          "won": 5,
-          "drawn": 3,
-          "lost": 3,
-          "gs": 23,
-          "gc": 19,
-          "gd": 4,
           "pts": 18
         },
         {
