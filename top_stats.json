@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-08T00:21:39.794803",
+  "scraped_at": "2026-03-08T01:33:27.728800",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -177,7 +177,7 @@
         "assists": 3
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -189,7 +189,7 @@
         "assists": 2
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -201,7 +201,7 @@
         "assists": 2
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -431,7 +431,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 124,
+        "rank": 125,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
