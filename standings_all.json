@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T18:19:07.151318",
+  "scraped_at": "2026-03-07T19:43:19.707839",
   "leagues": [
     {
       "name": "Super League",
@@ -66,13 +66,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 24,
+          "played": 25,
           "won": 13,
           "drawn": 5,
-          "lost": 6,
+          "lost": 7,
           "gs": 48,
-          "gc": 29,
-          "gd": 19,
+          "gc": 30,
+          "gd": 18,
           "pts": 44
         },
         {
@@ -219,14 +219,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165198.png",
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
-          "played": 24,
-          "won": 5,
+          "played": 25,
+          "won": 6,
           "drawn": 8,
           "lost": 11,
-          "gs": 26,
+          "gs": 27,
           "gc": 31,
-          "gd": -5,
-          "pts": 23
+          "gd": -4,
+          "pts": 26
         },
         {
           "position": 14,

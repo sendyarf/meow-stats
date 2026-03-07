@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T18:19:07.153152",
+  "scraped_at": "2026-03-07T19:43:19.709760",
   "leagues": [
     {
       "name": "Super League",
@@ -66,13 +66,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
-          "played": 12,
+          "played": 13,
           "won": 7,
           "drawn": 2,
-          "lost": 3,
+          "lost": 4,
           "gs": 31,
-          "gc": 16,
-          "gd": 15,
+          "gc": 17,
+          "gd": 14,
           "pts": 23
         },
         {

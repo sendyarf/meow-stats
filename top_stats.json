@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T18:20:37.783744",
+  "scraped_at": "2026-03-07T19:44:48.526341",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -554,7 +554,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 89,
+        "rank": 90,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -566,7 +566,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 89,
+        "rank": 90,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -578,7 +578,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 89,
+        "rank": 90,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -590,7 +590,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 89,
+        "rank": 90,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -602,7 +602,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 89,
+        "rank": 90,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -614,7 +614,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 141,
+        "rank": 142,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -627,7 +627,7 @@
         "red_cards": 1
       },
       {
-        "rank": 141,
+        "rank": 142,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -640,7 +640,7 @@
         "red_cards": 1
       },
       {
-        "rank": 141,
+        "rank": 142,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -776,7 +776,7 @@
         "yellow_cards": 6
       },
       {
-        "rank": 32,
+        "rank": 33,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -789,7 +789,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 32,
+        "rank": 33,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -802,7 +802,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 32,
+        "rank": 33,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
