@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T20:37:44.967014",
+  "scraped_at": "2026-03-07T21:22:59.140399",
   "leagues": [
     {
       "name": "Super League",
@@ -33,13 +33,13 @@
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
           "played": 12,
-          "won": 10,
-          "drawn": 1,
+          "won": 11,
+          "drawn": 0,
           "lost": 1,
-          "gs": 22,
+          "gs": 23,
           "gc": 6,
-          "gd": 16,
-          "pts": 31
+          "gd": 17,
+          "pts": 33
         },
         {
           "position": 3,
@@ -61,23 +61,6 @@
         {
           "position": 4,
           "team": {
-            "id": "1665351",
-            "name": "Malut United",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
-            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
-          },
-          "played": 13,
-          "won": 8,
-          "drawn": 2,
-          "lost": 3,
-          "gs": 34,
-          "gc": 18,
-          "gd": 16,
-          "pts": 26
-        },
-        {
-          "position": 5,
-          "team": {
             "id": "165206",
             "name": "Persita",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
@@ -87,10 +70,27 @@
           "won": 8,
           "drawn": 2,
           "lost": 3,
-          "gs": 19,
+          "gs": 22,
           "gc": 8,
-          "gd": 11,
+          "gd": 14,
           "pts": 26
+        },
+        {
+          "position": 5,
+          "team": {
+            "id": "1665351",
+            "name": "Malut United",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1665351.png",
+            "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
+          },
+          "played": 13,
+          "won": 7,
+          "drawn": 3,
+          "lost": 3,
+          "gs": 34,
+          "gc": 19,
+          "gd": 15,
+          "pts": 24
         },
         {
           "position": 6,

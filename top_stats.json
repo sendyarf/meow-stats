@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-03-07T20:39:12.846823",
+  "scraped_at": "2026-03-07T21:24:21.156339",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
       {
-        "rank": 13,
+        "rank": 14,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -17,7 +17,7 @@
         "assists": 1
       },
       {
-        "rank": 14,
+        "rank": 15,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -30,7 +30,7 @@
         "assists": 2
       },
       {
-        "rank": 27,
+        "rank": 28,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -42,7 +42,7 @@
         "goals": 5
       },
       {
-        "rank": 36,
+        "rank": 38,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -153,7 +153,7 @@
     ],
     "assists": [
       {
-        "rank": 6,
+        "rank": 7,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -311,7 +311,7 @@
     ],
     "goals_assists": [
       {
-        "rank": 20,
+        "rank": 21,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -335,7 +335,7 @@
         "goals_assists": 9
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -347,7 +347,7 @@
         "goals_assists": 7
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -371,7 +371,7 @@
         "goals_assists": 6
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -443,7 +443,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 166,
+        "rank": 167,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -455,7 +455,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 166,
+        "rank": 167,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -467,7 +467,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 166,
+        "rank": 167,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -479,7 +479,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 166,
+        "rank": 167,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -491,7 +491,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 166,
+        "rank": 167,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -505,7 +505,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 16,
+        "rank": 17,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -518,7 +518,7 @@
         "red_cards": 1
       },
       {
-        "rank": 37,
+        "rank": 38,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -614,7 +614,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 142,
+        "rank": 143,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -627,7 +627,7 @@
         "red_cards": 1
       },
       {
-        "rank": 142,
+        "rank": 143,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -640,7 +640,7 @@
         "red_cards": 1
       },
       {
-        "rank": 142,
+        "rank": 143,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",

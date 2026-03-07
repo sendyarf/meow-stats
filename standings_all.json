@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T20:37:44.965207",
+  "scraped_at": "2026-03-07T21:22:59.138442",
   "leagues": [
     {
       "name": "Super League",
@@ -33,13 +33,13 @@
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
           "played": 24,
-          "won": 16,
-          "drawn": 3,
+          "won": 17,
+          "drawn": 2,
           "lost": 5,
-          "gs": 42,
+          "gs": 43,
           "gc": 23,
-          "gd": 19,
-          "pts": 51
+          "gd": 20,
+          "pts": 53
         },
         {
           "position": 3,
@@ -67,13 +67,13 @@
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
           "played": 25,
-          "won": 14,
-          "drawn": 5,
+          "won": 13,
+          "drawn": 6,
           "lost": 6,
           "gs": 51,
-          "gc": 31,
-          "gd": 20,
-          "pts": 47
+          "gc": 32,
+          "gd": 19,
+          "pts": 45
         },
         {
           "position": 5,
@@ -87,9 +87,9 @@
           "won": 12,
           "drawn": 5,
           "lost": 8,
-          "gs": 32,
+          "gs": 35,
           "gc": 23,
-          "gd": 9,
+          "gd": 12,
           "pts": 41
         },
         {
@@ -102,12 +102,12 @@
           },
           "played": 25,
           "won": 10,
-          "drawn": 10,
-          "lost": 5,
+          "drawn": 9,
+          "lost": 6,
           "gs": 36,
-          "gc": 25,
-          "gd": 11,
-          "pts": 40
+          "gc": 26,
+          "gd": 10,
+          "pts": 39
         },
         {
           "position": 7,
@@ -221,12 +221,12 @@
           },
           "played": 25,
           "won": 5,
-          "drawn": 8,
-          "lost": 12,
-          "gs": 28,
+          "drawn": 9,
+          "lost": 11,
+          "gs": 29,
           "gc": 34,
-          "gd": -6,
-          "pts": 23
+          "gd": -5,
+          "pts": 24
         },
         {
           "position": 14,
@@ -258,8 +258,8 @@
           "drawn": 8,
           "lost": 13,
           "gs": 23,
-          "gc": 39,
-          "gd": -16,
+          "gc": 42,
+          "gd": -19,
           "pts": 20
         },
         {
