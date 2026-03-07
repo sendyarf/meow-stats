@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T19:43:19.709760",
+  "scraped_at": "2026-03-07T20:37:44.967014",
   "leagues": [
     {
       "name": "Super League",
@@ -32,14 +32,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
-          "played": 11,
+          "played": 12,
           "won": 10,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gs": 22,
           "gc": 6,
           "gd": 16,
-          "pts": 30
+          "pts": 31
         },
         {
           "position": 3,
@@ -67,13 +67,13 @@
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
           "played": 13,
-          "won": 7,
+          "won": 8,
           "drawn": 2,
-          "lost": 4,
-          "gs": 31,
-          "gc": 17,
-          "gd": 14,
-          "pts": 23
+          "lost": 3,
+          "gs": 34,
+          "gc": 18,
+          "gd": 16,
+          "pts": 26
         },
         {
           "position": 5,
@@ -83,14 +83,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 12,
-          "won": 7,
+          "played": 13,
+          "won": 8,
           "drawn": 2,
           "lost": 3,
-          "gs": 18,
+          "gs": 19,
           "gc": 8,
-          "gd": 10,
-          "pts": 23
+          "gd": 11,
+          "pts": 26
         },
         {
           "position": 6,

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-07T19:43:19.707839",
+  "scraped_at": "2026-03-07T20:37:44.965207",
   "leagues": [
     {
       "name": "Super League",
@@ -27,6 +27,23 @@
         {
           "position": 2,
           "team": {
+            "id": "585858",
+            "name": "Borneo Samarinda",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
+            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
+          },
+          "played": 24,
+          "won": 16,
+          "drawn": 3,
+          "lost": 5,
+          "gs": 42,
+          "gc": 23,
+          "gd": 19,
+          "pts": 51
+        },
+        {
+          "position": 3,
+          "team": {
             "id": "165191",
             "name": "Persija Jakarta",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
@@ -42,23 +59,6 @@
           "pts": 51
         },
         {
-          "position": 3,
-          "team": {
-            "id": "585858",
-            "name": "Borneo Samarinda",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
-            "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
-          },
-          "played": 23,
-          "won": 16,
-          "drawn": 2,
-          "lost": 5,
-          "gs": 42,
-          "gc": 23,
-          "gd": 19,
-          "pts": 50
-        },
-        {
           "position": 4,
           "team": {
             "id": "1665351",
@@ -67,47 +67,47 @@
             "url": "https://www.fotmob.com/teams/1665351/overview/malut-united"
           },
           "played": 25,
-          "won": 13,
+          "won": 14,
           "drawn": 5,
-          "lost": 7,
-          "gs": 48,
-          "gc": 30,
-          "gd": 18,
-          "pts": 44
+          "lost": 6,
+          "gs": 51,
+          "gc": 31,
+          "gd": 20,
+          "pts": 47
         },
         {
           "position": 5,
-          "team": {
-            "id": "930525",
-            "name": "Persebaya Surabaya",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
-            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
-          },
-          "played": 24,
-          "won": 10,
-          "drawn": 9,
-          "lost": 5,
-          "gs": 36,
-          "gc": 25,
-          "gd": 11,
-          "pts": 39
-        },
-        {
-          "position": 6,
           "team": {
             "id": "165206",
             "name": "Persita",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165206.png",
             "url": "https://www.fotmob.com/teams/165206/overview/persita"
           },
-          "played": 24,
-          "won": 11,
+          "played": 25,
+          "won": 12,
           "drawn": 5,
           "lost": 8,
-          "gs": 31,
+          "gs": 32,
           "gc": 23,
-          "gd": 8,
-          "pts": 38
+          "gd": 9,
+          "pts": 41
+        },
+        {
+          "position": 6,
+          "team": {
+            "id": "930525",
+            "name": "Persebaya Surabaya",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/930525.png",
+            "url": "https://www.fotmob.com/teams/930525/overview/persebaya-surabaya"
+          },
+          "played": 25,
+          "won": 10,
+          "drawn": 10,
+          "lost": 5,
+          "gs": 36,
+          "gc": 25,
+          "gd": 11,
+          "pts": 40
         },
         {
           "position": 7,
@@ -220,13 +220,13 @@
             "url": "https://www.fotmob.com/teams/165198/overview/psm-makassar"
           },
           "played": 25,
-          "won": 6,
+          "won": 5,
           "drawn": 8,
-          "lost": 11,
-          "gs": 27,
-          "gc": 31,
-          "gd": -4,
-          "pts": 26
+          "lost": 12,
+          "gs": 28,
+          "gc": 34,
+          "gd": -6,
+          "pts": 23
         },
         {
           "position": 14,
@@ -253,13 +253,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
             "url": "https://www.fotmob.com/teams/165199/overview/madura-united"
           },
-          "played": 24,
+          "played": 25,
           "won": 4,
           "drawn": 8,
-          "lost": 12,
+          "lost": 13,
           "gs": 23,
-          "gc": 38,
-          "gd": -15,
+          "gc": 39,
+          "gd": -16,
           "pts": 20
         },
         {
