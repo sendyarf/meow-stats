@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-09T21:12:06.161191",
+  "scraped_at": "2026-03-09T22:58:46.135668",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -9,17 +9,17 @@
       "season": "25/26",
       "season_id": "78590",
       "summary": {
-        "matches": 23,
-        "goals_scored": 39,
+        "matches": 24,
+        "goals_scored": 42,
         "goals_conceded": 13,
         "assists": 22,
         "awarded_matches": 0,
         "shots_against": 178
       },
       "attacking": {
-        "goals_per_game": 1.7,
-        "penalty_goals": 4,
-        "penalties_taken": 7,
+        "goals_per_game": 1.75,
+        "penalty_goals": 6,
+        "penalties_taken": 9,
         "total_shots": 342,
         "successful_dribbles": 341,
         "dribble_attempts": 441,
@@ -40,8 +40,8 @@
         "accurate_crosses_pct": 39.47
       },
       "defending": {
-        "clean_sheets": 14,
-        "goals_conceded_per_game": 0.57,
+        "clean_sheets": 15,
+        "goals_conceded_per_game": 0.54,
         "interceptions": 687,
         "saves": 52,
         "balls_recovered": 1555,
@@ -55,7 +55,7 @@
         "total_aerial_duels": 741,
         "aerial_duels_won": 392,
         "aerial_duels_won_pct": 52.9,
-        "yellow_cards": 49,
+        "yellow_cards": 50,
         "yellow_red_cards": 4,
         "red_cards": 4,
         "fouls": 343,

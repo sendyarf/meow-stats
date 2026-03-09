@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-09T21:10:54.603345",
+  "scraped_at": "2026-03-09T22:57:35.009339",
   "leagues": [
     {
       "name": "Super League",
@@ -19,9 +19,9 @@
           "won": 18,
           "drawn": 3,
           "lost": 3,
-          "gs": 41,
+          "gs": 42,
           "gc": 13,
-          "gd": 28,
+          "gd": 29,
           "pts": 57
         },
         {
@@ -207,8 +207,8 @@
           "drawn": 5,
           "lost": 12,
           "gs": 32,
-          "gc": 44,
-          "gd": -12,
+          "gc": 45,
+          "gd": -13,
           "pts": 29
         },
         {
@@ -231,23 +231,6 @@
         {
           "position": 14,
           "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 24,
-          "won": 5,
-          "drawn": 5,
-          "lost": 14,
-          "gs": 20,
-          "gc": 39,
-          "gd": -19,
-          "pts": 20
-        },
-        {
-          "position": 15,
-          "team": {
             "id": "165199",
             "name": "Madura United",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165199.png",
@@ -263,7 +246,41 @@
           "pts": 20
         },
         {
+          "position": 15,
+          "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 24,
+          "won": 5,
+          "drawn": 5,
+          "lost": 14,
+          "gs": 20,
+          "gc": 39,
+          "gd": -19,
+          "pts": 20
+        },
+        {
           "position": 16,
+          "team": {
+            "id": "215564",
+            "name": "Semen Padang",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
+            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
+          },
+          "played": 25,
+          "won": 5,
+          "drawn": 5,
+          "lost": 15,
+          "gs": 21,
+          "gc": 41,
+          "gd": -20,
+          "pts": 20
+        },
+        {
+          "position": 17,
           "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
@@ -272,28 +289,11 @@
           },
           "played": 25,
           "won": 4,
-          "drawn": 7,
-          "lost": 14,
-          "gs": 27,
-          "gc": 51,
-          "gd": -24,
-          "pts": 19
-        },
-        {
-          "position": 17,
-          "team": {
-            "id": "215564",
-            "name": "Semen Padang",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
-            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
-          },
-          "played": 25,
-          "won": 4,
           "drawn": 6,
           "lost": 15,
-          "gs": 19,
-          "gc": 41,
-          "gd": -22,
+          "gs": 27,
+          "gc": 53,
+          "gd": -26,
           "pts": 18
         },
         {

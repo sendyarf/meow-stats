@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-09T21:10:54.603345",
+  "scraped_at": "2026-03-09T22:57:35.009339",
   "team": "Persib Bandung",
   "standings": [
     {
@@ -17,9 +17,9 @@
       "won": 18,
       "drawn": 3,
       "lost": 3,
-      "gs": 41,
+      "gs": 42,
       "gc": 13,
-      "gd": 28,
+      "gd": 29,
       "pts": 57
     },
     {
