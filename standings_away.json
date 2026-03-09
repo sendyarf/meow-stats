@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-09T19:59:48.622353",
+  "scraped_at": "2026-03-09T21:10:54.606714",
   "leagues": [
     {
       "name": "Super League",
@@ -253,13 +253,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 12,
+          "played": 13,
           "won": 2,
           "drawn": 1,
-          "lost": 9,
+          "lost": 10,
           "gs": 10,
-          "gc": 24,
-          "gd": -14,
+          "gc": 26,
+          "gd": -16,
           "pts": 7
         },
         {
@@ -282,6 +282,23 @@
         {
           "position": 17,
           "team": {
+            "id": "215564",
+            "name": "Semen Padang",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
+            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
+          },
+          "played": 13,
+          "won": 1,
+          "drawn": 3,
+          "lost": 9,
+          "gs": 7,
+          "gc": 25,
+          "gd": -18,
+          "pts": 6
+        },
+        {
+          "position": 18,
+          "team": {
             "id": "165194",
             "name": "Persijap Jepara",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
@@ -294,23 +311,6 @@
           "gs": 7,
           "gc": 23,
           "gd": -16,
-          "pts": 5
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "215564",
-            "name": "Semen Padang",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
-            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
-          },
-          "played": 12,
-          "won": 1,
-          "drawn": 2,
-          "lost": 9,
-          "gs": 7,
-          "gc": 25,
-          "gd": -18,
           "pts": 5
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-09T19:59:48.619096",
+  "scraped_at": "2026-03-09T21:10:54.603345",
   "leagues": [
     {
       "name": "Super League",
@@ -15,14 +15,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
-          "played": 23,
-          "won": 17,
+          "played": 24,
+          "won": 18,
           "drawn": 3,
           "lost": 3,
-          "gs": 39,
+          "gs": 41,
           "gc": 13,
-          "gd": 26,
-          "pts": 54
+          "gd": 28,
+          "pts": 57
         },
         {
           "position": 2,
@@ -202,13 +202,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165197.png",
             "url": "https://www.fotmob.com/teams/165197/overview/persik"
           },
-          "played": 24,
+          "played": 25,
           "won": 8,
           "drawn": 5,
-          "lost": 11,
+          "lost": 12,
           "gs": 32,
-          "gc": 42,
-          "gd": -10,
+          "gc": 44,
+          "gd": -12,
           "pts": 29
         },
         {
@@ -270,17 +270,34 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
             "url": "https://www.fotmob.com/teams/585877/overview/psbs-biak-numfor"
           },
-          "played": 24,
+          "played": 25,
           "won": 4,
-          "drawn": 6,
+          "drawn": 7,
           "lost": 14,
           "gs": 27,
           "gc": 51,
           "gd": -24,
-          "pts": 18
+          "pts": 19
         },
         {
           "position": 17,
+          "team": {
+            "id": "215564",
+            "name": "Semen Padang",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
+            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
+          },
+          "played": 25,
+          "won": 4,
+          "drawn": 6,
+          "lost": 15,
+          "gs": 19,
+          "gc": 41,
+          "gd": -22,
+          "pts": 18
+        },
+        {
+          "position": 18,
           "team": {
             "id": "583034",
             "name": "Persis Solo",
@@ -294,23 +311,6 @@
           "gs": 25,
           "gc": 44,
           "gd": -19,
-          "pts": 17
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "215564",
-            "name": "Semen Padang",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/215564.png",
-            "url": "https://www.fotmob.com/teams/215564/overview/semen-padang"
-          },
-          "played": 24,
-          "won": 4,
-          "drawn": 5,
-          "lost": 15,
-          "gs": 19,
-          "gc": 41,
-          "gd": -22,
           "pts": 17
         }
       ]
