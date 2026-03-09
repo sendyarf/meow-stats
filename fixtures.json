@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-09T06:22:33.233892",
+  "scraped_at": "2026-03-09T09:01:17.915975",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -544,7 +544,7 @@
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
       "status": "Scheduled",
       "score": null,
-      "time": "7:00 PM",
+      "time": "8:30 PM",
       "url": "https://www.sofascore.com/borneo-fc-samarinda-persib-bandung/OKAsVYAb"
     },
     {
