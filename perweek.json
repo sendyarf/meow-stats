@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-03-10T19:36:58.739516",
+  "generated_at": "2026-03-11T01:36:00.099709",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 220,
+  "total_matches": 221,
   "standings": {
     "Round 1": [
       {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Bali United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Bali United",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persik Kediri",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -6610,6 +6610,21 @@
         "rank": 5
       },
       {
+        "team": "FC Bhayangkara",
+        "played": 25,
+        "win": 12,
+        "draw": 5,
+        "loss": 8,
+        "gf": 32,
+        "ga": 27,
+        "gd": 5,
+        "points": 41,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 6
+      },
+      {
         "team": "Persebaya",
         "played": 25,
         "win": 10,
@@ -6622,21 +6637,6 @@
         "yellows": 0,
         "reds": 7,
         "fair_play": 21,
-        "rank": 6
-      },
-      {
-        "team": "FC Bhayangkara",
-        "played": 24,
-        "win": 11,
-        "draw": 5,
-        "loss": 8,
-        "gf": 30,
-        "ga": 26,
-        "gd": 4,
-        "points": 38,
-        "yellows": 0,
-        "reds": 2,
-        "fair_play": 6,
         "rank": 7
       },
       {
@@ -6686,17 +6686,17 @@
       },
       {
         "team": "Arema FC",
-        "played": 24,
+        "played": 25,
         "win": 8,
         "draw": 7,
-        "loss": 9,
-        "gf": 35,
-        "ga": 34,
-        "gd": 1,
+        "loss": 10,
+        "gf": 36,
+        "ga": 36,
+        "gd": 0,
         "points": 31,
         "yellows": 0,
-        "reds": 6,
-        "fair_play": 18,
+        "reds": 8,
+        "fair_play": 24,
         "rank": 11
       },
       {
