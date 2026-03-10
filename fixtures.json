@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-10T11:08:38.496867",
+  "scraped_at": "2026-03-10T12:43:54.546374",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -673,6 +673,21 @@
     "league": "Indonesia Super League",
     "round": 21,
     "stats": [
+      {
+        "title": "Table position",
+        "home": "2",
+        "away": "1"
+      },
+      {
+        "title": "Pts",
+        "home": "53",
+        "away": "57"
+      },
+      {
+        "title": "Form (last 5)",
+        "home": "WLWDW",
+        "away": "WWWDW"
+      },
       {
         "title": "Goals per match",
         "home": "1.96",
