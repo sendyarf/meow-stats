@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-10T12:44:58.381297",
+  "scraped_at": "2026-03-10T13:48:08.162981",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -18,7 +18,7 @@
       },
       "attacking": {
         "goals_per_game": 1.75,
-        "penalty_goals": 6,
+        "penalty_goals": 4,
         "penalties_taken": 9,
         "total_shots": 342,
         "successful_dribbles": 341,
