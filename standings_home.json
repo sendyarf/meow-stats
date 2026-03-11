@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-11T21:07:19.536286",
+  "scraped_at": "2026-03-11T22:46:10.167444",
   "leagues": [
     {
       "name": "Super League",
@@ -146,23 +146,6 @@
         {
           "position": 9,
           "team": {
-            "id": "585850",
-            "name": "PSIM Yogyakarta",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
-            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
-          },
-          "played": 12,
-          "won": 5,
-          "drawn": 5,
-          "lost": 2,
-          "gs": 16,
-          "gc": 15,
-          "gd": 1,
-          "pts": 20
-        },
-        {
-          "position": 10,
-          "team": {
             "id": "585860",
             "name": "Dewa United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
@@ -176,6 +159,23 @@
           "gc": 16,
           "gd": 3,
           "pts": 19
+        },
+        {
+          "position": 10,
+          "team": {
+            "id": "585850",
+            "name": "PSIM Yogyakarta",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585850.png",
+            "url": "https://www.fotmob.com/teams/585850/overview/psim-yogyakarta"
+          },
+          "played": 12,
+          "won": 4,
+          "drawn": 6,
+          "lost": 2,
+          "gs": 16,
+          "gc": 16,
+          "gd": 0,
+          "pts": 18
         },
         {
           "position": 11,

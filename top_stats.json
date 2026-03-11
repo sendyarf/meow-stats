@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-11T21:08:28.258031",
+  "scraped_at": "2026-03-11T22:47:21.298688",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -54,7 +54,7 @@
         "goals": 4
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -66,7 +66,7 @@
         "goals": 3
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -419,7 +419,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -431,7 +431,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -467,7 +467,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 174,
+        "rank": 175,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -479,7 +479,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 174,
+        "rank": 175,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -491,7 +491,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 174,
+        "rank": 175,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -503,7 +503,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 174,
+        "rank": 175,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -517,7 +517,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 19,
+        "rank": 20,
         "player": {
           "id": "320139",
           "name": "Frans Putros",

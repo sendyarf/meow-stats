@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-11T21:07:19.536856",
+  "scraped_at": "2026-03-11T22:46:10.168002",
   "leagues": [
     {
       "name": "Super League",
@@ -282,6 +282,23 @@
         {
           "position": 17,
           "team": {
+            "id": "165194",
+            "name": "Persijap Jepara",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
+            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
+          },
+          "played": 12,
+          "won": 1,
+          "drawn": 3,
+          "lost": 8,
+          "gs": 9,
+          "gc": 25,
+          "gd": -16,
+          "pts": 6
+        },
+        {
+          "position": 18,
+          "team": {
             "id": "585877",
             "name": "PSBS Biak Numfor",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585877.png",
@@ -295,23 +312,6 @@
           "gc": 30,
           "gd": -18,
           "pts": 6
-        },
-        {
-          "position": 18,
-          "team": {
-            "id": "165194",
-            "name": "Persijap Jepara",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165194.png",
-            "url": "https://www.fotmob.com/teams/165194/overview/persijap-jepara"
-          },
-          "played": 12,
-          "won": 1,
-          "drawn": 2,
-          "lost": 9,
-          "gs": 8,
-          "gc": 25,
-          "gd": -17,
-          "pts": 5
         }
       ]
     }
