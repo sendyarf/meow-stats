@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-11T19:58:24.540018",
+  "scraped_at": "2026-03-11T21:08:28.258031",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -30,7 +30,7 @@
         "assists": 1
       },
       {
-        "rank": 29,
+        "rank": 30,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -467,7 +467,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 173,
+        "rank": 174,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -479,7 +479,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 173,
+        "rank": 174,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -491,7 +491,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 173,
+        "rank": 174,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -503,7 +503,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 173,
+        "rank": 174,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
