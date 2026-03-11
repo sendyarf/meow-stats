@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-11T11:10:46.104642",
+  "scraped_at": "2026-03-11T12:49:08.046511",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -14,52 +14,52 @@
         "goals_conceded": 13,
         "assists": 23,
         "awarded_matches": 0,
-        "shots_against": 178
+        "shots_against": 186
       },
       "attacking": {
         "goals_per_game": 1.75,
         "penalty_goals": 6,
         "penalties_taken": 9,
-        "total_shots": 342,
-        "successful_dribbles": 341,
-        "dribble_attempts": 441,
-        "corners": 115,
+        "total_shots": 354,
+        "successful_dribbles": 356,
+        "dribble_attempts": 463,
+        "corners": 118,
         "free_kicks": 57,
-        "offsides": 36
+        "offsides": 37
       },
       "passes": {
-        "ball_possession": 52.9,
-        "total_passes": 8811,
-        "accurate_passes": 7393,
-        "accurate_passes_pct": 83.91,
-        "long_balls": 945,
-        "accurate_long_balls": 540,
-        "accurate_long_balls_pct": 57.14,
-        "crosses": 380,
-        "accurate_crosses": 150,
-        "accurate_crosses_pct": 39.47
+        "ball_possession": 52.5,
+        "total_passes": 9195,
+        "accurate_passes": 7718,
+        "accurate_passes_pct": 83.94,
+        "long_balls": 993,
+        "accurate_long_balls": 569,
+        "accurate_long_balls_pct": 57.3,
+        "crosses": 402,
+        "accurate_crosses": 159,
+        "accurate_crosses_pct": 39.55
       },
       "defending": {
         "clean_sheets": 15,
         "goals_conceded_per_game": 0.54,
-        "interceptions": 687,
-        "saves": 52,
-        "balls_recovered": 1555,
-        "errors_leading_to_shot": 71
+        "interceptions": 727,
+        "saves": 53,
+        "balls_recovered": 1637,
+        "errors_leading_to_shot": 73
       },
       "other": {
-        "total_duels": 3973,
-        "duels_won": 1573,
-        "duels_lost": 2400,
+        "total_duels": 4148,
+        "duels_won": 1642,
+        "duels_lost": 2506,
         "duels_won_pct": 39.59,
-        "total_aerial_duels": 741,
-        "aerial_duels_won": 392,
-        "aerial_duels_won_pct": 52.9,
+        "total_aerial_duels": 770,
+        "aerial_duels_won": 404,
+        "aerial_duels_won_pct": 52.47,
         "yellow_cards": 50,
         "yellow_red_cards": 4,
         "red_cards": 4,
-        "fouls": 343,
-        "goal_kicks": 83
+        "fouls": 362,
+        "goal_kicks": 89
       }
     },
     {
