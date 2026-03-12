@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-12T21:04:28.712048",
+  "scraped_at": "2026-03-12T22:58:01.691294",
   "leagues": [
     {
       "name": "Super League",
@@ -146,23 +146,6 @@
         {
           "position": 9,
           "team": {
-            "id": "185751",
-            "name": "Bali United FC",
-            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
-            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
-          },
-          "played": 25,
-          "won": 8,
-          "drawn": 9,
-          "lost": 8,
-          "gs": 35,
-          "gc": 35,
-          "gd": 0,
-          "pts": 33
-        },
-        {
-          "position": 10,
-          "team": {
             "id": "585860",
             "name": "Dewa United FC",
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
@@ -175,6 +158,23 @@
           "gs": 29,
           "gc": 30,
           "gd": -1,
+          "pts": 33
+        },
+        {
+          "position": 10,
+          "team": {
+            "id": "185751",
+            "name": "Bali United FC",
+            "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/185751.png",
+            "url": "https://www.fotmob.com/teams/185751/overview/bali-united-fc"
+          },
+          "played": 25,
+          "won": 8,
+          "drawn": 9,
+          "lost": 8,
+          "gs": 35,
+          "gc": 37,
+          "gd": -2,
           "pts": 33
         },
         {
@@ -257,9 +257,9 @@
           "won": 4,
           "drawn": 8,
           "lost": 13,
-          "gs": 26,
+          "gs": 28,
           "gc": 44,
-          "gd": -18,
+          "gd": -16,
           "pts": 20
         },
         {
