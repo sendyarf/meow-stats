@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-15T19:50:53.709032",
+  "scraped_at": "2026-03-15T20:46:16.476976",
   "leagues": [
     {
       "name": "Super League",
@@ -15,14 +15,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
             "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
           },
-          "played": 24,
-          "won": 18,
+          "played": 25,
+          "won": 19,
           "drawn": 3,
           "lost": 3,
-          "gs": 42,
+          "gs": 43,
           "gc": 13,
-          "gd": 29,
-          "pts": 57
+          "gd": 30,
+          "pts": 60
         },
         {
           "position": 2,
@@ -32,13 +32,13 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585858.png",
             "url": "https://www.fotmob.com/teams/585858/overview/borneo-samarinda"
           },
-          "played": 24,
+          "played": 25,
           "won": 17,
           "drawn": 2,
-          "lost": 5,
+          "lost": 6,
           "gs": 47,
-          "gc": 24,
-          "gd": 23,
+          "gc": 25,
+          "gd": 22,
           "pts": 53
         },
         {
@@ -49,14 +49,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165191.png",
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
-          "played": 24,
+          "played": 25,
           "won": 16,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 5,
           "gs": 44,
           "gc": 21,
           "gd": 23,
-          "pts": 51
+          "pts": 52
         },
         {
           "position": 4,
@@ -151,14 +151,14 @@
             "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/585860.png",
             "url": "https://www.fotmob.com/teams/585860/overview/dewa-united-fc"
           },
-          "played": 24,
+          "played": 25,
           "won": 10,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 11,
           "gs": 29,
           "gc": 30,
           "gd": -1,
-          "pts": 33
+          "pts": 34
         },
         {
           "position": 10,

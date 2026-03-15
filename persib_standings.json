@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-15T19:50:53.709032",
+  "scraped_at": "2026-03-15T20:46:16.476976",
   "team": "Persib Bandung",
   "standings": [
     {
@@ -13,14 +13,14 @@
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "url": "https://www.fotmob.com/teams/165196/overview/persib-bandung"
       },
-      "played": 24,
-      "won": 18,
+      "played": 25,
+      "won": 19,
       "drawn": 3,
       "lost": 3,
-      "gs": 42,
+      "gs": 43,
       "gc": 13,
-      "gd": 29,
-      "pts": 57
+      "gd": 30,
+      "pts": 60
     }
   ]
 }

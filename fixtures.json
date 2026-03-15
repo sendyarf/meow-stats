@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-15T19:50:53.711103",
+  "scraped_at": "2026-03-15T20:46:16.479041",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -542,9 +542,9 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/189945/image",
       "away_team": "Persib Bandung",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
-      "status": "Scheduled",
-      "score": null,
-      "time": "8:30 PM",
+      "status": "Live",
+      "score": "0 - 1",
+      "time": null,
       "url": "https://www.sofascore.com/borneo-fc-samarinda-persib-bandung/OKAsVYAb"
     },
     {
@@ -666,80 +666,65 @@
     }
   ],
   "next_match": {
-    "home_team": "Borneo FC Samarinda",
+    "home_team": "Semen Padang FC",
     "away_team": "Persib Bandung",
-    "date": "Mar 15",
-    "time": "8:30 PM",
+    "date": "Apr 05",
+    "time": "7:00 PM",
     "league": "Indonesia Super League",
-    "round": 21,
+    "round": 26,
     "stats": [
       {
-        "title": "Table position",
-        "home": "2",
-        "away": "1"
-      },
-      {
-        "title": "Pts",
-        "home": "53",
-        "away": "57"
-      },
-      {
-        "title": "Form (last 5)",
-        "home": "WLWDW",
-        "away": "WWWDW"
-      },
-      {
         "title": "Goals per match",
-        "home": "1.96",
+        "home": "0.84",
         "away": "1.75"
       },
       {
         "title": "Goals conceded per match",
-        "home": "1.00",
+        "home": "1.64",
         "away": "0.54"
       }
     ],
-    "url": "https://www.sofascore.com/borneo-fc-samarinda-persib-bandung/OKAsVYAb",
+    "url": "https://www.sofascore.com/semen-padang-fc-persib-bandung/OKAsqwJ",
     "head_to_head": {
       "summary": {
-        "team1_name": "Borneo FC Samarinda",
+        "team1_name": "Semen Padang FC",
         "team2_name": "Persib Bandung",
-        "team1_logo": "https://api.sofascore.com/api/v1/team/189945/image",
+        "team1_logo": "https://api.sofascore.com/api/v1/team/86066/image",
         "team2_logo": "https://api.sofascore.com/api/v1/team/64289/image",
-        "team1_wins": 2,
-        "draws": 3,
-        "team2_wins": 5
+        "team1_wins": 1,
+        "draws": 5,
+        "team2_wins": 4
       },
       "matches": [
         {
-          "date": "Dec 05, 2025",
+          "date": "Aug 09, 2025",
           "home_team": "Persib Bandung",
-          "away_team": "Borneo FC Samarinda",
-          "score": "3 - 1"
+          "away_team": "Semen Padang FC",
+          "score": "2 - 0"
         },
         {
-          "date": "Apr 11, 2025",
-          "home_team": "Borneo FC Samarinda",
+          "date": "Mar 10, 2025",
+          "home_team": "Semen Padang FC",
           "away_team": "Persib Bandung",
-          "score": "2 - 2"
+          "score": "1 - 4"
         },
         {
-          "date": "Nov 22, 2024",
+          "date": "Nov 01, 2024",
           "home_team": "Persib Bandung",
-          "away_team": "Borneo FC Samarinda",
-          "score": "1 - 0"
+          "away_team": "Semen Padang FC",
+          "score": "1 - 1"
         },
         {
-          "date": "Jul 22, 2024",
+          "date": "Sep 18, 2019",
           "home_team": "Persib Bandung",
-          "away_team": "Borneo FC Samarinda",
-          "score": "0 - 1"
+          "away_team": "Semen Padang FC",
+          "score": "1 - 1"
         },
         {
-          "date": "Apr 25, 2024",
-          "home_team": "Persib Bandung",
-          "away_team": "Borneo FC Samarinda",
-          "score": "2 - 1"
+          "date": "May 29, 2019",
+          "home_team": "Semen Padang FC",
+          "away_team": "Persib Bandung",
+          "score": "0 - 0"
         }
       ]
     }

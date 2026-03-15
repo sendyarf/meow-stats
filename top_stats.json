@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-15T19:51:59.033811",
+  "scraped_at": "2026-03-15T20:47:19.576064",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -30,7 +30,7 @@
         "assists": 1
       },
       {
-        "rank": 31,
+        "rank": 30,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -383,7 +383,7 @@
         "goals_assists": 6
       },
       {
-        "rank": 46,
+        "rank": 45,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -395,7 +395,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 46,
+        "rank": 45,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
