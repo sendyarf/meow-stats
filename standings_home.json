@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-15T21:29:03.849816",
+  "scraped_at": "2026-03-15T22:27:45.327834",
   "leagues": [
     {
       "name": "Super League",
@@ -34,12 +34,12 @@
           },
           "played": 13,
           "won": 11,
-          "drawn": 0,
-          "lost": 2,
-          "gs": 27,
+          "drawn": 1,
+          "lost": 1,
+          "gs": 28,
           "gc": 8,
-          "gd": 19,
-          "pts": 33
+          "gd": 20,
+          "pts": 34
         },
         {
           "position": 3,
@@ -50,13 +50,13 @@
             "url": "https://www.fotmob.com/teams/165191/overview/persija-jakarta"
           },
           "played": 13,
-          "won": 9,
-          "drawn": 3,
+          "won": 8,
+          "drawn": 4,
           "lost": 1,
           "gs": 26,
-          "gc": 9,
-          "gd": 17,
-          "pts": 30
+          "gc": 10,
+          "gd": 16,
+          "pts": 28
         },
         {
           "position": 4,
