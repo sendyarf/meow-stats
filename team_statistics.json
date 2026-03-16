@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-16T18:46:34.300354",
+  "scraped_at": "2026-03-16T20:09:46.802963",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -29,9 +29,9 @@
       },
       "passes": {
         "ball_possession": 52.5,
-        "total_passes": 9195,
+        "total_passes": 9194,
         "accurate_passes": 7718,
-        "accurate_passes_pct": 83.94,
+        "accurate_passes_pct": 83.95,
         "long_balls": 993,
         "accurate_long_balls": 569,
         "accurate_long_balls_pct": 57.3,
@@ -48,9 +48,9 @@
         "errors_leading_to_shot": 73
       },
       "other": {
-        "total_duels": 4148,
+        "total_duels": 4147,
         "duels_won": 1642,
-        "duels_lost": 2506,
+        "duels_lost": 2505,
         "duels_won_pct": 39.59,
         "total_aerial_duels": 770,
         "aerial_duels_won": 404,
