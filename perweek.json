@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-03-29T13:53:37.086184",
+  "generated_at": "2026-03-29T19:32:33.023985",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 103,
   "standings": {
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "PSM Makassar",
+        "team": "Arema FC",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "Arema FC",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 0,
