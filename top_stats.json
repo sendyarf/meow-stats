@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-03T18:37:34.601687",
+  "scraped_at": "2026-04-03T20:02:31.197251",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -554,7 +554,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 58,
+        "rank": 59,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -566,7 +566,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 58,
+        "rank": 59,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -578,7 +578,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 58,
+        "rank": 59,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -590,7 +590,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 89,
+        "rank": 90,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -677,7 +677,7 @@
         "red_cards": 1
       },
       {
-        "rank": 165,
+        "rank": 166,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -689,7 +689,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 165,
+        "rank": 166,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -800,7 +800,7 @@
         "yellow_cards": 7
       },
       {
-        "rank": 28,
+        "rank": 29,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
