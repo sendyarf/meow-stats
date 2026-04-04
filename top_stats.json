@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-04T15:40:01.402440",
+  "scraped_at": "2026-04-04T16:37:41.931555",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -91,7 +91,7 @@
         "assists": 2
       },
       {
-        "rank": 73,
+        "rank": 74,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -431,7 +431,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -443,7 +443,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
