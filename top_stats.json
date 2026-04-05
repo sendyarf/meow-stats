@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-05T18:29:44.056346",
+  "scraped_at": "2026-04-05T19:55:58.495936",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -30,7 +30,7 @@
         "assists": 1
       },
       {
-        "rank": 30,
+        "rank": 23,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -39,7 +39,7 @@
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals",
-        "goals": 5
+        "goals": 6
       },
       {
         "rank": 39,
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 74,
+        "rank": 76,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -91,7 +91,7 @@
         "assists": 2
       },
       {
-        "rank": 76,
+        "rank": 78,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -359,24 +359,24 @@
         "goals_assists": 9
       },
       {
-        "rank": 33,
-        "player": {
-          "id": "1032159",
-          "name": "Berguinho",
-          "image": "https://images.fotmob.com/image_resources/playerimages/1032159.png",
-          "url": "https://www.fotmob.com/players/1032159/berguinho"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "goals_assists",
-        "goals_assists": 7
-      },
-      {
-        "rank": 33,
+        "rank": 29,
         "player": {
           "id": "1206260",
           "name": "Ramon",
           "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
           "url": "https://www.fotmob.com/players/1206260/ramon"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "goals_assists",
+        "goals_assists": 8
+      },
+      {
+        "rank": 34,
+        "player": {
+          "id": "1032159",
+          "name": "Berguinho",
+          "image": "https://images.fotmob.com/image_resources/playerimages/1032159.png",
+          "url": "https://www.fotmob.com/players/1032159/berguinho"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "goals_assists",
@@ -455,7 +455,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 128,
+        "rank": 130,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -467,7 +467,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 128,
+        "rank": 130,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -479,7 +479,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 128,
+        "rank": 130,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -568,6 +568,18 @@
       {
         "rank": 61,
         "player": {
+          "id": "866393",
+          "name": "Julio Cesar",
+          "image": "https://images.fotmob.com/image_resources/playerimages/866393.png",
+          "url": "https://www.fotmob.com/players/866393/julio-cesar"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "yellow_cards",
+        "yellow_cards": 4
+      },
+      {
+        "rank": 61,
+        "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
           "image": "https://images.fotmob.com/image_resources/playerimages/492636.png",
@@ -590,7 +602,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 93,
+        "rank": 95,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -603,7 +615,7 @@
         "red_cards": 1
       },
       {
-        "rank": 99,
+        "rank": 101,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -615,7 +627,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 99,
+        "rank": 101,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -627,19 +639,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 99,
-        "player": {
-          "id": "866393",
-          "name": "Julio Cesar",
-          "image": "https://images.fotmob.com/image_resources/playerimages/866393.png",
-          "url": "https://www.fotmob.com/players/866393/julio-cesar"
-        },
-        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
-        "type": "yellow_cards",
-        "yellow_cards": 3
-      },
-      {
-        "rank": 99,
+        "rank": 101,
         "player": {
           "id": "789859",
           "name": "Uilliam",
