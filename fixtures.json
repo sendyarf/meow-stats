@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-05T19:54:55.006935",
+  "scraped_at": "2026-04-05T20:54:22.936762",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -555,8 +555,8 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/86066/image",
       "away_team": "Persib Bandung",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
-      "status": "Live",
-      "score": "0 - 1",
+      "status": "Finished",
+      "score": "0 - 2",
       "time": null,
       "url": "https://www.sofascore.com/semen-padang-fc-persib-bandung/OKAsqwJ"
     },
@@ -675,12 +675,12 @@
     "stats": [
       {
         "title": "Goals per match",
-        "home": "1.72",
+        "home": "1.73",
         "away": "1.40"
       },
       {
         "title": "Goals conceded per match",
-        "home": "0.56",
+        "home": "0.54",
         "away": "1.48"
       }
     ],
@@ -709,6 +709,12 @@
           "score": "2 - 1"
         },
         {
+          "date": "Jan 07, 2025",
+          "home_team": "Bali United FC",
+          "away_team": "Persib Bandung",
+          "score": "1 - 1"
+        },
+        {
           "date": "May 18, 2024",
           "home_team": "Persib Bandung",
           "away_team": "Bali United FC",
@@ -719,12 +725,6 @@
           "home_team": "Bali United FC",
           "away_team": "Persib Bandung",
           "score": "1 - 1"
-        },
-        {
-          "date": "Dec 18, 2023",
-          "home_team": "Bali United FC",
-          "away_team": "Persib Bandung",
-          "score": "0 - 0"
         }
       ]
     }
