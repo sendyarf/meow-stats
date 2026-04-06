@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-06T20:07:14.617490",
+  "scraped_at": "2026-04-06T21:44:53.495945",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -676,12 +676,12 @@
       {
         "title": "Goals per match",
         "home": "1.73",
-        "away": "1.40"
+        "away": "1.58"
       },
       {
         "title": "Goals conceded per match",
         "home": "0.54",
-        "away": "1.48"
+        "away": "1.46"
       }
     ],
     "url": "https://www.sofascore.com/bali-united-fc-persib-bandung/OKAsZKA",

@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-06T20:08:17.400870",
+  "scraped_at": "2026-04-06T21:45:56.247205",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -42,7 +42,7 @@
         "goals": 7
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 76,
+        "rank": 78,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -91,7 +91,7 @@
         "assists": 2
       },
       {
-        "rank": 78,
+        "rank": 80,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -103,7 +103,7 @@
         "goals": 2
       },
       {
-        "rank": 112,
+        "rank": 113,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -115,7 +115,7 @@
         "goals": 1
       },
       {
-        "rank": 112,
+        "rank": 113,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -127,7 +127,7 @@
         "goals": 1
       },
       {
-        "rank": 112,
+        "rank": 113,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -139,7 +139,7 @@
         "goals": 1
       },
       {
-        "rank": 112,
+        "rank": 113,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -151,7 +151,7 @@
         "goals": 1
       },
       {
-        "rank": 112,
+        "rank": 113,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -177,7 +177,7 @@
         "assists": 7
       },
       {
-        "rank": 27,
+        "rank": 28,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -261,7 +261,7 @@
         "assists": 2
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -273,7 +273,7 @@
         "assists": 1
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -285,7 +285,7 @@
         "assists": 1
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -297,7 +297,7 @@
         "assists": 1
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -309,7 +309,7 @@
         "assists": 1
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -321,7 +321,7 @@
         "assists": 1
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -383,7 +383,7 @@
         "goals_assists": 8
       },
       {
-        "rank": 37,
+        "rank": 39,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -419,7 +419,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 60,
+        "rank": 62,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -431,7 +431,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 88,
+        "rank": 90,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -443,7 +443,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 88,
+        "rank": 90,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -455,7 +455,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 132,
+        "rank": 133,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -467,7 +467,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 132,
+        "rank": 133,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -479,7 +479,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 132,
+        "rank": 133,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
