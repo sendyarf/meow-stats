@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-06T14:17:32.657625",
+  "generated_at": "2026-04-06T19:46:15.371272",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 104,
+  "total_matches": 105,
   "standings": {
     "Round 8": [
       {
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persik Kediri",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persis Solo",
+        "team": "Persib Bandung",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persik Kediri",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Persib Bandung",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -3180,14 +3180,14 @@
       },
       {
         "team": "Persijap Jepara",
-        "played": 11,
+        "played": 12,
         "win": 3,
-        "draw": 3,
+        "draw": 4,
         "loss": 5,
         "gf": 8,
         "ga": 17,
         "gd": -9,
-        "points": 12,
+        "points": 13,
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
@@ -3195,14 +3195,14 @@
       },
       {
         "team": "Persik Kediri",
-        "played": 10,
+        "played": 11,
         "win": 3,
-        "draw": 2,
+        "draw": 3,
         "loss": 5,
         "gf": 15,
         "ga": 22,
         "gd": -7,
-        "points": 11,
+        "points": 12,
         "yellows": 0,
         "reds": 2,
         "fair_play": 6,
