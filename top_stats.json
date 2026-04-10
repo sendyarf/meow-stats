@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-10T16:08:41.487155",
+  "scraped_at": "2026-04-10T17:54:16.064424",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -103,7 +103,7 @@
         "goals": 2
       },
       {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -115,7 +115,7 @@
         "goals": 1
       },
       {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -127,7 +127,7 @@
         "goals": 1
       },
       {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -139,7 +139,7 @@
         "goals": 1
       },
       {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -151,7 +151,7 @@
         "goals": 1
       },
       {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -347,7 +347,7 @@
         "goals_assists": 12
       },
       {
-        "rank": 27,
+        "rank": 28,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -359,7 +359,7 @@
         "goals_assists": 9
       },
       {
-        "rank": 27,
+        "rank": 28,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -491,7 +491,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 178,
+        "rank": 179,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -503,7 +503,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 178,
+        "rank": 179,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -515,7 +515,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 178,
+        "rank": 179,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -554,7 +554,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -566,7 +566,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -578,7 +578,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -590,7 +590,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -602,7 +602,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 96,
+        "rank": 97,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -615,7 +615,7 @@
         "red_cards": 1
       },
       {
-        "rank": 102,
+        "rank": 103,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -627,7 +627,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 102,
+        "rank": 103,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -639,7 +639,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 102,
+        "rank": 103,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -651,7 +651,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 156,
+        "rank": 159,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -664,7 +664,7 @@
         "red_cards": 1
       },
       {
-        "rank": 156,
+        "rank": 159,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -677,7 +677,7 @@
         "red_cards": 1
       },
       {
-        "rank": 174,
+        "rank": 177,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -689,7 +689,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 174,
+        "rank": 177,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -701,7 +701,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 269,
+        "rank": 271,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -713,7 +713,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 269,
+        "rank": 271,
         "player": {
           "id": "1113454",
           "name": "Adam Przybek",
@@ -725,7 +725,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 269,
+        "rank": 271,
         "player": {
           "id": "1520096",
           "name": "Bojan Hodak",
@@ -737,7 +737,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 269,
+        "rank": 271,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -749,7 +749,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 269,
+        "rank": 271,
         "player": {
           "id": "1758712",
           "name": "Nazriel Alfaro",
@@ -761,7 +761,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 269,
+        "rank": 271,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -773,7 +773,7 @@
         "yellow_cards": 1
       },
       {
-        "rank": 269,
+        "rank": 271,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
