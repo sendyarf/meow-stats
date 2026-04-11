@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-11T19:56:20.050617",
+  "scraped_at": "2026-04-11T20:56:39.582838",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -17,7 +17,7 @@
         "assists": 3
       },
       {
-        "rank": 15,
+        "rank": 16,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -42,7 +42,7 @@
         "goals": 7
       },
       {
-        "rank": 40,
+        "rank": 41,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -383,7 +383,7 @@
         "goals_assists": 8
       },
       {
-        "rank": 39,
+        "rank": 40,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -395,7 +395,7 @@
         "goals_assists": 6
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -407,7 +407,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -542,7 +542,7 @@
         "red_cards": 1
       },
       {
-        "rank": 43,
+        "rank": 45,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -554,7 +554,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 65,
+        "rank": 66,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -566,7 +566,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 65,
+        "rank": 66,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -578,7 +578,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 65,
+        "rank": 66,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -590,7 +590,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 65,
+        "rank": 66,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -800,7 +800,7 @@
         "yellow_cards": 7
       },
       {
-        "rank": 30,
+        "rank": 31,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -813,7 +813,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 36,
+        "rank": 37,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -826,7 +826,7 @@
         "yellow_cards": 2
       },
       {
-        "rank": 36,
+        "rank": 37,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
