@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-11T18:29:50.628979",
+  "scraped_at": "2026-04-11T19:56:20.050617",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -54,7 +54,7 @@
         "goals": 4
       },
       {
-        "rank": 57,
+        "rank": 58,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -66,7 +66,7 @@
         "goals": 3
       },
       {
-        "rank": 57,
+        "rank": 58,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -419,7 +419,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -491,7 +491,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 181,
+        "rank": 182,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -503,7 +503,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 181,
+        "rank": 182,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -515,7 +515,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 181,
+        "rank": 182,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -554,7 +554,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -566,7 +566,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -578,7 +578,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -590,7 +590,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -602,7 +602,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 98,
+        "rank": 99,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -615,7 +615,7 @@
         "red_cards": 1
       },
       {
-        "rank": 104,
+        "rank": 105,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -627,7 +627,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 104,
+        "rank": 105,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -639,7 +639,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 104,
+        "rank": 105,
         "player": {
           "id": "789859",
           "name": "Uilliam",
