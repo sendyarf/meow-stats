@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-12T19:58:49.809588",
+  "scraped_at": "2026-04-12T21:01:36.546644",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -568,8 +568,8 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
       "away_team": "Bali United FC",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/64299/image",
-      "status": "Live",
-      "score": "1 - 0",
+      "status": "Finished",
+      "score": "3 - 2",
       "time": null,
       "url": "https://www.sofascore.com/bali-united-fc-persib-bandung/OKAsZKA"
     },
@@ -676,12 +676,12 @@
       {
         "title": "Goals per match",
         "home": "1.19",
-        "away": "1.73"
+        "away": "1.78"
       },
       {
         "title": "Goals conceded per match",
         "home": "1.19",
-        "away": "0.54"
+        "away": "0.59"
       }
     ],
     "url": "https://www.sofascore.com/dewa-united-fc-persib-bandung/OKAsQCdd",
