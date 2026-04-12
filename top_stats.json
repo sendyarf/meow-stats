@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-12T22:36:08.434645",
+  "scraped_at": "2026-04-12T23:38:47.662056",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -804,6 +804,18 @@
           "name": "Ramon",
           "image": "https://images.fotmob.com/image_resources/playerimages/1206260.png",
           "url": "https://www.fotmob.com/players/1206260/ramon"
+        },
+        "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
+        "type": "yellow_cards",
+        "yellow_cards": 1
+      },
+      {
+        "rank": 276,
+        "player": {
+          "id": "921819",
+          "name": "Sergio Castel",
+          "image": "https://images.fotmob.com/image_resources/playerimages/921819.png",
+          "url": "https://www.fotmob.com/players/921819/sergio-castel"
         },
         "team_logo": "https://images.fotmob.com/image_resources/logo/teamlogo/165196.png",
         "type": "yellow_cards",
