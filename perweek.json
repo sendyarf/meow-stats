@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-12T14:03:32.480602",
+  "generated_at": "2026-04-12T19:38:13.342489",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 105,
+  "total_matches": 106,
   "standings": {
     "Round 16": [
       {
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Bali United",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Bali United",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persebaya",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persebaya",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Arema FC",
+        "team": "Semen Padang",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Semen Padang",
+        "team": "Arema FC",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -3089,6 +3089,21 @@
         "rank": 6
       },
       {
+        "team": "Persis Solo",
+        "played": 12,
+        "win": 4,
+        "draw": 5,
+        "loss": 3,
+        "gf": 15,
+        "ga": 13,
+        "gd": 2,
+        "points": 17,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 7
+      },
+      {
         "team": "Arema FC",
         "played": 12,
         "win": 5,
@@ -3101,7 +3116,7 @@
         "yellows": 0,
         "reds": 3,
         "fair_play": 9,
-        "rank": 7
+        "rank": 8
       },
       {
         "team": "Persita",
@@ -3116,7 +3131,7 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 8
+        "rank": 9
       },
       {
         "team": "Persijap Jepara",
@@ -3131,7 +3146,7 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 9
+        "rank": 10
       },
       {
         "team": "Malut United",
@@ -3146,7 +3161,7 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 10
+        "rank": 11
       },
       {
         "team": "Bali United",
@@ -3158,21 +3173,6 @@
         "ga": 20,
         "gd": 2,
         "points": 15,
-        "yellows": 0,
-        "reds": 1,
-        "fair_play": 3,
-        "rank": 11
-      },
-      {
-        "team": "Persis Solo",
-        "played": 11,
-        "win": 3,
-        "draw": 5,
-        "loss": 3,
-        "gf": 13,
-        "ga": 12,
-        "gd": 1,
-        "points": 14,
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
@@ -3210,13 +3210,13 @@
       },
       {
         "team": "Semen Padang",
-        "played": 11,
+        "played": 12,
         "win": 2,
         "draw": 4,
-        "loss": 5,
-        "gf": 10,
-        "ga": 18,
-        "gd": -8,
+        "loss": 6,
+        "gf": 11,
+        "ga": 20,
+        "gd": -9,
         "points": 10,
         "yellows": 0,
         "reds": 1,
