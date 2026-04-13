@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-13T12:41:30.206378",
+  "scraped_at": "2026-04-13T15:03:26.629055",
   "team": "Persib Bandung",
   "team_id": "64289",
   "competitions": [
@@ -12,7 +12,7 @@
         "matches": 27,
         "goals_scored": 48,
         "goals_conceded": 16,
-        "assists": 27,
+        "assists": 28,
         "awarded_matches": 0,
         "shots_against": 214
       },
