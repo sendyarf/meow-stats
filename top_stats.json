@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-17T20:17:41.589325",
+  "scraped_at": "2026-04-17T21:55:10.646170",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -91,7 +91,7 @@
         "assists": 2
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -189,7 +189,7 @@
         "assists": 3
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -201,7 +201,7 @@
         "assists": 2
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -249,7 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 47,
+        "rank": 48,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -467,7 +467,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 95,
+        "rank": 96,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -479,7 +479,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 137,
+        "rank": 138,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -491,7 +491,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 137,
+        "rank": 138,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -503,7 +503,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 137,
+        "rank": 138,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -700,7 +700,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 167,
+        "rank": 168,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -713,7 +713,7 @@
         "red_cards": 1
       },
       {
-        "rank": 167,
+        "rank": 168,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -726,7 +726,7 @@
         "red_cards": 1
       },
       {
-        "rank": 186,
+        "rank": 187,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
