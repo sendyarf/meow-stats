@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-17T01:58:39.524424",
+  "generated_at": "2026-04-17T08:27:43.464462",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 105,
   "standings": {
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Borneo",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Persijap Jepara",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Borneo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persebaya",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persebaya",
+        "team": "Persija Jakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Madura United",
+        "team": "Persijap Jepara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -1125,11 +1125,11 @@
         "rank": 2
       },
       {
-        "team": "Borneo",
-        "played": 4,
+        "team": "Arema FC",
+        "played": 5,
         "win": 3,
         "draw": 0,
-        "loss": 1,
+        "loss": 2,
         "gf": 5,
         "ga": 4,
         "gd": 1,
@@ -1140,11 +1140,11 @@
         "rank": 3
       },
       {
-        "team": "Arema FC",
-        "played": 5,
+        "team": "Borneo",
+        "played": 4,
         "win": 3,
         "draw": 0,
-        "loss": 2,
+        "loss": 1,
         "gf": 5,
         "ga": 4,
         "gd": 1,
