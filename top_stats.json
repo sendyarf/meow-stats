@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-18T15:49:04.454698",
+  "scraped_at": "2026-04-18T16:47:17.149343",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -78,7 +78,7 @@
         "goals": 3
       },
       {
-        "rank": 81,
+        "rank": 82,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -91,7 +91,7 @@
         "assists": 2
       },
       {
-        "rank": 83,
+        "rank": 84,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -467,7 +467,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 96,
+        "rank": 97,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
