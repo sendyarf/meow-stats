@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-19T08:31:03.604240",
+  "generated_at": "2026-04-19T14:07:00.235773",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 104,
   "standings": {
@@ -52,7 +52,7 @@
         "rank": 3
       },
       {
-        "team": "Persita",
+        "team": "Bali United",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "Bali United",
+        "team": "Persita",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -611,7 +611,7 @@
         "rank": 4
       },
       {
-        "team": "Borneo",
+        "team": "Arema FC",
         "played": 3,
         "win": 2,
         "draw": 0,
@@ -626,7 +626,7 @@
         "rank": 5
       },
       {
-        "team": "Arema FC",
+        "team": "Borneo",
         "played": 3,
         "win": 2,
         "draw": 0,
@@ -1003,7 +1003,7 @@
         "rank": 12
       },
       {
-        "team": "Persita",
+        "team": "Persis Solo",
         "played": 4,
         "win": 1,
         "draw": 1,
@@ -1018,7 +1018,7 @@
         "rank": 13
       },
       {
-        "team": "Persis Solo",
+        "team": "Persita",
         "played": 4,
         "win": 1,
         "draw": 1,
