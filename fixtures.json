@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-20T19:03:01.549439",
+  "scraped_at": "2026-04-20T21:49:02.565707",
   "fixtures": [
     {
       "date": "Jul 06, 2025",
@@ -581,8 +581,8 @@
       "home_team_logo": "https://api.sofascore1.com/api/v1/team/383891/image",
       "away_team": "Persib Bandung",
       "away_team_logo": "https://api.sofascore1.com/api/v1/team/64289/image",
-      "status": "Live",
-      "score": "0 - 0",
+      "status": "Finished",
+      "score": "2 - 2",
       "time": null,
       "url": "https://www.sofascore.com/dewa-united-fc-persib-bandung/OKAsQCdd"
     },
@@ -680,22 +680,22 @@
       },
       {
         "title": "Pts",
-        "home": "64",
+        "home": "65",
         "away": "38"
       },
       {
         "title": "Form (last 5)",
-        "home": "DWDWW",
+        "home": "WDWWD",
         "away": "LLDWW"
       },
       {
         "title": "Goals per match",
-        "home": "1.78",
+        "home": "1.79",
         "away": "1.43"
       },
       {
         "title": "Goals conceded per match",
-        "home": "0.59",
+        "home": "0.64",
         "away": "1.32"
       }
     ],
