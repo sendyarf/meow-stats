@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-21T14:21:38.201359",
+  "generated_at": "2026-04-21T20:00:16.078560",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 104,
   "standings": {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Persita",
+        "team": "Malut United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persebaya",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Borneo",
+        "team": "Bali United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Madura United",
+        "team": "Persita",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Bali United",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Malut United",
+        "team": "Borneo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persebaya",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -399,7 +399,7 @@
         "rank": 8
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Arema FC",
         "played": 2,
         "win": 1,
         "draw": 0,
@@ -414,7 +414,7 @@
         "rank": 9
       },
       {
-        "team": "Arema FC",
+        "team": "Persijap Jepara",
         "played": 2,
         "win": 1,
         "draw": 0,
