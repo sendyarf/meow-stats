@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-23T18:07:45.828481",
+  "scraped_at": "2026-04-23T20:25:50.239512",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -578,7 +578,7 @@
         "red_cards": 1
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -652,7 +652,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 119,
+        "rank": 120,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -664,7 +664,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 119,
+        "rank": 120,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -676,7 +676,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 119,
+        "rank": 120,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -688,7 +688,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 119,
+        "rank": 120,
         "player": {
           "id": "789859",
           "name": "Uilliam",
