@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-24T17:19:43.041821",
+  "scraped_at": "2026-04-24T18:55:53.755779",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -628,7 +628,7 @@
         "red_cards": 1
       },
       {
-        "rank": 78,
+        "rank": 79,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -640,7 +640,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 78,
+        "rank": 79,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
