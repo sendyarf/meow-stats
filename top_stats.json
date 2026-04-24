@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-24T20:20:59.662796",
+  "scraped_at": "2026-04-24T22:07:06.441710",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -603,7 +603,7 @@
         "red_cards": 1
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -615,7 +615,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 72,
+        "rank": 73,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -862,7 +862,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 29,
+        "rank": 30,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
