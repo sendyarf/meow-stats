@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-24T19:58:59.832388",
+  "generated_at": "2026-04-25T01:37:17.226908",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 105,
+  "total_matches": 106,
   "standings": {
     "Round 18": [
       {
@@ -37,7 +37,7 @@
         "rank": 2
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -52,7 +52,7 @@
         "rank": 3
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Dewa United",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "Dewa United",
+        "team": "Persija Jakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persita",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -3000,14 +3000,14 @@
     "Round 29": [
       {
         "team": "Persib Bandung",
-        "played": 11,
+        "played": 12,
         "win": 8,
-        "draw": 3,
+        "draw": 4,
         "loss": 0,
         "gf": 23,
         "ga": 7,
         "gd": 16,
-        "points": 27,
+        "points": 28,
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
@@ -3090,14 +3090,14 @@
       },
       {
         "team": "Arema FC",
-        "played": 11,
+        "played": 12,
         "win": 5,
-        "draw": 2,
+        "draw": 3,
         "loss": 4,
         "gf": 17,
         "ga": 14,
         "gd": 3,
-        "points": 17,
+        "points": 18,
         "yellows": 0,
         "reds": 3,
         "fair_play": 9,
