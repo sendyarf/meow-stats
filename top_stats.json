@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-25T14:13:49.625265",
+  "scraped_at": "2026-04-25T15:51:13.833519",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -91,7 +91,7 @@
         "goals": 3
       },
       {
-        "rank": 87,
+        "rank": 88,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -261,7 +261,7 @@
         "assists": 2
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -273,7 +273,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -285,7 +285,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -297,7 +297,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -309,7 +309,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -321,7 +321,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -333,7 +333,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -345,7 +345,7 @@
         "assists": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -491,7 +491,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 145,
+        "rank": 147,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -503,7 +503,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 145,
+        "rank": 147,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
