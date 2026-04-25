@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-25T16:51:56.392127",
+  "scraped_at": "2026-04-25T17:42:04.635082",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -652,7 +652,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -664,7 +664,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -676,7 +676,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -688,7 +688,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -700,7 +700,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 179,
+        "rank": 181,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -713,7 +713,7 @@
         "red_cards": 1
       },
       {
-        "rank": 179,
+        "rank": 181,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -726,7 +726,7 @@
         "red_cards": 1
       },
       {
-        "rank": 194,
+        "rank": 196,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
