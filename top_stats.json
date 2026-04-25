@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-25T20:01:05.417722",
+  "scraped_at": "2026-04-25T21:40:37.080893",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -42,7 +42,7 @@
         "assists": 1
       },
       {
-        "rank": 34,
+        "rank": 35,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -419,7 +419,7 @@
         "goals_assists": 7
       },
       {
-        "rank": 42,
+        "rank": 43,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -700,7 +700,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 181,
+        "rank": 182,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -713,7 +713,7 @@
         "red_cards": 1
       },
       {
-        "rank": 181,
+        "rank": 182,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -726,7 +726,7 @@
         "red_cards": 1
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
