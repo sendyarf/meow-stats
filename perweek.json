@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-26T14:16:45.982938",
+  "generated_at": "2026-04-26T19:41:23.049958",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 106,
   "standings": {
@@ -37,7 +37,7 @@
         "rank": 2
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Dewa United",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -52,7 +52,7 @@
         "rank": 3
       },
       {
-        "team": "Dewa United",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persita",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Borneo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Borneo",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Persis Solo",
+        "team": "Persija Jakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "Arema FC",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -232,7 +232,7 @@
         "rank": 15
       },
       {
-        "team": "PSM Makassar",
+        "team": "Arema FC",
         "played": 1,
         "win": 0,
         "draw": 0,
