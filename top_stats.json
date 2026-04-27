@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-27T18:03:07.351784",
+  "scraped_at": "2026-04-27T20:49:52.109825",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -17,7 +17,7 @@
         "assists": 3
       },
       {
-        "rank": 17,
+        "rank": 18,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -29,7 +29,7 @@
         "goals": 8
       },
       {
-        "rank": 19,
+        "rank": 20,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -201,7 +201,7 @@
         "assists": 3
       },
       {
-        "rank": 51,
+        "rank": 52,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 51,
+        "rank": 52,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 51,
+        "rank": 52,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 51,
+        "rank": 52,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -249,7 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 51,
+        "rank": 52,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -261,7 +261,7 @@
         "assists": 2
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -273,7 +273,7 @@
         "assists": 1
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -285,7 +285,7 @@
         "assists": 1
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -297,7 +297,7 @@
         "assists": 1
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -309,7 +309,7 @@
         "assists": 1
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -321,7 +321,7 @@
         "assists": 1
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -333,7 +333,7 @@
         "assists": 1
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -345,7 +345,7 @@
         "assists": 1
       },
       {
-        "rank": 96,
+        "rank": 98,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -431,7 +431,7 @@
         "goals_assists": 6
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -443,7 +443,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -491,7 +491,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 148,
+        "rank": 150,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -503,7 +503,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 148,
+        "rank": 150,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -515,7 +515,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 195,
+        "rank": 196,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -527,7 +527,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 195,
+        "rank": 196,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -539,7 +539,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 195,
+        "rank": 196,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -551,7 +551,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 195,
+        "rank": 196,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
