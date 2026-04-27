@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-27T20:49:52.109825",
+  "scraped_at": "2026-04-27T22:46:47.813420",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -42,7 +42,7 @@
         "assists": 1
       },
       {
-        "rank": 35,
+        "rank": 36,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -201,7 +201,7 @@
         "assists": 3
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -249,7 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 52,
+        "rank": 53,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -431,7 +431,7 @@
         "goals_assists": 6
       },
       {
-        "rank": 56,
+        "rank": 57,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -443,7 +443,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 56,
+        "rank": 57,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -467,7 +467,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 99,
+        "rank": 100,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -479,7 +479,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 99,
+        "rank": 100,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
