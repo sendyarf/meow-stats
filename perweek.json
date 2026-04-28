@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-28T02:03:51.534112",
+  "generated_at": "2026-04-28T08:56:37.703262",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 104,
   "standings": {
@@ -52,7 +52,7 @@
         "rank": 3
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Persita",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "PSM Makassar",
+        "team": "Persija Jakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Semen Padang",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Bali United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persis Solo",
+        "team": "Persik Kediri",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Persik Kediri",
+        "team": "Semen Padang",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Bali United",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Madura United",
+        "team": "Borneo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persita",
+        "team": "FC Bhayangkara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "Borneo",
+        "team": "Persijap Jepara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -354,7 +354,7 @@
         "rank": 5
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -369,7 +369,7 @@
         "rank": 6
       },
       {
-        "team": "Borneo",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -489,7 +489,7 @@
         "rank": 14
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Persis Solo",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -504,7 +504,7 @@
         "rank": 15
       },
       {
-        "team": "Persis Solo",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 0,
