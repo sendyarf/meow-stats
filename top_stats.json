@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-29T19:17:00.483022",
+  "scraped_at": "2026-04-29T22:11:55.374834",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -578,7 +578,7 @@
         "red_cards": 1
       },
       {
-        "rank": 37,
+        "rank": 38,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -700,7 +700,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 185,
+        "rank": 187,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -713,7 +713,7 @@
         "red_cards": 1
       },
       {
-        "rank": 185,
+        "rank": 187,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -726,7 +726,7 @@
         "red_cards": 1
       },
       {
-        "rank": 200,
+        "rank": 202,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
