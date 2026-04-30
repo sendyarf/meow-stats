@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-30T17:54:22.188830",
+  "scraped_at": "2026-04-30T19:14:45.660078",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -54,7 +54,7 @@
         "goals": 5
       },
       {
-        "rank": 44,
+        "rank": 45,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -201,7 +201,7 @@
         "assists": 3
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -249,7 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 53,
+        "rank": 54,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -419,7 +419,7 @@
         "goals_assists": 7
       },
       {
-        "rank": 45,
+        "rank": 46,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -455,7 +455,7 @@
         "goals_assists": 5
       },
       {
-        "rank": 80,
+        "rank": 81,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
