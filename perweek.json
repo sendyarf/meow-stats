@@ -1,13 +1,13 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-04-30T08:58:10.248980",
+  "generated_at": "2026-04-30T15:03:43.391708",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 104,
   "standings": {
     "Round 19": [
       {
-        "team": "FC Bhayangkara",
+        "team": "Borneo",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -22,7 +22,7 @@
         "rank": 1
       },
       {
-        "team": "Borneo",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -37,7 +37,7 @@
         "rank": 2
       },
       {
-        "team": "Arema FC",
+        "team": "Persib Bandung",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -52,7 +52,7 @@
         "rank": 3
       },
       {
-        "team": "Persib Bandung",
+        "team": "Arema FC",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "PSM Makassar",
+        "team": "Semen Padang",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Semen Padang",
+        "team": "PSM Makassar",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Persik Kediri",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "Persik Kediri",
+        "team": "Persija Jakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -247,7 +247,7 @@
         "rank": 16
       },
       {
-        "team": "Persis Solo",
+        "team": "Persijap Jepara",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -262,7 +262,7 @@
         "rank": 17
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Persis Solo",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -279,7 +279,7 @@
     ],
     "Round 20": [
       {
-        "team": "Arema FC",
+        "team": "Persib Bandung",
         "played": 2,
         "win": 2,
         "draw": 0,
@@ -294,7 +294,7 @@
         "rank": 1
       },
       {
-        "team": "Persib Bandung",
+        "team": "Arema FC",
         "played": 2,
         "win": 2,
         "draw": 0,
@@ -1849,11 +1849,11 @@
         "rank": 14
       },
       {
-        "team": "PSM Makassar",
-        "played": 7,
+        "team": "Bali United",
+        "played": 6,
         "win": 1,
         "draw": 2,
-        "loss": 4,
+        "loss": 3,
         "gf": 8,
         "ga": 13,
         "gd": -5,
@@ -1864,11 +1864,11 @@
         "rank": 15
       },
       {
-        "team": "Bali United",
-        "played": 6,
+        "team": "PSM Makassar",
+        "played": 7,
         "win": 1,
         "draw": 2,
-        "loss": 3,
+        "loss": 4,
         "gf": 8,
         "ga": 13,
         "gd": -5,
