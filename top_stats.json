@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-30T15:27:55.512536",
+  "scraped_at": "2026-04-30T17:54:22.188830",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -515,7 +515,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 199,
+        "rank": 200,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -527,7 +527,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 199,
+        "rank": 200,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -539,7 +539,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 199,
+        "rank": 200,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -551,7 +551,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 199,
+        "rank": 200,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -615,7 +615,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 75,
+        "rank": 76,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -628,7 +628,7 @@
         "red_cards": 1
       },
       {
-        "rank": 81,
+        "rank": 82,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -640,7 +640,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 81,
+        "rank": 82,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
