@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-03T01:57:28.489889",
+  "scraped_at": "2026-05-03T02:55:04.192009",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -201,7 +201,7 @@
         "assists": 3
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -213,7 +213,7 @@
         "assists": 2
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -249,7 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -261,7 +261,7 @@
         "assists": 2
       },
       {
-        "rank": 55,
+        "rank": 56,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -273,7 +273,7 @@
         "assists": 2
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -285,7 +285,7 @@
         "assists": 1
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -297,7 +297,7 @@
         "assists": 1
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -309,7 +309,7 @@
         "assists": 1
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "215798",
           "name": "Layvin Kurzawa",
@@ -321,7 +321,7 @@
         "assists": 1
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -333,7 +333,7 @@
         "assists": 1
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -345,7 +345,7 @@
         "assists": 1
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -357,7 +357,7 @@
         "assists": 1
       },
       {
-        "rank": 100,
+        "rank": 101,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -491,7 +491,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 105,
+        "rank": 107,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -503,7 +503,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 105,
+        "rank": 107,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
