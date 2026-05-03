@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-03T20:06:40.022268",
+  "scraped_at": "2026-05-03T21:47:46.997210",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -589,7 +589,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 14,
+        "rank": 15,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -750,7 +750,7 @@
         "red_cards": 1
       },
       {
-        "rank": 206,
+        "rank": 207,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
