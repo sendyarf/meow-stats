@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-04T20:56:39.999722",
+  "scraped_at": "2026-05-04T23:02:28.124488",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -527,7 +527,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 207,
+        "rank": 208,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -539,7 +539,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 207,
+        "rank": 208,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -551,7 +551,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 207,
+        "rank": 208,
         "player": {
           "id": "215798",
           "name": "Layvin Kurzawa",
@@ -563,7 +563,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 207,
+        "rank": 208,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -575,7 +575,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 207,
+        "rank": 208,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -652,7 +652,7 @@
         "red_cards": 1
       },
       {
-        "rank": 84,
+        "rank": 85,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -664,7 +664,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 84,
+        "rank": 85,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -676,7 +676,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 84,
+        "rank": 85,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -688,7 +688,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 121,
+        "rank": 122,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -899,7 +899,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 38,
+        "rank": 39,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
