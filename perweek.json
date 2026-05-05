@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-05-05T20:10:55.101235",
+  "generated_at": "2026-05-06T02:04:51.528441",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 105,
+  "total_matches": 106,
   "standings": {
     "Round 20": [
       {
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persib Bandung",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Persis Solo",
+        "team": "PSIM Yogyakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persib Bandung",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -2999,6 +2999,21 @@
     ],
     "Round 31": [
       {
+        "team": "Borneo",
+        "played": 12,
+        "win": 9,
+        "draw": 2,
+        "loss": 1,
+        "gf": 30,
+        "ga": 11,
+        "gd": 19,
+        "points": 29,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 1
+      },
+      {
         "team": "Dewa United",
         "played": 12,
         "win": 8,
@@ -3011,21 +3026,6 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 1
-      },
-      {
-        "team": "Borneo",
-        "played": 11,
-        "win": 8,
-        "draw": 2,
-        "loss": 1,
-        "gf": 28,
-        "ga": 11,
-        "gd": 17,
-        "points": 26,
-        "yellows": 0,
-        "reds": 0,
-        "fair_play": 0,
         "rank": 2
       },
       {
@@ -3210,17 +3210,17 @@
       },
       {
         "team": "Persita",
-        "played": 11,
+        "played": 12,
         "win": 4,
         "draw": 0,
-        "loss": 7,
+        "loss": 8,
         "gf": 11,
-        "ga": 11,
-        "gd": 0,
+        "ga": 13,
+        "gd": -2,
         "points": 12,
         "yellows": 0,
-        "reds": 1,
-        "fair_play": 3,
+        "reds": 2,
+        "fair_play": 6,
         "rank": 15
       },
       {
