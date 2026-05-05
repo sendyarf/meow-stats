@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-05T14:15:12.169766",
+  "scraped_at": "2026-05-05T17:01:41.497417",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -139,7 +139,7 @@
         "goals": 2
       },
       {
-        "rank": 134,
+        "rank": 135,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -151,7 +151,7 @@
         "goals": 1
       },
       {
-        "rank": 134,
+        "rank": 135,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -503,7 +503,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 109,
+        "rank": 110,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -688,7 +688,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 122,
+        "rank": 123,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -701,7 +701,7 @@
         "red_cards": 1
       },
       {
-        "rank": 130,
+        "rank": 131,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -713,7 +713,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 130,
+        "rank": 131,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -725,7 +725,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 130,
+        "rank": 131,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
