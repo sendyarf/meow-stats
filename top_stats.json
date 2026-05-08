@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-08T17:23:58.737700",
+  "scraped_at": "2026-05-08T19:07:54.696073",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -737,7 +737,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 196,
+        "rank": 197,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -750,7 +750,7 @@
         "red_cards": 1
       },
       {
-        "rank": 211,
+        "rank": 212,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
