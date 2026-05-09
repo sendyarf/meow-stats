@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-05-09T19:53:20.547530",
+  "generated_at": "2026-05-10T01:44:20.180653",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 105,
+  "total_matches": 106,
   "standings": {
     "Round 20": [
       {
@@ -52,7 +52,7 @@
         "rank": 3
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Persik Kediri",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "Bali United",
+        "team": "Borneo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Borneo",
+        "team": "PSIM Yogyakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Malut United",
+        "team": "Persijap Jepara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persik Kediri",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Dewa United",
+        "team": "FC Bhayangkara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Madura United",
+        "team": "Persebaya",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persib Bandung",
+        "team": "Bali United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persis Solo",
+        "team": "Persib Bandung",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "Persebaya",
+        "team": "Malut United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Dewa United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -414,7 +414,7 @@
         "rank": 9
       },
       {
-        "team": "Madura United",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -429,7 +429,7 @@
         "rank": 10
       },
       {
-        "team": "Persis Solo",
+        "team": "Madura United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -444,7 +444,7 @@
         "rank": 11
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persis Solo",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -3377,18 +3377,33 @@
       },
       {
         "team": "Persebaya",
-        "played": 11,
+        "played": 12,
         "win": 5,
-        "draw": 1,
+        "draw": 2,
         "loss": 5,
         "gf": 18,
         "ga": 17,
         "gd": 1,
-        "points": 16,
+        "points": 17,
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
         "rank": 8
+      },
+      {
+        "team": "Persis Solo",
+        "played": 12,
+        "win": 4,
+        "draw": 5,
+        "loss": 3,
+        "gf": 15,
+        "ga": 18,
+        "gd": -3,
+        "points": 17,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 9
       },
       {
         "team": "Persijap Jepara",
@@ -3399,21 +3414,6 @@
         "gf": 11,
         "ga": 11,
         "gd": 0,
-        "points": 16,
-        "yellows": 0,
-        "reds": 1,
-        "fair_play": 3,
-        "rank": 9
-      },
-      {
-        "team": "Persis Solo",
-        "played": 11,
-        "win": 4,
-        "draw": 4,
-        "loss": 3,
-        "gf": 15,
-        "ga": 18,
-        "gd": -3,
         "points": 16,
         "yellows": 0,
         "reds": 1,
