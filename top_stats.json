@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-09T16:18:13.376509",
+  "scraped_at": "2026-05-09T17:56:30.627819",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -177,7 +177,7 @@
         "assists": 7
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -189,7 +189,7 @@
         "assists": 3
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -201,7 +201,7 @@
         "assists": 3
       },
       {
-        "rank": 33,
+        "rank": 34,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -527,7 +527,7 @@
         "goals_assists": 2
       },
       {
-        "rank": 208,
+        "rank": 209,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -539,7 +539,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 208,
+        "rank": 209,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -551,7 +551,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 208,
+        "rank": 209,
         "player": {
           "id": "215798",
           "name": "Layvin Kurzawa",
@@ -563,7 +563,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 208,
+        "rank": 209,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -575,7 +575,7 @@
         "goals_assists": 1
       },
       {
-        "rank": 208,
+        "rank": 209,
         "player": {
           "id": "1666508",
           "name": "Wilian Marcilio",
@@ -737,7 +737,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 198,
+        "rank": 199,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -750,7 +750,7 @@
         "red_cards": 1
       },
       {
-        "rank": 213,
+        "rank": 214,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
