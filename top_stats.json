@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-10T20:15:28.873967",
+  "scraped_at": "2026-05-10T21:51:25.335610",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -589,7 +589,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 18,
+        "rank": 19,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -860,7 +860,7 @@
     ],
     "red_cards": [
       {
-        "rank": 16,
+        "rank": 17,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
