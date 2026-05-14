@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-05-14T20:29:56.577335",
+  "generated_at": "2026-05-15T02:27:15.985430",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 103,
   "standings": {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Dewa United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persis Solo",
+        "team": "Persebaya",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Malut United",
+        "team": "Persik Kediri",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Persebaya",
+        "team": "PSIM Yogyakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "PSM Makassar",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persik Kediri",
+        "team": "FC Bhayangkara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Madura United",
+        "team": "Persijap Jepara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "Dewa United",
+        "team": "Malut United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -686,11 +686,11 @@
         "rank": 9
       },
       {
-        "team": "Persebaya",
-        "played": 2,
+        "team": "Persita",
+        "played": 3,
         "win": 1,
         "draw": 0,
-        "loss": 1,
+        "loss": 2,
         "gf": 2,
         "ga": 3,
         "gd": -1,
@@ -701,11 +701,11 @@
         "rank": 10
       },
       {
-        "team": "Persita",
-        "played": 3,
+        "team": "Persebaya",
+        "played": 2,
         "win": 1,
         "draw": 0,
-        "loss": 2,
+        "loss": 1,
         "gf": 2,
         "ga": 3,
         "gd": -1,
