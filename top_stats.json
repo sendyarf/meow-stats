@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-15T13:54:31.282026",
+  "scraped_at": "2026-05-15T16:47:03.388603",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -139,7 +139,7 @@
         "goals": 2
       },
       {
-        "rank": 139,
+        "rank": 140,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -151,7 +151,7 @@
         "goals": 1
       },
       {
-        "rank": 139,
+        "rank": 140,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -503,7 +503,7 @@
         "goals_assists": 4
       },
       {
-        "rank": 113,
+        "rank": 114,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
