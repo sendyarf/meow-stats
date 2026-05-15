@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-05-15T20:29:11.900480",
+  "generated_at": "2026-05-16T02:16:45.022295",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 104,
+  "total_matches": 105,
   "standings": {
     "Round 21": [
       {
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Persebaya",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persis Solo",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Persijap Jepara",
+        "team": "Malut United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "PSM Makassar",
+        "team": "Dewa United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSIM Yogyakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Dewa United",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Madura United",
+        "team": "Persijap Jepara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persebaya",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "Malut United",
+        "team": "FC Bhayangkara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -459,7 +459,7 @@
         "rank": 12
       },
       {
-        "team": "PSBS Biak Numfor",
+        "team": "Borneo",
         "played": 2,
         "win": 0,
         "draw": 1,
@@ -474,7 +474,7 @@
         "rank": 13
       },
       {
-        "team": "Borneo",
+        "team": "PSBS Biak Numfor",
         "played": 2,
         "win": 0,
         "draw": 1,
@@ -686,11 +686,11 @@
         "rank": 9
       },
       {
-        "team": "Persebaya",
-        "played": 2,
+        "team": "Persita",
+        "played": 3,
         "win": 1,
         "draw": 0,
-        "loss": 1,
+        "loss": 2,
         "gf": 2,
         "ga": 3,
         "gd": -1,
@@ -701,11 +701,11 @@
         "rank": 10
       },
       {
-        "team": "Persita",
-        "played": 3,
+        "team": "Persebaya",
+        "played": 2,
         "win": 1,
         "draw": 0,
-        "loss": 2,
+        "loss": 1,
         "gf": 2,
         "ga": 3,
         "gd": -1,
@@ -3376,6 +3376,21 @@
         "rank": 7
       },
       {
+        "team": "Arema FC",
+        "played": 13,
+        "win": 5,
+        "draw": 3,
+        "loss": 5,
+        "gf": 24,
+        "ga": 21,
+        "gd": 3,
+        "points": 18,
+        "yellows": 0,
+        "reds": 3,
+        "fair_play": 9,
+        "rank": 8
+      },
+      {
         "team": "Bali United",
         "played": 12,
         "win": 5,
@@ -3388,7 +3403,7 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 8
+        "rank": 9
       },
       {
         "team": "Persis Solo",
@@ -3403,21 +3418,6 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 9
-      },
-      {
-        "team": "Arema FC",
-        "played": 12,
-        "win": 4,
-        "draw": 3,
-        "loss": 5,
-        "gf": 19,
-        "ga": 19,
-        "gd": 0,
-        "points": 15,
-        "yellows": 0,
-        "reds": 3,
-        "fair_play": 9,
         "rank": 10
       },
       {
@@ -3527,13 +3527,13 @@
       },
       {
         "team": "PSBS Biak Numfor",
-        "played": 12,
+        "played": 13,
         "win": 0,
         "draw": 1,
-        "loss": 11,
-        "gf": 7,
-        "ga": 41,
-        "gd": -34,
+        "loss": 12,
+        "gf": 9,
+        "ga": 46,
+        "gd": -37,
         "points": 1,
         "yellows": 0,
         "reds": 0,
