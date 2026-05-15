@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-15T18:55:23.645236",
+  "scraped_at": "2026-05-15T21:03:50.899072",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -66,7 +66,7 @@
         "goals": 5
       },
       {
-        "rank": 50,
+        "rank": 51,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -78,7 +78,7 @@
         "goals": 4
       },
       {
-        "rank": 73,
+        "rank": 74,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -91,7 +91,7 @@
         "assists": 3
       },
       {
-        "rank": 75,
+        "rank": 76,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -103,7 +103,7 @@
         "goals": 3
       },
       {
-        "rank": 75,
+        "rank": 76,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -177,7 +177,7 @@
         "assists": 7
       },
       {
-        "rank": 27,
+        "rank": 28,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -383,7 +383,7 @@
         "goals_assists": 13
       },
       {
-        "rank": 28,
+        "rank": 29,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -395,7 +395,7 @@
         "goals_assists": 10
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -407,7 +407,7 @@
         "goals_assists": 9
       },
       {
-        "rank": 31,
+        "rank": 32,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -443,7 +443,7 @@
         "goals_assists": 7
       },
       {
-        "rank": 54,
+        "rank": 56,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -455,7 +455,7 @@
         "goals_assists": 6
       },
       {
-        "rank": 54,
+        "rank": 56,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -467,7 +467,7 @@
         "goals_assists": 6
       },
       {
-        "rank": 54,
+        "rank": 56,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -602,7 +602,7 @@
         "red_cards": 1
       },
       {
-        "rank": 41,
+        "rank": 42,
         "player": {
           "id": "469277",
           "name": "Marc Klok",
@@ -614,7 +614,7 @@
         "yellow_cards": 6
       },
       {
-        "rank": 53,
+        "rank": 55,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -627,7 +627,7 @@
         "red_cards": 1
       },
       {
-        "rank": 60,
+        "rank": 61,
         "player": {
           "id": "384446",
           "name": "Thom Haye",
@@ -639,7 +639,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -652,7 +652,7 @@
         "red_cards": 1
       },
       {
-        "rank": 82,
+        "rank": 83,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -665,7 +665,7 @@
         "red_cards": 1
       },
       {
-        "rank": 90,
+        "rank": 91,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -677,7 +677,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 90,
+        "rank": 91,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -689,7 +689,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 90,
+        "rank": 91,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -701,7 +701,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 90,
+        "rank": 91,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -873,7 +873,7 @@
         "yellow_cards": 7
       },
       {
-        "rank": 27,
+        "rank": 28,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
