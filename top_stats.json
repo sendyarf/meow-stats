@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-16T20:18:41.868419",
+  "scraped_at": "2026-05-16T21:55:12.293620",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -139,7 +139,7 @@
         "goals": 2
       },
       {
-        "rank": 141,
+        "rank": 142,
         "player": {
           "id": "805657",
           "name": "Febri Haryadi",
@@ -151,7 +151,7 @@
         "goals": 1
       },
       {
-        "rank": 141,
+        "rank": 142,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -213,7 +213,7 @@
         "assists": 3
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -225,7 +225,7 @@
         "assists": 2
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -249,7 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -261,7 +261,7 @@
         "assists": 2
       },
       {
-        "rank": 63,
+        "rank": 64,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -515,7 +515,7 @@
         "goals_assists": 3
       },
       {
-        "rank": 159,
+        "rank": 161,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -589,7 +589,7 @@
     ],
     "yellow_cards": [
       {
-        "rank": 20,
+        "rank": 21,
         "player": {
           "id": "320139",
           "name": "Frans Putros",
@@ -713,7 +713,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 139,
+        "rank": 140,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -725,7 +725,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 139,
+        "rank": 140,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
@@ -737,7 +737,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 206,
+        "rank": 208,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -750,7 +750,7 @@
         "red_cards": 1
       },
       {
-        "rank": 222,
+        "rank": 223,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -912,7 +912,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 50,
+        "rank": 51,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
