@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-17T13:22:18.665272",
+  "scraped_at": "2026-05-17T16:03:47.517383",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -395,7 +395,7 @@
         "goals_assists": 10
       },
       {
-        "rank": 32,
+        "rank": 33,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -407,7 +407,7 @@
         "goals_assists": 9
       },
       {
-        "rank": 32,
+        "rank": 33,
         "player": {
           "id": "789859",
           "name": "Uilliam",
