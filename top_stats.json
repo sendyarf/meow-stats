@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-22T17:49:00.287150",
+  "scraped_at": "2026-05-22T20:31:00.472261",
   "team": "Persib Bandung",
   "stats": {
     "goals": [
@@ -91,7 +91,7 @@
         "goals": 4
       },
       {
-        "rank": 76,
+        "rank": 77,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -103,7 +103,7 @@
         "goals": 3
       },
       {
-        "rank": 76,
+        "rank": 77,
         "player": {
           "id": "809521",
           "name": "Saddil Ramdani",
@@ -225,7 +225,7 @@
         "assists": 3
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "792272",
           "name": "Adam Alis",
@@ -237,7 +237,7 @@
         "assists": 2
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "813421",
           "name": "Andrew Jung",
@@ -249,7 +249,7 @@
         "assists": 2
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -261,7 +261,7 @@
         "assists": 2
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "492636",
           "name": "Patricio Matricardi",
@@ -273,7 +273,7 @@
         "assists": 2
       },
       {
-        "rank": 64,
+        "rank": 65,
         "player": {
           "id": "1206260",
           "name": "Ramon",
@@ -663,7 +663,7 @@
         "yellow_cards": 5
       },
       {
-        "rank": 86,
+        "rank": 87,
         "player": {
           "id": "1298538",
           "name": "Beckham Putra",
@@ -676,7 +676,7 @@
         "red_cards": 1
       },
       {
-        "rank": 86,
+        "rank": 87,
         "player": {
           "id": "464897",
           "name": "Luciano Guaycochea",
@@ -689,7 +689,7 @@
         "red_cards": 1
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "972306",
           "name": "Eliano Reijnders",
@@ -701,7 +701,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "365624",
           "name": "Federico Barba",
@@ -713,7 +713,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "866393",
           "name": "Julio Cesar",
@@ -725,7 +725,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 94,
+        "rank": 95,
         "player": {
           "id": "789859",
           "name": "Uilliam",
@@ -737,7 +737,7 @@
         "yellow_cards": 4
       },
       {
-        "rank": 142,
+        "rank": 143,
         "player": {
           "id": "1032159",
           "name": "Berguinho",
@@ -749,7 +749,7 @@
         "yellow_cards": 3
       },
       {
-        "rank": 142,
+        "rank": 143,
         "player": {
           "id": "1332771",
           "name": "Kakang Rudianto",
