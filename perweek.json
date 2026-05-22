@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-05-22T15:48:13.539103",
+  "generated_at": "2026-05-22T21:14:55.710519",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 103,
+  "total_matches": 105,
   "standings": {
     "Round 21": [
       {
@@ -37,7 +37,7 @@
         "rank": 2
       },
       {
-        "team": "Persis Solo",
+        "team": "Malut United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -52,7 +52,7 @@
         "rank": 3
       },
       {
-        "team": "Bali United",
+        "team": "Persebaya",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "Persik Kediri",
+        "team": "Semen Padang",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Dewa United",
+        "team": "Bali United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Semen Padang",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Madura United",
+        "team": "Persik Kediri",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persita",
+        "team": "Persija Jakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Malut United",
+        "team": "PSIM Yogyakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -187,7 +187,7 @@
         "rank": 12
       },
       {
-        "team": "Persebaya",
+        "team": "Dewa United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -247,7 +247,7 @@
         "rank": 16
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Persita",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -262,7 +262,7 @@
         "rank": 17
       },
       {
-        "team": "PSM Makassar",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -354,7 +354,7 @@
         "rank": 5
       },
       {
-        "team": "Persis Solo",
+        "team": "Malut United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -369,7 +369,7 @@
         "rank": 6
       },
       {
-        "team": "Persik Kediri",
+        "team": "Persebaya",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -384,7 +384,7 @@
         "rank": 7
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Semen Padang",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -399,7 +399,7 @@
         "rank": 8
       },
       {
-        "team": "Persijap Jepara",
+        "team": "FC Bhayangkara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -414,7 +414,7 @@
         "rank": 9
       },
       {
-        "team": "Semen Padang",
+        "team": "Persijap Jepara",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -429,7 +429,7 @@
         "rank": 10
       },
       {
-        "team": "Madura United",
+        "team": "PSM Makassar",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -444,7 +444,7 @@
         "rank": 11
       },
       {
-        "team": "Malut United",
+        "team": "Persik Kediri",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -459,7 +459,7 @@
         "rank": 12
       },
       {
-        "team": "Persebaya",
+        "team": "Persija Jakarta",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -489,7 +489,7 @@
         "rank": 14
       },
       {
-        "team": "Arema FC",
+        "team": "Persis Solo",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -504,7 +504,7 @@
         "rank": 15
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Arema FC",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -519,7 +519,7 @@
         "rank": 16
       },
       {
-        "team": "PSM Makassar",
+        "team": "Madura United",
         "played": 0,
         "win": 0,
         "draw": 0,
@@ -3429,6 +3429,278 @@
         "gf": 16,
         "ga": 16,
         "gd": 0,
+        "points": 13,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 11
+      },
+      {
+        "team": "Persik Kediri",
+        "played": 11,
+        "win": 4,
+        "draw": 1,
+        "loss": 6,
+        "gf": 13,
+        "ga": 17,
+        "gd": -4,
+        "points": 13,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 12
+      },
+      {
+        "team": "Malut United",
+        "played": 11,
+        "win": 3,
+        "draw": 3,
+        "loss": 5,
+        "gf": 23,
+        "ga": 21,
+        "gd": 2,
+        "points": 12,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 13
+      },
+      {
+        "team": "Madura United",
+        "played": 11,
+        "win": 4,
+        "draw": 0,
+        "loss": 7,
+        "gf": 13,
+        "ga": 23,
+        "gd": -10,
+        "points": 12,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 14
+      },
+      {
+        "team": "PSM Makassar",
+        "played": 11,
+        "win": 3,
+        "draw": 2,
+        "loss": 6,
+        "gf": 15,
+        "ga": 21,
+        "gd": -6,
+        "points": 11,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 15
+      },
+      {
+        "team": "Persita",
+        "played": 12,
+        "win": 3,
+        "draw": 1,
+        "loss": 8,
+        "gf": 10,
+        "ga": 15,
+        "gd": -5,
+        "points": 10,
+        "yellows": 0,
+        "reds": 3,
+        "fair_play": 9,
+        "rank": 16
+      },
+      {
+        "team": "Semen Padang",
+        "played": 11,
+        "win": 1,
+        "draw": 1,
+        "loss": 9,
+        "gf": 3,
+        "ga": 25,
+        "gd": -22,
+        "points": 4,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 17
+      },
+      {
+        "team": "PSBS Biak Numfor",
+        "played": 11,
+        "win": 0,
+        "draw": 0,
+        "loss": 11,
+        "gf": 7,
+        "ga": 43,
+        "gd": -36,
+        "points": 0,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 18
+      }
+    ],
+    "Round 34": [
+      {
+        "team": "Persib Bandung",
+        "played": 13,
+        "win": 9,
+        "draw": 4,
+        "loss": 0,
+        "gf": 28,
+        "ga": 11,
+        "gd": 17,
+        "points": 31,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 1
+      },
+      {
+        "team": "Borneo",
+        "played": 13,
+        "win": 9,
+        "draw": 3,
+        "loss": 1,
+        "gf": 31,
+        "ga": 12,
+        "gd": 19,
+        "points": 30,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 2
+      },
+      {
+        "team": "Dewa United",
+        "played": 13,
+        "win": 8,
+        "draw": 2,
+        "loss": 3,
+        "gf": 18,
+        "ga": 10,
+        "gd": 8,
+        "points": 26,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 3
+      },
+      {
+        "team": "Bali United",
+        "played": 13,
+        "win": 7,
+        "draw": 2,
+        "loss": 4,
+        "gf": 29,
+        "ga": 20,
+        "gd": 9,
+        "points": 23,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 4
+      },
+      {
+        "team": "Persija Jakarta",
+        "played": 11,
+        "win": 6,
+        "draw": 3,
+        "loss": 2,
+        "gf": 23,
+        "ga": 12,
+        "gd": 11,
+        "points": 21,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 5
+      },
+      {
+        "team": "Persebaya",
+        "played": 11,
+        "win": 6,
+        "draw": 2,
+        "loss": 3,
+        "gf": 23,
+        "ga": 12,
+        "gd": 11,
+        "points": 20,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 6
+      },
+      {
+        "team": "Persis Solo",
+        "played": 11,
+        "win": 5,
+        "draw": 3,
+        "loss": 3,
+        "gf": 13,
+        "ga": 15,
+        "gd": -2,
+        "points": 18,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 7
+      },
+      {
+        "team": "FC Bhayangkara",
+        "played": 11,
+        "win": 6,
+        "draw": 0,
+        "loss": 5,
+        "gf": 22,
+        "ga": 19,
+        "gd": 3,
+        "points": 18,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 8
+      },
+      {
+        "team": "Persijap Jepara",
+        "played": 11,
+        "win": 4,
+        "draw": 5,
+        "loss": 2,
+        "gf": 11,
+        "ga": 6,
+        "gd": 5,
+        "points": 17,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 9
+      },
+      {
+        "team": "Arema FC",
+        "played": 12,
+        "win": 5,
+        "draw": 2,
+        "loss": 5,
+        "gf": 22,
+        "ga": 20,
+        "gd": 2,
+        "points": 17,
+        "yellows": 0,
+        "reds": 3,
+        "fair_play": 9,
+        "rank": 10
+      },
+      {
+        "team": "PSIM Yogyakarta",
+        "played": 13,
+        "win": 3,
+        "draw": 4,
+        "loss": 6,
+        "gf": 17,
+        "ga": 19,
+        "gd": -2,
         "points": 13,
         "yellows": 0,
         "reds": 2,
