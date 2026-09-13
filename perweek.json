@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-09-13T17:47:24.423964",
+  "generated_at": "2026-09-13T22:16:21.159844",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 17,
+  "total_matches": 18,
   "standings": {
     "Round 1": [
       {
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "Dewa United",
+        "team": "Persija Jakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Dewa United",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persita",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Garudayaksa",
+        "team": "Java United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Java United",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persebaya",
+        "team": "Garudayaksa",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -202,7 +202,7 @@
         "rank": 13
       },
       {
-        "team": "Persik Kediri",
+        "team": "Borneo",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -217,7 +217,7 @@
         "rank": 14
       },
       {
-        "team": "Borneo",
+        "team": "Persik Kediri",
         "played": 1,
         "win": 0,
         "draw": 0,
@@ -369,6 +369,21 @@
         "rank": 6
       },
       {
+        "team": "Persebaya",
+        "played": 2,
+        "win": 1,
+        "draw": 1,
+        "loss": 0,
+        "gf": 2,
+        "ga": 1,
+        "gd": 1,
+        "points": 4,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 7
+      },
+      {
         "team": "Persib Bandung",
         "played": 2,
         "win": 1,
@@ -381,7 +396,7 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 7
+        "rank": 8
       },
       {
         "team": "Persik Kediri",
@@ -396,7 +411,7 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 8
+        "rank": 9
       },
       {
         "team": "Borneo",
@@ -411,7 +426,7 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 9
+        "rank": 10
       },
       {
         "team": "FC Bhayangkara",
@@ -426,37 +441,7 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 10
-      },
-      {
-        "team": "PSIM Yogyakarta",
-        "played": 1,
-        "win": 0,
-        "draw": 1,
-        "loss": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "points": 1,
-        "yellows": 0,
-        "reds": 0,
-        "fair_play": 0,
         "rank": 11
-      },
-      {
-        "team": "Persebaya",
-        "played": 1,
-        "win": 0,
-        "draw": 1,
-        "loss": 0,
-        "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "points": 1,
-        "yellows": 0,
-        "reds": 0,
-        "fair_play": 0,
-        "rank": 12
       },
       {
         "team": "Java United",
@@ -471,6 +456,21 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
+        "rank": 12
+      },
+      {
+        "team": "PSIM Yogyakarta",
+        "played": 2,
+        "win": 0,
+        "draw": 1,
+        "loss": 1,
+        "gf": 1,
+        "ga": 2,
+        "gd": -1,
+        "points": 1,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
         "rank": 13
       },
       {
