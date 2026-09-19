@@ -1,7 +1,7 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-09-19T09:10:28.985913",
+  "generated_at": "2026-09-19T16:55:26.223726",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
   "total_matches": 21,
   "standings": {
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Dewa United",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Dewa United",
+        "team": "Persija Jakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Java United",
+        "team": "Garudayaksa",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Garudayaksa",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persebaya",
+        "team": "Java United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persita",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -626,11 +626,11 @@
         "rank": 5
       },
       {
-        "team": "Persik Kediri",
-        "played": 3,
+        "team": "Dewa United",
+        "played": 2,
         "win": 1,
         "draw": 1,
-        "loss": 1,
+        "loss": 0,
         "gf": 3,
         "ga": 2,
         "gd": 1,
@@ -641,11 +641,11 @@
         "rank": 6
       },
       {
-        "team": "Dewa United",
-        "played": 2,
+        "team": "Persik Kediri",
+        "played": 3,
         "win": 1,
         "draw": 1,
-        "loss": 0,
+        "loss": 1,
         "gf": 3,
         "ga": 2,
         "gd": 1,
