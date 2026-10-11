@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-10-11T09:49:57.398138",
+  "generated_at": "2026-10-11T18:47:25.724207",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 34,
+  "total_matches": 36,
   "standings": {
     "Round 1": [
       {
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persebaya",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Java United",
+        "team": "Garudayaksa",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Persita",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Garudayaksa",
+        "team": "Java United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -974,13 +974,13 @@
       },
       {
         "team": "Borneo",
-        "played": 3,
+        "played": 4,
         "win": 2,
         "draw": 0,
-        "loss": 1,
-        "gf": 2,
-        "ga": 1,
-        "gd": 1,
+        "loss": 2,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
         "points": 6,
         "yellows": 0,
         "reds": 1,
@@ -988,19 +988,34 @@
         "rank": 11
       },
       {
-        "team": "PSM Makassar",
-        "played": 3,
-        "win": 0,
-        "draw": 2,
-        "loss": 1,
-        "gf": 6,
-        "ga": 8,
-        "gd": -2,
-        "points": 2,
+        "team": "Java United",
+        "played": 4,
+        "win": 1,
+        "draw": 1,
+        "loss": 2,
+        "gf": 5,
+        "ga": 6,
+        "gd": -1,
+        "points": 4,
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
         "rank": 12
+      },
+      {
+        "team": "PSS Sleman",
+        "played": 4,
+        "win": 1,
+        "draw": 0,
+        "loss": 3,
+        "gf": 6,
+        "ga": 7,
+        "gd": -1,
+        "points": 3,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 13
       },
       {
         "team": "Garudayaksa",
@@ -1015,22 +1030,22 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 13
+        "rank": 14
       },
       {
-        "team": "Java United",
-        "played": 3,
+        "team": "PSM Makassar",
+        "played": 4,
         "win": 0,
-        "draw": 1,
+        "draw": 2,
         "loss": 2,
-        "gf": 3,
-        "ga": 5,
-        "gd": -2,
-        "points": 1,
+        "gf": 6,
+        "ga": 11,
+        "gd": -5,
+        "points": 2,
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 14
+        "rank": 15
       },
       {
         "team": "PSIM Yogyakarta",
@@ -1045,21 +1060,6 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 15
-      },
-      {
-        "team": "PSS Sleman",
-        "played": 3,
-        "win": 0,
-        "draw": 0,
-        "loss": 3,
-        "gf": 3,
-        "ga": 7,
-        "gd": -4,
-        "points": 0,
-        "yellows": 0,
-        "reds": 0,
-        "fair_play": 0,
         "rank": 16
       },
       {
@@ -1246,13 +1246,13 @@
       },
       {
         "team": "Borneo",
-        "played": 4,
+        "played": 5,
         "win": 2,
         "draw": 0,
-        "loss": 2,
-        "gf": 3,
-        "ga": 4,
-        "gd": -1,
+        "loss": 3,
+        "gf": 4,
+        "ga": 6,
+        "gd": -2,
         "points": 6,
         "yellows": 0,
         "reds": 1,
@@ -1260,19 +1260,34 @@
         "rank": 11
       },
       {
-        "team": "PSM Makassar",
-        "played": 3,
-        "win": 0,
-        "draw": 2,
-        "loss": 1,
-        "gf": 6,
-        "ga": 8,
-        "gd": -2,
-        "points": 2,
+        "team": "Java United",
+        "played": 4,
+        "win": 1,
+        "draw": 1,
+        "loss": 2,
+        "gf": 5,
+        "ga": 6,
+        "gd": -1,
+        "points": 4,
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
         "rank": 12
+      },
+      {
+        "team": "PSS Sleman",
+        "played": 4,
+        "win": 1,
+        "draw": 0,
+        "loss": 3,
+        "gf": 6,
+        "ga": 7,
+        "gd": -1,
+        "points": 3,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 13
       },
       {
         "team": "Garudayaksa",
@@ -1287,22 +1302,22 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 13
+        "rank": 14
       },
       {
-        "team": "Java United",
-        "played": 3,
+        "team": "PSM Makassar",
+        "played": 4,
         "win": 0,
-        "draw": 1,
+        "draw": 2,
         "loss": 2,
-        "gf": 3,
-        "ga": 5,
-        "gd": -2,
-        "points": 1,
+        "gf": 6,
+        "ga": 11,
+        "gd": -5,
+        "points": 2,
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 14
+        "rank": 15
       },
       {
         "team": "PSIM Yogyakarta",
@@ -1317,21 +1332,6 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 15
-      },
-      {
-        "team": "PSS Sleman",
-        "played": 3,
-        "win": 0,
-        "draw": 0,
-        "loss": 3,
-        "gf": 3,
-        "ga": 7,
-        "gd": -4,
-        "points": 0,
-        "yellows": 0,
-        "reds": 0,
-        "fair_play": 0,
         "rank": 16
       },
       {
