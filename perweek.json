@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-10-22T17:49:34.411940",
+  "generated_at": "2026-10-22T23:15:59.812425",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 52,
+  "total_matches": 53,
   "standings": {
     "Round 1": [
       {
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "Garudayaksa",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Persita",
+        "team": "Java United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Java United",
+        "team": "Garudayaksa",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -1397,6 +1397,21 @@
         "rank": 2
       },
       {
+        "team": "Madura United",
+        "played": 6,
+        "win": 4,
+        "draw": 1,
+        "loss": 1,
+        "gf": 11,
+        "ga": 7,
+        "gd": 4,
+        "points": 13,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 3
+      },
+      {
         "team": "Bali United",
         "played": 6,
         "win": 4,
@@ -1409,7 +1424,7 @@
         "yellows": 0,
         "reds": 4,
         "fair_play": 12,
-        "rank": 3
+        "rank": 4
       },
       {
         "team": "Persita",
@@ -1424,7 +1439,7 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 4
+        "rank": 5
       },
       {
         "team": "FC Bhayangkara",
@@ -1439,37 +1454,7 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 5
-      },
-      {
-        "team": "Madura United",
-        "played": 5,
-        "win": 3,
-        "draw": 1,
-        "loss": 1,
-        "gf": 10,
-        "ga": 7,
-        "gd": 3,
-        "points": 10,
-        "yellows": 0,
-        "reds": 1,
-        "fair_play": 3,
         "rank": 6
-      },
-      {
-        "team": "Persib Bandung",
-        "played": 5,
-        "win": 3,
-        "draw": 1,
-        "loss": 1,
-        "gf": 9,
-        "ga": 6,
-        "gd": 3,
-        "points": 10,
-        "yellows": 0,
-        "reds": 0,
-        "fair_play": 0,
-        "rank": 7
       },
       {
         "team": "Persik Kediri",
@@ -1480,6 +1465,21 @@
         "gf": 7,
         "ga": 4,
         "gd": 3,
+        "points": 10,
+        "yellows": 0,
+        "reds": 0,
+        "fair_play": 0,
+        "rank": 7
+      },
+      {
+        "team": "Persib Bandung",
+        "played": 6,
+        "win": 3,
+        "draw": 1,
+        "loss": 2,
+        "gf": 9,
+        "ga": 7,
+        "gd": 2,
         "points": 10,
         "yellows": 0,
         "reds": 0,
