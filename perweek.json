@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-11-06T20:26:19.341882",
+  "generated_at": "2026-11-07T05:30:49.543017",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 72,
+  "total_matches": 73,
   "standings": {
     "Round 1": [
       {
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "Persebaya",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Persita",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -2198,6 +2198,21 @@
         "rank": 1
       },
       {
+        "team": "Madura United",
+        "played": 9,
+        "win": 6,
+        "draw": 1,
+        "loss": 2,
+        "gf": 16,
+        "ga": 10,
+        "gd": 6,
+        "points": 19,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
+        "rank": 2
+      },
+      {
         "team": "Persija Jakarta",
         "played": 8,
         "win": 6,
@@ -2210,7 +2225,7 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 2
+        "rank": 3
       },
       {
         "team": "Bali United",
@@ -2225,7 +2240,7 @@
         "yellows": 0,
         "reds": 4,
         "fair_play": 12,
-        "rank": 3
+        "rank": 4
       },
       {
         "team": "Persib Bandung",
@@ -2240,21 +2255,6 @@
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
-        "rank": 4
-      },
-      {
-        "team": "Madura United",
-        "played": 8,
-        "win": 5,
-        "draw": 1,
-        "loss": 2,
-        "gf": 13,
-        "ga": 10,
-        "gd": 3,
-        "points": 16,
-        "yellows": 0,
-        "reds": 2,
-        "fair_play": 6,
         "rank": 5
       },
       {
@@ -2333,21 +2333,6 @@
         "rank": 10
       },
       {
-        "team": "Arema FC",
-        "played": 8,
-        "win": 2,
-        "draw": 3,
-        "loss": 3,
-        "gf": 17,
-        "ga": 17,
-        "gd": 0,
-        "points": 9,
-        "yellows": 0,
-        "reds": 2,
-        "fair_play": 6,
-        "rank": 11
-      },
-      {
         "team": "Borneo",
         "played": 7,
         "win": 3,
@@ -2360,6 +2345,21 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
+        "rank": 11
+      },
+      {
+        "team": "Arema FC",
+        "played": 9,
+        "win": 2,
+        "draw": 3,
+        "loss": 4,
+        "gf": 17,
+        "ga": 20,
+        "gd": -3,
+        "points": 9,
+        "yellows": 0,
+        "reds": 2,
+        "fair_play": 6,
         "rank": 12
       },
       {
