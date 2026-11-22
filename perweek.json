@@ -1,9 +1,9 @@
 {
   "league": "BRI Liga 1 Indonesia",
   "season": "2025/2026",
-  "generated_at": "2026-11-22T10:58:49.550760",
+  "generated_at": "2026-11-22T20:45:43.266394",
   "note": "Tie-breaker sesuai regulasi PT LIB: 1. Points, 2a. H2H Points, 2b. H2H GD, 2c. H2H GF (jika eligible), 3. Overall GD, 4. Overall GF, 5. Fair Play (kuning×1 + merah×3)",
-  "total_matches": 87,
+  "total_matches": 88,
   "standings": {
     "Round 1": [
       {
@@ -67,7 +67,7 @@
         "rank": 4
       },
       {
-        "team": "Persija Jakarta",
+        "team": "Dewa United",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -82,7 +82,7 @@
         "rank": 5
       },
       {
-        "team": "Dewa United",
+        "team": "Persija Jakarta",
         "played": 1,
         "win": 1,
         "draw": 0,
@@ -97,7 +97,7 @@
         "rank": 6
       },
       {
-        "team": "Persebaya",
+        "team": "FC Bhayangkara",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -112,7 +112,7 @@
         "rank": 7
       },
       {
-        "team": "FC Bhayangkara",
+        "team": "Garudayaksa",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -127,7 +127,7 @@
         "rank": 8
       },
       {
-        "team": "PSIM Yogyakarta",
+        "team": "Persebaya",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -142,7 +142,7 @@
         "rank": 9
       },
       {
-        "team": "Garudayaksa",
+        "team": "Persita",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -157,7 +157,7 @@
         "rank": 10
       },
       {
-        "team": "Java United",
+        "team": "PSIM Yogyakarta",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -172,7 +172,7 @@
         "rank": 11
       },
       {
-        "team": "Persita",
+        "team": "Java United",
         "played": 1,
         "win": 0,
         "draw": 1,
@@ -2620,6 +2620,21 @@
         "rank": 11
       },
       {
+        "team": "Borneo",
+        "played": 9,
+        "win": 3,
+        "draw": 2,
+        "loss": 4,
+        "gf": 8,
+        "ga": 10,
+        "gd": -2,
+        "points": 11,
+        "yellows": 0,
+        "reds": 1,
+        "fair_play": 3,
+        "rank": 12
+      },
+      {
         "team": "PSM Makassar",
         "played": 10,
         "win": 2,
@@ -2632,7 +2647,7 @@
         "yellows": 0,
         "reds": 5,
         "fair_play": 15,
-        "rank": 12
+        "rank": 13
       },
       {
         "team": "Persik Kediri",
@@ -2647,33 +2662,18 @@
         "yellows": 0,
         "reds": 1,
         "fair_play": 3,
-        "rank": 13
-      },
-      {
-        "team": "Borneo",
-        "played": 8,
-        "win": 3,
-        "draw": 1,
-        "loss": 4,
-        "gf": 8,
-        "ga": 10,
-        "gd": -2,
-        "points": 10,
-        "yellows": 0,
-        "reds": 1,
-        "fair_play": 3,
         "rank": 14
       },
       {
         "team": "Isenmulang Kalteng",
-        "played": 9,
+        "played": 10,
         "win": 2,
-        "draw": 2,
+        "draw": 3,
         "loss": 5,
         "gf": 4,
         "ga": 16,
         "gd": -12,
-        "points": 8,
+        "points": 9,
         "yellows": 0,
         "reds": 0,
         "fair_play": 0,
